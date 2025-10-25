@@ -106,7 +106,7 @@ export default function BookingForm({
 
     try {
       const response = await fetch(
-        `/${locale}/api/villas/${villaSlug}/availability`,
+        `/api/villas/${villaSlug}/availability`,
         { cache: 'no-store' }
       );
 
@@ -189,7 +189,7 @@ export default function BookingForm({
 
       // เช็คกับ database จริง
       const response = await fetch(
-        `/${locale}/api/villas/${villaSlug}/availability`,
+        `/api/villas/${villaSlug}/availability`,
         {
           method: 'POST',
           headers: {
