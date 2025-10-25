@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/db/prisma';
+import prisma from '@/lib/db/prisma';
 
 export async function GET(
   request: NextRequest,
@@ -37,19 +37,19 @@ export async function GET(
       where: {
         villaId: villa.id,
         status: {
-          in: ['confirmed', 'pending']
+          in: ['CONFIRMED', 'PENDING']
         },
         // ถ้ามี date range filter
         ...(startDate && endDate ? {
           OR: [
             {
-              checkInDate: {
+              checkIn: {
                 gte: new Date(startDate),
                 lte: new Date(endDate)
               }
             },
             {
-              checkOutDate: {
+              checkOut: {
                 gte: new Date(startDate),
                 lte: new Date(endDate)
               }
@@ -57,12 +57,12 @@ export async function GET(
             {
               AND: [
                 {
-                  checkInDate: {
+                  checkIn: {
                     lte: new Date(startDate)
                   }
                 },
                 {
-                  checkOutDate: {
+                  checkOut: {
                     gte: new Date(endDate)
                   }
                 }
@@ -73,28 +73,28 @@ export async function GET(
       },
       select: {
         id: true,
-        checkInDate: true,
-        checkOutDate: true,
+        checkIn: true,
+        checkOut: true,
         status: true,
-        guestCount: true
+        guests: true
       },
       orderBy: {
-        checkInDate: 'asc'
+        checkIn: 'asc'
       }
     });
 
     // แปลงเป็น array ของวันที่ที่ถูกจองแล้ว
     const bookedDates: string[] = [];
     const bookedRanges = bookings.map(booking => ({
-      start: booking.checkInDate.toISOString(),
-      end: booking.checkOutDate.toISOString(),
+      start: booking.checkIn.toISOString(),
+      end: booking.checkOut.toISOString(),
       status: booking.status
     }));
 
     // สร้าง array ของวันที่ทั้งหมดที่ถูกจอง
     bookings.forEach(booking => {
-      const start = new Date(booking.checkInDate);
-      const end = new Date(booking.checkOutDate);
+      const start = new Date(booking.checkIn);
+      const end = new Date(booking.checkOut);
       const current = new Date(start);
 
       while (current <= end) {
@@ -166,19 +166,19 @@ export async function POST(
       where: {
         villaId: villa.id,
         status: {
-          in: ['confirmed', 'pending']
+          in: ['CONFIRMED', 'PENDING']
         },
         OR: [
           {
             // Booking ที่เริ่มในช่วงที่ต้องการจอง
-            checkInDate: {
+            checkIn: {
               gte: startDate,
               lt: endDate
             }
           },
           {
             // Booking ที่จบในช่วงที่ต้องการจอง
-            checkOutDate: {
+            checkOut: {
               gt: startDate,
               lte: endDate
             }
@@ -187,12 +187,12 @@ export async function POST(
             // Booking ที่ครอบคลุมช่วงที่ต้องการจอง
             AND: [
               {
-                checkInDate: {
+                checkIn: {
                   lte: startDate
                 }
               },
               {
-                checkOutDate: {
+                checkOut: {
                   gte: endDate
                 }
               }
@@ -201,8 +201,8 @@ export async function POST(
         ]
       },
       select: {
-        checkInDate: true,
-        checkOutDate: true,
+        checkIn: true,
+        checkOut: true,
         status: true
       }
     });
@@ -216,8 +216,8 @@ export async function POST(
       checkOutDate: endDate.toISOString(),
       ...(conflictingBookings.length > 0 && {
         conflicts: conflictingBookings.map(b => ({
-          start: b.checkInDate.toISOString(),
-          end: b.checkOutDate.toISOString(),
+          start: b.checkIn.toISOString(),
+          end: b.checkOut.toISOString(),
           status: b.status
         }))
       })
