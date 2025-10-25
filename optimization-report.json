@@ -1,0 +1,1826 @@
+{
+  "timestamp": "2025-10-24T10:31:09.547Z",
+  "duration": 597,
+  "mode": "local-only",
+  "outputDirectory": "C:\\Users\\ronna\\exclusive-villa-samui\\public\\optimized-villas",
+  "villas": [
+    {
+      "name": "5 Stars beachfront Villa",
+      "slug": "5-stars-beachfront-villa",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 77
+    },
+    {
+      "name": "Anvara Villa",
+      "slug": "anvara-villa",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": -23
+    },
+    {
+      "name": "Anzhu Serenity",
+      "slug": "anzhu-serenity",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": 96
+    },
+    {
+      "name": "Alicia Serenity A3",
+      "slug": "alicia-serenity-a3",
+      "images": 29,
+      "successful": 29,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Alicia Serenity A5",
+      "slug": "alicia-serenity-a5",
+      "images": 26,
+      "successful": 26,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Alicia Serenity A6",
+      "slug": "alicia-serenity-a6",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Alicia Serenity A28",
+      "slug": "alicia-serenity-a28",
+      "images": 32,
+      "successful": 32,
+      "failed": 0,
+      "savings": 80
+    },
+    {
+      "name": "Aurelia Villa Air",
+      "slug": "aurelia-villa-air",
+      "images": 14,
+      "successful": 14,
+      "failed": 0,
+      "savings": 17
+    },
+    {
+      "name": "Aurelia Villa Garden",
+      "slug": "aurelia-villa-garden",
+      "images": 16,
+      "successful": 16,
+      "failed": 0,
+      "savings": 96
+    },
+    {
+      "name": "Baan Coral",
+      "slug": "baan-coral",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 88
+    },
+    {
+      "name": "Baan Infinity",
+      "slug": "baan-infinity",
+      "images": 9,
+      "successful": 9,
+      "failed": 0,
+      "savings": 31
+    },
+    {
+      "name": "Baan Luxy",
+      "slug": "baan-luxy",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Baan Nagi Nami",
+      "slug": "baan-nagi-nami",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 56
+    },
+    {
+      "name": "Baan Suwanee",
+      "slug": "baan-suwanee",
+      "images": 11,
+      "successful": 11,
+      "failed": 0,
+      "savings": 34
+    },
+    {
+      "name": "Baan Tawan",
+      "slug": "baan-tawan",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 86
+    },
+    {
+      "name": "Baan Tai Essence Beachfront Villa",
+      "slug": "baan-tai-essence-beachfront-villa",
+      "images": 26,
+      "successful": 26,
+      "failed": 0,
+      "savings": 51
+    },
+    {
+      "name": "Baan Tai Essence Beach Bungalow 1BR",
+      "slug": "baan-tai-essence-beach-bungalow-1br",
+      "images": 10,
+      "successful": 10,
+      "failed": 0,
+      "savings": 12
+    },
+    {
+      "name": "Baan Tai Essence Beach Bungalow 2BR",
+      "slug": "baan-tai-essence-beach-bungalow-2br",
+      "images": 12,
+      "successful": 12,
+      "failed": 0,
+      "savings": 50
+    },
+    {
+      "name": "Baan Tai Essence Beach Bacardi Villa",
+      "slug": "baan-tai-essence-beach-bacardi-villa",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 93
+    },
+    {
+      "name": "Baan Tai Essence Beach Colibri Villa",
+      "slug": "baan-tai-essence-beach-colibri-villa",
+      "images": 17,
+      "successful": 17,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Baan Tai Essence Beach Limocello Villa",
+      "slug": "baan-tai-essence-beach-limocello-villa",
+      "images": 31,
+      "successful": 31,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Baan Tai Essence Beach Mai Tai Villa",
+      "slug": "baan-tai-essence-beach-mai-tai-villa",
+      "images": 19,
+      "successful": 19,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Baan Tai Essence Beach Mojito Villa",
+      "slug": "baan-tai-essence-beach-mojito-villa",
+      "images": 35,
+      "successful": 35,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "Baan Tawisa",
+      "slug": "baan-tawisa",
+      "images": 15,
+      "successful": 15,
+      "failed": 0,
+      "savings": 59
+    },
+    {
+      "name": "Beach Vista Villa",
+      "slug": "beach-vista-villa",
+      "images": 35,
+      "successful": 35,
+      "failed": 0,
+      "savings": 76
+    },
+    {
+      "name": "Beach Haven Villa",
+      "slug": "beach-haven-villa",
+      "images": 22,
+      "successful": 22,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "Blue Mountain Villa Breeze",
+      "slug": "blue-mountain-villa-breeze",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": 57
+    },
+    {
+      "name": "Blue Mountain Villa Eden",
+      "slug": "blue-mountain-villa-eden",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": 82
+    },
+    {
+      "name": "Blue Mountain Villa Tide",
+      "slug": "blue-mountain-villa-tide",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 68
+    },
+    {
+      "name": "Blue Water Harmony A",
+      "slug": "blue-water-harmony-a",
+      "images": 28,
+      "successful": 28,
+      "failed": 0,
+      "savings": -21
+    },
+    {
+      "name": "Blue Water Koral B",
+      "slug": "blue-water-koral-b",
+      "images": 14,
+      "successful": 14,
+      "failed": 0,
+      "savings": -16
+    },
+    {
+      "name": "Blue Water Nova C",
+      "slug": "blue-water-nova-c",
+      "images": 15,
+      "successful": 15,
+      "failed": 0,
+      "savings": -18
+    },
+    {
+      "name": "Casa Brisa",
+      "slug": "casa-brisa",
+      "images": 26,
+      "successful": 26,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Palm Veranda",
+      "slug": "palm-veranda",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Celebrity Ocean Pearl",
+      "slug": "celebrity-ocean-pearl",
+      "images": 17,
+      "successful": 17,
+      "failed": 0,
+      "savings": -17
+    },
+    {
+      "name": "Chaweng Cresta Hill",
+      "slug": "chaweng-cresta-hill",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 26
+    },
+    {
+      "name": "Cadenza Garden (2-4BR)",
+      "slug": "cadenza-garden-2-4br",
+      "images": 28,
+      "successful": 28,
+      "failed": 0,
+      "savings": 24
+    },
+    {
+      "name": "Dada Vista Ludwig",
+      "slug": "dada-vista-ludwig",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": 46
+    },
+    {
+      "name": "Dada Vista One",
+      "slug": "dada-vista-one",
+      "images": 43,
+      "successful": 43,
+      "failed": 0,
+      "savings": 76
+    },
+    {
+      "name": "Dahlia Residence A2",
+      "slug": "dahlia-residence-a2",
+      "images": 14,
+      "successful": 14,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Dahlia Residence A3",
+      "slug": "dahlia-residence-a3",
+      "images": 29,
+      "successful": 29,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Dahlia Residence B1",
+      "slug": "dahlia-residence-b1",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Dahlia Residence B3",
+      "slug": "dahlia-residence-b3",
+      "images": 15,
+      "successful": 15,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Dahlia Residence B5",
+      "slug": "dahlia-residence-b5",
+      "images": 45,
+      "successful": 45,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Davide Kalyssa",
+      "slug": "davide-kalyssa",
+      "images": 62,
+      "successful": 62,
+      "failed": 0,
+      "savings": -34
+    },
+    {
+      "name": "Davide Saffron",
+      "slug": "davide-saffron",
+      "images": 46,
+      "successful": 46,
+      "failed": 0,
+      "savings": 74
+    },
+    {
+      "name": "Davide Solstice",
+      "slug": "davide-solstice",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": 85
+    },
+    {
+      "name": "Fabrice Dune",
+      "slug": "fabrice-dune",
+      "images": 13,
+      "successful": 13,
+      "failed": 0,
+      "savings": 69
+    },
+    {
+      "name": "Flying Seaview Villa 1",
+      "slug": "flying-seaview-villa-1",
+      "images": 26,
+      "successful": 26,
+      "failed": 0,
+      "savings": 76
+    },
+    {
+      "name": "Flying Seaview Villa 4",
+      "slug": "flying-seaview-villa-4",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 20
+    },
+    {
+      "name": "Flying Seaview Villa 5",
+      "slug": "flying-seaview-villa-5",
+      "images": 30,
+      "successful": 30,
+      "failed": 0,
+      "savings": 68
+    },
+    {
+      "name": "Flying Seaview Villa 6",
+      "slug": "flying-seaview-villa-6",
+      "images": 30,
+      "successful": 30,
+      "failed": 0,
+      "savings": 25
+    },
+    {
+      "name": "Flying Seaview Villa 7",
+      "slug": "flying-seaview-villa-7",
+      "images": 35,
+      "successful": 35,
+      "failed": 0,
+      "savings": 14
+    },
+    {
+      "name": "Flying Seaview Villa 8",
+      "slug": "flying-seaview-villa-8",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Flying Seaview Villa 9",
+      "slug": "flying-seaview-villa-9",
+      "images": 30,
+      "successful": 30,
+      "failed": 0,
+      "savings": 24
+    },
+    {
+      "name": "Flying Seaview Villa 10",
+      "slug": "flying-seaview-villa-10",
+      "images": 22,
+      "successful": 22,
+      "failed": 0,
+      "savings": 28
+    },
+    {
+      "name": "Gary Grand 1",
+      "slug": "gary-grand-1",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": -33
+    },
+    {
+      "name": "Gary Grand 2",
+      "slug": "gary-grand-2",
+      "images": 32,
+      "successful": 32,
+      "failed": 0,
+      "savings": 19
+    },
+    {
+      "name": "Garry Grand 3",
+      "slug": "garry-grand-3",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 71
+    },
+    {
+      "name": "Iconic Villa",
+      "slug": "iconic-villa",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Island Vista Villa",
+      "slug": "island-vista-villa",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 88
+    },
+    {
+      "name": "Istvan Bobi Villa Jewel",
+      "slug": "istvan-bobi-villa-jewel",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Istvan Bobi Villa Kamelia",
+      "slug": "istvan-bobi-villa-kamelia",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 82
+    },
+    {
+      "name": "Jean Louis Coast",
+      "slug": "jean-louis-coast",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Joanna Bay Villa",
+      "slug": "joanna-bay-villa",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 87
+    },
+    {
+      "name": "Joanna Serenity Villa",
+      "slug": "joanna-serenity-villa",
+      "images": 29,
+      "successful": 29,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Joanna Samui Garden Park",
+      "slug": "joanna-samui-garden-park",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 91
+    },
+    {
+      "name": "Jungle Pearl",
+      "slug": "jungle-pearl",
+      "images": 19,
+      "successful": 19,
+      "failed": 0,
+      "savings": -17
+    },
+    {
+      "name": "K.Terra Villa",
+      "slug": "kterra-villa",
+      "images": 53,
+      "successful": 53,
+      "failed": 0,
+      "savings": -2
+    },
+    {
+      "name": "Kanda Villa Pearl",
+      "slug": "kanda-villa-pearl",
+      "images": 31,
+      "successful": 31,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Kaya Mani Tranquil",
+      "slug": "kaya-mani-tranquil",
+      "images": 19,
+      "successful": 19,
+      "failed": 0,
+      "savings": 85
+    },
+    {
+      "name": "Kiri Tara",
+      "slug": "kiri-tara",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Kieren Villa Grace",
+      "slug": "kieren-villa-grace",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Kieren Villa Mirage",
+      "slug": "kieren-villa-mirage",
+      "images": 24,
+      "successful": 24,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Kieren Villa Solaria",
+      "slug": "kieren-villa-solaria",
+      "images": 40,
+      "successful": 40,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Kieren Villa Sylvan",
+      "slug": "kieren-villa-sylvan",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Kofe Samui (4BR)",
+      "slug": "kofe-samui-4br",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": -17
+    },
+    {
+      "name": "Kofe Samui (5BR)",
+      "slug": "kofe-samui-5br",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": -26
+    },
+    {
+      "name": "Kofe Samui (9BR)",
+      "slug": "kofe-samui-9br",
+      "images": 31,
+      "successful": 31,
+      "failed": 0,
+      "savings": -26
+    },
+    {
+      "name": "La Jewel",
+      "slug": "la-jewel",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": 92
+    },
+    {
+      "name": "La Mirage",
+      "slug": "la-mirage",
+      "images": 28,
+      "successful": 28,
+      "failed": 0,
+      "savings": 92
+    },
+    {
+      "name": "Lyric Villa Jasmine",
+      "slug": "lyric-villa-jasmine",
+      "images": 19,
+      "successful": 19,
+      "failed": 0,
+      "savings": -20
+    },
+    {
+      "name": "Lyric Villa Lelle",
+      "slug": "lyric-villa-lelle",
+      "images": 16,
+      "successful": 16,
+      "failed": 0,
+      "savings": 31
+    },
+    {
+      "name": "Lando Lamai",
+      "slug": "lando-lamai",
+      "images": 19,
+      "successful": 19,
+      "failed": 0,
+      "savings": 48
+    },
+    {
+      "name": "Luxury Villa Siam Baan Breeze",
+      "slug": "luxury-villa-siam-baan-breeze",
+      "images": 9,
+      "successful": 9,
+      "failed": 0,
+      "savings": 8
+    },
+    {
+      "name": "Luxury Villa Siam Baan Lumina",
+      "slug": "luxury-villa-siam-baan-lumina",
+      "images": 9,
+      "successful": 9,
+      "failed": 0,
+      "savings": 5
+    },
+    {
+      "name": "Maison d’Élan",
+      "slug": "maison-dlan",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": -5
+    },
+    {
+      "name": "Mam Seaview",
+      "slug": "mam-seaview",
+      "images": 45,
+      "successful": 45,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "MIA Bayfront (6BR)",
+      "slug": "mia-bayfront-6br",
+      "images": 26,
+      "successful": 26,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "MIA Estate Grand (17BR)",
+      "slug": "mia-estate-grand-17br",
+      "images": 43,
+      "successful": 43,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "MIA Gallerie",
+      "slug": "mia-gallerie",
+      "images": 11,
+      "successful": 11,
+      "failed": 0,
+      "savings": 16
+    },
+    {
+      "name": "MIA Oceana (4BR)",
+      "slug": "mia-oceana-4br",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "MIA Palmera (5BR)",
+      "slug": "mia-palmera-5br",
+      "images": 53,
+      "successful": 53,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "Millennial Residence Villa Solara",
+      "slug": "millennial-residence-villa-solara",
+      "images": 32,
+      "successful": 32,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Millennial Residence Villa Wind",
+      "slug": "millennial-residence-villa-wind",
+      "images": 30,
+      "successful": 30,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Millennial The Residence",
+      "slug": "millennial-the-residence",
+      "images": 44,
+      "successful": 44,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Millennial Villa Aurora",
+      "slug": "millennial-villa-aurora",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Millennial Villa Bliss",
+      "slug": "millennial-villa-bliss",
+      "images": 38,
+      "successful": 38,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Millennial Villa Colora",
+      "slug": "millennial-villa-colora",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Millennial Villa Coral",
+      "slug": "millennial-villa-coral",
+      "images": 32,
+      "successful": 32,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Millennial Villa Flora",
+      "slug": "millennial-villa-flora",
+      "images": 50,
+      "successful": 50,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "Millennial Villa Harmony",
+      "slug": "millennial-villa-harmony",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Millennial Villa Lumina",
+      "slug": "millennial-villa-lumina",
+      "images": 30,
+      "successful": 30,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Millennial Villa Watu",
+      "slug": "millennial-villa-watu",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Orchard Vista",
+      "slug": "orchard-vista",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": -15
+    },
+    {
+      "name": "Perfect Paradise Villa 2 Tropica",
+      "slug": "perfect-paradise-villa-2-tropica",
+      "images": 29,
+      "successful": 29,
+      "failed": 0,
+      "savings": 88
+    },
+    {
+      "name": "Perfect Paradise Villa 5 Boheme",
+      "slug": "perfect-paradise-villa-5-boheme",
+      "images": 57,
+      "successful": 57,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Perfect Paradise Villa 6 Wabi Essence",
+      "slug": "perfect-paradise-villa-6-wabi-essence",
+      "images": 61,
+      "successful": 61,
+      "failed": 0,
+      "savings": 91
+    },
+    {
+      "name": "Perfect Paradise Villa 7 Tranquil",
+      "slug": "perfect-paradise-villa-7-tranquil",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 88
+    },
+    {
+      "name": "Perfect Paradise Villa 9 Palma",
+      "slug": "perfect-paradise-villa-9-palma",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 46
+    },
+    {
+      "name": "Perfect Paradise Villa 10 Exotica",
+      "slug": "perfect-paradise-villa-10-exotica",
+      "images": 14,
+      "successful": 14,
+      "failed": 0,
+      "savings": 84
+    },
+    {
+      "name": "Perfect Paradise Villa 13 Azurea",
+      "slug": "perfect-paradise-villa-13-azurea",
+      "images": 61,
+      "successful": 61,
+      "failed": 0,
+      "savings": 92
+    },
+    {
+      "name": "Perfect Paradise Villa 15 Infinite",
+      "slug": "perfect-paradise-villa-15-infinite",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Perfect Paradise Villa 17 Venezia",
+      "slug": "perfect-paradise-villa-17-venezia",
+      "images": 28,
+      "successful": 28,
+      "failed": 0,
+      "savings": 85
+    },
+    {
+      "name": "Perfect Paradise Villa 19 Elara",
+      "slug": "perfect-paradise-villa-19-elara",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": 92
+    },
+    {
+      "name": "Perfect Paradise Villa 20 Stellar",
+      "slug": "perfect-paradise-villa-20-stellar",
+      "images": 62,
+      "successful": 62,
+      "failed": 0,
+      "savings": 87
+    },
+    {
+      "name": "Paradox Samui Serenity",
+      "slug": "paradox-samui-serenity",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 92
+    },
+    {
+      "name": "Palis Villa",
+      "slug": "palis-villa",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 54
+    },
+    {
+      "name": "Prescott Villa",
+      "slug": "prescott-villa",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": 72
+    },
+    {
+      "name": "Porta Laguna",
+      "slug": "porta-laguna",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": 38
+    },
+    {
+      "name": "Porta Santi",
+      "slug": "porta-santi",
+      "images": 15,
+      "successful": 15,
+      "failed": 0,
+      "savings": 27
+    },
+    {
+      "name": "Prysm Penthouse",
+      "slug": "prysm-penthouse",
+      "images": 43,
+      "successful": 43,
+      "failed": 0,
+      "savings": 1
+    },
+    {
+      "name": "Rover Aqua One",
+      "slug": "rover-aqua-one",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": 91
+    },
+    {
+      "name": "Rover Aqua Two",
+      "slug": "rover-aqua-two",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Rover Pearl",
+      "slug": "rover-pearl",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 90
+    },
+    {
+      "name": "Solira Peak",
+      "slug": "solira-peak",
+      "images": 29,
+      "successful": 29,
+      "failed": 0,
+      "savings": 24
+    },
+    {
+      "name": "Seluna Blue Orchid",
+      "slug": "seluna-blue-orchid",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": 53
+    },
+    {
+      "name": "Seluna Boat Lagoon",
+      "slug": "seluna-boat-lagoon",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 74
+    },
+    {
+      "name": "Samui Seaview",
+      "slug": "samui-seaview",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": 79
+    },
+    {
+      "name": "Samui Sentry Villa (2-4BR)",
+      "slug": "samui-sentry-villa-2-4br",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 53
+    },
+    {
+      "name": "Santuary Aveline (3BR)",
+      "slug": "santuary-aveline-3br",
+      "images": 45,
+      "successful": 45,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Seko Beachhouse Deluxe",
+      "slug": "seko-beachhouse-deluxe",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": 55
+    },
+    {
+      "name": "Seko Beachhouse Standard",
+      "slug": "seko-beachhouse-standard",
+      "images": 16,
+      "successful": 16,
+      "failed": 0,
+      "savings": 47
+    },
+    {
+      "name": "Santisook Villa Aster",
+      "slug": "santisook-villa-aster",
+      "images": 14,
+      "successful": 14,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "Santisook Villa Coloni",
+      "slug": "santisook-villa-coloni",
+      "images": 16,
+      "successful": 16,
+      "failed": 0,
+      "savings": 42
+    },
+    {
+      "name": "Santisook Villa Eve",
+      "slug": "santisook-villa-eve",
+      "images": 31,
+      "successful": 31,
+      "failed": 0,
+      "savings": 91
+    },
+    {
+      "name": "Santisook Villa Ember",
+      "slug": "santisook-villa-ember",
+      "images": 17,
+      "successful": 17,
+      "failed": 0,
+      "savings": 93
+    },
+    {
+      "name": "Santisook Villa Fleur",
+      "slug": "santisook-villa-fleur",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": 81
+    },
+    {
+      "name": "Santisook Villa Jade",
+      "slug": "santisook-villa-jade",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": 56
+    },
+    {
+      "name": "Sara Serenity",
+      "slug": "sara-serenity",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 52
+    },
+    {
+      "name": "Sasa Vision Bay",
+      "slug": "sasa-vision-bay",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": -23
+    },
+    {
+      "name": "Sasa Skyline",
+      "slug": "sasa-skyline",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": -24
+    },
+    {
+      "name": "Sasa Omniva",
+      "slug": "sasa-omniva",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": -26
+    },
+    {
+      "name": "Serene Villa (4-5BR)",
+      "slug": "serene-villa-4-5br",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 69
+    },
+    {
+      "name": "Stellar Swift",
+      "slug": "stellar-swift",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": 31
+    },
+    {
+      "name": "Synera Destine Villa",
+      "slug": "synera-destine-villa",
+      "images": 9,
+      "successful": 9,
+      "failed": 0,
+      "savings": 27
+    },
+    {
+      "name": "Sancia Chaweng",
+      "slug": "sancia-chaweng",
+      "images": 18,
+      "successful": 18,
+      "failed": 0,
+      "savings": 37
+    },
+    {
+      "name": "Styla Villa",
+      "slug": "styla-villa",
+      "images": 13,
+      "successful": 13,
+      "failed": 0,
+      "savings": -18
+    },
+    {
+      "name": "Solaya Pool Villa",
+      "slug": "solaya-pool-villa",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": 53
+    },
+    {
+      "name": "Sunny Chaweng Crest",
+      "slug": "sunny-chaweng-crest",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 92
+    },
+    {
+      "name": "Sunny Fire Cove",
+      "slug": "sunny-fire-cove",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Sunny Lilly Belle",
+      "slug": "sunny-lilly-belle",
+      "images": 43,
+      "successful": 43,
+      "failed": 0,
+      "savings": 80
+    },
+    {
+      "name": "Sunny Savory",
+      "slug": "sunny-savory",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Sprinkle",
+      "slug": "sunny-sprinkle",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 97
+    },
+    {
+      "name": "Sunny Zestia",
+      "slug": "sunny-zestia",
+      "images": 41,
+      "successful": 41,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Mastery",
+      "slug": "sunny-mastery",
+      "images": 38,
+      "successful": 38,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Panorama Summit",
+      "slug": "sunny-panorama-summit",
+      "images": 35,
+      "successful": 35,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Summit Vista",
+      "slug": "sunny-summit-vista",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 80
+    },
+    {
+      "name": "Sunny Sereniwood I",
+      "slug": "sunny-sereniwood-i",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 78
+    },
+    {
+      "name": "Sunny Sereniwood II",
+      "slug": "sunny-sereniwood-ii",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 82
+    },
+    {
+      "name": "Sunny Suan Kachamudee",
+      "slug": "sunny-suan-kachamudee",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": 78
+    },
+    {
+      "name": "Sunny Twin Hill",
+      "slug": "sunny-twin-hill",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Ashka Villa",
+      "slug": "sunny-ashka-villa",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Ammouri Villa",
+      "slug": "sunny-ammouri-villa",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": -3
+    },
+    {
+      "name": "Sunny Azuri Villa",
+      "slug": "sunny-azuri-villa",
+      "images": 21,
+      "successful": 21,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Sunny Melophyte Ville",
+      "slug": "sunny-melophyte-ville",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": 84
+    },
+    {
+      "name": "Sunny Skyline",
+      "slug": "sunny-skyline",
+      "images": 44,
+      "successful": 44,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Sunsei Villa",
+      "slug": "sunny-sunsei-villa",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 83
+    },
+    {
+      "name": "Sunny Tigate Villa",
+      "slug": "sunny-tigate-villa",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Sunny Universal Villa",
+      "slug": "sunny-universal-villa",
+      "images": 48,
+      "successful": 48,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "The Edenic Villa",
+      "slug": "the-edenic-villa",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": -31
+    },
+    {
+      "name": "The Highest Peak",
+      "slug": "the-highest-peak",
+      "images": 46,
+      "successful": 46,
+      "failed": 0,
+      "savings": 59
+    },
+    {
+      "name": "The Perfect Villa Vista",
+      "slug": "the-perfect-villa-vista",
+      "images": 16,
+      "successful": 16,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "The Wavora 1 - Deluxe Sea View 3BR",
+      "slug": "the-wavora-1-deluxe-sea-view-3br",
+      "images": 45,
+      "successful": 45,
+      "failed": 0,
+      "savings": 52
+    },
+    {
+      "name": "The Wavora 1 - Deluxe Sea View 4BR",
+      "slug": "the-wavora-1-deluxe-sea-view-4br",
+      "images": 40,
+      "successful": 40,
+      "failed": 0,
+      "savings": 51
+    },
+    {
+      "name": "The Wavora 1 - Duplex 2BR & Kid Room",
+      "slug": "the-wavora-1-duplex-2br-kid-room",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": 51
+    },
+    {
+      "name": "The Wavora 1 - Luxury Sea View 3BR",
+      "slug": "the-wavora-1-luxury-sea-view-3br",
+      "images": 59,
+      "successful": 59,
+      "failed": 0,
+      "savings": 49
+    },
+    {
+      "name": "The Wavora 1 - Luxury Sea View 4BR",
+      "slug": "the-wavora-1-luxury-sea-view-4br",
+      "images": 51,
+      "successful": 51,
+      "failed": 0,
+      "savings": 46
+    },
+    {
+      "name": "The Wavora 1 - Standard 3BR",
+      "slug": "the-wavora-1-standard-3br",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 47
+    },
+    {
+      "name": "The Wavora 2 - 2BR Duplex & Kids Room",
+      "slug": "the-wavora-2-2br-duplex-kids-room",
+      "images": 32,
+      "successful": 32,
+      "failed": 0,
+      "savings": 55
+    },
+    {
+      "name": "The Wavora 2 - 3BR Duplex & Kids Room Pool Villa",
+      "slug": "the-wavora-2-3br-duplex-kids-room-pool-villa",
+      "images": 57,
+      "successful": 57,
+      "failed": 0,
+      "savings": 53
+    },
+    {
+      "name": "The Wavora 2 - 4BR Duplex & Kids Room Pool Villa",
+      "slug": "the-wavora-2-4br-duplex-kids-room-pool-villa",
+      "images": 60,
+      "successful": 60,
+      "failed": 0,
+      "savings": 53
+    },
+    {
+      "name": "The Wavora 2 - 4BR Pool Villa with Sea View",
+      "slug": "the-wavora-2-4br-pool-villa-with-sea-view",
+      "images": 55,
+      "successful": 55,
+      "failed": 0,
+      "savings": 58
+    },
+    {
+      "name": "The Wavora 2 - 5BR Modern Sea View",
+      "slug": "the-wavora-2-5br-modern-sea-view",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 50
+    },
+    {
+      "name": "The Wavora 2 - 5BR Stunning Pool Villa",
+      "slug": "the-wavora-2-5br-stunning-pool-villa",
+      "images": 35,
+      "successful": 35,
+      "failed": 0,
+      "savings": 47
+    },
+    {
+      "name": "The Wavora 2 - 5BR Superior Pool Villa",
+      "slug": "the-wavora-2-5br-superior-pool-villa",
+      "images": 15,
+      "successful": 15,
+      "failed": 0,
+      "savings": 51
+    },
+    {
+      "name": "The Wavora 3 - 3BR Saitara Peak Panoramic View",
+      "slug": "the-wavora-3-3br-saitara-peak-panoramic-view",
+      "images": 38,
+      "successful": 38,
+      "failed": 0,
+      "savings": 46
+    },
+    {
+      "name": "The Wavora 3 - 4BR Saitara Peak Luxury Pool Villa",
+      "slug": "the-wavora-3-4br-saitara-peak-luxury-pool-villa",
+      "images": 77,
+      "successful": 77,
+      "failed": 0,
+      "savings": 44
+    },
+    {
+      "name": "The Wavora 4 - 5BR KW Villa Group Lazy Villa",
+      "slug": "the-wavora-4-5br-kw-villa-group-lazy-villa",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 39
+    },
+    {
+      "name": "Thimala Vista",
+      "slug": "thimala-vista",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 83
+    },
+    {
+      "name": "The Clay Haven",
+      "slug": "the-clay-haven",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 44
+    },
+    {
+      "name": "The Cobham Suite Apartment",
+      "slug": "the-cobham-suite-apartment",
+      "images": 11,
+      "successful": 11,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "The Bacaya Villa",
+      "slug": "the-bacaya-villa",
+      "images": 38,
+      "successful": 38,
+      "failed": 0,
+      "savings": 87
+    },
+    {
+      "name": "The Soboru Villa",
+      "slug": "the-soboru-villa",
+      "images": 49,
+      "successful": 49,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "Tayla & Coco Residence",
+      "slug": "tayla-coco-residence",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 30
+    },
+    {
+      "name": "Tropy Serenity Resort",
+      "slug": "tropy-serenity-resort",
+      "images": 22,
+      "successful": 22,
+      "failed": 0,
+      "savings": -2
+    },
+    {
+      "name": "Villa Amnado",
+      "slug": "villa-amnado",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 12
+    },
+    {
+      "name": "Villa Asi Azure",
+      "slug": "villa-asi-azure",
+      "images": 39,
+      "successful": 39,
+      "failed": 0,
+      "savings": 19
+    },
+    {
+      "name": "Villa Astro",
+      "slug": "villa-astro",
+      "images": 35,
+      "successful": 35,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Villa Delsy",
+      "slug": "villa-delsy",
+      "images": 11,
+      "successful": 11,
+      "failed": 0,
+      "savings": -30
+    },
+    {
+      "name": "Vila Kenda Cove",
+      "slug": "vila-kenda-cove",
+      "images": 23,
+      "successful": 23,
+      "failed": 0,
+      "savings": 22
+    },
+    {
+      "name": "Villa Marina",
+      "slug": "villa-marina",
+      "images": 20,
+      "successful": 20,
+      "failed": 0,
+      "savings": -21
+    },
+    {
+      "name": "Villa Marvella",
+      "slug": "villa-marvella",
+      "images": 16,
+      "successful": 16,
+      "failed": 0,
+      "savings": 23
+    },
+    {
+      "name": "Villa Maestro",
+      "slug": "villa-maestro",
+      "images": 22,
+      "successful": 22,
+      "failed": 0,
+      "savings": 46
+    },
+    {
+      "name": "Villa Moonlight",
+      "slug": "villa-moonlight",
+      "images": 36,
+      "successful": 36,
+      "failed": 0,
+      "savings": 67
+    },
+    {
+      "name": "Villa Moonstone Pearl",
+      "slug": "villa-moonstone-pearl",
+      "images": 54,
+      "successful": 54,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Villa Nithan",
+      "slug": "villa-nithan",
+      "images": 53,
+      "successful": 53,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Villa Obsidian Black",
+      "slug": "villa-obsidian-black",
+      "images": 28,
+      "successful": 28,
+      "failed": 0,
+      "savings": 89
+    },
+    {
+      "name": "Villa Baan Miku",
+      "slug": "villa-baan-miku",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Villa Sierrena Sky",
+      "slug": "villa-sierrena-sky",
+      "images": 45,
+      "successful": 45,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Villa Playful Azure",
+      "slug": "villa-playful-azure",
+      "images": 37,
+      "successful": 37,
+      "failed": 0,
+      "savings": 36
+    },
+    {
+      "name": "Villa Reku Horizon",
+      "slug": "villa-reku-horizon",
+      "images": 33,
+      "successful": 33,
+      "failed": 0,
+      "savings": 99
+    },
+    {
+      "name": "Villa Romeo",
+      "slug": "villa-romeo",
+      "images": 19,
+      "successful": 19,
+      "failed": 0,
+      "savings": 17
+    },
+    {
+      "name": "Villa Sasipimon Grand",
+      "slug": "villa-sasipimon-grand",
+      "images": 47,
+      "successful": 47,
+      "failed": 0,
+      "savings": 96
+    },
+    {
+      "name": "Villa Seawaree",
+      "slug": "villa-seawaree",
+      "images": 41,
+      "successful": 41,
+      "failed": 0,
+      "savings": 98
+    },
+    {
+      "name": "Villa Sola Horizon",
+      "slug": "villa-sola-horizon",
+      "images": 51,
+      "successful": 51,
+      "failed": 0,
+      "savings": 83
+    },
+    {
+      "name": "Villa Tangela Cove",
+      "slug": "villa-tangela-cove",
+      "images": 25,
+      "successful": 25,
+      "failed": 0,
+      "savings": 39
+    },
+    {
+      "name": "Villa Tossi",
+      "slug": "villa-tossi",
+      "images": 42,
+      "successful": 42,
+      "failed": 0,
+      "savings": 87
+    },
+    {
+      "name": "Villa Zodiac",
+      "slug": "villa-zodiac",
+      "images": 27,
+      "successful": 27,
+      "failed": 0,
+      "savings": 3
+    },
+    {
+      "name": "White Orchard Ville",
+      "slug": "white-orchard-ville",
+      "images": 44,
+      "successful": 44,
+      "failed": 0,
+      "savings": 34
+    },
+    {
+      "name": "Yuki Haven Villa",
+      "slug": "yuki-haven-villa",
+      "images": 11,
+      "successful": 11,
+      "failed": 0,
+      "savings": 58
+    },
+    {
+      "name": "Zulu Vista A1",
+      "slug": "zulu-vista-a1",
+      "images": 51,
+      "successful": 51,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "Zulu Vista A2",
+      "slug": "zulu-vista-a2",
+      "images": 50,
+      "successful": 50,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "Zulu Vista A3",
+      "slug": "zulu-vista-a3",
+      "images": 62,
+      "successful": 62,
+      "failed": 0,
+      "savings": 95
+    },
+    {
+      "name": "Zulu Vista A4",
+      "slug": "zulu-vista-a4",
+      "images": 48,
+      "successful": 48,
+      "failed": 0,
+      "savings": 94
+    },
+    {
+      "name": "Zulu Vista B1",
+      "slug": "zulu-vista-b1",
+      "images": 63,
+      "successful": 63,
+      "failed": 0,
+      "savings": 94
+    }
+  ],
+  "summary": {
+    "totalVillas": 226,
+    "processedVillas": 226,
+    "totalImages": 7056,
+    "successfulImages": 7056,
+    "failedImages": 0,
+    "originalSizeMB": "20205.43",
+    "optimizedSizeMB": "849.53",
+    "totalSavings": 96
+  }
+}

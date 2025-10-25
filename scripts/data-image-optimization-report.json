@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-14T08:41:35.972Z",
+  "inputDirectory": "C:\\Users\\ronna\\exclusive-villa-samui\\src\\data\\Villla Images",
+  "outputDirectory": "C:\\Users\\ronna\\exclusive-villa-samui\\public\\optimized-data-images",
+  "totalProcessed": 6384,
+  "totalOriginalSize": 21138271299,
+  "totalOptimizedSize": 2726832446,
+  "spaceSaved": 18411438853,
+  "compressionRatio": 87.100021532371,
+  "errors": 1,
+  "processingTime": 2262.114
+}

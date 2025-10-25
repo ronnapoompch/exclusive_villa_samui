@@ -1,0 +1,25 @@
+{
+  "totalVillas": 210,
+  "totalImages": 6385,
+  "averageImagesPerVilla": 30,
+  "villasByImageCount": {
+    "0-10": 5,
+    "11-25": 82,
+    "26-50": 110,
+    "50+": 13
+  },
+  "categoryStats": {
+    "hero": 412,
+    "ext": 554,
+    "liv": 738,
+    "din": 439,
+    "kit": 315,
+    "bed1": 545,
+    "bed2-5": 902,
+    "bath1": 343,
+    "bath2-5": 418,
+    "pool": 630,
+    "view": 598,
+    "amen": 491
+  }
+}

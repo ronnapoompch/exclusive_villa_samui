@@ -249,6 +249,7 @@ export default async function VillaBookingPage({ params }: { params: { slug: str
             <BookingForm 
               villaId={villa.id} 
               villaTitle={villa.name}
+              villaSlug={villa.slug}
               pricePerNight={displayPrice}
               maxGuests={maxGuests}
             />

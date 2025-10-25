@@ -1,0 +1,1010 @@
+{
+  "timestamp": "2025-10-06T12:19:23.210Z",
+  "analysis": {
+    "totalImageFolders": 210,
+    "totalExcelRows": 449,
+    "matched": [
+      {
+        "rowIndex": 1,
+        "columnA": "Anzhu Seamate (3BR)",
+        "columnB": "Anzhu Serenity",
+        "matchedFolder": "Anzhu Seamate",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 2,
+        "columnA": "Ariya Residence A3 (5BR)",
+        "columnB": "Alicia Serenity A3",
+        "matchedFolder": "Ariya Residence A3",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 3,
+        "columnA": "Ariya Residence A5 (5BR)",
+        "columnB": "Alicia Serenity A5",
+        "matchedFolder": "Ariya Residence A5",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 8,
+        "columnA": "Baan Ines (4BR)",
+        "columnB": "Baan Infinity",
+        "matchedFolder": "Baan Ines",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 10,
+        "columnA": "Baan Luxor (3BR)",
+        "columnB": "Baan Luxy",
+        "matchedFolder": "Baan Luxor",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 12,
+        "columnA": "Baan Tiwa Villa (4BR)",
+        "columnB": "Baan Tawan",
+        "matchedFolder": "Baan Tiwa Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 14,
+        "columnA": "Beach View Villa (5BR)",
+        "columnB": "Beach Vista Villa",
+        "matchedFolder": "Beach View Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 15,
+        "columnA": "Beach Villa (4BR)",
+        "columnB": "Beach Haven Villa",
+        "matchedFolder": "Beach Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 25,
+        "columnA": "Dada Villa One (4BR)",
+        "columnB": "Dada Vista One",
+        "matchedFolder": "Dada Villa One",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 28,
+        "columnA": "Davide Kalamari Villa (5BR)",
+        "columnB": "Davide Kalyssa",
+        "matchedFolder": "Davide Kalamari Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 29,
+        "columnA": "Davide Shymala Villa (5BR)",
+        "columnB": "Davide Saffron",
+        "matchedFolder": "Davide Shymala Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 40,
+        "columnA": "Gary 1 (5BR)",
+        "columnB": "Gary Grand 1",
+        "matchedFolder": "Gary 1",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 41,
+        "columnA": "Gary 2",
+        "columnB": "Gary Grand 2",
+        "matchedFolder": "Gary 2",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 42,
+        "columnA": "Gary 3",
+        "columnB": "Garry Grand 3",
+        "matchedFolder": "Gary 3",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 43,
+        "columnA": "Icon Villa (3BR)***",
+        "columnB": "Iconic Villa",
+        "matchedFolder": "Icon Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 48,
+        "columnA": "Joanna Beach Villa",
+        "columnB": "Joanna Bay Villa",
+        "matchedFolder": "Beach Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 50,
+        "columnA": "Joanna Samui Grand Park",
+        "columnB": "Joanna Samui Garden Park",
+        "matchedFolder": "Joanna Samui Grand Park",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 51,
+        "columnA": "Jungle Paradise (2BR) ***",
+        "columnB": "Jungle Pearl",
+        "matchedFolder": "Jungle Paradise",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 53,
+        "columnA": "Kanda Villa Peter Fishmane (4BR) ***",
+        "columnB": "Kanda Villa Pearl",
+        "matchedFolder": "Kanda Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 54,
+        "columnA": "Kaya Mani Thai villa Resort (1BR) x6",
+        "columnB": "Kaya Mani Tranquil",
+        "matchedFolder": "Kaya Mani thai Villa Resort",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 55,
+        "columnA": "Keeree Tara (3,4,5BR)",
+        "columnB": "Kiri Tara",
+        "matchedFolder": "Keeree Tara",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 56,
+        "columnA": "Kerem Villa Gamay (Upper)",
+        "columnB": "Kieren Villa Grace",
+        "matchedFolder": "Kerem Villa Gamay (upper)",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 57,
+        "columnA": "Kerem Villa Muscat (Upper)",
+        "columnB": "Kieren Villa Mirage",
+        "matchedFolder": "Kerem Villa Muscat (upper)",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 58,
+        "columnA": "Kerem Villa Solaris (Lower)",
+        "columnB": "Kieren Villa Solaria",
+        "matchedFolder": "Kerem Villa Solaris (lower)",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 63,
+        "columnA": "La Moon (4BR)",
+        "columnB": "La Mirage",
+        "matchedFolder": "La Moon",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 64,
+        "columnA": "La Jade (2BR)",
+        "columnB": "La Jewel",
+        "matchedFolder": "La Jade",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 73,
+        "columnA": "Miskawaan Villa Acacia",
+        "columnB": "Millennial Villa Aurora",
+        "matchedFolder": "Miskawaan Villa Acacia",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 74,
+        "columnA": "Miskawaan Villa Bougainvillea",
+        "columnB": "Millennial Villa Bliss",
+        "matchedFolder": "Miskawaan Villa Bougainvillea",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 75,
+        "columnA": "Miskawaan Villa Champak",
+        "columnB": "Millennial Villa Coral",
+        "matchedFolder": "Miskawaan Villa Champak",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 76,
+        "columnA": "Miskawaan Villa Frangipani",
+        "columnB": "Millennial Villa Flora",
+        "matchedFolder": "Miskawaan Villa Frangipani",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 77,
+        "columnA": "Miskawaan Villa Hibiscus",
+        "columnB": "Millennial Villa Harmony",
+        "matchedFolder": "Miskawaan Villa Hibiscus",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 78,
+        "columnA": "Miskawaan Villa Lotus",
+        "columnB": "Millennial Villa Lumina",
+        "matchedFolder": "Miskawaan Villa Lotus",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 83,
+        "columnA": "Orchard View (3BR)",
+        "columnB": "Orchard Vista",
+        "matchedFolder": "Orchard View",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 99,
+        "columnA": "Samui Sea Me (3BR)",
+        "columnB": "Samui Seaview",
+        "matchedFolder": "Samui Sea Me",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 103,
+        "columnA": "Sanctuary Apsara (3BR)",
+        "columnB": "Santuary Aveline (3BR)",
+        "matchedFolder": "Sanctuary Apsara",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 109,
+        "columnA": "Santisook Villa J (2BR) ***",
+        "columnB": "Santisook Villa Jade",
+        "matchedFolder": "La Jade",
+        "matchType": "Column B"
+      },
+      {
+        "rowIndex": 112,
+        "columnA": "Sasa + Kiran Samui Sky Pool (4BR)",
+        "columnB": "Sasa Skyline",
+        "matchedFolder": "Sasa + Kiran Samui Sky Pool",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 113,
+        "columnA": "Sasa + Kiran Sunshine Oceanview (3BR)",
+        "columnB": "Sasa Omniva",
+        "matchedFolder": "Sasa + Kiran Sunshine Oceanview",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 114,
+        "columnA": "Sea Renity (4BR)",
+        "columnB": "Serene Villa (4BR)",
+        "matchedFolder": "Sea Renity",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 115,
+        "columnA": "Sea Renity (5BR)",
+        "columnB": "Serene Villa (5BR)",
+        "matchedFolder": "Sea Renity",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 116,
+        "columnA": "Sea Renity (6BR)",
+        "columnB": "Serene Villa (6BR)",
+        "matchedFolder": "Sea Renity",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 138,
+        "columnA": "The Eden Samui (4BR)",
+        "columnB": "The Edenic Villa",
+        "matchedFolder": "The Eden Samui",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 139,
+        "columnA": "The Highest (3BR) MN3",
+        "columnB": "The Highest Peak",
+        "matchedFolder": "The Highest",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 140,
+        "columnA": "The Perfect Villa MN3",
+        "columnB": "The Perfect Villa Vista",
+        "matchedFolder": "The Perfect Villa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 146,
+        "columnA": "Villa Asi (4-6BR) MN3-4",
+        "columnB": "Villa Asi Azure",
+        "matchedFolder": "Villa Asi",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 147,
+        "columnA": "Villa Kadena (3BR)",
+        "columnB": "Vila Kenda Cove",
+        "matchedFolder": "Villa Kadena",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 149,
+        "columnA": "Villa Monsoon (6BR)",
+        "columnB": "Villa Moonlight",
+        "matchedFolder": "La Moon",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 150,
+        "columnA": "Villa Moonstone (5-6BR)",
+        "columnB": "Villa Moonstone Pearl",
+        "matchedFolder": "La Moon",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 151,
+        "columnA": "Villa Natha (3-5BR) $990-2400",
+        "columnB": "Villa Nithan",
+        "matchedFolder": "Villa Natha",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 155,
+        "columnA": "Villa Playa (5BR) $600-800",
+        "columnB": "Villa Playful Azure",
+        "matchedFolder": "Villa Playa",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 156,
+        "columnA": "Villa Raku (3-5BR) $750-2000",
+        "columnB": "Villa Reku Horizon",
+        "matchedFolder": "Villa Raku",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 157,
+        "columnA": "Villa Sasipimon (Studio) $220-270",
+        "columnB": "Villa Sasipimon Studio",
+        "matchedFolder": "Villa Sasipimon",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 158,
+        "columnA": "Villa Sasipimon (5BR) $145-2250",
+        "columnB": "Villa Sasipimon Grand",
+        "matchedFolder": "Villa Sasipimon",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 159,
+        "columnA": "Villa Sasipimon (5BR+Studio) $1670-2520",
+        "columnB": "Villa Sasipimon Grand+Studio",
+        "matchedFolder": "Villa Sasipimon",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 160,
+        "columnA": "Villa Solana (4/7BR) $1454-2684",
+        "columnB": "Villa Sola Horizon",
+        "matchedFolder": "Villa Solana",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 161,
+        "columnA": "Villa Tequila (3BR) ***",
+        "columnB": "Villa Tangela Cove",
+        "matchedFolder": "Villa Tequila",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 162,
+        "columnA": "Villa Tosti (3BR)",
+        "columnB": "Villa Tossi",
+        "matchedFolder": "Villa Tosti",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 163,
+        "columnA": "White Orchid (3BR)",
+        "columnB": "White Orchard Ville",
+        "matchedFolder": "White Orchid",
+        "matchType": "Column A"
+      },
+      {
+        "rowIndex": 182,
+        "columnA": "Aqua Thomas",
+        "columnB": "",
+        "matchedFolder": "5House",
+        "matchType": "Column B"
+      }
+    ],
+    "unmatched": [
+      {
+        "rowIndex": 4,
+        "columnA": "Ariya A6 (4BR)",
+        "columnB": "Alicia Serenity A6"
+      },
+      {
+        "rowIndex": 5,
+        "columnA": "Ariya A20 (4BR)",
+        "columnB": "Alicia Serenity A20"
+      },
+      {
+        "rowIndex": 6,
+        "columnA": "Ariya A28 (3BR)",
+        "columnB": "Alicia Serenity A28"
+      },
+      {
+        "rowIndex": 7,
+        "columnA": "Baan Cayan (5BR)",
+        "columnB": "Baan Coral"
+      },
+      {
+        "rowIndex": 9,
+        "columnA": "Baan Lom Talay (4BR)",
+        "columnB": "Baan Luminous"
+      },
+      {
+        "rowIndex": 11,
+        "columnA": "Baan Sawasdee (3BR)",
+        "columnB": "Baan Suwanee"
+      },
+      {
+        "rowIndex": 13,
+        "columnA": "Baan Tai Estate Beach (2,3,5,6BR)",
+        "columnB": "Baan Tai Essence"
+      },
+      {
+        "rowIndex": 16,
+        "columnA": "Blue Mountain Villa Blue Butterfly (4BR)",
+        "columnB": "Blue Mountain Villa Breeze"
+      },
+      {
+        "rowIndex": 17,
+        "columnA": "Blue Mountain Villa Blue Elephant (6BR)",
+        "columnB": "Blue Mountain Villa Eden"
+      },
+      {
+        "rowIndex": 18,
+        "columnA": "Blue Mountain Villa Blue Tiger (4BR)",
+        "columnB": "Blue Mountain Villa Tide"
+      },
+      {
+        "rowIndex": 19,
+        "columnA": "Blue Water Hrahra A (3BR)",
+        "columnB": "Blue Water Harmony A"
+      },
+      {
+        "rowIndex": 20,
+        "columnA": "Blue Water Klang B (3BR)",
+        "columnB": "Blue Water Koral B"
+      },
+      {
+        "rowIndex": 21,
+        "columnA": "Blue Water Narak C (2BR)",
+        "columnB": "Blue Water Nova C"
+      },
+      {
+        "rowIndex": 22,
+        "columnA": "Casa Bella (3BR), Palm Vista (3BR)",
+        "columnB": "Casa Brisa"
+      },
+      {
+        "rowIndex": 23,
+        "columnA": "Casa Palm Vista (3BR)",
+        "columnB": "Palm Veranda"
+      },
+      {
+        "rowIndex": 24,
+        "columnA": "Celebrity Ocian View Villa (4BR)",
+        "columnB": "Celebrity Ocean Pearl"
+      },
+      {
+        "rowIndex": 26,
+        "columnA": "Darika Resident A2, A3 (4BR)",
+        "columnB": "Dahlia Residence A2 / A3"
+      },
+      {
+        "rowIndex": 27,
+        "columnA": "Darika Resident B1, B3, B5 (4BR)",
+        "columnB": "Dahlia Residence B1 / B3 / B5"
+      },
+      {
+        "rowIndex": 30,
+        "columnA": "Davide Siam Villa (5BR)",
+        "columnB": "Davide Solstice"
+      },
+      {
+        "rowIndex": 31,
+        "columnA": "Fabrice Del Pino (4BR)",
+        "columnB": "Fabrice Dune"
+      },
+      {
+        "rowIndex": 32,
+        "columnA": "Fisherman Seaview Villa 1 (3BR)",
+        "columnB": "Flying Seaview Villa 1"
+      },
+      {
+        "rowIndex": 33,
+        "columnA": "Fisherman Seaview Villa 4 (3BR)",
+        "columnB": "Flying Seaview Villa 4"
+      },
+      {
+        "rowIndex": 34,
+        "columnA": "Fisherman Seaview Villa 5 (3BR)",
+        "columnB": "Flying Seaview Villa 5"
+      },
+      {
+        "rowIndex": 35,
+        "columnA": "Fisherman Seaview Villa 6 (3BR)",
+        "columnB": "Flying Seaview Villa 6"
+      },
+      {
+        "rowIndex": 36,
+        "columnA": "Fisherman Seaview Villa 7 (3BR)",
+        "columnB": "Flying Seaview Villa 7"
+      },
+      {
+        "rowIndex": 37,
+        "columnA": "Fisherman Seaview Villa 8 (3BR)",
+        "columnB": "Flying Seaview Villa 8"
+      },
+      {
+        "rowIndex": 38,
+        "columnA": "Fisherman Seaview Villa 9 (3BR)",
+        "columnB": "Flying Seaview Villa 9"
+      },
+      {
+        "rowIndex": 39,
+        "columnA": "Fisherman Seaview Villa 10 (3BR)",
+        "columnB": "Flying Seaview Villa 10"
+      },
+      {
+        "rowIndex": 44,
+        "columnA": "Island View Villa (6BR)",
+        "columnB": "Island Vista Villa"
+      },
+      {
+        "rowIndex": 45,
+        "columnA": "Istvan Bobi Villa Jupiter (3BR)***",
+        "columnB": "Istvan Bobi Villa Jewel"
+      },
+      {
+        "rowIndex": 46,
+        "columnA": "Istvan Bobi Villa Jupiter (3BR)***",
+        "columnB": "Istvan Bobi Villa Jewel"
+      },
+      {
+        "rowIndex": 47,
+        "columnA": "Jean Louis Cabal (4-5BR)",
+        "columnB": "Jean Louis Coast"
+      },
+      {
+        "rowIndex": 49,
+        "columnA": "Joanna Sarana Villa",
+        "columnB": "Joanna Serenity Villa"
+      },
+      {
+        "rowIndex": 52,
+        "columnA": "K.Tarek (4BR)",
+        "columnB": "K.Terra"
+      },
+      {
+        "rowIndex": 59,
+        "columnA": "Kerem Villa Syrah  (Lower)",
+        "columnB": "Kieren Villa Sylvan"
+      },
+      {
+        "rowIndex": 60,
+        "columnA": "Kove Samui (4BR) ***",
+        "columnB": "Kofe Samui (4BR)"
+      },
+      {
+        "rowIndex": 61,
+        "columnA": "Kove Samui (5BR) ***",
+        "columnB": "Kofe Samui (5BR)"
+      },
+      {
+        "rowIndex": 62,
+        "columnA": "Kove Samui (9BR) ***",
+        "columnB": "Kofe Samui (9BR)"
+      },
+      {
+        "rowIndex": 65,
+        "columnA": "Luxury Villa Baan Batur (3BR) ***",
+        "columnB": "Luxury Villa Baan Breeze"
+      },
+      {
+        "rowIndex": 66,
+        "columnA": "Luxury Villa Baan Lily (5BR) ***",
+        "columnB": "Luxury Villa Baan Lumina"
+      },
+      {
+        "rowIndex": 67,
+        "columnA": "Maison d'exception (2BR)",
+        "columnB": "Maison d’Élan"
+      },
+      {
+        "rowIndex": 68,
+        "columnA": "Mam Seaside (4BR)",
+        "columnB": "Mam Seaview"
+      },
+      {
+        "rowIndex": 69,
+        "columnA": "MIA Beach (6BR) ***",
+        "columnB": "MIA Bayfront (6BR)"
+      },
+      {
+        "rowIndex": 70,
+        "columnA": "MIA Estate (17BR) ***",
+        "columnB": "MIA Estate Grand (17BR)"
+      },
+      {
+        "rowIndex": 71,
+        "columnA": "MIA Ocean (4BR) ***",
+        "columnB": "MIA Oceana (4BR)"
+      },
+      {
+        "rowIndex": 72,
+        "columnA": "MIA Palm (5BR) ***",
+        "columnB": "MIA Palmera (5BR)"
+      },
+      {
+        "rowIndex": 79,
+        "columnA": "Miskawaan Villa Water Lily",
+        "columnB": "Millennial Villa Watu"
+      },
+      {
+        "rowIndex": 80,
+        "columnA": "Miskawaan Villa Sila",
+        "columnB": "Millennial Villa Solara"
+      },
+      {
+        "rowIndex": 81,
+        "columnA": "Miskawaan Villa Wayu",
+        "columnB": "Millennial Villa Wind"
+      },
+      {
+        "rowIndex": 82,
+        "columnA": "Miskawaan Villa Residence",
+        "columnB": "Millennial Villa Aurora"
+      },
+      {
+        "rowIndex": 84,
+        "columnA": "Pacific Palisade Villa 2 Tropical (2BR) ***",
+        "columnB": "Perfect Paradise Villa 2 Tropica"
+      },
+      {
+        "rowIndex": 85,
+        "columnA": "Pacific Palisade Villa 5 Bohemian Chic (4BR) ***",
+        "columnB": "Perfect Paradise Villa 5 Boheme"
+      },
+      {
+        "rowIndex": 86,
+        "columnA": "Pacific Palisade Villa 6 Wabi Sabi (3BR) ***",
+        "columnB": "Perfect Paradise Villa 6 Wabi Essence"
+      },
+      {
+        "rowIndex": 87,
+        "columnA": "Pacific Palisade Villa 7 Chill&Tropical (2BR) ***",
+        "columnB": "Perfect Paradise Villa 7 Tranquil"
+      },
+      {
+        "rowIndex": 88,
+        "columnA": "Pacific Palisade Villa 9 Palm Tree (2BR) ***",
+        "columnB": "Perfect Paradise Villa 9 Palma"
+      },
+      {
+        "rowIndex": 89,
+        "columnA": "Pacific Palisade Villa 10 Exotic (2BR) ***",
+        "columnB": "Perfect Paradise Villa 10 Exotica"
+      },
+      {
+        "rowIndex": 90,
+        "columnA": "Pacific Palisade Villa 13 Azur (3BR) ***",
+        "columnB": "Perfect Paradise Villa 13 Azurea"
+      },
+      {
+        "rowIndex": 91,
+        "columnA": "Pacific Palisade Villa 15 Infinity (4BR) ***",
+        "columnB": "Perfect Paradise Villa 15 Infini"
+      },
+      {
+        "rowIndex": 92,
+        "columnA": "Pacific Palisade Villa 17 Venice (4BR) ***",
+        "columnB": "Perfect Paradise Villa 17 Venezia"
+      },
+      {
+        "rowIndex": 93,
+        "columnA": "Pacific Palisade Villa 19 Elegant (4BR) ***",
+        "columnB": "Perfect Paradise Villa 19 Elara"
+      },
+      {
+        "rowIndex": 94,
+        "columnA": "Pacific Palisade Villa 20 Stunning (4BR) ***",
+        "columnB": "Perfect Paradise Villa 20 Stellar"
+      },
+      {
+        "rowIndex": 95,
+        "columnA": "Paradise Samui (5BR) ***",
+        "columnB": "Paradox Samui Serenity"
+      },
+      {
+        "rowIndex": 96,
+        "columnA": "Roger Plailaem (3BR)",
+        "columnB": "Rover Pearl"
+      },
+      {
+        "rowIndex": 97,
+        "columnA": "Roger Aqua 1 (2BR)",
+        "columnB": "Rover Aqua One"
+      },
+      {
+        "rowIndex": 98,
+        "columnA": "Roger Aqua 2 (2BR)",
+        "columnB": "Rover Aqua Two"
+      },
+      {
+        "rowIndex": 100,
+        "columnA": "Samui Sunrise Villa (2BR)",
+        "columnB": "Samui Sentry (2BR)"
+      },
+      {
+        "rowIndex": 101,
+        "columnA": "Samui Sunrise Villa (3BR)",
+        "columnB": "Samui Sentry (3BR)"
+      },
+      {
+        "rowIndex": 102,
+        "columnA": "Samui Sunrise Villa (4BR)",
+        "columnB": "Samui Sentry (4BR)"
+      },
+      {
+        "rowIndex": 104,
+        "columnA": "Santisook Villa A (3BR) ***",
+        "columnB": "Santisook Villa Aster"
+      },
+      {
+        "rowIndex": 105,
+        "columnA": "Santisook Villa C (3BR) ***",
+        "columnB": "Santisook Villa Coloni"
+      },
+      {
+        "rowIndex": 106,
+        "columnA": "Santisook Villa E (2BR) ***",
+        "columnB": "Santisook Villa Eve"
+      },
+      {
+        "rowIndex": 107,
+        "columnA": "Santisook Villa E2 (2BR) ***",
+        "columnB": "Santisook Villa Ember"
+      },
+      {
+        "rowIndex": 108,
+        "columnA": "Santisook Villa F (4BR) ***",
+        "columnB": "Santisook Villa Fleur"
+      },
+      {
+        "rowIndex": 110,
+        "columnA": "Sarana (2BR)",
+        "columnB": "Sara Serenity"
+      },
+      {
+        "rowIndex": 111,
+        "columnA": "Sasa + Kiran Best World Vision (6BR)",
+        "columnB": "Sasa Vision Bay"
+      },
+      {
+        "rowIndex": 117,
+        "columnA": "Sunshine Samui Villa: Chaweng Peaks (4BR) MN2",
+        "columnB": "Sunny Chaweng Crest"
+      },
+      {
+        "rowIndex": 118,
+        "columnA": "Sunshine Samui Villa: Flire Fly (5BR) MN3",
+        "columnB": "Sunny Fire Cove"
+      },
+      {
+        "rowIndex": 119,
+        "columnA": "Sunshine Samui Villa: Lille Belle (4BR) MN3",
+        "columnB": "Sunny Lilly Belle"
+      },
+      {
+        "rowIndex": 120,
+        "columnA": "Sunshine Samui Villa: Spice (3-5BR) MN3",
+        "columnB": "Sunny Savory"
+      },
+      {
+        "rowIndex": 121,
+        "columnA": "Sunshine Samui Villa: Splash (3-5BR) MN3",
+        "columnB": "Sunny Sprinkle"
+      },
+      {
+        "rowIndex": 122,
+        "columnA": "Sunshine Samui Villa: Zest (3-5BR) MN3",
+        "columnB": "Sunny Zestia"
+      },
+      {
+        "rowIndex": 123,
+        "columnA": "Sunshine Samui Villa: Master Peak H4 (4BR)",
+        "columnB": "Sunny Mastery"
+      },
+      {
+        "rowIndex": 124,
+        "columnA": "Sunshine Samui Villa: Panorama Summit (5BR) MN3",
+        "columnB": "Sunny Panorama Summit"
+      },
+      {
+        "rowIndex": 125,
+        "columnA": "Sunshine Samui Villa: Samui Summit (5BR) MN3",
+        "columnB": "Sunny Summit Vista"
+      },
+      {
+        "rowIndex": 126,
+        "columnA": "Sunshine Samui Villa: Sereniwood 1 (3BR) MN3",
+        "columnB": "Sunny Sereniwood I"
+      },
+      {
+        "rowIndex": 127,
+        "columnA": "Sunshine Samui Villa: Sereniwood 2 (3BR) MN3",
+        "columnB": "Sunny Sereniwood II"
+      },
+      {
+        "rowIndex": 128,
+        "columnA": "Sunshine Samui Villa: Suan Kachamudee (5-11BR)",
+        "columnB": "Sunny Suan Kachamudee"
+      },
+      {
+        "rowIndex": 129,
+        "columnA": "Sunshine Samui Villa: Two Sister Hill (3BR) MN3",
+        "columnB": "Sunny Twin Hill"
+      },
+      {
+        "rowIndex": 130,
+        "columnA": "Sunshine Samui Villa: Akasha (3BR) MN3",
+        "columnB": "Sunny Ashka Villa"
+      },
+      {
+        "rowIndex": 131,
+        "columnA": "Sunshine Samui Villa: Ama Lur (5BR) MN3",
+        "columnB": "Sunny Ammouri Villa"
+      },
+      {
+        "rowIndex": 132,
+        "columnA": "Sunshine Samui Villa: Azure (3BR) MN3",
+        "columnB": "Sunny Azuri Villa"
+      },
+      {
+        "rowIndex": 133,
+        "columnA": "Sunshine Samui Villa: MoonStar (6BR) MN3",
+        "columnB": "Sunny Melophyte Ville"
+      },
+      {
+        "rowIndex": 134,
+        "columnA": "Sunshine Samui Villa: SkyFall (4-8BR) MN3",
+        "columnB": "Sunny Skyline"
+      },
+      {
+        "rowIndex": 135,
+        "columnA": "Sunshine Samui Villa: Sunsai (3-5BR) MN3",
+        "columnB": "Sunny Sunsei Villa"
+      },
+      {
+        "rowIndex": 136,
+        "columnA": "Sunshine Samui Villa: Tiga (4BR) MN3",
+        "columnB": "Sunny Tigate Villa"
+      },
+      {
+        "rowIndex": 137,
+        "columnA": "Sunshine Samui Villa: U (2BR) MN3",
+        "columnB": "Sunny Universal Villa"
+      },
+      {
+        "rowIndex": 141,
+        "columnA": "Thimala (3-6BR) MN3 $750-1450",
+        "columnB": "Thimala Vista"
+      },
+      {
+        "rowIndex": 142,
+        "columnA": "Tish: Clay Hut (2BR)",
+        "columnB": "The Clay Haven"
+      },
+      {
+        "rowIndex": 143,
+        "columnA": "Tish: Villa Bacaya (3BR)",
+        "columnB": "The Bacaya Villa"
+      },
+      {
+        "rowIndex": 144,
+        "columnA": "Tish: Villa Saru (4BR)",
+        "columnB": "The Soboru Villa"
+      },
+      {
+        "rowIndex": 145,
+        "columnA": "Tropical Season (1BR)",
+        "columnB": "Tropy Serenity Villa"
+      },
+      {
+        "rowIndex": 148,
+        "columnA": "Villa Mastrerpiece (3BR)",
+        "columnB": "Villa Maestro"
+      },
+      {
+        "rowIndex": 152,
+        "columnA": "Villa Obsidian (3BR)",
+        "columnB": "Villa Obsidian Black"
+      },
+      {
+        "rowIndex": 153,
+        "columnA": "Villa Baan Mika (3/6BR)",
+        "columnB": "Villa Baan Miku"
+      },
+      {
+        "rowIndex": 154,
+        "columnA": "Villa Sierra (3BR) MN2",
+        "columnB": "Villa Sierrena Sky"
+      },
+      {
+        "rowIndex": 164,
+        "columnA": "Yuka (1BR)",
+        "columnB": "Yuki Haven Villa"
+      },
+      {
+        "rowIndex": 165,
+        "columnA": "Zog Villas A1 Banana Fan (2BR)",
+        "columnB": "Zulu Vista A1"
+      },
+      {
+        "rowIndex": 166,
+        "columnA": "Zog Villas A2 Frangipani (3BR)",
+        "columnB": "Zulu Vista A2"
+      },
+      {
+        "rowIndex": 167,
+        "columnA": "Zog Villas A3 Orchid (3BR)",
+        "columnB": "Zulu Vista A3"
+      },
+      {
+        "rowIndex": 168,
+        "columnA": "Zog Villas A4 Lotus (3BR)",
+        "columnB": "Zulu Vista A4"
+      },
+      {
+        "rowIndex": 169,
+        "columnA": "Zog Villas B1 Bougainvillea (4BR)",
+        "columnB": "Zulu Vista B1"
+      },
+      {
+        "rowIndex": 170,
+        "columnA": "The  Wave 1",
+        "columnB": "The Waree One"
+      },
+      {
+        "rowIndex": 171,
+        "columnA": "The Wave 2",
+        "columnB": "The Waree Two"
+      },
+      {
+        "rowIndex": 172,
+        "columnA": "Clay Beach (5BR)",
+        "columnB": "Clovery Beach"
+      },
+      {
+        "rowIndex": 173,
+        "columnA": "5 House (5BR)",
+        "columnB": "5 Stars beachfront Villa"
+      }
+    ],
+    "columnAVsB": {
+      "columnAMatches": 48,
+      "columnBMatches": 2,
+      "bothMatch": 9,
+      "neitherMatch": 115
+    }
+  },
+  "recommendations": [
+    "ควรใช้ Column A (ชื่อจริง) เป็นหลักในการจับคู่ข้อมูล",
+    "มี 115 รายการที่จับคู่ไม่สำเร็จ ต้องแก้ไขด้วยตนเอง",
+    "ควรปรับปรุงระบบให้ใช้รูปภาพจาก Villla Images folder แทน placeholder"
+  ]
+}

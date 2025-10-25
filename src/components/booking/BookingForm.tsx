@@ -42,6 +42,7 @@ type BookingFormData = z.infer<typeof bookingSchema>;
 interface BookingFormProps {
   villaId: string;
   villaTitle: string;
+  villaSlug?: string; // Add slug for API calls
   pricePerNight?: number;  // Add villa base price
   maxGuests: number;
   isLoading?: boolean;
@@ -51,6 +52,7 @@ interface BookingFormProps {
 export default function BookingForm({
   villaId,
   villaTitle,
+  villaSlug,
   pricePerNight = 250, // Default price fallback
   maxGuests,
   isLoading = false,
@@ -61,6 +63,8 @@ export default function BookingForm({
   const [availability, setAvailability] = useState<any>(null);
   const [isCheckingAvailability, setIsCheckingAvailability] = useState(false);
   const [availabilityError, setAvailabilityError] = useState<string>('');
+  const [bookedDates, setBookedDates] = useState<string[]>([]); // วันที่ถูกจองแล้ว
+  const [locale, setLocale] = useState<string>('en');
 
   const {
     register,
@@ -77,6 +81,46 @@ export default function BookingForm({
       specialRequests: '',
     }
   });
+
+  // ดึง locale จาก pathname
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const pathname = window.location.pathname;
+      const pathLocale = pathname.split('/')[1];
+      if (['en', 'th', 'zh', 'ru'].includes(pathLocale)) {
+        setLocale(pathLocale);
+      }
+    }
+  }, []);
+
+  // ดึงข้อมูลวันที่ถูกจองแล้วตอน mount
+  useEffect(() => {
+    if (villaSlug && locale) {
+      fetchBookedDates();
+    }
+  }, [villaSlug, locale]);
+
+  // ดึงวันที่ถูกจองจาก database
+  const fetchBookedDates = async () => {
+    if (!villaSlug) return;
+
+    try {
+      const response = await fetch(
+        `/${locale}/api/villas/${villaSlug}/availability`,
+        { cache: 'no-store' }
+      );
+
+      if (response.ok) {
+        const data = await response.json();
+        if (data.success && data.data.bookedDates) {
+          setBookedDates(data.data.bookedDates);
+          console.log('✅ Loaded booked dates:', data.data.bookedDates.length, 'days');
+        }
+      }
+    } catch (error) {
+      console.error('Error fetching booked dates:', error);
+    }
+  };
 
   // const guests = watch('guests'); // Removed unused variable
 
@@ -108,7 +152,7 @@ export default function BookingForm({
     const discountedTotal = nights * effectiveRate;
     const discountAmount = baseTotal - discountedTotal;
     const serviceFee = Math.round(discountedTotal * 0.05); // 5% service fee
-    const cleaningFee = 50; // Fixed cleaning fee
+    const cleaningFee = 0; // No cleaning fee (included in nightly rate)
     const taxes = Math.round((discountedTotal + serviceFee) * 0.07); // 7% taxes
     
     return {
@@ -126,7 +170,7 @@ export default function BookingForm({
   };
 
   const checkAvailability = async () => {
-    if (!checkInDate || !checkOutDate) return;
+    if (!checkInDate || !checkOutDate || !villaSlug) return;
 
     setIsCheckingAvailability(true);
     setAvailabilityError('');
@@ -139,21 +183,58 @@ export default function BookingForm({
       if (nights < 2) {
         setAvailabilityError('Minimum stay is 3 days (2 nights)');
         setAvailability(null);
+        setIsCheckingAvailability(false);
+        return;
+      }
+
+      // เช็คกับ database จริง
+      const response = await fetch(
+        `/${locale}/api/villas/${villaSlug}/availability`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            checkInDate: checkInDate.toISOString(),
+            checkOutDate: checkOutDate.toISOString(),
+          }),
+          cache: 'no-store'
+        }
+      );
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        setAvailabilityError(result.error || 'Failed to check availability');
+        setAvailability(null);
+        setIsCheckingAvailability(false);
+        return;
+      }
+
+      if (!result.available) {
+        setAvailabilityError(
+          'Selected dates are not available. Please choose different dates.'
+        );
+        setAvailability(null);
+        setIsCheckingAvailability(false);
         return;
       }
       
       // Calculate pricing with discounts
       const pricing = calculatePricing(nights, pricePerNight);
       
-      // Mock availability response with new pricing structure
-      const mockAvailability = {
+      // Set availability with real data
+      setAvailability({
         available: true,
-        pricing: pricing
-      };
-      
-      setAvailability(mockAvailability);
+        pricing: pricing,
+        checkInDate: result.checkInDate,
+        checkOutDate: result.checkOutDate
+      });
+
     } catch (error) {
-      setAvailabilityError('Unable to check availability. Please try again.');
+      console.error('Error checking availability:', error);
+      setAvailabilityError('Failed to check availability. Please try again.');
       setAvailability(null);
     } finally {
       setIsCheckingAvailability(false);
@@ -190,11 +271,24 @@ export default function BookingForm({
   // const nights = checkInDate && checkOutDate ? differenceInDays(checkOutDate, checkInDate) : 0; // Removed unused variable
 
   return (
-    <div className="w-full max-w-2xl mx-auto bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-4">
-        <h2 className="text-2xl font-bold text-white">Book {villaTitle}</h2>
-        <p className="text-blue-100 mt-1">Secure your luxury villa experience</p>
-      </div>
+    <>
+      <style jsx global>{`
+        .rdp-day_booked {
+          background-color: #fee2e2 !important;
+          color: #ef4444 !important;
+          text-decoration: line-through;
+          cursor: not-allowed;
+          opacity: 0.6;
+        }
+        .rdp-day_booked:hover {
+          background-color: #fecaca !important;
+        }
+      `}</style>
+      <div className="w-full max-w-2xl mx-auto bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-4">
+          <h2 className="text-2xl font-bold text-white">Book {villaTitle}</h2>
+          <p className="text-blue-100 mt-1">Secure your luxury villa experience</p>
+        </div>
       <div className="p-6">
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           {/* Date Selection */}
@@ -223,9 +317,25 @@ export default function BookingForm({
                       mode="single"
                       selected={checkInDate}
                       onSelect={setCheckInDate}
-                      disabled={(date) => date < new Date()}
+                      disabled={(date) => {
+                        // ห้ามเลือกวันที่ผ่านไปแล้ว
+                        if (date < new Date()) return true;
+                        
+                        // ห้ามเลือกวันที่ถูกจองแล้ว
+                        const dateStr = date.toISOString().split('T')[0];
+                        return bookedDates.includes(dateStr);
+                      }}
                       initialFocus
                       className="rounded-md border-0"
+                      modifiers={{
+                        booked: (date) => {
+                          const dateStr = date.toISOString().split('T')[0];
+                          return bookedDates.includes(dateStr);
+                        }
+                      }}
+                      modifiersClassNames={{
+                        booked: 'bg-red-100 text-red-500 line-through'
+                      }}
                     />
                   </div>
                 </PopoverContent>
@@ -259,12 +369,28 @@ export default function BookingForm({
                       mode="single"
                       selected={checkOutDate}
                       onSelect={setCheckOutDate}
-                      disabled={(date) => 
-                        date < new Date() || 
-                        (checkInDate ? date <= checkInDate : false)
-                      }
+                      disabled={(date) => {
+                        // ห้ามเลือกวันที่ผ่านไปแล้ว
+                        if (date < new Date()) return true;
+                        
+                        // ห้ามเลือกก่อนหรือเท่ากับวัน check-in
+                        if (checkInDate && date <= checkInDate) return true;
+                        
+                        // ห้ามเลือกวันที่ถูกจองแล้ว
+                        const dateStr = date.toISOString().split('T')[0];
+                        return bookedDates.includes(dateStr);
+                      }}
                       initialFocus
                       className="rounded-md border-0"
+                      modifiers={{
+                        booked: (date) => {
+                          const dateStr = date.toISOString().split('T')[0];
+                          return bookedDates.includes(dateStr);
+                        }
+                      }}
+                      modifiersClassNames={{
+                        booked: 'bg-red-100 text-red-500 line-through'
+                      }}
                     />
                   </div>
                 </PopoverContent>
@@ -302,7 +428,7 @@ export default function BookingForm({
             </div>
           </div>
 
-          {/* Availability Check */}
+          {/* Availability Check - Only show when dates are selected */}
           {(checkInDate && checkOutDate) && (() => {
             const nights = differenceInDays(checkOutDate, checkInDate);
             return nights > 0 ? (
@@ -465,5 +591,6 @@ export default function BookingForm({
         </form>
       </div>
     </div>
+    </>
   );
 }

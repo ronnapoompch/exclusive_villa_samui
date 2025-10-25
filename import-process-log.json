@@ -1,0 +1,1522 @@
+{
+  "timestamp": "2025-10-24T01:27:46.448Z",
+  "summary": {
+    "totalVillas": 230,
+    "processedVillas": 65,
+    "totalImages": 2013,
+    "successfulUploads": 2012,
+    "failedUploads": 1
+  },
+  "details": [
+    {
+      "villa": "5 Stars beachfront Villa",
+      "folder": "5 House",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Anvara Villa",
+      "folder": "Anavana Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Anzhu Serenity",
+      "folder": "Anzhu Seamate",
+      "status": "completed",
+      "images": 18,
+      "uploaded": 18,
+      "failed": 0
+    },
+    {
+      "villa": "Alicia Serenity A3",
+      "folder": "Ariya Residence A3",
+      "status": "completed",
+      "images": 29,
+      "uploaded": 29,
+      "failed": 0
+    },
+    {
+      "villa": "Alicia Serenity A5",
+      "folder": "Ariya Residence A5",
+      "status": "completed",
+      "images": 26,
+      "uploaded": 26,
+      "failed": 0
+    },
+    {
+      "villa": "Alicia Serenity A6",
+      "folder": "Ariya A6",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Alicia Serenity A28",
+      "folder": "Ariya A28",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Aurelia Villa Air",
+      "folder": "Aura Villa Air",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Aurelia Villa Garden",
+      "folder": "Aura Villa Garden",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Coral",
+      "folder": "Baan Cyan",
+      "status": "completed",
+      "images": 27,
+      "uploaded": 27,
+      "failed": 0
+    },
+    {
+      "villa": "Baan Infinity",
+      "folder": "Baan Ines",
+      "status": "completed",
+      "images": 9,
+      "uploaded": 9,
+      "failed": 0
+    },
+    {
+      "villa": "Baan Luxy",
+      "folder": "Baan Luxor",
+      "status": "completed",
+      "images": 18,
+      "uploaded": 18,
+      "failed": 0
+    },
+    {
+      "villa": "Baan Nagi Nami",
+      "folder": "Baan Ngam Ngai",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Suwanee",
+      "folder": "Baan Sawasdee",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tawan",
+      "folder": "Baan Tiwa Villa",
+      "status": "completed",
+      "images": 23,
+      "uploaded": 23,
+      "failed": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beachfront Villa",
+      "folder": "Baan Tai Estate Beachfront Event Villa (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach Bungalow 1BR",
+      "folder": "Baan Tai Estate Beach Bungalow 1BR (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach Bungalow 2BR",
+      "folder": "Baan Tai Estate Beach Bungalow 2BR (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach; Bacardi Villa",
+      "folder": "Baan Tai Estate Beach; Bacardi Villa (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach; Colibri Villa",
+      "folder": "Baan Tai Estate Beach; Colibri Villa (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach; Limocello Villa",
+      "folder": "Baan Tai Estate Beach; Limocello Villa (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach; Mai Tai Villa",
+      "folder": "Baan Tai Estate Beach; Mai Tai Villa (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tai Essence Beach; Mojito Villa",
+      "folder": "Baan Tai Estate Beach; Mojito Villa (Sea&Sky)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Baan Tawisa",
+      "folder": "BanTai Wanwisa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Beach Vista Villa",
+      "folder": "Beach View Villa",
+      "status": "completed",
+      "images": 35,
+      "uploaded": 35,
+      "failed": 0
+    },
+    {
+      "villa": "Beach Haven Villa",
+      "folder": "Beach Villa",
+      "status": "completed",
+      "images": 22,
+      "uploaded": 22,
+      "failed": 0
+    },
+    {
+      "villa": "Blue Mountain Villa Breeze",
+      "folder": "Blue Mountain Villa Blue Butterfly",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Blue Mountain Villa Eden",
+      "folder": "Blue Mountain Villa Blue Elephant",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Blue Mountain Villa Tide",
+      "folder": "Blue Mountain Villa Blue Tiger",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Blue Water Harmony A",
+      "folder": "Blue Water Hrahra A",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Blue Water Koral B",
+      "folder": "Blue Water Klang B",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Blue Water Nova C",
+      "folder": "Blue Water Narak C",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Casa Brisa",
+      "folder": "Casa Bella",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Palm Veranda",
+      "folder": "Casa Palm Vista",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Celebrity Ocean Pearl",
+      "folder": "Celebrity Ocian View Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Chaweng Cresta Hill",
+      "folder": "Chaweng Hill (3-4BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Cadenza Garden (2-4BR)",
+      "folder": "Choengmon Garden (2-4BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Dada Vista Ludwig",
+      "folder": "Dada Villa Ludwig",
+      "status": "completed",
+      "images": 25,
+      "uploaded": 25,
+      "failed": 0
+    },
+    {
+      "villa": "Dada Vista One",
+      "folder": "Dada Villa One",
+      "status": "completed",
+      "images": 43,
+      "uploaded": 43,
+      "failed": 0
+    },
+    {
+      "villa": "Dahlia Residence A2",
+      "folder": "Darika Resident A2",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Dahlia Residence A3",
+      "folder": "Darika Resident A3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Dahlia Residence B1",
+      "folder": "Darika Resident B1",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Dahlia Residence B3",
+      "folder": "Darika Resident B3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Dahlia Residence B5",
+      "folder": "Darika Resident B5",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Davide Kalyssa",
+      "folder": "Davide Kalamari Villa",
+      "status": "completed",
+      "images": 62,
+      "uploaded": 62,
+      "failed": 0
+    },
+    {
+      "villa": "Davide Saffron",
+      "folder": "Davide Shymala Villa",
+      "status": "completed",
+      "images": 46,
+      "uploaded": 46,
+      "failed": 0
+    },
+    {
+      "villa": "Davide Solstice",
+      "folder": "Davide Siam Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Fabrice Dune",
+      "folder": "Fabrice Del Pino",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 1",
+      "folder": "Fisherman Seaview Villa 1",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 4",
+      "folder": "Fisherman Seaview Villa 4",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 5",
+      "folder": "Fisherman Seaview Villa 5",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 6",
+      "folder": "Fisherman Seaview Villa 6",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 7",
+      "folder": "Fisherman Seaview Villa 7",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 8",
+      "folder": "Fisherman Seaview Villa 8",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 9",
+      "folder": "Fisherman Seaview Villa 9",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Flying Seaview Villa 10",
+      "folder": "Fisherman Seaview Villa 10",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Gary Grand 1",
+      "folder": "Gary 1",
+      "status": "completed",
+      "images": 42,
+      "uploaded": 42,
+      "failed": 0
+    },
+    {
+      "villa": "Gary Grand 2",
+      "folder": "Gary 2",
+      "status": "completed",
+      "images": 32,
+      "uploaded": 32,
+      "failed": 0
+    },
+    {
+      "villa": "Garry Grand 3",
+      "folder": "Gary 3",
+      "status": "completed",
+      "images": 21,
+      "uploaded": 21,
+      "failed": 0
+    },
+    {
+      "villa": "Iconic Villa",
+      "folder": "Icon Villa",
+      "status": "completed",
+      "images": 23,
+      "uploaded": 23,
+      "failed": 0
+    },
+    {
+      "villa": "Island Vista Villa",
+      "folder": "Island View Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Istvan Bobi Villa Jewel",
+      "folder": "Istvan Bobik Villa Jupiter***",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Istvan Bobi Villa Kamelia",
+      "folder": "Istvan Bobik Villa Kamelia***",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Jean Louis Coast",
+      "folder": "Jean-Louis Cabal (4-5BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Joanna Bay Villa",
+      "folder": "Joanna 1 Beach Villa",
+      "status": "completed",
+      "images": 21,
+      "uploaded": 21,
+      "failed": 0
+    },
+    {
+      "villa": "Joanna Serenity Villa",
+      "folder": "Joanna  2 Sarana Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Joanna Samui Garden Park",
+      "folder": "Joanna Samui Grand Park",
+      "status": "completed",
+      "images": 21,
+      "uploaded": 21,
+      "failed": 0
+    },
+    {
+      "villa": "Jungle Pearl",
+      "folder": "Jungle Paradise",
+      "status": "completed",
+      "images": 19,
+      "uploaded": 19,
+      "failed": 0
+    },
+    {
+      "villa": "K.Terra Villa",
+      "folder": "K.Tarek",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Kanda Villa Pearl",
+      "folder": "Kanda Villa",
+      "status": "completed",
+      "images": 31,
+      "uploaded": 31,
+      "failed": 0
+    },
+    {
+      "villa": "Kaya Mani Tranquil",
+      "folder": "Kaya Mani Thai villa Resort x6",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Kiri Tara",
+      "folder": "Keeree Tara (3,4,5BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Kieren Villa Grace",
+      "folder": "Kerem Villa Gamay (Upper)",
+      "status": "completed",
+      "images": 20,
+      "uploaded": 20,
+      "failed": 0
+    },
+    {
+      "villa": "Kieren Villa Mirage",
+      "folder": "Kerem Villa Muscat (Upper)",
+      "status": "completed",
+      "images": 24,
+      "uploaded": 24,
+      "failed": 0
+    },
+    {
+      "villa": "Kieren Villa Solaria",
+      "folder": "Kerem Villa Solaris (Lower)",
+      "status": "completed",
+      "images": 40,
+      "uploaded": 40,
+      "failed": 0
+    },
+    {
+      "villa": "Kieren Villa Sylvan",
+      "folder": "Kerem Villa Syrah  (Lower)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Kofe Samui (4BR)",
+      "folder": "Kove Samui",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Kofe Samui (5BR)",
+      "folder": "Kove Samui",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Kofe Samui (9BR)",
+      "folder": "Kove Samui",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "La Jewel",
+      "folder": "La Jade",
+      "status": "completed",
+      "images": 18,
+      "uploaded": 18,
+      "failed": 0
+    },
+    {
+      "villa": "La Mirage",
+      "folder": "La Moon",
+      "status": "completed",
+      "images": 28,
+      "uploaded": 28,
+      "failed": 0
+    },
+    {
+      "villa": "Lyric Villa Jasmine",
+      "folder": "Lelle Villa Jasmin",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Lyric Villa Lelle",
+      "folder": "Lelle Villa Lelle",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Lando Lamai",
+      "folder": "Ludo Lamai",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Luxury Villa Siam Baan Breeze",
+      "folder": "Luxury Villa Siam Baan Batur",
+      "status": "completed",
+      "images": 9,
+      "uploaded": 9,
+      "failed": 0
+    },
+    {
+      "villa": "Luxury Villa Siam Baan Lumina",
+      "folder": "Luxury Villa Siam Baan Lily",
+      "status": "completed",
+      "images": 9,
+      "uploaded": 9,
+      "failed": 0
+    },
+    {
+      "villa": "Maison d’Élan",
+      "folder": "Maison d'exception",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Mam Seaview",
+      "folder": "Mam Seaside",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "MIA Bayfront (6BR)",
+      "folder": "MIA Beachvillas & Event - Beach",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "MIA Estate Grand (17BR)",
+      "folder": "MIA Beachvillas & Event - Estate",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "MIA Oceana (4BR)",
+      "folder": "MIA Beachvillas & Event - Gallerie",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "MIA Oceana (4BR)",
+      "folder": "MIA Beachvillas & Event - Ocean",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "MIA Palmera (5BR)",
+      "folder": "MIA Beachvillas & Event - Palm",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Millennial Residence Villa Solara",
+      "folder": "Miskawaan Residence Villa Sila",
+      "status": "completed",
+      "images": 32,
+      "uploaded": 32,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Residence Villa Wind",
+      "folder": "Miskawaan Residence Villa Wayu",
+      "status": "completed",
+      "images": 30,
+      "uploaded": 30,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial The Residence",
+      "folder": "Miskawaan The Residence",
+      "status": "completed",
+      "images": 44,
+      "uploaded": 44,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Aurora",
+      "folder": "Miskawaan Villa Acacia",
+      "status": "completed",
+      "images": 23,
+      "uploaded": 23,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Bliss",
+      "folder": "Miskawaan Villa Bougainvillea",
+      "status": "completed",
+      "images": 38,
+      "uploaded": 38,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Colora",
+      "folder": "Miskawaan Villa Calla",
+      "status": "completed",
+      "images": 42,
+      "uploaded": 42,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Coral",
+      "folder": "Miskawaan Villa Champak",
+      "status": "completed",
+      "images": 32,
+      "uploaded": 32,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Flora",
+      "folder": "Miskawaan Villa Frangipani",
+      "status": "completed",
+      "images": 50,
+      "uploaded": 50,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Harmony",
+      "folder": "Miskawaan Villa Hibiscus",
+      "status": "completed",
+      "images": 23,
+      "uploaded": 23,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Lumina",
+      "folder": "Miskawaan Villa Lotus",
+      "status": "completed",
+      "images": 30,
+      "uploaded": 30,
+      "failed": 0
+    },
+    {
+      "villa": "Millennial Villa Watu",
+      "folder": "Miskawaan Villa Water Lily",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Orchard Vista",
+      "folder": "Orchard View",
+      "status": "completed",
+      "images": 25,
+      "uploaded": 25,
+      "failed": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 2 Tropica",
+      "folder": "Pacific Palisade Villa 2 Tropical",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 5 Boheme",
+      "folder": "Pacific Palisade Villa 5 Bohemian Chic",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 6 Wabi Essence",
+      "folder": "Pacific Palisade Villa 6 Wabi Sabi",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 7 Tranquil",
+      "folder": "Pacific Palisade Villa 7 Chill&Tropical",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 9 Palma",
+      "folder": "Pacific Palisade Villa 9 Palm Tree",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 10 Exotica",
+      "folder": "Pacific Palisade Villa 10 Exotic",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 13 Azurea",
+      "folder": "Pacific Palisade Villa 13 Azur",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 15 Infini",
+      "folder": "Pacific Palisade Villa 15 Infinity",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 17 Venezia",
+      "folder": "Pacific Palisade Villa 17 Venice",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 19 Elara",
+      "folder": "Pacific Palisade Villa 19 Elegant",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Perfect Paradise Villa 20 Stellar",
+      "folder": "Pacific Palisade Villa 20 Stunning",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Paradox Samui Serenity",
+      "folder": "Paradise Samui",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Palis Villa",
+      "folder": "Paragon Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Prescott Villa",
+      "folder": "Paul Daniels",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Porta Laguna",
+      "folder": "Piotr Coconut Laguna",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Porta Santi",
+      "folder": "Piotr Santi Thani (2-3BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Prysm Penthouse",
+      "folder": "Poseidon's Penthouse ***",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Rover Aqua One",
+      "folder": "Roger Aqua 1",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Rover Aqua Two",
+      "folder": "Roger Aqua 2",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Rover Pearl",
+      "folder": "Roger Plailaem",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Solira Peak",
+      "folder": "Saitara Peak",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Seluna Blue Orchid",
+      "folder": "Samui Blue Orchid (1,2BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Seluna Boat Lagoon",
+      "folder": "Samui Boat Lagoon (1,2BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Samui Seaview",
+      "folder": "Samui Sea Me",
+      "status": "completed",
+      "images": 47,
+      "uploaded": 47,
+      "failed": 0
+    },
+    {
+      "villa": "Samui Sentry Villa (2-4BR)",
+      "folder": "Samui Sunrise Villa (2-4BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santuary Aveline (3BR)",
+      "folder": "Sanctuary Apsara",
+      "status": "completed",
+      "images": 45,
+      "uploaded": 45,
+      "failed": 0
+    },
+    {
+      "villa": "Seko Beachhouse Deluxe",
+      "folder": "Santisook Beachhouse Deluxe",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Seko Beachhouse Standard",
+      "folder": "Santisook Beachhouse Standard",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santisook Villa Aster",
+      "folder": "Santisook Villa A",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santisook Villa Coloni",
+      "folder": "Santisook Villa C",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santisook Villa Eve",
+      "folder": "Santisook Villa E Bungalow",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santisook Villa Ember",
+      "folder": "Santisook Villa E2",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santisook Villa Fleur",
+      "folder": "Santisook Villa F",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Santisook Villa Jade",
+      "folder": "Santisook Villa J",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sara Serenity",
+      "folder": "Sarana Villas",
+      "status": "completed",
+      "images": 36,
+      "uploaded": 36,
+      "failed": 0
+    },
+    {
+      "villa": "Sasa Vision Bay",
+      "folder": "Sasa + Kiran Best World Vision",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sasa Skyline",
+      "folder": "Sasa + Kiran Samui Sky Pool",
+      "status": "completed",
+      "images": 25,
+      "uploaded": 25,
+      "failed": 0
+    },
+    {
+      "villa": "Sasa Omniva",
+      "folder": "Sasa + Kiran Sunshine Oceanview",
+      "status": "completed",
+      "images": 33,
+      "uploaded": 33,
+      "failed": 0
+    },
+    {
+      "villa": "Serene Villa (4-5BR)",
+      "folder": "Sea Renity (4-5BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Stellar Swift",
+      "folder": "Seven Swift",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Synera Destine Villa",
+      "folder": "SHIKAI Villa Destiny",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sancia Chaweng",
+      "folder": "South Chaweng",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Styla Villa",
+      "folder": "Stephen Letham",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Solaya Pool Villa",
+      "folder": "Sunny Pool Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Chaweng Crest",
+      "folder": "Sunshine Samui Villa: Chaweng Peaks MN2",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Fire Cove",
+      "folder": "Sunshine Samui Villa: Flire Fly MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Lilly Belle",
+      "folder": "Sunshine Samui Villa: Lille Belle MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Savory",
+      "folder": "Sunshine Samui Villa: Spice (3-5BR) MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Sprinkle",
+      "folder": "Sunshine Samui Villa: Splash (3-5BR) MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Zestia",
+      "folder": "Sunshine Samui Villa: Zest (3-5BR) MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Mastery",
+      "folder": "Sunshine Samui Villa: Master Peak H4",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Panorama Summit",
+      "folder": "Sunshine Samui Villa: Panorama Summit MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Summit Vista",
+      "folder": "Sunshine Samui Villa: Samui Summit MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Sereniwood I",
+      "folder": "Sunshine Samui Villa: Sereniwood 1 MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Sereniwood II",
+      "folder": "Sunshine Samui Villa: Sereniwood 2 MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Suan Kachamudee",
+      "folder": "Sunshine Samui Villa: Suan Kachamudee (5-11BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Twin Hill",
+      "folder": "Sunshine Samui Villa: Two Sister Hill MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Ashka Villa",
+      "folder": "Sunshine Samui Villa: Akasha MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Ammouri Villa",
+      "folder": "Sunshine Samui Villa: Ama Lur MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Azuri Villa",
+      "folder": "Sunshine Samui Villa: Azure MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Melophyte Ville",
+      "folder": "Sunshine Samui Villa: Moon Star MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Skyline",
+      "folder": "Sunshine Samui Villa: SkyFall (4-8BR) MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Sunsei Villa",
+      "folder": "Sunshine Samui Villa: Sunsai (3-5BR) MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Tigate Villa",
+      "folder": "Sunshine Samui Villa: Tiga MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Sunny Universal Villa",
+      "folder": "Sunshine Samui Villa: U MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Edenic Villa",
+      "folder": "The Eden Samui",
+      "status": "completed",
+      "images": 37,
+      "uploaded": 37,
+      "failed": 0
+    },
+    {
+      "villa": "The Highest Peak",
+      "folder": "The Highest MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Perfect Villa Vista",
+      "folder": "The Perfect Villa MN3",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Wavora 1 - Deluxe Sea View 3BR",
+      "folder": "The Wave 1 - Deluxe Sea View 3BR",
+      "status": "completed",
+      "images": 45,
+      "uploaded": 45,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 1 - Deluxe Sea View 4BR",
+      "folder": "The Wave 1 - Deluxe Sea View 4BR",
+      "status": "completed",
+      "images": 40,
+      "uploaded": 40,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 1 - Duplex 2BR & Kid Room",
+      "folder": "The Wave 1 - Duplex 2BR & Kid Room",
+      "status": "completed",
+      "images": 20,
+      "uploaded": 20,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 1 - Luxury Sea View 3BR",
+      "folder": "The Wave 1 - Luxury Sea View 3BR",
+      "status": "completed",
+      "images": 59,
+      "uploaded": 59,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 1 - Luxury Sea View 4BR",
+      "folder": "The Wave 1 - Luxury Sea View 4BR",
+      "status": "completed",
+      "images": 51,
+      "uploaded": 51,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 1 - Standard 3BR",
+      "folder": "The Wave 1 - Standard 3BR",
+      "status": "completed",
+      "images": 23,
+      "uploaded": 23,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 2 - 2BR Duplex & Kids Room",
+      "folder": "The Wave 2 - 2BR Duplex & Kids Room",
+      "status": "completed",
+      "images": 32,
+      "uploaded": 32,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 2 - 3BR Duplex & Kids Room Pool Villa",
+      "folder": "The Wave 2 - 3BR Duplex & Kids Room Pool Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Wavora 2 - 4BR Duplex & Kids Room Pool Villa",
+      "folder": "The Wave 2 - 4BR Duplex & Kids Room Pool Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Wavora 2 - 4BR Pool Villa with Sea View",
+      "folder": "The Wave 2 - 4BR Pool Villa with Sea View",
+      "status": "completed",
+      "images": 55,
+      "uploaded": 55,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 2 - 5BR Modern Sea View",
+      "folder": "The Wave 2 - 5BR Modern Sea View",
+      "status": "completed",
+      "images": 37,
+      "uploaded": 37,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 2 - 5BR Stunning Pool Villa",
+      "folder": "The Wave 2 - 5BR Stunning Pool Villa",
+      "status": "completed",
+      "images": 35,
+      "uploaded": 35,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 2 - 5BR Superior Pool Villa",
+      "folder": "The Wave 2 - 5BR Superior Pool Villa",
+      "status": "completed",
+      "images": 15,
+      "uploaded": 15,
+      "failed": 0
+    },
+    {
+      "villa": "The Wavora 3 - 3BR Saitara Peak Panoramic View",
+      "folder": "The Wave 3 - 3BR Saitara Peak Panoramic View",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Wavora 3 - 4BR Saitara Peak Luxury Pool Villa",
+      "folder": "The Wave 3 - 4BR Saitara Peak Luxury Pool Villa",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Wavora 4 - 5BR KW Villa Group Lazy Villa",
+      "folder": "The Wave 4 - 5BR KW Villa Group Lazy Villa",
+      "status": "completed",
+      "images": 27,
+      "uploaded": 27,
+      "failed": 0
+    },
+    {
+      "villa": "Thimala Vista",
+      "folder": "Thimala Villa (3-6BR) MN3 $750-1450",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Clay Haven",
+      "folder": "Tish: Clay Hut",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Cobham Suite Apartment",
+      "folder": "Tish: Cobalt Suite Apartment",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Bacaya Villa",
+      "folder": "Tish: Villa Bacaya",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "The Soboru Villa",
+      "folder": "Tish: Villa Saru",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Tayla & Coco Residence",
+      "folder": "Tracy & Coconut  Residence",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Tropy Serenity Resort",
+      "folder": "Tropical Season Resort",
+      "status": "completed",
+      "images": 22,
+      "uploaded": 22,
+      "failed": 0
+    },
+    {
+      "villa": "Villa Amnado",
+      "folder": "Villa Amanda",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Asi Azure",
+      "folder": "Villa Asi (4-6BR) MN3-4",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Astro",
+      "folder": "Villa Astoria ***",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Delsy",
+      "folder": "Villa Daisy",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Vila Kenda Cove",
+      "folder": "Villa Kadena",
+      "status": "completed",
+      "images": 23,
+      "uploaded": 23,
+      "failed": 0
+    },
+    {
+      "villa": "Villa Marina",
+      "folder": "Villa Maenam",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Marvella",
+      "folder": "Villa Manuia",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Maestro",
+      "folder": "Villa Masterpiece",
+      "status": "completed",
+      "images": 22,
+      "uploaded": 22,
+      "failed": 0
+    },
+    {
+      "villa": "Villa Moonlight",
+      "folder": "Villa Monsoon",
+      "status": "completed",
+      "images": 36,
+      "uploaded": 36,
+      "failed": 0
+    },
+    {
+      "villa": "Villa Moonstone Pearl",
+      "folder": "Villa Moonstone (5-6BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Nithan",
+      "folder": "Villa Natha (3-5BR) $990-2400",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Obsidian Black",
+      "folder": "Villa Obsidian",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Baan Miku",
+      "folder": "Villa Orcha Baan Mika (3/6BR)",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Sierrena Sky",
+      "folder": "Villa Orchar Sierra MN2",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Playful Azure",
+      "folder": "Villa Playa $600-800",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Reku Horizon",
+      "folder": "Villa Raku (3-5BR) $750-2000",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Romeo",
+      "folder": "Villa Rom",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Sasipimon Grand",
+      "folder": "Villa Sasipimon $145-2250",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Seawaree",
+      "folder": "Villa Seawadee",
+      "status": "completed",
+      "images": 41,
+      "uploaded": 40,
+      "failed": 1
+    },
+    {
+      "villa": "Villa Sola Horizon",
+      "folder": "Villa Solana (4/7BR) $1454-2684",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Tangela Cove",
+      "folder": "Villa Tequila ***",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Tossi",
+      "folder": "Villa Tosti",
+      "status": "completed",
+      "images": 42,
+      "uploaded": 42,
+      "failed": 0
+    },
+    {
+      "villa": "Villa Zodiac",
+      "folder": "Villa Zoe",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "White Orchard Ville",
+      "folder": "White Orchid",
+      "status": "completed",
+      "images": 44,
+      "uploaded": 44,
+      "failed": 0
+    },
+    {
+      "villa": "Yuki Haven Villa",
+      "folder": "Yuka Residence",
+      "status": "completed",
+      "images": 11,
+      "uploaded": 11,
+      "failed": 0
+    },
+    {
+      "villa": "Zulu Vista A1",
+      "folder": "Zog Villas A1 Banana Fan",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Zulu Vista A2",
+      "folder": "Zog Villas A2 Frangipani",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Zulu Vista A3",
+      "folder": "Zog Villas A3 Orchid",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Zulu Vista A4",
+      "folder": "Zog Villas A4 Lotus",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Zulu Vista B1",
+      "folder": "Zog Villas B1 Bougainvillea",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Not List yet",
+      "folder": "Not List yet",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Aqua Thomas",
+      "folder": "Aqua Thomas",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Villa Turquoise",
+      "folder": "Villa Turquoise",
+      "status": "no_images",
+      "images": 0
+    },
+    {
+      "villa": "Clay Beach (5BR)",
+      "folder": "Clay Beach",
+      "status": "no_images",
+      "images": 0
+    }
+  ]
+}
