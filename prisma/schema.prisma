@@ -1,0 +1,282 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String              @id @default(cuid())
+  email              String              @unique
+  password           String
+  name               String?
+  phone              String?
+  role               UserRole            @default(USER)
+  active             Boolean             @default(true)
+  avatar             String?
+  createdAt          DateTime            @default(now())
+  emailVerified      DateTime?
+  language           String              @default("en")
+  preferredCurrency  String              @default("THB")
+  preferredLanguage  String              @default("en")
+  updatedAt          DateTime            @updatedAt
+  auditLogs          AuditLog[]
+  bookings           Booking[]
+  loginAttempts      LoginAttempt[]
+  passwordResetTokens PasswordResetToken[]
+  reviews            Review[]
+  verificationTokens VerificationToken[]
+
+  @@index([email])
+  @@map("users")
+}
+
+model LoginAttempt {
+  id           String    @id @default(cuid())
+  email        String
+  success      Boolean
+  blockedUntil DateTime?
+  createdAt    DateTime  @default(now())
+  ip           String
+  reason       String?
+  userAgent    String?
+  userId       String?
+  user         User?     @relation(fields: [userId], references: [id])
+
+  @@index([email])
+  @@index([userId])
+  @@index([ip])
+  @@index([createdAt], map: "login_attempts_created_at_idx")
+  @@map("login_attempts")
+}
+
+model AuditLog {
+  id         String     @id @default(cuid())
+  action     String
+  createdAt  DateTime   @default(now())
+  entityId   String
+  entityType EntityType
+  ipAddress  String
+  metadata   Json?
+  userAgent  String?
+  userId     String?
+  user       User?      @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([entityType])
+  @@index([entityId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
+
+model VerificationToken {
+  token     String           @unique
+  createdAt DateTime         @default(now())
+  email     String?
+  expiresAt DateTime
+  id        String           @id @default(cuid())
+  phone     String?
+  type      VerificationType
+  used      Boolean          @default(false)
+  userId    String
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([token])
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("verification_tokens")
+}
+
+model Villa {
+  id              String         @id @default(cuid())
+  name            String
+  slug            String         @unique
+  description     String?
+  bedrooms        Int
+  bathrooms       Int            @default(0)
+  maxGuests       Int            @default(0)
+  beachfront      Boolean        @default(false)
+  location        String
+  locationLink    String?
+  phone           String?
+  officialWebsite String?
+  airbnbUrl       String?
+  agodaUrl        String?
+  images          Json?
+  amenities       Json?
+  minimumStay     String?
+  petFriendly     Boolean        @default(false)
+  cleaning        String?
+  cook            String?
+  utilities       String?
+  active          Boolean        @default(true)
+  featured        Boolean        @default(false)
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  bookings        Booking[]
+  reviews         Review[]
+  pricing         VillaPricing[]
+
+  @@index([location])
+  @@index([bedrooms])
+  @@index([beachfront])
+  @@index([active])
+  @@index([featured])
+  @@map("villas")
+}
+
+model VillaPricing {
+  id          String   @id @default(cuid())
+  villaId     String
+  month       Int
+  year        Int?
+  dailyRate   BigInt?
+  weeklyRate  BigInt?
+  monthlyRate BigInt?
+  currency    String   @default("THB")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  villa       Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
+
+  @@unique([villaId, month, year])
+  @@index([villaId])
+  @@index([month])
+  @@map("villa_pricing")
+}
+
+model Booking {
+  id              String        @id @default(cuid())
+  villaId         String
+  userId          String?
+  guestName       String
+  guestEmail      String
+  guestPhone      String?
+  checkIn         DateTime
+  checkOut        DateTime
+  guests          Int
+  totalAmount     Decimal
+  currency        String        @default("THB")
+  status          BookingStatus @default(PENDING)
+  paymentStatus   PaymentStatus @default(PENDING)
+  specialRequests String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  user            User?         @relation(fields: [userId], references: [id])
+  villa           Villa         @relation(fields: [villaId], references: [id], onDelete: Cascade)
+  payments        Payment[]
+
+  @@index([villaId])
+  @@index([userId])
+  @@index([checkIn])
+  @@index([checkOut])
+  @@index([status])
+  @@map("bookings")
+}
+
+model Payment {
+  id              String        @id @default(cuid())
+  bookingId       String
+  amount          Decimal
+  currency        String        @default("THB")
+  status          PaymentStatus @default(PENDING)
+  paymentMethod   String?
+  paymentIntentId String?       @unique
+  transactionId   String?
+  processedAt     DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  booking         Booking       @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+
+  @@index([bookingId])
+  @@index([status])
+  @@index([paymentIntentId])
+  @@map("payments")
+}
+
+model Review {
+  id         String   @id @default(cuid())
+  villaId    String
+  userId     String?
+  guestName  String
+  guestEmail String
+  rating     Int
+  title      String?
+  comment    String?
+  verified   Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  user       User?    @relation(fields: [userId], references: [id])
+  villa      Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
+
+  @@index([villaId])
+  @@index([userId])
+  @@index([rating])
+  @@index([verified])
+  @@map("reviews")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+  STAFF
+
+  @@map("enum_user_role")
+}
+
+enum EntityType {
+  USER
+  LOGIN_ATTEMPT
+  BOOKING
+  VILLA
+  PAYMENT
+  VERIFICATION_TOKEN
+
+  @@map("enum_entity_type")
+}
+
+enum VerificationType {
+  EMAIL_VERIFICATION
+  PASSWORD_RESET
+  PHONE_VERIFICATION
+  TWO_FACTOR_SETUP
+
+  @@map("enum_verification_type")
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+
+  @@map("enum_booking_status")
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  REFUNDED
+
+  @@map("enum_payment_status")
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  email     String
+  userId    String?
+  token     String   @unique
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([email])
+  @@index([userId])
+  @@index([token])
+  @@index([expiresAt])
+  @@map("password_reset_tokens")
+}

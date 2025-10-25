@@ -1,0 +1,332 @@
+/* Google Fonts - Nunito Sans */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Fonts */
+.font-nunito-sans {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Custom animations for watermark effect */
+@layer utilities {
+  @keyframes water-flow {
+    0% { transform: translateX(-100px); }
+    100% { transform: translateX(100px); }
+  }
+  
+  .water-flow {
+    animation: water-flow 20s linear infinite;
+  }
+}
+
+/* Professional Mobile-First Design System */
+@layer components {
+  /* Professional Checkbox Styling */
+  .professional-checkbox {
+    @apply relative inline-flex items-center cursor-pointer p-1 rounded-lg hover:bg-gray-50 transition-all duration-200;
+  }
+  
+  .professional-checkbox input[type="checkbox"] {
+    @apply sr-only;
+  }
+  
+  .professional-checkbox-box {
+    @apply w-6 h-6 border-2 border-gray-400 rounded-lg bg-white shadow-sm;
+    @apply transition-all duration-300 ease-in-out;
+    @apply hover:border-cyan-500 hover:shadow-md;
+    position: relative;
+  }
+  
+  .professional-checkbox input[type="checkbox"]:checked + .professional-checkbox-box {
+    @apply bg-gradient-to-br from-cyan-500 to-blue-600 border-cyan-500 shadow-lg;
+    box-shadow: 0 4px 8px rgba(6, 182, 212, 0.3);
+  }
+  
+  .professional-checkbox input[type="checkbox"]:checked + .professional-checkbox-box::after {
+    content: '✓';
+    @apply absolute inset-0 flex items-center justify-center text-white font-bold;
+    font-size: 14px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .professional-checkbox-label {
+    @apply ml-3 text-sm font-semibold text-gray-800 select-none cursor-pointer;
+    @apply hover:text-cyan-700 transition-colors duration-200;
+  }
+  
+  /* Enhanced Hover & Focus Effects */
+  .professional-checkbox:hover .professional-checkbox-box {
+    @apply border-cyan-500 bg-cyan-50 transform scale-105;
+    box-shadow: 0 2px 8px rgba(6, 182, 212, 0.15);
+  }
+  
+  .professional-checkbox:hover input[type="checkbox"]:checked + .professional-checkbox-box {
+    @apply bg-gradient-to-br from-cyan-600 to-blue-700;
+    box-shadow: 0 6px 12px rgba(6, 182, 212, 0.4);
+    transform: scale(1.05);
+  }
+  
+  .professional-checkbox:active .professional-checkbox-box {
+    @apply transform scale-95;
+  }
+
+  /* Custom Checkbox Styling */
+  .custom-checkbox {
+    @apply relative inline-flex items-center cursor-pointer;
+  }
+  
+  .custom-checkbox input[type="checkbox"] {
+    @apply sr-only;
+  }
+  
+  .custom-checkbox-box {
+    @apply w-5 h-5 border-2 border-gray-300 rounded-md bg-white transition-all duration-200 ease-in-out;
+    @apply hover:border-cyan-400 focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2;
+  }
+  
+  .custom-checkbox input[type="checkbox"]:checked + .custom-checkbox-box {
+    @apply bg-cyan-600 border-cyan-600;
+  }
+  
+  .custom-checkbox input[type="checkbox"]:checked + .custom-checkbox-box::after {
+    content: '✓';
+    @apply absolute inset-0 flex items-center justify-center text-white text-xs font-bold;
+  }
+  
+  .custom-checkbox-label {
+    @apply ml-2 text-sm font-medium text-gray-700 select-none cursor-pointer;
+  }
+  
+  /* Hover effects */
+  .custom-checkbox:hover .custom-checkbox-box {
+    @apply border-cyan-400 bg-cyan-50;
+  }
+  
+  .custom-checkbox:hover input[type="checkbox"]:checked + .custom-checkbox-box {
+    @apply bg-cyan-700 border-cyan-700;
+  }
+
+  /* Mobile-First Typography System */
+  .heading-mobile {
+    @apply text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  
+  .subheading-mobile {
+    @apply text-lg xs:text-xl sm:text-2xl md:text-3xl font-semibold;
+  }
+  
+  .body-mobile {
+    @apply text-sm xs:text-base sm:text-lg leading-relaxed;
+  }
+
+  /* Mobile-Optimized Buttons */
+  .btn-mobile {
+    @apply py-3 px-4 xs:py-4 xs:px-6 sm:py-3 sm:px-5 md:py-4 md:px-6 rounded-xl xs:rounded-xl sm:rounded-2xl font-semibold shadow-lg transition-all duration-300;
+    @apply text-sm xs:text-base sm:text-base md:text-lg;
+  }
+  
+  .btn-mobile-compact {
+    @apply py-2 px-3 xs:py-2.5 xs:px-4 sm:py-3 sm:px-5 rounded-lg font-medium transition-all duration-300;
+    @apply text-xs xs:text-sm sm:text-base;
+  }
+
+  /* Mobile-First Cards & Containers */
+  .card-mobile {
+    @apply bg-white rounded-lg xs:rounded-xl sm:rounded-2xl shadow-md sm:shadow-xl border border-gray-100;
+    @apply p-3 xs:p-4 sm:p-6 md:p-8 mb-3 xs:mb-4 sm:mb-6 md:mb-8;
+  }
+  
+  .container-mobile {
+    @apply px-3 xs:px-4 sm:px-6 md:px-8 lg:px-4 xl:px-6;
+  }
+
+  /* Mobile Grid Systems */
+  .grid-mobile-1 {
+    @apply grid grid-cols-1 gap-3 xs:gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8;
+  }
+  
+  .grid-mobile-auto {
+    @apply grid gap-3 xs:gap-4 sm:gap-6;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  /* Mobile-First Spacing */
+  .space-mobile {
+    @apply space-y-3 xs:space-y-4 sm:space-y-6 md:space-y-8;
+  }
+
+  /* Touch-Friendly Interactive Elements */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+  
+  .input-mobile {
+    @apply w-full border border-gray-300 rounded-lg xs:rounded-xl sm:rounded-2xl px-3 py-3 xs:px-4 xs:py-3 sm:px-6 sm:py-4;
+    @apply text-sm xs:text-base focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all;
+  }
+
+  /* Mobile-First Animations */
+  .animate-mobile-fade-in {
+    @apply animate-in fade-in duration-300;
+  }
+  
+  .animate-mobile-slide-up {
+    @apply transform translate-y-4 opacity-0 transition-all duration-300;
+  }
+  
+  .animate-mobile-slide-up.active {
+    @apply translate-y-0 opacity-100;
+  }
+
+  /* Device-Specific Optimizations */
+  .ios-safe-padding {
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  /* High DPI displays */
+  .retina-border {
+    border-width: 0.5px;
+  }
+
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    .card-mobile {
+      @apply bg-gray-800 border-gray-700 text-white;
+    }
+    
+    .input-mobile {
+      @apply bg-gray-800 border-gray-600 text-white;
+    }
+    
+    .professional-checkbox {
+      @apply hover:bg-gray-800;
+    }
+    
+    .professional-checkbox-box {
+      @apply border-gray-500 bg-gray-700;
+    }
+    
+    .professional-checkbox-label {
+      @apply text-gray-200;
+    }
+    
+    .professional-checkbox:hover .professional-checkbox-box {
+      @apply border-cyan-400 bg-gray-600;
+    }
+    
+    .professional-checkbox input[type="checkbox"]:checked + .professional-checkbox-box {
+      @apply bg-gradient-to-br from-cyan-500 to-blue-600;
+    }
+    
+    .custom-checkbox-box {
+      @apply border-gray-600 bg-gray-800;
+    }
+    
+    .custom-checkbox-label {
+      @apply text-gray-300;
+    }
+    
+    .custom-checkbox:hover .custom-checkbox-box {
+      @apply border-cyan-400 bg-gray-700;
+    }
+    
+    .custom-checkbox:hover input[type="checkbox"]:checked + .custom-checkbox-box {
+      @apply bg-cyan-600 border-cyan-600;
+    }
+  }
+}
+
+/* Professional Calendar Styling */
+.rdp {
+  @apply bg-white;
+}
+
+.rdp-months {
+  @apply flex;
+}
+
+.rdp-month {
+  @apply w-full;
+}
+
+.rdp-table {
+  @apply w-full border-collapse;
+}
+
+.rdp-head_row {
+  @apply border-b border-gray-200;
+}
+
+.rdp-head_cell {
+  @apply p-2 text-sm font-semibold text-gray-700 text-center;
+}
+
+.rdp-row {
+  @apply border-0;
+}
+
+.rdp-cell {
+  @apply text-center p-0;
+}
+
+.rdp-button {
+  @apply w-9 h-9 rounded-md text-sm font-medium border-0 bg-transparent hover:bg-blue-50 hover:text-blue-600 transition-colors cursor-pointer;
+}
+
+.rdp-day_today {
+  @apply bg-blue-100 text-blue-700 font-bold;
+}
+
+.rdp-day_selected {
+  @apply bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold hover:from-blue-700 hover:to-purple-700;
+}
+
+.rdp-day_disabled {
+  @apply text-gray-400 cursor-not-allowed hover:bg-transparent;
+}
+
+.rdp-nav {
+  @apply flex justify-between items-center mb-4;
+}
+
+.rdp-nav_button {
+  @apply w-8 h-8 rounded-md bg-gray-100 hover:bg-gray-200 transition-colors flex items-center justify-center;
+}
+
+.rdp-caption {
+  @apply text-lg font-bold text-gray-800;
+}

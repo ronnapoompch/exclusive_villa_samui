@@ -1,0 +1,4592 @@
+{
+  "anzhu-seamate": {
+    "realName": "Anzhu Seamate (3BR)",
+    "codeName": "Anzhu Serenity",
+    "slug": "anzhu-seamate",
+    "folderName": "Anzhu Seamate",
+    "images": {
+      "hero": [
+        "/villas/Anzhu Seamate/hero/C1.jpg"
+      ],
+      "ext": [
+        "/villas/Anzhu Seamate/ext/C13.jpg",
+        "/villas/Anzhu Seamate/ext/C15.jpg",
+        "/villas/Anzhu Seamate/ext/ec718f84-45f2-4e54-97a2-7db606a299a0.webp"
+      ],
+      "liv": [
+        "/villas/Anzhu Seamate/liv/C12.jpg"
+      ],
+      "din": [
+        "/villas/Anzhu Seamate/din/C5.jpg",
+        "/villas/Anzhu Seamate/din/C6.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Anzhu Seamate/bed1/3F.jpg",
+        "/villas/Anzhu Seamate/bed1/3G.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Anzhu Seamate/bath1/6caa341d-d0ff-4cdb-9303-01ecc1ecdc93.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Anzhu Seamate/pool/27ff7a03-1497-49d4-8e75-85e64f300445.webp",
+        "/villas/Anzhu Seamate/pool/87251439-0c8b-4894-bd48-f13e354e9e1d.webp"
+      ],
+      "view": [
+        "/villas/Anzhu Seamate/view/3C.jpg",
+        "/villas/Anzhu Seamate/view/C14.jpg"
+      ],
+      "amen": [
+        "/villas/Anzhu Seamate/amen/3B.jpg"
+      ]
+    },
+    "totalImages": 15,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "32K"
+    }
+  },
+  "ariya-residence-a3": {
+    "realName": "Ariya Residence A3 (5BR)",
+    "codeName": "Alicia Serenity A3",
+    "slug": "ariya-residence-a3",
+    "folderName": "Ariya Residence A3",
+    "images": {
+      "hero": [
+        "/villas/Ariya Residence A3/hero/ARIYAvilla2-1.JPG",
+        "/villas/Ariya Residence A3/hero/ARIYAvilla2-47.JPG"
+      ],
+      "ext": [
+        "/villas/Ariya Residence A3/ext/ARIYAvilla2-18.JPG"
+      ],
+      "liv": [
+        "/villas/Ariya Residence A3/liv/ARIYAvilla2-7.JPG",
+        "/villas/Ariya Residence A3/liv/DSCF6598.JPG"
+      ],
+      "din": [
+        "/villas/Ariya Residence A3/din/ARIYAvilla2-12.JPG"
+      ],
+      "kit": [
+        "/villas/Ariya Residence A3/kit/DSCF6594.JPG"
+      ],
+      "bed1": [
+        "/villas/Ariya Residence A3/bed1/ARIYAvilla2-13.JPG",
+        "/villas/Ariya Residence A3/bed1/ARIYAvilla2-14.JPG",
+        "/villas/Ariya Residence A3/bed1/ARIYAvilla2-17.JPG"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Ariya Residence A3/bath1/ARIYAvilla2-37.JPG",
+        "/villas/Ariya Residence A3/bath1/ARIYAvilla2-38.JPG"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Ariya Residence A3/pool/DSCF6585.JPG",
+        "/villas/Ariya Residence A3/pool/DSCF6590.JPG"
+      ],
+      "view": [
+        "/villas/Ariya Residence A3/view/ARIYAvilla2-19.JPG",
+        "/villas/Ariya Residence A3/view/ARIYAvilla2-3.JPG",
+        "/villas/Ariya Residence A3/view/ARIYAvilla2-31.JPG",
+        "/villas/Ariya Residence A3/view/ARIYAvilla2-32.JPG"
+      ],
+      "amen": [
+        "/villas/Ariya Residence A3/amen/ARIYAvilla2-48.JPG",
+        "/villas/Ariya Residence A3/amen/ARIYAvilla2-49.JPG"
+      ]
+    },
+    "totalImages": 20,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "35K"
+    }
+  },
+  "ariya-residence-a5": {
+    "realName": "Ariya Residence A5 (5BR)",
+    "codeName": "Alicia Serenity A5",
+    "slug": "ariya-residence-a5",
+    "folderName": "Ariya Residence A5",
+    "images": {
+      "hero": [
+        "/villas/Ariya Residence A5/hero/ARIYAvilla1-2.JPG"
+      ],
+      "ext": [
+        "/villas/Ariya Residence A5/ext/ARIYAvilla1-24.JPG",
+        "/villas/Ariya Residence A5/ext/ARIYAvilla1-3.JPG"
+      ],
+      "liv": [
+        "/villas/Ariya Residence A5/liv/ARIYAvilla1-10.JPG",
+        "/villas/Ariya Residence A5/liv/ARIYAvilla1-7.JPG",
+        "/villas/Ariya Residence A5/liv/ARIYAvilla1-8.JPG"
+      ],
+      "din": [
+        "/villas/Ariya Residence A5/din/ARIYAvilla1-11.JPG",
+        "/villas/Ariya Residence A5/din/ARIYAvilla1-12.JPG"
+      ],
+      "kit": [
+        "/villas/Ariya Residence A5/kit/ARIYAvilla1-53.JPG"
+      ],
+      "bed1": [
+        "/villas/Ariya Residence A5/bed1/ARIYAvilla1-13.JPG",
+        "/villas/Ariya Residence A5/bed1/ARIYAvilla1-14.JPG"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Ariya Residence A5/bath1/ARIYAvilla1-16.JPG",
+        "/villas/Ariya Residence A5/bath1/ARIYAvilla1-17.JPG"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Ariya Residence A5/pool/ARIYAvilla1-51.JPG"
+      ],
+      "view": [
+        "/villas/Ariya Residence A5/view/ARIYAvilla1-1.JPG",
+        "/villas/Ariya Residence A5/view/ARIYAvilla1-30.JPG",
+        "/villas/Ariya Residence A5/view/ARIYAvilla1-5.JPG"
+      ],
+      "amen": [
+        "/villas/Ariya Residence A5/amen/ARIYAvilla1-47.JPG",
+        "/villas/Ariya Residence A5/amen/ARIYAvilla1-50.JPG"
+      ]
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": ""
+    }
+  },
+  "baan-ines": {
+    "realName": "Baan Ines (4BR)",
+    "codeName": "Baan Infinity",
+    "slug": "baan-ines",
+    "folderName": "Baan Ines",
+    "images": {
+      "hero": [
+        "/villas/Baan Ines/hero/IMG-20231219-WA0043.jpg"
+      ],
+      "ext": [],
+      "liv": [],
+      "din": [
+        "/villas/Baan Ines/din/IMG-20231007-WA0007.jpg",
+        "/villas/Baan Ines/din/IMG-20231007-WA0009.jpg"
+      ],
+      "kit": [
+        "/villas/Baan Ines/kit/IMG-20231007-WA0005.jpg"
+      ],
+      "bed1": [
+        "/villas/Baan Ines/bed1/IMG-20231007-WA0011.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Baan Ines/pool/IMG-20231007-WA0013.jpg"
+      ],
+      "view": [
+        "/villas/Baan Ines/view/IMG-20231219-WA0042.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 7,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "10K-23K"
+    }
+  },
+  "baan-luxor": {
+    "realName": "Baan Luxor (3BR)",
+    "codeName": "Baan Luxy",
+    "slug": "baan-luxor",
+    "folderName": "Baan Luxor",
+    "images": {
+      "hero": [
+        "/villas/Baan Luxor/hero/Baan_luxor_pics-22.jpg",
+        "/villas/Baan Luxor/hero/Baan_luxor_pics-23.jpg"
+      ],
+      "ext": [
+        "/villas/Baan Luxor/ext/Baan_luxor_pics-1.jpg"
+      ],
+      "liv": [
+        "/villas/Baan Luxor/liv/Baan_luxor_pics-16.jpg",
+        "/villas/Baan Luxor/liv/Baan_luxor_pics-4.jpg"
+      ],
+      "din": [
+        "/villas/Baan Luxor/din/Baan_luxor_pics-5.jpg",
+        "/villas/Baan Luxor/din/Baan_luxor_pics-7.jpg"
+      ],
+      "kit": [
+        "/villas/Baan Luxor/kit/Baan_luxor_pics-6.jpg"
+      ],
+      "bed1": [
+        "/villas/Baan Luxor/bed1/Baan_luxor_pics-9.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Baan Luxor/bath1/Baan_luxor_pics-10.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Baan Luxor/pool/Baan_luxor_pics-2.jpg",
+        "/villas/Baan Luxor/pool/Baan_luxor_pics-3.jpg"
+      ],
+      "view": [
+        "/villas/Baan Luxor/view/Baan_luxor_pics-19.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 13,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "5.5K-8.5K"
+    }
+  },
+  "baan-tiwa-villa": {
+    "realName": "Baan Tiwa Villa (4BR)",
+    "codeName": "Baan Tawan",
+    "slug": "baan-tiwa-villa",
+    "folderName": "Baan Tiwa Villa",
+    "images": {
+      "hero": [
+        "/villas/Baan Tiwa Villa/hero/298791e1_original.jpg",
+        "/villas/Baan Tiwa Villa/hero/86e44231_original.webp"
+      ],
+      "ext": [
+        "/villas/Baan Tiwa Villa/ext/9b4f6ec6_original.jpg"
+      ],
+      "liv": [
+        "/villas/Baan Tiwa Villa/liv/0d46605e_original.jpg",
+        "/villas/Baan Tiwa Villa/liv/a9e4aa3a-48d7-49e6-b664-4d8bdfa201e8.jpg",
+        "/villas/Baan Tiwa Villa/liv/e0b281e0_original.jpg"
+      ],
+      "din": [
+        "/villas/Baan Tiwa Villa/din/1e885f14_original.webp",
+        "/villas/Baan Tiwa Villa/din/c61ba366-5512-4d85-86bb-11e81dc48cf4.jpg"
+      ],
+      "kit": [
+        "/villas/Baan Tiwa Villa/kit/6c713462_original.jpg",
+        "/villas/Baan Tiwa Villa/kit/94f9170b_original.webp",
+        "/villas/Baan Tiwa Villa/kit/c37afd69_original.jpg"
+      ],
+      "bed1": [
+        "/villas/Baan Tiwa Villa/bed1/01d663cd-c720-4c03-91cb-ba66d61e8d75.jpg",
+        "/villas/Baan Tiwa Villa/bed1/d33fce6d_original.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Baan Tiwa Villa/bath1/5e97ceb2_original.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Baan Tiwa Villa/pool/400308b2_original.jpg",
+        "/villas/Baan Tiwa Villa/pool/f4595117_original.jpg"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/Baan Tiwa Villa/amen/1ffbb143_original.webp",
+        "/villas/Baan Tiwa Villa/amen/33feaaa7_original.webp"
+      ]
+    },
+    "totalImages": 18,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "7K-12K"
+    }
+  },
+  "beach-view-villa": {
+    "realName": "Beach View Villa (5BR)",
+    "codeName": "Beach Vista Villa",
+    "slug": "beach-view-villa",
+    "folderName": "Beach View Villa",
+    "images": {
+      "hero": [
+        "/villas/Beach View Villa/hero/1b8bdb91.jpg"
+      ],
+      "ext": [
+        "/villas/Beach View Villa/ext/6787436e.jpg",
+        "/villas/Beach View Villa/ext/865adfb1.jpg"
+      ],
+      "liv": [
+        "/villas/Beach View Villa/liv/1df3f334.jpg",
+        "/villas/Beach View Villa/liv/21e5d607.jpg",
+        "/villas/Beach View Villa/liv/f355167f.jpg"
+      ],
+      "din": [
+        "/villas/Beach View Villa/din/02a48fb4.jpg",
+        "/villas/Beach View Villa/din/e9706f57.jpg"
+      ],
+      "kit": [
+        "/villas/Beach View Villa/kit/0e3b38f1.jpg"
+      ],
+      "bed1": [
+        "/villas/Beach View Villa/bed1/2c8b46cb.jpg",
+        "/villas/Beach View Villa/bed1/6a737076.jpg",
+        "/villas/Beach View Villa/bed1/6cad7506.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Beach View Villa/bath1/011d1577.jpg",
+        "/villas/Beach View Villa/bath1/4719c1aa.jpg",
+        "/villas/Beach View Villa/bath1/e34a0411.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Beach View Villa/pool/2c9d2a03.jpg",
+        "/villas/Beach View Villa/pool/3f5ef48c.jpg",
+        "/villas/Beach View Villa/pool/fb8510b7.jpg"
+      ],
+      "view": [
+        "/villas/Beach View Villa/view/0f4a71eb.jpg",
+        "/villas/Beach View Villa/view/16aae60d.jpg",
+        "/villas/Beach View Villa/view/8e9de121.jpg",
+        "/villas/Beach View Villa/view/f8321dfb.jpg"
+      ],
+      "amen": [
+        "/villas/Beach View Villa/amen/51952b0f.jpg",
+        "/villas/Beach View Villa/amen/e5c2a224.jpg"
+      ]
+    },
+    "totalImages": 24,
+    "pricing": {
+      "daily": "*",
+      "weekly": "5",
+      "monthly": "24K-31K"
+    }
+  },
+  "beach-villa": {
+    "realName": "Joanna Beach Villa",
+    "codeName": "Joanna Bay Villa",
+    "slug": "beach-villa",
+    "folderName": "Beach Villa",
+    "images": {
+      "hero": [
+        "/villas/Beach Villa/hero/037dc710-46f3-45b7-b49e-9876c6f68993.jpg"
+      ],
+      "ext": [
+        "/villas/Beach Villa/ext/19a32cb6-4ecd-4638-9326-0e40387e9f18.jpeg",
+        "/villas/Beach Villa/ext/549ed749-f258-4594-98a3-032e5b45f16c.jpg"
+      ],
+      "liv": [
+        "/villas/Beach Villa/liv/3e9cd825-622c-40b7-91f3-8960bb6ff227.jpg",
+        "/villas/Beach Villa/liv/5d629ff6-ca7a-4562-994b-fcbb9cb77000.jpeg"
+      ],
+      "din": [
+        "/villas/Beach Villa/din/7ab8a035-3c82-4cb3-b920-156b3f950763.jpg",
+        "/villas/Beach Villa/din/cd0f663a-b438-4f84-8ddf-af155c24e669.jpeg"
+      ],
+      "kit": [
+        "/villas/Beach Villa/kit/9f67be8c-e094-4826-a790-aa08146d9cd2.jpg",
+        "/villas/Beach Villa/kit/c49db388-c68c-48d5-866a-4d6893360f90.jpg"
+      ],
+      "bed1": [
+        "/villas/Beach Villa/bed1/46ff6b78-2061-41ca-a90e-3d4ca4094cbf.jpeg",
+        "/villas/Beach Villa/bed1/75ff46d2-bd4a-4b8e-b563-d57be0755cbb.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Beach Villa/bath1/1f2d8be1-e91b-469a-9a27-a19584da5f2b.jpg",
+        "/villas/Beach Villa/bath1/4b9d5c77-5739-40bd-8699-0b61edcb2f16.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Beach Villa/pool/856f5c35-b56a-43b2-a12c-89a62d6c6dd8.jpg",
+        "/villas/Beach Villa/pool/b6b109ae-b410-4cfb-b9e4-072ae598ca61.jpg"
+      ],
+      "view": [
+        "/villas/Beach Villa/view/7f8911d3-6b16-4809-b2ef-ee9810a8ac1a.jpg",
+        "/villas/Beach Villa/view/b31c9722-cb36-4932-a73e-c7bfde0f91fa.jpg"
+      ],
+      "amen": [
+        "/villas/Beach Villa/amen/3e4d4fb6-ab53-4d1b-a6b6-1fde9bf12861.jpg"
+      ]
+    },
+    "totalImages": 18,
+    "pricing": {
+      "daily": "",
+      "weekly": "",
+      "monthly": "12K"
+    }
+  },
+  "dada-villa-one": {
+    "realName": "Dada Villa One (4BR)",
+    "codeName": "Dada Vista One",
+    "slug": "dada-villa-one",
+    "folderName": "Dada Villa One",
+    "images": {
+      "hero": [
+        "/villas/Dada Villa One/hero/200c1c000001e1rj25253_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/hero/200g1d000001ebue23D42_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/hero/200r1d000001e9kpjFB2B_Z_960_660_R5_D.jpg"
+      ],
+      "ext": [
+        "/villas/Dada Villa One/ext/0223r120008jmsaawD762_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/ext/200c1c000001e1rj25253_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/ext/2018-08-03.jpg",
+        "/villas/Dada Villa One/ext/66-Main-Car-Park-129-1.jpg"
+      ],
+      "liv": [
+        "/villas/Dada Villa One/liv/15 Living (28).jpg",
+        "/villas/Dada Villa One/liv/200p1d000001eaa8y6240_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/liv/200t1d000001eb76j1AC0_Z_960_660_R5_D.jpg"
+      ],
+      "din": [
+        "/villas/Dada Villa One/din/200m1d000001ekjbsE1DE_Z_960_660_R5_D.jpg"
+      ],
+      "kit": [
+        "/villas/Dada Villa One/kit/200n1d000001ea7op4BE1_Z_960_660_R5_D.jpg"
+      ],
+      "bed1": [
+        "/villas/Dada Villa One/bed1/26-Master-Bed-45.jpg",
+        "/villas/Dada Villa One/bed1/27-Master-Bed-47.jpg",
+        "/villas/Dada Villa One/bed1/28-Master-Bed-43-1.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Dada Villa One/bath1/32-Master-Bath-54.jpg",
+        "/villas/Dada Villa One/bath1/33-Master-Bath-53-1.jpg",
+        "/villas/Dada Villa One/bath1/49-Guest-Bath-2-73.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Dada Villa One/pool/07-Model-Pool-Standing-1.jpg",
+        "/villas/Dada Villa One/pool/200m1d000001ekjfu55C5_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/pool/200s1d000001ei1586042_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/pool/60-Model-Food-Pool-1.jpg",
+        "/villas/Dada Villa One/pool/62-Model-Drink-Daybed-1.jpg"
+      ],
+      "view": [
+        "/villas/Dada Villa One/view/08-Model-Grand-Panorama-1.jpg",
+        "/villas/Dada Villa One/view/11-Model-Sala-Roof-1.jpg",
+        "/villas/Dada Villa One/view/model-stand.jpg",
+        "/villas/Dada Villa One/view/slide-7n.jpg"
+      ],
+      "amen": [
+        "/villas/Dada Villa One/amen/20021d000001ei8dg12B8_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/amen/200a1d000001ech1z2D62_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/amen/200b1d000001edjh89EC1_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/amen/200j1d000001eao2qA47F_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/amen/200m1d000001ekje0C454_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/amen/200p1d000001eaaae6622_Z_960_660_R5_D.jpg",
+        "/villas/Dada Villa One/amen/36-Master-Bath-116-1.jpg",
+        "/villas/Dada Villa One/amen/38-Master-WiW-52-1.jpg",
+        "/villas/Dada Villa One/amen/slide-5n.jpg"
+      ]
+    },
+    "totalImages": 36,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "55K-39K"
+    }
+  },
+  "davide-kalamari-villa": {
+    "realName": "Davide Kalamari Villa (5BR)",
+    "codeName": "Davide Kalyssa",
+    "slug": "davide-kalamari-villa",
+    "folderName": "Davide Kalamari Villa",
+    "images": {
+      "hero": [
+        "/villas/Davide Kalamari Villa/hero/047b0b0c-f440-4cbb-ab8b-4e15aef165d2.webp",
+        "/villas/Davide Kalamari Villa/hero/0f34205a-46ad-4810-b703-068efffbf6eb.jpeg",
+        "/villas/Davide Kalamari Villa/hero/cbee96b6-355a-4d98-822f-8e8baac6b12b.webp"
+      ],
+      "ext": [
+        "/villas/Davide Kalamari Villa/ext/1115f39a-c6f8-406d-ba12-4a5986e5f7c6.webp",
+        "/villas/Davide Kalamari Villa/ext/256209fa-0d7d-439f-95c8-348768eb3675.webp",
+        "/villas/Davide Kalamari Villa/ext/2f8d818b-da26-4d9e-8ad6-4a188c511d0a.webp",
+        "/villas/Davide Kalamari Villa/ext/8c9fa9a6-c59a-4f03-8bed-33cae95105eb.webp",
+        "/villas/Davide Kalamari Villa/ext/95a9d3c6-eedf-417f-8422-7dd425cf4ae5.webp",
+        "/villas/Davide Kalamari Villa/ext/a7bd303a-a5d3-46f7-9c51-c9860f0f8d67.webp",
+        "/villas/Davide Kalamari Villa/ext/c88ea077-6956-4dd3-9708-389222776262.webp",
+        "/villas/Davide Kalamari Villa/ext/cd468dc6-b2d7-4089-805b-ef0bc64ac0db.webp",
+        "/villas/Davide Kalamari Villa/ext/f9fbd5b5-bca3-48f3-baf7-50a7c8e23ed8.jpeg",
+        "/villas/Davide Kalamari Villa/ext/fe2dd70a-8ba1-4aa1-ba0d-84e9d82b66d7.webp"
+      ],
+      "liv": [
+        "/villas/Davide Kalamari Villa/liv/5a0b0a21-1deb-41bc-b7c7-15300e26b1ff.webp",
+        "/villas/Davide Kalamari Villa/liv/6c4fa43d-16ce-44a9-8ae4-0cef60d453e7.webp",
+        "/villas/Davide Kalamari Villa/liv/6e367733-8126-480b-b373-1630f606a9f2.webp",
+        "/villas/Davide Kalamari Villa/liv/7fc46d3c-3bd7-46da-8a18-1df72d8d6629.webp",
+        "/villas/Davide Kalamari Villa/liv/e1fddb7a-d2f4-4cdf-8350-e00ae05882f4.webp",
+        "/villas/Davide Kalamari Villa/liv/e8563e90-0b9e-4b12-b053-819606c52439.webp",
+        "/villas/Davide Kalamari Villa/liv/f01137b0-49f8-4bdc-94de-7b0d91b10c99.webp"
+      ],
+      "din": [
+        "/villas/Davide Kalamari Villa/din/1a64c846-b376-439e-8ad4-f50dbce358ed.webp",
+        "/villas/Davide Kalamari Villa/din/30818e78-a8f0-4eda-98ff-291ad3428569.webp",
+        "/villas/Davide Kalamari Villa/din/9bea9b04-90db-42ef-9073-d2171d43e6b2.webp",
+        "/villas/Davide Kalamari Villa/din/abb2e74a-5054-4dc8-b1e1-ca25d4a6adc7.webp"
+      ],
+      "kit": [
+        "/villas/Davide Kalamari Villa/kit/64b45ec6-4f9a-4f54-a39e-a36bebded8aa.webp",
+        "/villas/Davide Kalamari Villa/kit/bf6fedf6-b7d2-4fee-9a97-2f1184356edb.webp"
+      ],
+      "bed1": [
+        "/villas/Davide Kalamari Villa/bed1/9e3793b5-a668-4f10-aeb2-271cb2e0579c.webp",
+        "/villas/Davide Kalamari Villa/bed1/a9682a99-dc5f-4b89-a2d3-75db619ecafc.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Davide Kalamari Villa/bath1/371e47c7-c803-49d2-9b35-23b6ec3e56da.webp",
+        "/villas/Davide Kalamari Villa/bath1/96f29f07-e199-4891-afa3-20c455e5b52b.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Davide Kalamari Villa/pool/64531f38-d820-4f26-8125-e1239a873ade.webp",
+        "/villas/Davide Kalamari Villa/pool/c10a1c17-f751-4c6e-a9e2-df646977e85a.webp",
+        "/villas/Davide Kalamari Villa/pool/c9cde31e-845f-49ea-b6b2-ce4da4ebe587.webp"
+      ],
+      "view": [
+        "/villas/Davide Kalamari Villa/view/49b68f89-7ddd-4958-94d4-5d5a79629588.webp",
+        "/villas/Davide Kalamari Villa/view/568192ff-3c80-4419-8edf-0daa49c278fe.webp",
+        "/villas/Davide Kalamari Villa/view/73d09895-4331-469b-9e9e-0e8acc9f0d84.webp",
+        "/villas/Davide Kalamari Villa/view/7ddde451-b711-4eeb-85c3-738b69dc9c49.webp",
+        "/villas/Davide Kalamari Villa/view/83c5664f-0831-4677-a700-c772da385110.webp",
+        "/villas/Davide Kalamari Villa/view/9f19988d-a354-4179-8c1d-b1afabde8cfc.webp",
+        "/villas/Davide Kalamari Villa/view/c2107a49-0cb0-4e25-b8ea-abc51bf65dd1.webp",
+        "/villas/Davide Kalamari Villa/view/de06e970-babe-47e5-a213-4fdb36bdbef4.webp"
+      ],
+      "amen": [
+        "/villas/Davide Kalamari Villa/amen/02a580f3-76a0-4c03-b911-5688172a908e.webp",
+        "/villas/Davide Kalamari Villa/amen/87dd31b4-51ef-4d4e-bf0a-18ee39078895.webp",
+        "/villas/Davide Kalamari Villa/amen/91c792e8-7496-4c8e-990b-8d95be693650.webp",
+        "/villas/Davide Kalamari Villa/amen/b8c49ef7-0fd4-453d-b0eb-c024c6f23a56.webp",
+        "/villas/Davide Kalamari Villa/amen/b98e981f-a755-4e66-9aa9-97354177c147.webp"
+      ]
+    },
+    "totalImages": 46,
+    "pricing": {
+      "daily": "*",
+      "weekly": "5",
+      "monthly": "35K-63K"
+    }
+  },
+  "davide-shymala-villa": {
+    "realName": "Davide Shymala Villa (5BR)",
+    "codeName": "Davide Saffron",
+    "slug": "davide-shymala-villa",
+    "folderName": "Davide Shymala Villa",
+    "images": {
+      "hero": [
+        "/villas/Davide Shymala Villa/hero/dccac97b-ce3e-4bc3-9ec5-a3f02564e129.jpg"
+      ],
+      "ext": [
+        "/villas/Davide Shymala Villa/ext/0cadaaf8-300b-4006-92d9-a3795ec04acd.jpeg",
+        "/villas/Davide Shymala Villa/ext/3eb3bd63-5319-45f2-b9fa-fd7b902a7067.jpeg",
+        "/villas/Davide Shymala Villa/ext/445774a9-645b-4f78-8c47-0bfc47aef596.jpeg",
+        "/villas/Davide Shymala Villa/ext/47358ece-1aab-4e48-8469-4a4dcae996d7.jpeg",
+        "/villas/Davide Shymala Villa/ext/8276798f-d479-4286-9d3a-6365c0706030.jpg",
+        "/villas/Davide Shymala Villa/ext/eac95b05-b7ea-4d53-813e-779bebbcb358.jpg"
+      ],
+      "liv": [
+        "/villas/Davide Shymala Villa/liv/027cb3e2-1ae4-479f-a3c6-97a6eb5fcf4b.jpeg",
+        "/villas/Davide Shymala Villa/liv/1baff24e-dceb-46e2-acfe-0a8520dd8dda.jpg",
+        "/villas/Davide Shymala Villa/liv/337517e7-88b3-4660-b8b1-366ba98f8350.jpeg",
+        "/villas/Davide Shymala Villa/liv/52a528b4-9716-44b3-bc04-bfb127c009f2.jpg",
+        "/villas/Davide Shymala Villa/liv/78b3ddaa-3738-4e5d-84f9-572a8c7e1007.jpg",
+        "/villas/Davide Shymala Villa/liv/bc061d32-2dbb-4c33-98d8-cd12d7a0d1cd.jpg",
+        "/villas/Davide Shymala Villa/liv/e12dff7f-b2c0-47fc-ba70-dc3334eafa7b.jpg",
+        "/villas/Davide Shymala Villa/liv/f5766333-9953-458c-9b0b-cb4f0b320867.jpg"
+      ],
+      "din": [
+        "/villas/Davide Shymala Villa/din/a9d4b45d-2985-4188-8d23-256393fe4aa1.jpeg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Davide Shymala Villa/bed1/33d8cf71-dfa3-4fdf-8fca-7482fcbc84fa.jpeg",
+        "/villas/Davide Shymala Villa/bed1/5ee20a3b-c72d-4a6f-89e9-0aa680a1e494.jpg",
+        "/villas/Davide Shymala Villa/bed1/addedf35-7944-487b-8971-13d6f076a8aa.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Davide Shymala Villa/bath1/26ac87e1-e7ba-4208-a678-9b7332c6e98e.jpeg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Davide Shymala Villa/pool/21020c80-6f37-4530-96fa-8d943d2e7d01.jpeg",
+        "/villas/Davide Shymala Villa/pool/4dfd834f-8292-401b-b77b-0d5d66ba9933.jpeg",
+        "/villas/Davide Shymala Villa/pool/59ea35c9-9f98-46b1-8e2e-52e0247a1dbb.jpeg",
+        "/villas/Davide Shymala Villa/pool/8fcd6aa6-fd4e-4bf5-86d5-9fd13244b299.jpeg"
+      ],
+      "view": [
+        "/villas/Davide Shymala Villa/view/19d910c7-8a8f-44ff-aeef-4ce0faea1fbf.jpeg",
+        "/villas/Davide Shymala Villa/view/35d95923-79a1-4cb4-a934-3f5dd905a262.jpeg",
+        "/villas/Davide Shymala Villa/view/5ab0150b-936e-40b3-b52e-23689ca3dacf.jpeg",
+        "/villas/Davide Shymala Villa/view/bdfd6f6a-060c-49d3-a168-78753b96f8b8.jpg",
+        "/villas/Davide Shymala Villa/view/d1f50157-9657-4637-afe9-2dc5537e0e7e.jpg",
+        "/villas/Davide Shymala Villa/view/d6436647-8d56-4ffd-91cc-c52fe00b5511.jpeg"
+      ],
+      "amen": [
+        "/villas/Davide Shymala Villa/amen/077d5201-54ff-494e-857f-b930c80ea278.jpeg",
+        "/villas/Davide Shymala Villa/amen/2b8176a6-5705-4a0e-bb90-220b8c821e64.jpg",
+        "/villas/Davide Shymala Villa/amen/a7937fdb-0224-4b99-a567-a71492e5d54e.jpg",
+        "/villas/Davide Shymala Villa/amen/bd2d4f18-ae43-4322-8bf2-f382caa0de75.jpg",
+        "/villas/Davide Shymala Villa/amen/ce030a46-5079-4bc7-a88d-3873bf98e340.jpg",
+        "/villas/Davide Shymala Villa/amen/d10c8c90-f937-468d-9081-53de7c9489dc.jpg",
+        "/villas/Davide Shymala Villa/amen/f0ff53b1-ce21-4ffb-882d-a007db59d9fc.jpg"
+      ]
+    },
+    "totalImages": 37,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "17K-29K"
+    }
+  },
+  "fabrice-delpino": {
+    "realName": "Fabrice Del Pino (4BR)",
+    "codeName": "Fabrice Dune",
+    "slug": "fabrice-delpino",
+    "folderName": "Fabrice Del-Pino",
+    "images": {
+      "hero": [
+        "/villas/Fabrice Del-Pino/hero/432438845_930604388471678_8880065114335065109_n.jpg"
+      ],
+      "ext": [],
+      "liv": [],
+      "din": [
+        "/villas/Fabrice Del-Pino/din/432513792_760781015762481_1430591844918596393_n.jpg"
+      ],
+      "kit": [
+        "/villas/Fabrice Del-Pino/kit/e5ab0eef-9352-45ba-a289-c67f2350cae5.jpg"
+      ],
+      "bed1": [
+        "/villas/Fabrice Del-Pino/bed1/432398353_1372506663434959_725960422070313807_n.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Fabrice Del-Pino/pool/432365926_936543011260710_8232798186468048060_n.jpg",
+        "/villas/Fabrice Del-Pino/pool/432397992_421105983930220_3465301600875001728_n.jpg"
+      ],
+      "view": [
+        "/villas/Fabrice Del-Pino/view/432263081_876814294133341_7076773337357419607_n.jpg",
+        "/villas/Fabrice Del-Pino/view/432488241_447341247631790_9179289062815738938_n.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 8,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "7.5K-10K"
+    }
+  },
+  "gary-1": {
+    "realName": "Gary 1 (5BR)",
+    "codeName": "Gary Grand 1",
+    "slug": "gary-1",
+    "folderName": "Gary 1",
+    "images": {
+      "hero": [
+        "/villas/Gary 1/hero/54ca9559-5b4b-4ce6-93bc-7f0180dfec36.webp"
+      ],
+      "ext": [
+        "/villas/Gary 1/ext/0f6f4ad3-48df-4827-9c74-e305b2a7b9bd.webp",
+        "/villas/Gary 1/ext/0fc9550c-d151-4d28-a723-b06fbc728c62.webp",
+        "/villas/Gary 1/ext/104811af-1a99-4e4e-a53d-a20acda2d271.jpg",
+        "/villas/Gary 1/ext/26379575-87b1-452f-9391-6a62136fe58a.webp",
+        "/villas/Gary 1/ext/27355060-d8b1-42d3-90e3-bb954ec61762.webp",
+        "/villas/Gary 1/ext/588ae8b9-cd5e-49f4-a82d-7e4d4e12a63b.webp",
+        "/villas/Gary 1/ext/c7d0b0ee-3050-4b3c-be95-8d0dcff7f365.webp",
+        "/villas/Gary 1/ext/dfaf949a-ab95-45a5-9a55-3be88cb57cdf.jpg",
+        "/villas/Gary 1/ext/f697e2c1-fb80-417d-ae1b-f85d4c2fcf04.jpg"
+      ],
+      "liv": [
+        "/villas/Gary 1/liv/6489a4df-0c6d-4e9c-8377-c25d7eef82fd.webp",
+        "/villas/Gary 1/liv/65a22285-cdbd-446a-9a93-024eef130018.webp",
+        "/villas/Gary 1/liv/6faa7b44-16aa-46ce-99bb-7f91c071c82d.webp",
+        "/villas/Gary 1/liv/afc57591-975d-4a47-b807-76fc0740c979.webp"
+      ],
+      "din": [
+        "/villas/Gary 1/din/2811c8e3-2347-4b0e-9232-2d360002daba.webp",
+        "/villas/Gary 1/din/9cc59812-11fc-4b08-a876-6a83b70635b9.webp"
+      ],
+      "kit": [
+        "/villas/Gary 1/kit/2b7606c0-1e86-40fa-821e-d0e342b50e97.webp",
+        "/villas/Gary 1/kit/897bdd36-08f3-47e1-8d67-82987c7a9ba0.webp"
+      ],
+      "bed1": [
+        "/villas/Gary 1/bed1/00a88898-a89f-4da8-8799-07870350357f.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Gary 1/bath1/53d55134-4fad-4c68-b022-55ad3cef007f (1).webp",
+        "/villas/Gary 1/bath1/8dbb5341-c23c-4f49-b658-07a36c4558fa.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Gary 1/pool/8d6dd506-7e3e-442e-9f82-5554bb1fdf15.jpg",
+        "/villas/Gary 1/pool/98bc027c-f414-40ae-967c-7ce8baae8394.webp",
+        "/villas/Gary 1/pool/f8392adf-4b5b-43a1-814b-e1ae98702f42.webp"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/Gary 1/amen/2332b5ff-7e32-47a7-bef5-47dffa152663.jpg",
+        "/villas/Gary 1/amen/b6d584b9-5703-4797-bff3-6b6bd75bf932.webp",
+        "/villas/Gary 1/amen/bfe24b1d-a5f6-498b-9d80-9bfb31bfede3.webp",
+        "/villas/Gary 1/amen/ce885f0b-1892-404c-8f0b-2e998d565a7f.webp"
+      ]
+    },
+    "totalImages": 28,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "10K-15K"
+    }
+  },
+  "gary-2": {
+    "realName": "Gary 2",
+    "codeName": "Gary Grand 2",
+    "slug": "gary-2",
+    "folderName": "Gary 2",
+    "images": {
+      "hero": [
+        "/villas/Gary 2/hero/440ca7aa-1925-40d6-b1f7-a8d0c56ed660.jpg"
+      ],
+      "ext": [
+        "/villas/Gary 2/ext/08247425-b20d-4493-92af-aa147cd2ea4d.jpg"
+      ],
+      "liv": [
+        "/villas/Gary 2/liv/2c0d8790-e3d9-4092-a0e5-9153c42dbcc8.jpg",
+        "/villas/Gary 2/liv/6d8a5bae-51a2-495e-88b4-8924bb0c196e.jpg",
+        "/villas/Gary 2/liv/8aa2e490-3fd2-4da9-8473-813d4a004b8c.jpg",
+        "/villas/Gary 2/liv/8c306546-a7f6-4ae0-aab1-ea5e5fdcb1ac.jpg",
+        "/villas/Gary 2/liv/a453f1c3-ccaa-4fff-88c2-31aecd77e036.jpg"
+      ],
+      "din": [],
+      "kit": [
+        "/villas/Gary 2/kit/6f8abfeb-9e09-46b4-8e75-b2bc6ff7d3d2.jpg",
+        "/villas/Gary 2/kit/e2d1bda6-4fda-477f-ab90-d8c19fca6db2.jpg"
+      ],
+      "bed1": [
+        "/villas/Gary 2/bed1/216065cb-659f-45f7-b783-539bad5f3850.jpg",
+        "/villas/Gary 2/bed1/8e60c072-9a6b-4d50-858f-a4e03707f292.jpg",
+        "/villas/Gary 2/bed1/e768dfdb-52f9-4734-b061-f4358e850412.jpg",
+        "/villas/Gary 2/bed1/e892c641-f8cc-4c99-bf7e-161f7ede8efa.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Gary 2/bath1/3acf40af-c413-425c-87e0-ad31331dcd4c.jpg",
+        "/villas/Gary 2/bath1/e0a5e402-3fcc-48d5-8995-4474ddf45ba7.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Gary 2/pool/13893343-5220-4f59-8aec-872c36cc4c5e.jpg",
+        "/villas/Gary 2/pool/430a2b87-b5a1-40ab-bb2b-a3e8ea199efe.jpg",
+        "/villas/Gary 2/pool/ad2db796-fb4f-483f-8ec4-fbe5a972937c.jpg"
+      ],
+      "view": [
+        "/villas/Gary 2/view/0942b0bb-94dc-418c-bb3b-b8ace3a9885e.jpg",
+        "/villas/Gary 2/view/15e33689-507d-4582-96ff-216eea79f0a2.jpg",
+        "/villas/Gary 2/view/17a53bce-4fe6-48c3-9e12-86a7008f5fc5.jpg",
+        "/villas/Gary 2/view/4bc62326-ce8e-43c0-ab29-f29867905dc9.jpg",
+        "/villas/Gary 2/view/cd57392a-f60c-41c4-9cc7-baa7c5f5c200.jpg"
+      ],
+      "amen": [
+        "/villas/Gary 2/amen/6a423414-debd-41bc-8c60-c703d3598d2b.jpg"
+      ]
+    },
+    "totalImages": 24,
+    "pricing": {
+      "daily": "",
+      "weekly": "",
+      "monthly": "10K-15K"
+    }
+  },
+  "gary-3": {
+    "realName": "Gary 3",
+    "codeName": "Garry Grand 3",
+    "slug": "gary-3",
+    "folderName": "Gary 3",
+    "images": {
+      "hero": [
+        "/villas/Gary 3/hero/b54bd97f-d252-47a7-954a-3ff81ba5a95c.jpeg"
+      ],
+      "ext": [
+        "/villas/Gary 3/ext/18dbf25d-324d-4eaa-a921-62dc300646bf.jpg"
+      ],
+      "liv": [
+        "/villas/Gary 3/liv/271baa59-b198-4944-89bc-111a34228101.jpeg",
+        "/villas/Gary 3/liv/2cf0d149-dd20-4750-b6a8-59c7c81f3f47.jpeg",
+        "/villas/Gary 3/liv/35e7e4d1-05d8-4655-971a-664d4d7f28a2.jpeg"
+      ],
+      "din": [
+        "/villas/Gary 3/din/471bab44-1305-4106-bea3-50db25cb4656.jpg"
+      ],
+      "kit": [
+        "/villas/Gary 3/kit/ea7343d9-d7e8-4f6c-b4b4-5a360805dc5c.jpeg"
+      ],
+      "bed1": [
+        "/villas/Gary 3/bed1/c0a006d1-6a60-4e0e-9971-be7cbc755d96.jpeg",
+        "/villas/Gary 3/bed1/dd50d826-6939-4f0d-937d-e1c4be8192cf.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Gary 3/bath1/0ce61f46-ca2e-4fca-b978-201a596f2217.jpeg",
+        "/villas/Gary 3/bath1/2c85c0c5-725b-4816-9432-52547cd623d8.jpeg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Gary 3/pool/2f912457-bd73-457c-a1d4-0aa4c2d598ea.jpg",
+        "/villas/Gary 3/pool/84907c1a-307f-4352-9140-d4557b3dd4d9.jpeg"
+      ],
+      "view": [
+        "/villas/Gary 3/view/0942b0bb-94dc-418c-bb3b-b8ace3a9885e.jpg"
+      ],
+      "amen": [
+        "/villas/Gary 3/amen/4871a42a-13f0-4840-842c-871e792f27b6.jpeg",
+        "/villas/Gary 3/amen/4dccc9a4-4b1c-470f-a93a-9b38002f1363.jpeg"
+      ]
+    },
+    "totalImages": 16,
+    "pricing": {
+      "daily": "",
+      "weekly": "",
+      "monthly": "10K-15K"
+    }
+  },
+  "icon-villa": {
+    "realName": "Icon Villa (3BR)***",
+    "codeName": "Iconic Villa",
+    "slug": "icon-villa",
+    "folderName": "Icon Villa",
+    "images": {
+      "hero": [
+        "/villas/Icon Villa/hero/18b658de-8274-43b9-a1d6-6d0b8f37781d.jpg",
+        "/villas/Icon Villa/hero/1cb65c7c-b918-49d9-8835-fd974d5d6a46.jpg",
+        "/villas/Icon Villa/hero/e558223c-18b4-4c34-82dc-49b97d354fa9.jpg"
+      ],
+      "ext": [
+        "/villas/Icon Villa/ext/37cc6bab-1385-4016-82a5-7d03d5842c9d.jpg",
+        "/villas/Icon Villa/ext/882ad523-4b68-4eeb-b20b-230a3a1cedad.jpg",
+        "/villas/Icon Villa/ext/979d6cc0-bbe4-447b-a6df-a5d500958489.jpg"
+      ],
+      "liv": [
+        "/villas/Icon Villa/liv/2fd39b2b-7a56-4a01-8f03-2408dd241753.jpg",
+        "/villas/Icon Villa/liv/74f8c24a-c8e7-426c-8db0-186738cee230.jpg",
+        "/villas/Icon Villa/liv/8c4b84f7-87ca-45d4-8cd3-c05297fe7783.jpg",
+        "/villas/Icon Villa/liv/f3f86520-9340-4c2c-a63e-8c286fc3e469.jpg",
+        "/villas/Icon Villa/liv/fab55af3-4966-49e8-8ff8-fbbdffdd5ded.jpg"
+      ],
+      "din": [
+        "/villas/Icon Villa/din/6f859fb3-67b1-4c4a-a190-32dd7db41cf3.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Icon Villa/bed1/34ef4f74-a6b1-4ce7-a731-06f4aab10a5d.jpg",
+        "/villas/Icon Villa/bed1/acfb69b8-b5b7-447f-87f6-059470e1da3e.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Icon Villa/bath1/212441fa-36db-4f58-a9d7-df4296e2b91f.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Icon Villa/pool/299a023c-c3cf-408e-adc0-5b2383726135.jpg"
+      ],
+      "view": [
+        "/villas/Icon Villa/view/27bb8035-42a1-4d95-ae19-234d6d782990.jpg",
+        "/villas/Icon Villa/view/a55c4019-9bfe-46d1-92d1-0aafd0e6ec4b.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 18,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "12K-18K"
+    }
+  },
+  "jeanlouis-cabal": {
+    "realName": "Jean Louis Cabal (4-5BR)",
+    "codeName": "Jean Louis Coast",
+    "slug": "jeanlouis-cabal",
+    "folderName": "Jean-Louis Cabal",
+    "images": {
+      "hero": [
+        "/villas/Jean-Louis Cabal/hero/DJI_0113.jpg"
+      ],
+      "ext": [
+        "/villas/Jean-Louis Cabal/ext/DJI_0113.jpg",
+        "/villas/Jean-Louis Cabal/ext/DJI_0118.jpg"
+      ],
+      "liv": [
+        "/villas/Jean-Louis Cabal/liv/DSC_3393.jpg",
+        "/villas/Jean-Louis Cabal/liv/_DSC2285.jpg"
+      ],
+      "din": [
+        "/villas/Jean-Louis Cabal/din/_DSC2290.jpg"
+      ],
+      "kit": [
+        "/villas/Jean-Louis Cabal/kit/_DSC2294.jpg"
+      ],
+      "bed1": [
+        "/villas/Jean-Louis Cabal/bed1/DSC_3389.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Jean-Louis Cabal/bath1/DSC_3352-Avec accentuation-Bruit.jpg",
+        "/villas/Jean-Louis Cabal/bath1/DSC_3356.jpg",
+        "/villas/Jean-Louis Cabal/bath1/_DSC2249-Modifier.jpg",
+        "/villas/Jean-Louis Cabal/bath1/_DSC2254.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Jean-Louis Cabal/pool/DSC_3343.jpg",
+        "/villas/Jean-Louis Cabal/pool/IMG-20230828-WA0008.jpg"
+      ],
+      "view": [
+        "/villas/Jean-Louis Cabal/view/DJI_0135.jpg",
+        "/villas/Jean-Louis Cabal/view/DSC_3394.jpg",
+        "/villas/Jean-Louis Cabal/view/DSC_3407.jpg"
+      ],
+      "amen": [
+        "/villas/Jean-Louis Cabal/amen/DSC_3410.jpg"
+      ]
+    },
+    "totalImages": 18,
+    "pricing": {
+      "daily": "",
+      "weekly": "4,5",
+      "monthly": ""
+    }
+  },
+  "joanna-samui-grand-park": {
+    "realName": "Joanna Samui Grand Park",
+    "codeName": "Joanna Samui Garden Park",
+    "slug": "joanna-samui-grand-park",
+    "folderName": "Joanna Samui Grand Park",
+    "images": {
+      "hero": [
+        "/villas/Joanna Samui Grand Park/hero/3680d7c4-696d-48b0-9573-c2f5e25149ff.jpg",
+        "/villas/Joanna Samui Grand Park/hero/f79fe817-3091-43f2-88dd-7a45a28a85fc.jpg"
+      ],
+      "ext": [
+        "/villas/Joanna Samui Grand Park/ext/8a5c3b8f-13b9-45df-bd5f-18cab48f2da9.jpg",
+        "/villas/Joanna Samui Grand Park/ext/8b0be2e6-d8c2-4730-be05-a29a19d04756.jpg",
+        "/villas/Joanna Samui Grand Park/ext/c386be25-e5cb-4f2e-b2d7-07e71dd27fb2.jpg"
+      ],
+      "liv": [
+        "/villas/Joanna Samui Grand Park/liv/ae653617-7b14-49c2-846d-189e3d1ef420.jpg",
+        "/villas/Joanna Samui Grand Park/liv/c4a24fe3-81d9-46fd-9560-db5cdcbdd227.jpg"
+      ],
+      "din": [
+        "/villas/Joanna Samui Grand Park/din/37307ceb-7787-4a88-be35-0c472a03e6bd.jpg",
+        "/villas/Joanna Samui Grand Park/din/69fb691e-810e-487c-b84f-1f00a14ffd1d.jpg"
+      ],
+      "kit": [
+        "/villas/Joanna Samui Grand Park/kit/2105f028-ba15-4739-83c6-b481f182d959.jpg",
+        "/villas/Joanna Samui Grand Park/kit/854b7ecd-92a1-4f25-96c4-82d02668a83b.jpg"
+      ],
+      "bed1": [
+        "/villas/Joanna Samui Grand Park/bed1/1c19f852-f095-4be6-adaa-95b3f49acdd1.jpg",
+        "/villas/Joanna Samui Grand Park/bed1/6f273b7a-58ed-4b7b-ac16-f84e2d0621ec.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Joanna Samui Grand Park/bath1/cec1969c-15f6-4e69-98d8-b29bf2066573.jpg",
+        "/villas/Joanna Samui Grand Park/bath1/d6c6f805-579e-4c6e-beb4-a7ba7fdf5018.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Joanna Samui Grand Park/pool/8deac543-1883-427d-8ee7-39fdaebf5e1f.jpg"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/Joanna Samui Grand Park/amen/367717f4-234e-4f6f-8a7f-439b8ec67c1a.jpg",
+        "/villas/Joanna Samui Grand Park/amen/6940c866-4662-4e03-a292-9479d7b4f642.jpg",
+        "/villas/Joanna Samui Grand Park/amen/b1fb73f3-1c2a-4af1-afe1-3d89491b62ff.jpg",
+        "/villas/Joanna Samui Grand Park/amen/f353c570-07de-415e-ba72-d4c4c0e8e9d3.jpg"
+      ]
+    },
+    "totalImages": 20,
+    "pricing": {
+      "daily": "",
+      "weekly": "",
+      "monthly": "12K"
+    }
+  },
+  "jungle-paradise": {
+    "realName": "Jungle Paradise (2BR) ***",
+    "codeName": "Jungle Pearl",
+    "slug": "jungle-paradise",
+    "folderName": "Jungle Paradise",
+    "images": {
+      "hero": [
+        "/villas/Jungle Paradise/hero/IMG-20230915-WA0059.jpg",
+        "/villas/Jungle Paradise/hero/IMG-20230915-WA0072.jpg"
+      ],
+      "ext": [
+        "/villas/Jungle Paradise/ext/IMG-20230915-WA0082.jpg",
+        "/villas/Jungle Paradise/ext/IMG-20230925-WA0037.jpg"
+      ],
+      "liv": [
+        "/villas/Jungle Paradise/liv/IMG-20230915-WA0073.jpg",
+        "/villas/Jungle Paradise/liv/IMG-20230915-WA0075.jpg"
+      ],
+      "din": [
+        "/villas/Jungle Paradise/din/IMG-20230915-WA0084.jpg"
+      ],
+      "kit": [
+        "/villas/Jungle Paradise/kit/IMG-20230915-WA0079.jpg"
+      ],
+      "bed1": [
+        "/villas/Jungle Paradise/bed1/d3qhj0MNcFpFGxDVcU0NPLvfgAer8I7BJCHLKLSKyfU=_plaintext_638303688612348037.jpg",
+        "/villas/Jungle Paradise/bed1/IMG-20230915-WA0076.jpg",
+        "/villas/Jungle Paradise/bed1/LDj5MiAIbNstWq578SrXVSGu6x5Z0qyOpXYo1NJ3nWY=_plaintext_638303688562684309.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Jungle Paradise/bath1/IMG-20230915-WA0061.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Jungle Paradise/pool/IMG-20230915-WA0064.jpg",
+        "/villas/Jungle Paradise/pool/IMG-20230915-WA0067.jpg",
+        "/villas/Jungle Paradise/pool/IMG-20230915-WA0069.jpg",
+        "/villas/Jungle Paradise/pool/IMG-20230915-WA0070.jpg"
+      ],
+      "view": [],
+      "amen": []
+    },
+    "totalImages": 16,
+    "pricing": {
+      "daily": "",
+      "weekly": "2",
+      "monthly": "6K-8K"
+    }
+  },
+  "k-tarek": {
+    "realName": "K.Tarek (4BR)",
+    "codeName": "K.Terra",
+    "slug": "k-tarek",
+    "folderName": "K. Tarek",
+    "images": {
+      "hero": [
+        "/villas/K. Tarek/hero/68bc30cf-9274-4fa7-932e-9c89c59ba93e.webp",
+        "/villas/K. Tarek/hero/8e4ad415-a278-4bb0-9829-ed1aa702334e.webp"
+      ],
+      "ext": [
+        "/villas/K. Tarek/ext/2776eb0f-cb58-4621-9fe7-28f33cea34f1.webp",
+        "/villas/K. Tarek/ext/e096376e-10f0-4cbc-aaca-859b55a6091c.webp"
+      ],
+      "liv": [
+        "/villas/K. Tarek/liv/0f9cb794-cfca-46c4-b994-0a6b3ed5bcf7.webp",
+        "/villas/K. Tarek/liv/43bcd4b1-38be-4b10-88de-45f028b09c83.webp",
+        "/villas/K. Tarek/liv/8629c50d-bd2a-437e-9a18-2635bf466f1d.webp",
+        "/villas/K. Tarek/liv/8fb2fcd0-649d-4336-a8bb-83161d4ba78e.webp",
+        "/villas/K. Tarek/liv/956459aa-c698-4f54-a722-04bdca9b9530.webp",
+        "/villas/K. Tarek/liv/9782f142-5909-4b92-9c19-9271e8ad8a20.webp",
+        "/villas/K. Tarek/liv/ae5c9043-6d04-4a82-a00f-fd8e9602020b.webp"
+      ],
+      "din": [
+        "/villas/K. Tarek/din/e33c2d6d-7e7b-40ea-b366-a911cebed0bf.webp",
+        "/villas/K. Tarek/din/fd103d80-e9f4-4105-a569-3d964fc93d91.webp"
+      ],
+      "kit": [
+        "/villas/K. Tarek/kit/5f2d483e-d24b-46ed-a7b6-cf28768057a1.webp",
+        "/villas/K. Tarek/kit/9859ed9e-48a9-430d-9578-21c1185741bc.webp",
+        "/villas/K. Tarek/kit/e33c2d6d-7e7b-40ea-b366-a911cebed0bf.webp"
+      ],
+      "bed1": [
+        "/villas/K. Tarek/bed1/4824758e-9b45-4ef5-bbe3-79d3d9a63b62.webp",
+        "/villas/K. Tarek/bed1/d736045b-0ad9-4d25-ae51-bcbe52cf471d.webp",
+        "/villas/K. Tarek/bed1/fb638e48-6dac-4efe-aa99-d45428811d35.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/K. Tarek/bath1/34a5f84b-5534-46f9-8e93-34df9d78f188.webp",
+        "/villas/K. Tarek/bath1/972952a1-8649-43ca-b717-fa6390839b4f.webp",
+        "/villas/K. Tarek/bath1/9b4f4ace-6a56-4f77-a5c2-e3dea1bc48a8.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/K. Tarek/pool/0e5c279d-5b94-4108-9c7a-8e9c469c8513.webp",
+        "/villas/K. Tarek/pool/171fc798-d9b5-45d0-96b0-0a1ef2b401d5.webp",
+        "/villas/K. Tarek/pool/181c8cbb-ecd0-4e67-bab4-e8adc28a2b26.webp",
+        "/villas/K. Tarek/pool/2d06a984-f4f3-4034-aa7b-b45f7b18bf1a.webp",
+        "/villas/K. Tarek/pool/36b42447-c11f-49b5-903d-38429f851865.webp",
+        "/villas/K. Tarek/pool/66967291-628b-4a7b-a228-4d0c4e2eebfa.webp",
+        "/villas/K. Tarek/pool/75b0189c-cc47-4dc1-9c18-dd4060db1376.webp",
+        "/villas/K. Tarek/pool/afca9e1b-34cf-4e2d-88c0-b7383f024656.webp"
+      ],
+      "view": [
+        "/villas/K. Tarek/view/11413e15-c7a7-448d-899f-89e96fc63813.webp",
+        "/villas/K. Tarek/view/12549538-88d8-428c-ac98-ca6047240de3.webp",
+        "/villas/K. Tarek/view/182cbd5c-f28b-4b80-a84d-fb97f3271bf1.webp",
+        "/villas/K. Tarek/view/1d8bde64-5871-4c58-924e-c5a5951f272e.webp",
+        "/villas/K. Tarek/view/36c87f2a-f843-4f7e-8858-02c4e6101274.webp",
+        "/villas/K. Tarek/view/44b996ad-cc19-497a-8bd9-623c813a9db2.webp",
+        "/villas/K. Tarek/view/4bb26428-a208-46eb-b4d3-19520c22243f.webp",
+        "/villas/K. Tarek/view/6b0ee3a6-3573-405b-b33e-4a7d6ee2cf54.webp",
+        "/villas/K. Tarek/view/8f6d6b65-e68b-4bcd-a97f-692d72e60ef4.webp",
+        "/villas/K. Tarek/view/dfa2745f-97b6-4168-93c1-838e4379cf83.webp",
+        "/villas/K. Tarek/view/eb515f1e-78f6-4c88-8596-0209eb660462.webp",
+        "/villas/K. Tarek/view/fd625bb2-ac09-423e-b8f5-884d8e53c39a.webp"
+      ],
+      "amen": [
+        "/villas/K. Tarek/amen/e705e18d-4d4a-4386-b777-d0aad4666596.webp"
+      ]
+    },
+    "totalImages": 43,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "8K-22K"
+    }
+  },
+  "kanda-villa": {
+    "realName": "Kanda Villa Peter Fishmane (4BR) ***",
+    "codeName": "Kanda Villa Pearl",
+    "slug": "kanda-villa",
+    "folderName": "Kanda Villa",
+    "images": {
+      "hero": [
+        "/villas/Kanda Villa/hero/46f7ad5c-fb51-46da-af3d-dc3f05d99ae8.jpg",
+        "/villas/Kanda Villa/hero/ab9c00ae-005d-4784-8463-a03b71c9ca9c.jpg"
+      ],
+      "ext": [
+        "/villas/Kanda Villa/ext/0de8380b-ca0a-481e-8d3c-b1b85d4a3e45.jpg",
+        "/villas/Kanda Villa/ext/3f87ee14-deec-4896-a8ee-dc1614c10900.jpg",
+        "/villas/Kanda Villa/ext/4879dde9-cd37-42b3-bf8a-a51f0e049bd0.jpg",
+        "/villas/Kanda Villa/ext/884e3f3f-92a6-48c3-8f22-d432cfad0b6b.jpg",
+        "/villas/Kanda Villa/ext/a2d07164-f948-42f2-b714-a102483a660c.jpg"
+      ],
+      "liv": [
+        "/villas/Kanda Villa/liv/8343dcd7-756e-4b22-9232-6f58d427d2a2.jpg",
+        "/villas/Kanda Villa/liv/a13d6c8f-9abf-4e0b-9954-6170be49ff5b.jpg",
+        "/villas/Kanda Villa/liv/cf4c9aaa-63b1-472a-b1cb-e81f0bc538f4.jpg"
+      ],
+      "din": [
+        "/villas/Kanda Villa/din/721aa433-460a-4ff9-bbc5-169211f8bf0c.jpg"
+      ],
+      "kit": [
+        "/villas/Kanda Villa/kit/4629c0b1-f9a1-49d7-8b5e-85026e818733.jpg"
+      ],
+      "bed1": [
+        "/villas/Kanda Villa/bed1/3c0465f1-92f9-44fb-9705-2a3f1c4f4373.jpg",
+        "/villas/Kanda Villa/bed1/de9b865e-ac23-4a63-a396-ec5f7101dbab.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kanda Villa/bath1/4ca4fbe8-a02a-4310-a1a6-07f3dcb1ab03.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kanda Villa/pool/a9bde7df-b433-4e42-bde5-813672c0a8ab.jpg"
+      ],
+      "view": [
+        "/villas/Kanda Villa/view/03bc492c-4801-47da-a35e-9eecf378e906.jpg",
+        "/villas/Kanda Villa/view/2ee2a27d-119e-4ce6-b26d-ccbd8bec7cee.jpg",
+        "/villas/Kanda Villa/view/a8427c97-ff5b-47ac-8d01-076e234ad5ae.jpg",
+        "/villas/Kanda Villa/view/c5dbb5f5-3426-4a37-a32b-00b51bac7b9b.jpg",
+        "/villas/Kanda Villa/view/d5755d7e-b925-431b-9b81-49cc2ba134d0.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 21,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "13K-22K"
+    }
+  },
+  "kaya-mani-thai-villa-resort": {
+    "realName": "Kaya Mani Thai villa Resort (1BR) x6",
+    "codeName": "Kaya Mani Tranquil",
+    "slug": "kaya-mani-thai-villa-resort",
+    "folderName": "Kaya Mani thai Villa Resort",
+    "images": {
+      "hero": [
+        "/villas/Kaya Mani thai Villa Resort/hero/Facilities11.jpg",
+        "/villas/Kaya Mani thai Villa Resort/hero/Facilities8.jpg"
+      ],
+      "ext": [
+        "/villas/Kaya Mani thai Villa Resort/ext/Facilities3.jpg",
+        "/villas/Kaya Mani thai Villa Resort/ext/Terrace5.jpg"
+      ],
+      "liv": [
+        "/villas/Kaya Mani thai Villa Resort/liv/Villa_Living2.JPG"
+      ],
+      "din": [
+        "/villas/Kaya Mani thai Villa Resort/din/Restaurant101.jpg",
+        "/villas/Kaya Mani thai Villa Resort/din/Restaurant2.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Kaya Mani thai Villa Resort/bed1/Villa_Bed4.jpg",
+        "/villas/Kaya Mani thai Villa Resort/bed1/Villa_Bed8.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kaya Mani thai Villa Resort/pool/Facilities5.jpg",
+        "/villas/Kaya Mani thai Villa Resort/pool/N4.jpg",
+        "/villas/Kaya Mani thai Villa Resort/pool/N6.jpg"
+      ],
+      "view": [
+        "/villas/Kaya Mani thai Villa Resort/view/Facilities1.jpg",
+        "/villas/Kaya Mani thai Villa Resort/view/N2.jpg",
+        "/villas/Kaya Mani thai Villa Resort/view/Z_Choengmon beachh.jpg",
+        "/villas/Kaya Mani thai Villa Resort/view/Z_Choengmon beachhh.jpg"
+      ],
+      "amen": [
+        "/villas/Kaya Mani thai Villa Resort/amen/Villa_Bed401.jpg"
+      ]
+    },
+    "totalImages": 17,
+    "pricing": {
+      "daily": "",
+      "weekly": "1x6",
+      "monthly": "1.8K-3.2K"
+    }
+  },
+  "keeree-tara": {
+    "realName": "Keeree Tara (3,4,5BR)",
+    "codeName": "Kiri Tara",
+    "slug": "keeree-tara",
+    "folderName": "Keeree Tara",
+    "images": {
+      "hero": [
+        "/villas/Keeree Tara/hero/DJI_0930 (1).jpg",
+        "/villas/Keeree Tara/hero/DJI_0933.jpg"
+      ],
+      "ext": [
+        "/villas/Keeree Tara/ext/DJI_0926 (1).jpg",
+        "/villas/Keeree Tara/ext/DJI_0940.jpg"
+      ],
+      "liv": [
+        "/villas/Keeree Tara/liv/DSCF5253.jpg",
+        "/villas/Keeree Tara/liv/DSCF5301.jpg",
+        "/villas/Keeree Tara/liv/DSCF5476.jpg",
+        "/villas/Keeree Tara/liv/DSCF5524 (2).jpg",
+        "/villas/Keeree Tara/liv/DSCF5532.jpg",
+        "/villas/Keeree Tara/liv/DSCF5562.jpg",
+        "/villas/Keeree Tara/liv/DSCF5576.jpg"
+      ],
+      "din": [],
+      "kit": [],
+      "bed1": [
+        "/villas/Keeree Tara/bed1/DSCF5449.jpg",
+        "/villas/Keeree Tara/bed1/DSCF5454.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Keeree Tara/bath1/DSCF5456.jpg",
+        "/villas/Keeree Tara/bath1/DSCF5459.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Keeree Tara/pool/DSCF5589.jpg"
+      ],
+      "view": [
+        "/villas/Keeree Tara/view/DSCF5272.jpg"
+      ],
+      "amen": [
+        "/villas/Keeree Tara/amen/DSCF5356.jpg",
+        "/villas/Keeree Tara/amen/DSCF5362.jpg",
+        "/villas/Keeree Tara/amen/DSCF5419.jpg",
+        "/villas/Keeree Tara/amen/DSCF5421.jpg",
+        "/villas/Keeree Tara/amen/DSCF5498.jpg"
+      ]
+    },
+    "totalImages": 22,
+    "pricing": {
+      "daily": "",
+      "weekly": "3,4,5",
+      "monthly": "120K-150K"
+    }
+  },
+  "kerem-villa-gamay-upper": {
+    "realName": "Kerem Villa Gamay (Upper)",
+    "codeName": "Kieren Villa Grace",
+    "slug": "kerem-villa-gamay-upper",
+    "folderName": "Kerem Villa Gamay (upper)",
+    "images": {
+      "hero": [
+        "/villas/Kerem Villa Gamay (upper)/hero/living room couch view.jpg",
+        "/villas/Kerem Villa Gamay (upper)/hero/outside back.jpg"
+      ],
+      "ext": [
+        "/villas/Kerem Villa Gamay (upper)/ext/DJI_0595-1.jpg"
+      ],
+      "liv": [
+        "/villas/Kerem Villa Gamay (upper)/liv/Dining.jpg",
+        "/villas/Kerem Villa Gamay (upper)/liv/Kerem_games-3.jpg",
+        "/villas/Kerem Villa Gamay (upper)/liv/Living Area.jpg"
+      ],
+      "din": [
+        "/villas/Kerem Villa Gamay (upper)/din/Great room.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Kerem Villa Gamay (upper)/bed1/Bedroom 3 view.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kerem Villa Gamay (upper)/bath1/Bathroom shower.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kerem Villa Gamay (upper)/pool/pool furniture.jpg",
+        "/villas/Kerem Villa Gamay (upper)/pool/pool.jpg"
+      ],
+      "view": [
+        "/villas/Kerem Villa Gamay (upper)/view/bedroom 2 balcony view.jpg",
+        "/villas/Kerem Villa Gamay (upper)/view/DJI_0598.jpg",
+        "/villas/Kerem Villa Gamay (upper)/view/Kerem_games-1.jpg",
+        "/villas/Kerem Villa Gamay (upper)/view/Kerem_kayak-1.jpg",
+        "/villas/Kerem Villa Gamay (upper)/view/Kerem_yoga-4.jpg",
+        "/villas/Kerem Villa Gamay (upper)/view/Room.jpg",
+        "/villas/Kerem Villa Gamay (upper)/view/View.jpg"
+      ],
+      "amen": [
+        "/villas/Kerem Villa Gamay (upper)/amen/Kerem_gym-9.jpg"
+      ]
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3",
+      "monthly": "33K-59K"
+    }
+  },
+  "kerem-villa-muscat-upper": {
+    "realName": "Kerem Villa Muscat (Upper)",
+    "codeName": "Kieren Villa Mirage",
+    "slug": "kerem-villa-muscat-upper",
+    "folderName": "Kerem Villa Muscat (upper)",
+    "images": {
+      "hero": [
+        "/villas/Kerem Villa Muscat (upper)/hero/living room.jpg",
+        "/villas/Kerem Villa Muscat (upper)/hero/outside back.jpg"
+      ],
+      "ext": [
+        "/villas/Kerem Villa Muscat (upper)/ext/DJI_0589.jpg",
+        "/villas/Kerem Villa Muscat (upper)/ext/DJI_0595-1.jpg"
+      ],
+      "liv": [
+        "/villas/Kerem Villa Muscat (upper)/liv/Kerem_games-3.jpg",
+        "/villas/Kerem Villa Muscat (upper)/liv/living room.jpg"
+      ],
+      "din": [
+        "/villas/Kerem Villa Muscat (upper)/din/Great Room.jpg",
+        "/villas/Kerem Villa Muscat (upper)/din/Kerem_breakfast-5.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Kerem Villa Muscat (upper)/bed1/bedroom 3 room.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kerem Villa Muscat (upper)/bath1/Bathroom shower.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kerem Villa Muscat (upper)/pool/pool furniture.jpg",
+        "/villas/Kerem Villa Muscat (upper)/pool/pool.jpg"
+      ],
+      "view": [
+        "/villas/Kerem Villa Muscat (upper)/view/bedroom 2 balcony view.jpg",
+        "/villas/Kerem Villa Muscat (upper)/view/DJI_0598.jpg",
+        "/villas/Kerem Villa Muscat (upper)/view/Kerem_games-1.jpg",
+        "/villas/Kerem Villa Muscat (upper)/view/Kerem_kayak-1.jpg",
+        "/villas/Kerem Villa Muscat (upper)/view/Kerem_massage-3.jpg",
+        "/villas/Kerem Villa Muscat (upper)/view/Kerem_yoga-7.jpg",
+        "/villas/Kerem Villa Muscat (upper)/view/sunset pool.jpg"
+      ],
+      "amen": [
+        "/villas/Kerem Villa Muscat (upper)/amen/Kerem_gym-8.jpg",
+        "/villas/Kerem Villa Muscat (upper)/amen/Kerem_gym-9.jpg",
+        "/villas/Kerem Villa Muscat (upper)/amen/Kerem_massage-3.jpg"
+      ]
+    },
+    "totalImages": 22,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3",
+      "monthly": "33K-59K"
+    }
+  },
+  "kerem-villa-solaris-lower": {
+    "realName": "Kerem Villa Solaris (Lower)",
+    "codeName": "Kieren Villa Solaria",
+    "slug": "kerem-villa-solaris-lower",
+    "folderName": "Kerem Villa Solaris (lower)",
+    "images": {
+      "hero": [
+        "/villas/Kerem Villa Solaris (lower)/hero/View.jpg"
+      ],
+      "ext": [
+        "/villas/Kerem Villa Solaris (lower)/ext/1 (3).jpg",
+        "/villas/Kerem Villa Solaris (lower)/ext/DJI_0589.jpg",
+        "/villas/Kerem Villa Solaris (lower)/ext/DJI_0595-1.jpg",
+        "/villas/Kerem Villa Solaris (lower)/ext/DJI_0598.jpg",
+        "/villas/Kerem Villa Solaris (lower)/ext/Exterior(1).jpg"
+      ],
+      "liv": [
+        "/villas/Kerem Villa Solaris (lower)/liv/1 (11).jpg",
+        "/villas/Kerem Villa Solaris (lower)/liv/1 (4).jpg",
+        "/villas/Kerem Villa Solaris (lower)/liv/1 (5).jpg",
+        "/villas/Kerem Villa Solaris (lower)/liv/1 (6).jpg",
+        "/villas/Kerem Villa Solaris (lower)/liv/1 (7).jpg",
+        "/villas/Kerem Villa Solaris (lower)/liv/Living Area(1).jpg",
+        "/villas/Kerem Villa Solaris (lower)/liv/Living Area.jpg"
+      ],
+      "din": [
+        "/villas/Kerem Villa Solaris (lower)/din/1 (10).jpg",
+        "/villas/Kerem Villa Solaris (lower)/din/Dining Area(1).jpg",
+        "/villas/Kerem Villa Solaris (lower)/din/Dining Area.jpg"
+      ],
+      "kit": [
+        "/villas/Kerem Villa Solaris (lower)/kit/1 (1).jpg",
+        "/villas/Kerem Villa Solaris (lower)/kit/1 (12).jpg",
+        "/villas/Kerem Villa Solaris (lower)/kit/1 (2).jpg"
+      ],
+      "bed1": [
+        "/villas/Kerem Villa Solaris (lower)/bed1/Bedroom(3).jpg",
+        "/villas/Kerem Villa Solaris (lower)/bed1/Bedroom.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kerem Villa Solaris (lower)/bath1/Bathroom(1).jpg",
+        "/villas/Kerem Villa Solaris (lower)/bath1/Bathroom.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kerem Villa Solaris (lower)/pool/1 (8).jpg",
+        "/villas/Kerem Villa Solaris (lower)/pool/1 (9).jpg",
+        "/villas/Kerem Villa Solaris (lower)/pool/Exterior.jpg",
+        "/villas/Kerem Villa Solaris (lower)/pool/Garden.jpg",
+        "/villas/Kerem Villa Solaris (lower)/pool/View.jpg"
+      ],
+      "view": [
+        "/villas/Kerem Villa Solaris (lower)/view/1 (15).jpg",
+        "/villas/Kerem Villa Solaris (lower)/view/Kerem_beach_walk-3.jpg",
+        "/villas/Kerem Villa Solaris (lower)/view/Kerem_kayak-1.jpg",
+        "/villas/Kerem Villa Solaris (lower)/view/Kerem_rock_climbing-7.jpg"
+      ],
+      "amen": [
+        "/villas/Kerem Villa Solaris (lower)/amen/Kerem_gym-8.jpg",
+        "/villas/Kerem Villa Solaris (lower)/amen/Kerem_gym-9.jpg",
+        "/villas/Kerem Villa Solaris (lower)/amen/Kerem_massage-3.jpg"
+      ]
+    },
+    "totalImages": 35,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3",
+      "monthly": "42K-74K"
+    }
+  },
+  "kerem-villa-syrah-lower": {
+    "realName": "Kerem Villa Syrah  (Lower)",
+    "codeName": "Kieren Villa Sylvan",
+    "slug": "kerem-villa-syrah-lower",
+    "folderName": "Kerem Villa Syrah (lower)",
+    "images": {
+      "hero": [
+        "/villas/Kerem Villa Syrah (lower)/hero/View from the pool.jpg"
+      ],
+      "ext": [
+        "/villas/Kerem Villa Syrah (lower)/ext/DJI_0595-1.jpg",
+        "/villas/Kerem Villa Syrah (lower)/ext/Exterior(2).jpg"
+      ],
+      "liv": [
+        "/villas/Kerem Villa Syrah (lower)/liv/1 (11).jpg",
+        "/villas/Kerem Villa Syrah (lower)/liv/1 (4).jpg",
+        "/villas/Kerem Villa Syrah (lower)/liv/1 (5).jpg",
+        "/villas/Kerem Villa Syrah (lower)/liv/1 (6).jpg",
+        "/villas/Kerem Villa Syrah (lower)/liv/1 (7).jpg",
+        "/villas/Kerem Villa Syrah (lower)/liv/Kerem_games-3.jpg"
+      ],
+      "din": [
+        "/villas/Kerem Villa Syrah (lower)/din/1 (10).jpg",
+        "/villas/Kerem Villa Syrah (lower)/din/Dining Area.jpg",
+        "/villas/Kerem Villa Syrah (lower)/din/Kerem_breakfast-5.jpg"
+      ],
+      "kit": [
+        "/villas/Kerem Villa Syrah (lower)/kit/1 (1).jpg",
+        "/villas/Kerem Villa Syrah (lower)/kit/1 (12).jpg",
+        "/villas/Kerem Villa Syrah (lower)/kit/1 (2).jpg"
+      ],
+      "bed1": [
+        "/villas/Kerem Villa Syrah (lower)/bed1/Bedrom.jpg",
+        "/villas/Kerem Villa Syrah (lower)/bed1/Bedroom(1).jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kerem Villa Syrah (lower)/bath1/1 (13).jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kerem Villa Syrah (lower)/pool/1 (8).jpg",
+        "/villas/Kerem Villa Syrah (lower)/pool/1 (9).jpg",
+        "/villas/Kerem Villa Syrah (lower)/pool/Exterior(1).jpg",
+        "/villas/Kerem Villa Syrah (lower)/pool/Exterior.jpg",
+        "/villas/Kerem Villa Syrah (lower)/pool/Pool.jpg"
+      ],
+      "view": [
+        "/villas/Kerem Villa Syrah (lower)/view/1 (15).jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/1 (3).jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/Beach.jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/DJI_0589.jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/DJI_0598.jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/Kerem_beach_walk-3.jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/Kerem_games-1.jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/Kerem_kayak-1.jpg",
+        "/villas/Kerem Villa Syrah (lower)/view/Kerem_rock_climbing-4.jpg"
+      ],
+      "amen": [
+        "/villas/Kerem Villa Syrah (lower)/amen/Kerem_gym-8.jpg",
+        "/villas/Kerem Villa Syrah (lower)/amen/Kerem_gym-9.jpg",
+        "/villas/Kerem Villa Syrah (lower)/amen/Kerem_massage-3.jpg"
+      ]
+    },
+    "totalImages": 35,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3",
+      "monthly": "42K-74K"
+    }
+  },
+  "kove-samui-4br": {
+    "realName": "Kove Samui (4BR) ***",
+    "codeName": "Kofe Samui (4BR)",
+    "slug": "kove-samui-4br",
+    "folderName": "Kove Samui 4BR",
+    "images": {
+      "hero": [
+        "/villas/Kove Samui 4BR/hero/933b962c-2f23-4646-8d69-b1cf07530585.webp",
+        "/villas/Kove Samui 4BR/hero/faee4149-eab8-4c9a-b6aa-166ba57f0a51.webp"
+      ],
+      "ext": [
+        "/villas/Kove Samui 4BR/ext/5d26fff9-7d8d-4970-a729-700f30b7b6e8.webp"
+      ],
+      "liv": [
+        "/villas/Kove Samui 4BR/liv/00196435-9e74-4f41-aa62-d68f1fc2dc6f.webp",
+        "/villas/Kove Samui 4BR/liv/6c0b53fa-47b1-4cb4-a3c4-f03aebc323cf.webp"
+      ],
+      "din": [],
+      "kit": [
+        "/villas/Kove Samui 4BR/kit/6b6cfd63-5333-423c-b2a0-1a292bf7429f.webp"
+      ],
+      "bed1": [
+        "/villas/Kove Samui 4BR/bed1/ca5a11cd-b1b6-4b6c-9709-d0c3324359a4.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kove Samui 4BR/bath1/06aac1f3-25df-4d7d-b8e6-36427cb4e6b4.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kove Samui 4BR/pool/18504ce3-b5df-45c9-8ec0-a1222291e57e.webp",
+        "/villas/Kove Samui 4BR/pool/f453db96-9552-43d9-b9a1-0904a2584c9b.webp"
+      ],
+      "view": [
+        "/villas/Kove Samui 4BR/view/024cc362-82e8-48b9-a8e3-94541d2d2c1b.webp",
+        "/villas/Kove Samui 4BR/view/555e00af-2e22-4afb-8109-d41eb3754221.webp",
+        "/villas/Kove Samui 4BR/view/d135162e-8a99-4dc4-bdb0-e1301789960f.webp",
+        "/villas/Kove Samui 4BR/view/d62a36e9-f584-4377-8f88-4ad7dc11e67d.webp"
+      ],
+      "amen": []
+    },
+    "totalImages": 14,
+    "pricing": {
+      "daily": "*",
+      "weekly": "4",
+      "monthly": "17K-36K"
+    }
+  },
+  "kove-samui-5br": {
+    "realName": "Kove Samui (5BR) ***",
+    "codeName": "Kofe Samui (5BR)",
+    "slug": "kove-samui-5br",
+    "folderName": "Kove Samui 5BR",
+    "images": {
+      "hero": [
+        "/villas/Kove Samui 5BR/hero/a29d246c-0bc4-40da-bd09-f3cf98fa8cdb.webp"
+      ],
+      "ext": [
+        "/villas/Kove Samui 5BR/ext/711df050-d016-4a2f-9dbd-d2d11143bebd.webp"
+      ],
+      "liv": [
+        "/villas/Kove Samui 5BR/liv/267a8b3d-2925-4f7a-bf5d-061476aa7cdb.webp"
+      ],
+      "din": [],
+      "kit": [
+        "/villas/Kove Samui 5BR/kit/371425a8-aa80-4f1a-a059-65ffbb06e606.webp"
+      ],
+      "bed1": [
+        "/villas/Kove Samui 5BR/bed1/66f2fe44-e2dc-4a90-bd82-7a470f470354.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kove Samui 5BR/bath1/1babe11e-72a9-4750-a67d-df5dd8b2021e.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kove Samui 5BR/pool/9b23bf61-a053-4765-8194-dcea540287f8.webp",
+        "/villas/Kove Samui 5BR/pool/ffdb1d6b-6d93-445f-81b4-d2d225d36d18.webp"
+      ],
+      "view": [
+        "/villas/Kove Samui 5BR/view/00d2e796-470b-4f20-815d-3e7d0dab0e74 - Kopie.webp",
+        "/villas/Kove Samui 5BR/view/20b6dc7a-1f63-45bd-aa01-3fc2f980312e.webp",
+        "/villas/Kove Samui 5BR/view/4dabce7a-6c25-41d1-898c-c1a6eedbe06e.webp",
+        "/villas/Kove Samui 5BR/view/8adc9b70-0988-42a6-ad75-3d3558b2d034.webp"
+      ],
+      "amen": []
+    },
+    "totalImages": 12,
+    "pricing": {
+      "daily": "*",
+      "weekly": "5",
+      "monthly": "17K-39K"
+    }
+  },
+  "kove-samui-9br": {
+    "realName": "Kove Samui (9BR) ***",
+    "codeName": "Kofe Samui (9BR)",
+    "slug": "kove-samui-9br",
+    "folderName": "Kove Samui 9BR",
+    "images": {
+      "hero": [
+        "/villas/Kove Samui 9BR/hero/17cf06f6-4ca6-4216-9946-f3f37b7c9886.webp"
+      ],
+      "ext": [
+        "/villas/Kove Samui 9BR/ext/5528c8c7-3f4e-41ab-8716-ca93420226a3.webp",
+        "/villas/Kove Samui 9BR/ext/5d26fff9-7d8d-4970-a729-700f30b7b6e8.webp",
+        "/villas/Kove Samui 9BR/ext/711df050-d016-4a2f-9dbd-d2d11143bebd.webp",
+        "/villas/Kove Samui 9BR/ext/a18f2f6c-12e0-4146-aa94-0b9a6922cdad.webp"
+      ],
+      "liv": [
+        "/villas/Kove Samui 9BR/liv/00196435-9e74-4f41-aa62-d68f1fc2dc6f.webp",
+        "/villas/Kove Samui 9BR/liv/267a8b3d-2925-4f7a-bf5d-061476aa7cdb.webp",
+        "/villas/Kove Samui 9BR/liv/6c0b53fa-47b1-4cb4-a3c4-f03aebc323cf.webp"
+      ],
+      "din": [
+        "/villas/Kove Samui 9BR/din/faee4149-eab8-4c9a-b6aa-166ba57f0a51.webp"
+      ],
+      "kit": [
+        "/villas/Kove Samui 9BR/kit/371425a8-aa80-4f1a-a059-65ffbb06e606.webp",
+        "/villas/Kove Samui 9BR/kit/6b6cfd63-5333-423c-b2a0-1a292bf7429f.webp"
+      ],
+      "bed1": [
+        "/villas/Kove Samui 9BR/bed1/66f2fe44-e2dc-4a90-bd82-7a470f470354.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Kove Samui 9BR/bath1/61a87ea8-6299-44f1-83ba-7e95343a8e48.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Kove Samui 9BR/pool/18504ce3-b5df-45c9-8ec0-a1222291e57e.webp",
+        "/villas/Kove Samui 9BR/pool/a29d246c-0bc4-40da-bd09-f3cf98fa8cdb.webp",
+        "/villas/Kove Samui 9BR/pool/f453db96-9552-43d9-b9a1-0904a2584c9b.webp",
+        "/villas/Kove Samui 9BR/pool/ffdb1d6b-6d93-445f-81b4-d2d225d36d18.webp"
+      ],
+      "view": [
+        "/villas/Kove Samui 9BR/view/024cc362-82e8-48b9-a8e3-94541d2d2c1b.webp",
+        "/villas/Kove Samui 9BR/view/20b6dc7a-1f63-45bd-aa01-3fc2f980312e.webp",
+        "/villas/Kove Samui 9BR/view/274f1a52-b3fb-4ea7-aeba-2ae749351228.webp",
+        "/villas/Kove Samui 9BR/view/555e00af-2e22-4afb-8109-d41eb3754221.webp",
+        "/villas/Kove Samui 9BR/view/d62a36e9-f584-4377-8f88-4ad7dc11e67d.webp"
+      ],
+      "amen": []
+    },
+    "totalImages": 22,
+    "pricing": {
+      "daily": "*",
+      "weekly": "9",
+      "monthly": "34K-79K"
+    }
+  },
+  "la-moon": {
+    "realName": "Villa Moonstone (5-6BR)",
+    "codeName": "Villa Moonstone Pearl",
+    "slug": "la-moon",
+    "folderName": "La Moon",
+    "images": {
+      "hero": [
+        "/villas/La Moon/hero/6f6facb6-1d0d-4429-8a32-91c5fc5ba730.jpg",
+        "/villas/La Moon/hero/a1e3dc5d-578c-4662-b1d5-e93000445077.jpg"
+      ],
+      "ext": [
+        "/villas/La Moon/ext/540a246e-72a8-4241-9747-fdef08fb3558.jpg",
+        "/villas/La Moon/ext/811b2b84-fb1a-4e64-b1fb-e18ccb2f9e20.jpg"
+      ],
+      "liv": [
+        "/villas/La Moon/liv/5715ab83-c9d6-4229-a9f6-2049cc1a1893.jpg",
+        "/villas/La Moon/liv/7e643c9c-f4df-4ee8-9c50-982e36bd0436.jpg"
+      ],
+      "din": [
+        "/villas/La Moon/din/0c675789-84de-4888-8b44-f7a92531431b.jpg",
+        "/villas/La Moon/din/0f5409d7-c295-43ab-b656-7f9e984ad360.jpg",
+        "/villas/La Moon/din/24d46ba5-551e-47d7-9835-98f2b858a081.jpg",
+        "/villas/La Moon/din/6a288a03-74b0-45b6-9006-30ad848ac4d4.jpg"
+      ],
+      "kit": [
+        "/villas/La Moon/kit/6ec926f9-919d-49eb-a585-d05a9d9b39ad.jpg"
+      ],
+      "bed1": [
+        "/villas/La Moon/bed1/1d17f53a-2659-4d69-9248-c11fb8d79f71.jpg",
+        "/villas/La Moon/bed1/63d1dab3-7b1d-494e-925f-c4c5c95b3454.jpg",
+        "/villas/La Moon/bed1/7028f141-ecd0-44f7-af4f-ad3f6261f825.jpg",
+        "/villas/La Moon/bed1/9b31e79b-bc43-4cab-b693-e7b94a455071.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/La Moon/bath1/1bb7e5c8-5d07-4372-901c-8925100148a6.jpg",
+        "/villas/La Moon/bath1/7d83eaee-f11d-4c2c-be73-36e605856562.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [],
+      "view": [
+        "/villas/La Moon/view/10e808ba-27f1-4399-82a3-0f4d3284ce8b.jpg",
+        "/villas/La Moon/view/86eb7fe0-45ff-4134-bd1a-505e01e9cb46.jpg",
+        "/villas/La Moon/view/d2cff71a-fd0d-4590-98cc-c4c6f0ea1075.jpg",
+        "/villas/La Moon/view/d9b2899b-05e8-4cd5-8894-d79ce99423fb.jpg",
+        "/villas/La Moon/view/fa9fd21d-5ac2-4c03-84aa-03dbc499f890.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 22,
+    "pricing": {
+      "daily": "*",
+      "weekly": "5,6",
+      "monthly": "49K-120K"
+    }
+  },
+  "la-jade": {
+    "realName": "Santisook Villa J (2BR) ***",
+    "codeName": "Santisook Villa Jade",
+    "slug": "la-jade",
+    "folderName": "La Jade",
+    "images": {
+      "hero": [
+        "/villas/La Jade/hero/81de947b-6005-48d3-9795-ad8a5f3abae9.jpg"
+      ],
+      "ext": [
+        "/villas/La Jade/ext/08e190dc-f081-4e47-9db6-917ec46e38f8.jpg",
+        "/villas/La Jade/ext/797cb47c-7fa3-45d0-81f5-06930a912fb9.jpg"
+      ],
+      "liv": [
+        "/villas/La Jade/liv/283ed364-6afe-44b2-bc5b-be44e044a170.jpg",
+        "/villas/La Jade/liv/ece7f823-7ab9-4b3d-b868-0492b838c5ab.jpg"
+      ],
+      "din": [
+        "/villas/La Jade/din/0fc60eda-fc47-481a-b00e-cbec97956e86.jpg",
+        "/villas/La Jade/din/b3b1edcb-935b-4247-89e1-2dfd06d71a88.jpg",
+        "/villas/La Jade/din/e8959782-2e46-4128-a5e9-13e69f64766d.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/La Jade/bed1/328a63f8-ab74-4a95-9964-3acf4bf03043.jpg",
+        "/villas/La Jade/bed1/9a3dc596-55a9-425d-9618-c76af424d276.jpg",
+        "/villas/La Jade/bed1/f9767da3-3d0b-477c-bfad-616d5855bc85.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/La Jade/bath1/7ee80bfa-30dd-487b-b2b7-34bdd3547c7f.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/La Jade/pool/14c996ef-f99f-4c28-83fe-b28e116a1f9f.jpg"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/La Jade/amen/02453611-3a76-433b-bc75-263a270976fe.jpg"
+      ]
+    },
+    "totalImages": 14,
+    "pricing": {
+      "daily": "",
+      "weekly": "2",
+      "monthly": ""
+    }
+  },
+  "maison-d-exception": {
+    "realName": "Maison d'exception (2BR)",
+    "codeName": "Maison d’Élan",
+    "slug": "maison-d-exception",
+    "folderName": "Maison d_ exception",
+    "images": {
+      "hero": [
+        "/villas/Maison d_ exception/hero/523662847.jpg"
+      ],
+      "ext": [],
+      "liv": [
+        "/villas/Maison d_ exception/liv/523662988.jpg",
+        "/villas/Maison d_ exception/liv/IMG-20240301-WA0010.jpg"
+      ],
+      "din": [
+        "/villas/Maison d_ exception/din/523662981.jpg"
+      ],
+      "kit": [
+        "/villas/Maison d_ exception/kit/IMG-20240301-WA0012.jpg"
+      ],
+      "bed1": [
+        "/villas/Maison d_ exception/bed1/523662995.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Maison d_ exception/bath1/523662972.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Maison d_ exception/pool/523662990.jpg",
+        "/villas/Maison d_ exception/pool/IMG-20240301-WA0026.jpg",
+        "/villas/Maison d_ exception/pool/IMG-20240301-WA0038.jpg"
+      ],
+      "view": [
+        "/villas/Maison d_ exception/view/523662968.jpg",
+        "/villas/Maison d_ exception/view/IMG-20240301-WA0011.jpg",
+        "/villas/Maison d_ exception/view/IMG-20240301-WA0029.jpg",
+        "/villas/Maison d_ exception/view/IMG-20240301-WA0041.jpg",
+        "/villas/Maison d_ exception/view/IMG-20240301-WA0062.jpg"
+      ],
+      "amen": [
+        "/villas/Maison d_ exception/amen/523662975.jpg"
+      ]
+    },
+    "totalImages": 16,
+    "pricing": {
+      "daily": "",
+      "weekly": "2",
+      "monthly": "8K-10K"
+    }
+  },
+  "miskawaan-villa-acacia": {
+    "realName": "Miskawaan Villa Acacia",
+    "codeName": "Millennial Villa Aurora",
+    "slug": "miskawaan-villa-acacia",
+    "folderName": "Miskawaan Villa Acacia",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Acacia/hero/Acacia.jpg",
+        "/villas/Miskawaan Villa Acacia/hero/miskawaan_acacia-0323.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Acacia/ext/miskawaan_acacia-7132.jpg",
+        "/villas/Miskawaan Villa Acacia/ext/miskawaan_acacia-8893.jpg",
+        "/villas/Miskawaan Villa Acacia/ext/miskawaan_acacia-9052.jpg",
+        "/villas/Miskawaan Villa Acacia/ext/miskawaan_acacia-9148.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Acacia/liv/miskawaan_acacia-8911.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Acacia/din/miskawaan_acacia-8936.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Miskawaan Villa Acacia/bed1/miskawaan_acacia-9662.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Acacia/bath1/Copy of MKN_A_bathroom_2-3 - Copy - Copy.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Acacia/pool/miskawaan_acacia-0197.jpg",
+        "/villas/Miskawaan Villa Acacia/pool/miskawaan_acacia-7119.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Acacia/view/miskawaan_acacia-0297.jpg",
+        "/villas/Miskawaan Villa Acacia/view/miskawaan_acacia-7074.jpg",
+        "/villas/Miskawaan Villa Acacia/view/miskawaan_acacia-7468 (1).jpg",
+        "/villas/Miskawaan Villa Acacia/view/miskawaan_acacia-7502.jpg",
+        "/villas/Miskawaan Villa Acacia/view/miskawaan_acacia-8424.jpg",
+        "/villas/Miskawaan Villa Acacia/view/miskawaan_acacia-9656.jpg"
+      ],
+      "amen": [
+        "/villas/Miskawaan Villa Acacia/amen/Copy of MKN_A_gym-2 - Copy.jpg"
+      ]
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "*",
+      "weekly": "2,3,4",
+      "monthly": "38K-88K"
+    }
+  },
+  "miskawaan-villa-bougainvillea": {
+    "realName": "Miskawaan Villa Bougainvillea",
+    "codeName": "Millennial Villa Bliss",
+    "slug": "miskawaan-villa-bougainvillea",
+    "folderName": "Miskawaan Villa Bougainvillea",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Bougainvillea/hero/Copy of MKN_B_villa-1.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Bougainvillea/ext/Copy of MKN_B_entrance-4.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/ext/MKN_B_villa-20.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Bougainvillea/liv/Copy of MKN_B_living-12.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/liv/Copy of MKN_B_terrace-8.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/liv/MKN_B_living-8.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Bougainvillea/din/Copy of MKN_B_breakfast-10.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/din/Copy of MKN_B_breakfast-11.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/din/Copy of MKN_B_dining-7.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/din/Copy of MKN_B_thai_cuisine-3.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/din/Copy of MKN_B_thai_cuisine-5.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/din/MKN_B_breakfast-1 (1).jpg"
+      ],
+      "kit": [
+        "/villas/Miskawaan Villa Bougainvillea/kit/Copy of MKN_B_kitchen-2.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/kit/Copy of MKN_B_kitchen-4.jpg"
+      ],
+      "bed1": [
+        "/villas/Miskawaan Villa Bougainvillea/bed1/Copy of MKN_B_bedroom_1-10.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/bed1/Copy of MKN_B_bedroom_1-4.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/bed1/MKN_B_bedroom_1-14.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/bed1/MKN_B_bedroom_1-2.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/bed1/MKN_B_bedroom_2-1.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/bed1/MKN_B_bedroom_2-4.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Bougainvillea/bath1/Copy of MKN_B_bathroom_2-1.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/bath1/Copy of MKN_B_bathroom_4-5.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Bougainvillea/pool/Copy of MKN_B_refreshments-1.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/pool/Copy of MKN_B_swimming_pool-17.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/pool/MKN_B_refreshments-2 (1).jpg",
+        "/villas/Miskawaan Villa Bougainvillea/pool/MKN_B_refreshments-9.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Bougainvillea/view/7.6 (1).jpg",
+        "/villas/Miskawaan Villa Bougainvillea/view/Copy of MKN_B_beach-3.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/view/Copy of MKN_B_beach-4.jpg",
+        "/villas/Miskawaan Villa Bougainvillea/view/MKN_B_sala-9.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 30,
+    "pricing": {
+      "daily": "*",
+      "weekly": "2,3,4",
+      "monthly": "40K-85K"
+    }
+  },
+  "miskawaan-villa-champak": {
+    "realName": "Miskawaan Villa Champak",
+    "codeName": "Millennial Villa Coral",
+    "slug": "miskawaan-villa-champak",
+    "folderName": "Miskawaan Villa Champak",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Champak/hero/miskawaan_champak-4647.jpg",
+        "/villas/Miskawaan Villa Champak/hero/miskawaan_champak-9320.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Champak/ext/miskawaan_champak-3213.jpg",
+        "/villas/Miskawaan Villa Champak/ext/miskawaan_champak-4469.jpg",
+        "/villas/Miskawaan Villa Champak/ext/miskawaan_champak-4610.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Champak/liv/miskawaan_champak-2561.jpg",
+        "/villas/Miskawaan Villa Champak/liv/miskawaan_champak-2843.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Champak/din/miskawaan_champak-4056.jpg",
+        "/villas/Miskawaan Villa Champak/din/miskawaan_champak-4069.jpg"
+      ],
+      "kit": [
+        "/villas/Miskawaan Villa Champak/kit/miskawaan_champak-2358.jpg",
+        "/villas/Miskawaan Villa Champak/kit/miskawaan_champak-2432.jpg"
+      ],
+      "bed1": [
+        "/villas/Miskawaan Villa Champak/bed1/miskawaan_champak-2961.jpg",
+        "/villas/Miskawaan Villa Champak/bed1/miskawaan_champak-2987.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Champak/bath1/Champak_bathroom_1-2.jpg",
+        "/villas/Miskawaan Villa Champak/bath1/Champak_bathroom_2-1.jpg",
+        "/villas/Miskawaan Villa Champak/bath1/Champak_bathroom_4-1.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Champak/pool/miskawaan_champak-3240.jpg",
+        "/villas/Miskawaan Villa Champak/pool/miskawaan_champak-4643.jpg",
+        "/villas/Miskawaan Villa Champak/pool/miskawaan_champak-4654.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Champak/view/miskawaan_champak-4683.jpg",
+        "/villas/Miskawaan Villa Champak/view/miskawaan_champak-9391.jpg"
+      ],
+      "amen": [
+        "/villas/Miskawaan Villa Champak/amen/miskawaan_champak-0989.jpg",
+        "/villas/Miskawaan Villa Champak/amen/miskawaan_champak-1001.jpg",
+        "/villas/Miskawaan Villa Champak/amen/miskawaan_champak-1006.jpg",
+        "/villas/Miskawaan Villa Champak/amen/miskawaan_champak-1032.jpg",
+        "/villas/Miskawaan Villa Champak/amen/miskawaan_champak-1582.jpg"
+      ]
+    },
+    "totalImages": 26,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3,4,5",
+      "monthly": "50K-96K"
+    }
+  },
+  "miskawaan-villa-frangipani": {
+    "realName": "Miskawaan Villa Frangipani",
+    "codeName": "Millennial Villa Flora",
+    "slug": "miskawaan-villa-frangipani",
+    "folderName": "Miskawaan Villa Frangipani",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Frangipani/hero/TOM_6768.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Frangipani/ext/TOM_7051.jpg",
+        "/villas/Miskawaan Villa Frangipani/ext/TOM_7061.jpg",
+        "/villas/Miskawaan Villa Frangipani/ext/TOM_7084.jpg",
+        "/villas/Miskawaan Villa Frangipani/ext/TOM_7086.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Frangipani/liv/TOM_7025.jpg",
+        "/villas/Miskawaan Villa Frangipani/liv/TOM_7036.jpg",
+        "/villas/Miskawaan Villa Frangipani/liv/TOM_7046.jpg",
+        "/villas/Miskawaan Villa Frangipani/liv/TOM_7096.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Frangipani/din/TOM_6672.jpg",
+        "/villas/Miskawaan Villa Frangipani/din/TOM_6682.jpg",
+        "/villas/Miskawaan Villa Frangipani/din/TOM_6692.jpg",
+        "/villas/Miskawaan Villa Frangipani/din/TOM_6698.jpg",
+        "/villas/Miskawaan Villa Frangipani/din/TOM_6709-HDR.jpg",
+        "/villas/Miskawaan Villa Frangipani/din/TOM_6717.jpg"
+      ],
+      "kit": [
+        "/villas/Miskawaan Villa Frangipani/kit/TOM_6661.jpg",
+        "/villas/Miskawaan Villa Frangipani/kit/TOM_6664.jpg",
+        "/villas/Miskawaan Villa Frangipani/kit/TOM_6667.jpg",
+        "/villas/Miskawaan Villa Frangipani/kit/TOM_6668.jpg"
+      ],
+      "bed1": [
+        "/villas/Miskawaan Villa Frangipani/bed1/TOM_6938.jpg",
+        "/villas/Miskawaan Villa Frangipani/bed1/TOM_6941-HDR.jpg",
+        "/villas/Miskawaan Villa Frangipani/bed1/TOM_6947.jpg",
+        "/villas/Miskawaan Villa Frangipani/bed1/TOM_6951.jpg",
+        "/villas/Miskawaan Villa Frangipani/bed1/TOM_6958-HDR.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Frangipani/bath1/TOM_7001.jpg",
+        "/villas/Miskawaan Villa Frangipani/bath1/TOM_7005.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Frangipani/pool/TOM_6742-HDR.jpg",
+        "/villas/Miskawaan Villa Frangipani/pool/TOM_6755.jpg",
+        "/villas/Miskawaan Villa Frangipani/pool/TOM_6759.jpg",
+        "/villas/Miskawaan Villa Frangipani/pool/TOM_6764-HDR.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Frangipani/view/TOM_6723.jpg",
+        "/villas/Miskawaan Villa Frangipani/view/TOM_6732.jpg",
+        "/villas/Miskawaan Villa Frangipani/view/TOM_6765.jpg"
+      ],
+      "amen": [
+        "/villas/Miskawaan Villa Frangipani/amen/TOM_6774.jpg",
+        "/villas/Miskawaan Villa Frangipani/amen/TOM_7082.jpg"
+      ]
+    },
+    "totalImages": 35,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3,4,5",
+      "monthly": "49K-88K"
+    }
+  },
+  "miskawaan-villa-hibiscus": {
+    "realName": "Miskawaan Villa Hibiscus",
+    "codeName": "Millennial Villa Harmony",
+    "slug": "miskawaan-villa-hibiscus",
+    "folderName": "Miskawaan Villa Hibiscus",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Hibiscus/hero/miskawaan_hibiscus-5867.jpg",
+        "/villas/Miskawaan Villa Hibiscus/hero/miskawaan_hibiscus-8627 - Copy.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Hibiscus/ext/miskawaan_hibiscus-5716 - Copy.jpg",
+        "/villas/Miskawaan Villa Hibiscus/ext/TOM_3746.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Hibiscus/liv/TOM_3825-HDR.jpg",
+        "/villas/Miskawaan Villa Hibiscus/liv/TOM_3829.jpg",
+        "/villas/Miskawaan Villa Hibiscus/liv/TOM_3832.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Hibiscus/din/miskawaan_hibiscus-5760 - Copy.jpg",
+        "/villas/Miskawaan Villa Hibiscus/din/TOM_3835.jpg"
+      ],
+      "kit": [
+        "/villas/Miskawaan Villa Hibiscus/kit/TOM_3838.jpg",
+        "/villas/Miskawaan Villa Hibiscus/kit/TOM_3839.jpg"
+      ],
+      "bed1": [
+        "/villas/Miskawaan Villa Hibiscus/bed1/TOM_3734-HDR.jpg",
+        "/villas/Miskawaan Villa Hibiscus/bed1/TOM_3739.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Hibiscus/bath1/TOM_3788.jpg",
+        "/villas/Miskawaan Villa Hibiscus/bath1/TOM_3794.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Hibiscus/pool/miskawaan_hibiscus-5773 - Copy.jpg",
+        "/villas/Miskawaan Villa Hibiscus/pool/TOM_4287.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Hibiscus/view/TOM_3809-HDR.jpg",
+        "/villas/Miskawaan Villa Hibiscus/view/TOM_4323.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "*",
+      "weekly": "2,3,4",
+      "monthly": "38K-88K"
+    }
+  },
+  "miskawaan-villa-lotus": {
+    "realName": "Miskawaan Villa Lotus",
+    "codeName": "Millennial Villa Lumina",
+    "slug": "miskawaan-villa-lotus",
+    "folderName": "Miskawaan Villa Lotus",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Lotus/hero/miskawaan_lotus-9337.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Lotus/ext/miskawaan_lotus-2201.jpg",
+        "/villas/Miskawaan Villa Lotus/ext/miskawaan_lotus-9321.jpg",
+        "/villas/Miskawaan Villa Lotus/ext/miskawaan_lotus-9636.jpg",
+        "/villas/Miskawaan Villa Lotus/ext/miskawaan_lotus-9644.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Lotus/liv/miskawaan_lotus-0332.jpg",
+        "/villas/Miskawaan Villa Lotus/liv/miskawaan_lotus-0833.jpg",
+        "/villas/Miskawaan Villa Lotus/liv/miskawaan_lotus-1373.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Lotus/din/miskawaan_lotus-0702.jpg",
+        "/villas/Miskawaan Villa Lotus/din/miskawaan_lotus-0846.jpg"
+      ],
+      "kit": [
+        "/villas/Miskawaan Villa Lotus/kit/miskawaan_lotus-0718.jpg",
+        "/villas/Miskawaan Villa Lotus/kit/miskawaan_lotus-0725.jpg",
+        "/villas/Miskawaan Villa Lotus/kit/miskawaan_lotus-0762.jpg"
+      ],
+      "bed1": [
+        "/villas/Miskawaan Villa Lotus/bed1/miskawaan_lotus-0134.jpg",
+        "/villas/Miskawaan Villa Lotus/bed1/miskawaan_lotus-0168.jpg",
+        "/villas/Miskawaan Villa Lotus/bed1/miskawaan_lotus-0179.jpg",
+        "/villas/Miskawaan Villa Lotus/bed1/miskawaan_lotus-0240.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Lotus/bath1/miskawaan_lotus-0247.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Lotus/pool/miskawaan_lotus-2205.jpg",
+        "/villas/Miskawaan Villa Lotus/pool/miskawaan_lotus-9366.jpg",
+        "/villas/Miskawaan Villa Lotus/pool/miskawaan_lotus-9559.jpg",
+        "/villas/Miskawaan Villa Lotus/pool/miskawaan_lotus-9603.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Lotus/view/miskawaan_lotus-9399.jpg",
+        "/villas/Miskawaan Villa Lotus/view/miskawaan_lotus-9483.jpg",
+        "/villas/Miskawaan Villa Lotus/view/miskawaan_lotus-9624.jpg"
+      ],
+      "amen": [
+        "/villas/Miskawaan Villa Lotus/amen/miskawaan_lotus-1355.jpg",
+        "/villas/Miskawaan Villa Lotus/amen/miskawaan_lotus-1474.jpg"
+      ]
+    },
+    "totalImages": 27,
+    "pricing": {
+      "daily": "*",
+      "weekly": "4,5,6",
+      "monthly": "59K-98K"
+    }
+  },
+  "miskawaan-villa-waterlily": {
+    "realName": "Miskawaan Villa Water Lily",
+    "codeName": "Millennial Villa Watu",
+    "slug": "miskawaan-villa-waterlily",
+    "folderName": "Miskawaan Villa Waterlily",
+    "images": {
+      "hero": [
+        "/villas/Miskawaan Villa Waterlily/hero/miskawaan_waterlily-1609.jpg",
+        "/villas/Miskawaan Villa Waterlily/hero/miskawaan_waterlily-2064.jpg"
+      ],
+      "ext": [
+        "/villas/Miskawaan Villa Waterlily/ext/miskawaan_waterlily-1575.jpg",
+        "/villas/Miskawaan Villa Waterlily/ext/miskawaan_waterlily-1965.jpg",
+        "/villas/Miskawaan Villa Waterlily/ext/miskawaan_waterlily-1997.jpg",
+        "/villas/Miskawaan Villa Waterlily/ext/miskawaan_waterlily-2031.jpg",
+        "/villas/Miskawaan Villa Waterlily/ext/miskawaan_waterlily-2177.jpg"
+      ],
+      "liv": [
+        "/villas/Miskawaan Villa Waterlily/liv/miskawaan_waterlily-9547.jpg",
+        "/villas/Miskawaan Villa Waterlily/liv/miskawaan_waterlily-9566.jpg",
+        "/villas/Miskawaan Villa Waterlily/liv/miskawaan_waterlily-9605.jpg"
+      ],
+      "din": [
+        "/villas/Miskawaan Villa Waterlily/din/miskawaan_waterlily-1483.jpg",
+        "/villas/Miskawaan Villa Waterlily/din/miskawaan_waterlily-1629.jpg",
+        "/villas/Miskawaan Villa Waterlily/din/miskawaan_waterlily-1637.jpg",
+        "/villas/Miskawaan Villa Waterlily/din/miskawaan_waterlily-9716.jpg",
+        "/villas/Miskawaan Villa Waterlily/din/miskawaan_waterlily-9781.jpg"
+      ],
+      "kit": [
+        "/villas/Miskawaan Villa Waterlily/kit/miskawaan_waterlily-0511.jpg"
+      ],
+      "bed1": [
+        "/villas/Miskawaan Villa Waterlily/bed1/miskawaan_waterlily-1249.jpg",
+        "/villas/Miskawaan Villa Waterlily/bed1/miskawaan_waterlily-1313.jpg",
+        "/villas/Miskawaan Villa Waterlily/bed1/miskawaan_waterlily-1314.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Miskawaan Villa Waterlily/bath1/miskawaan_waterlily-0344.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Miskawaan Villa Waterlily/pool/miskawaan_waterlily-1796.jpg",
+        "/villas/Miskawaan Villa Waterlily/pool/miskawaan_waterlily-1831.jpg",
+        "/villas/Miskawaan Villa Waterlily/pool/miskawaan_waterlily-1990.jpg",
+        "/villas/Miskawaan Villa Waterlily/pool/miskawaan_waterlily-2006.jpg",
+        "/villas/Miskawaan Villa Waterlily/pool/miskawaan_waterlily-2161.jpg",
+        "/villas/Miskawaan Villa Waterlily/pool/miskawaan_waterlily-2235.jpg"
+      ],
+      "view": [
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-1527.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-1579.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-1662.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-1905.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-1941.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-1958.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-2257.jpg",
+        "/villas/Miskawaan Villa Waterlily/view/miskawaan_waterlily-2292.jpg"
+      ],
+      "amen": [
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-1119.jpg",
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-1124.jpg",
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-1128.jpg",
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-1157.jpg",
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-2142.jpg",
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-4288.jpg",
+        "/villas/Miskawaan Villa Waterlily/amen/miskawaan_waterlily-4316.jpg"
+      ]
+    },
+    "totalImages": 41,
+    "pricing": {
+      "daily": "*",
+      "weekly": "3,4,5",
+      "monthly": "52K-98K"
+    }
+  },
+  "orchard-view": {
+    "realName": "Orchard View (3BR)",
+    "codeName": "Orchard Vista",
+    "slug": "orchard-view",
+    "folderName": "Orchard View",
+    "images": {
+      "hero": [
+        "/villas/Orchard View/hero/34a0199b-e219-4cc5-be4d-3dc0a0edce35.jpg"
+      ],
+      "ext": [],
+      "liv": [
+        "/villas/Orchard View/liv/a6f76cf2-5070-4d76-b54a-0f874e401ba0.jpg",
+        "/villas/Orchard View/liv/dc0f02f2-4061-42c3-a4bb-947bdebaa9d1.jpg"
+      ],
+      "din": [
+        "/villas/Orchard View/din/7c6b6ed8-e31a-4264-baf0-d3a0480b6024.jpg",
+        "/villas/Orchard View/din/9e4c7c69-e006-4a58-acad-01bc119dfa37.jpg"
+      ],
+      "kit": [
+        "/villas/Orchard View/kit/cc565917-d891-4d0c-a112-e295eaf8d971.jpg"
+      ],
+      "bed1": [
+        "/villas/Orchard View/bed1/919a3014-cdfe-4679-9c58-74f94d1f401b.jpg",
+        "/villas/Orchard View/bed1/c6421fe2-026d-40b2-bf62-037075af6bb3.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Orchard View/bath1/c85f2c64-eb5b-47e0-a914-64216d791f63.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Orchard View/pool/0045f241-06d0-4538-87b4-25e5dd39ae8b.jpg",
+        "/villas/Orchard View/pool/02f0483e-5188-43dd-976b-c44c81740c65.jpg",
+        "/villas/Orchard View/pool/4959fbe5-3726-44ee-b6de-d931b85becaa.jpg",
+        "/villas/Orchard View/pool/539e031d-e771-4b0d-9eb2-cfbbea85e877.jpg",
+        "/villas/Orchard View/pool/bebdbc25-5488-456a-a4a5-89dc0a4710c4.jpg",
+        "/villas/Orchard View/pool/f493f545-f2c0-479f-a707-e876631fee6e.jpg"
+      ],
+      "view": [
+        "/villas/Orchard View/view/5eaa6f03-bbf1-40bc-9ecc-4f5b86010f2b.jpg"
+      ],
+      "amen": [
+        "/villas/Orchard View/amen/1aafdce6-ffdf-4b15-ba34-72fe40b97012.jpg",
+        "/villas/Orchard View/amen/4e801bd7-dc69-4023-a74e-aca32cde5bf9.jpg",
+        "/villas/Orchard View/amen/50219e66-d573-4499-8228-cd102e92097b.jpg"
+      ]
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "5K-10K"
+    }
+  },
+  "roger-plailaem-3br": {
+    "realName": "Roger Plailaem (3BR)",
+    "codeName": "Rover Pearl",
+    "slug": "roger-plailaem-3br",
+    "folderName": "Roger - Plailaem 3BR",
+    "images": {
+      "hero": [
+        "/villas/Roger - Plailaem 3BR/hero/2317e6b3-b494-43a2-8a53-cd0adc56c2f5.jpg"
+      ],
+      "ext": [
+        "/villas/Roger - Plailaem 3BR/ext/2317e6b3-b494-43a2-8a53-cd0adc56c2f5.jpg"
+      ],
+      "liv": [
+        "/villas/Roger - Plailaem 3BR/liv/48d3bf3b-4bb5-4116-a0b2-1b4b0b24c08e.jpg",
+        "/villas/Roger - Plailaem 3BR/liv/d69ee0c7-5ac5-4f2c-b172-95d508826a35.jpg"
+      ],
+      "din": [
+        "/villas/Roger - Plailaem 3BR/din/6a75048c-533c-4f28-8d5a-3127fc76f333.jpg"
+      ],
+      "kit": [
+        "/villas/Roger - Plailaem 3BR/kit/fb0d72c9-9420-40d1-b0d5-07e01544cb9b.jpg"
+      ],
+      "bed1": [
+        "/villas/Roger - Plailaem 3BR/bed1/05bc85b4-8b9a-49b0-9df7-781e4020146f.jpg",
+        "/villas/Roger - Plailaem 3BR/bed1/89db4819-1a58-4c22-8953-175c3091b02b.jpg",
+        "/villas/Roger - Plailaem 3BR/bed1/c3f6078b-520f-464d-92ae-35df9117c154.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Roger - Plailaem 3BR/bath1/46b692fa-6f0c-4def-9b32-bdd0d34b6423.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Roger - Plailaem 3BR/pool/07fb062c-5c9d-4307-90ff-abbb55b22814.jpg",
+        "/villas/Roger - Plailaem 3BR/pool/4a434361-75ff-4411-99bc-2a1ad288553c.jpg",
+        "/villas/Roger - Plailaem 3BR/pool/7d9839f3-9235-468a-9c32-2f7114752769.jpg",
+        "/villas/Roger - Plailaem 3BR/pool/bc8db2ff-0468-4af0-8107-a663eb0aea81.jpg",
+        "/villas/Roger - Plailaem 3BR/pool/e42830f9-32f0-466b-b159-bcd974bea833.jpg"
+      ],
+      "view": [
+        "/villas/Roger - Plailaem 3BR/view/0b97345b-ebca-4ee7-8a88-42e0fca9816b.jpg",
+        "/villas/Roger - Plailaem 3BR/view/1fc7fdde-5a51-4798-9be1-5be86813f00b.jpg",
+        "/villas/Roger - Plailaem 3BR/view/3ace0230-c9a2-4005-88c0-b05fb0106a5f.jpg",
+        "/villas/Roger - Plailaem 3BR/view/b43fcf16-47f2-4ef6-84fd-b66ac021d6d6.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "6.5K-12K"
+    }
+  },
+  "samui-sea-me": {
+    "realName": "Samui Sea Me (3BR)",
+    "codeName": "Samui Seaview",
+    "slug": "samui-sea-me",
+    "folderName": "Samui Sea Me",
+    "images": {
+      "hero": [
+        "/villas/Samui Sea Me/hero/d79efc_b3406e076b4f436bb41d6ff3f20ceff0~mv2_d_7151_5759_s_4_2.jpg",
+        "/villas/Samui Sea Me/hero/d79efc_cd6553fe8ee345029fbce1ef702fb19d~mv2_d_6016_4016_s_4_2.jpg"
+      ],
+      "ext": [
+        "/villas/Samui Sea Me/ext/d79efc_273ff08bbb07491684b45864c9aadb3a~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/ext/d79efc_321647a8c8664e83a1c4ac44c2bfa112~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/ext/d79efc_828bcc08f5e24d769893e426f8389074~mv2.jpg",
+        "/villas/Samui Sea Me/ext/d79efc_f2c7ecd5e74b48e4ac6ea51cff19d326~mv2_d_4016_6016_s_4_2.jpg",
+        "/villas/Samui Sea Me/ext/IMG-20240403-WA0002.jpg"
+      ],
+      "liv": [
+        "/villas/Samui Sea Me/liv/d79efc_1442279248934fddb801ef538a7f1866~mv2_d_5956_3944_s_4_2.jpg",
+        "/villas/Samui Sea Me/liv/d79efc_24acd6ea28a24175bac28faac5da8e75~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/liv/d79efc_3ce9398695d04c94895e79447bdee24e~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/liv/d79efc_d9082e2e878a437bb03f86f0084a4d5b~mv2_d_6016_4016_s_4_2.jpg"
+      ],
+      "din": [
+        "/villas/Samui Sea Me/din/d79efc_7384a1fc49674a35a533b5c8b2d97e09~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/din/d79efc_9d90a342d84a4f71a318749e08671628~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/din/IMG-20240403-WA0021.jpg"
+      ],
+      "kit": [
+        "/villas/Samui Sea Me/kit/d79efc_40342477b8f040638f60c648f5a313ff~mv2_d_5884_3836_s_4_2.jpg",
+        "/villas/Samui Sea Me/kit/d79efc_b733049640634b48923575e5d9544b3c~mv2_d_5824_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/kit/IMG-20240403-WA0014.jpg"
+      ],
+      "bed1": [
+        "/villas/Samui Sea Me/bed1/d79efc_122b6b0f47004151978f5c076ee1f831~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/bed1/d79efc_59d74c8ceabe49a0a1f9fd2cb91eeb0f~mv2_d_4032_2268_s_2.jpg",
+        "/villas/Samui Sea Me/bed1/d79efc_ea02f29441b842b3b12139aad49630dd~mv2.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Samui Sea Me/bath1/d79efc_9a72d73c792440c5bbb0ce46017b5d15~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/bath1/d79efc_e36823de802548d7be3fce9824444928~mv2_d_6016_4016_s_4_2.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Samui Sea Me/pool/d79efc_04ddf2b270574ff08bf0eaf05375ceeb~mv2_d_5872_3824_s_4_2.jpg",
+        "/villas/Samui Sea Me/pool/d79efc_9fa9ea4194134e2783c5a48b79acaa30~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/pool/d79efc_a75cad23c4ca456f9eaf7552f75caf75~mv2_d_5757_3843_s_4_2.jpg",
+        "/villas/Samui Sea Me/pool/d79efc_b3406e076b4f436bb41d6ff3f20ceff0~mv2_d_7151_5759_s_4_2.jpg",
+        "/villas/Samui Sea Me/pool/d79efc_d82fb58c1bdf4fce95f127e9d8f70ab0~mv2_d_6016_4016_s_4_2.jpg",
+        "/villas/Samui Sea Me/pool/IMG-20240403-WA0017.jpg",
+        "/villas/Samui Sea Me/pool/IMG-20240403-WA0018.jpg"
+      ],
+      "view": [
+        "/villas/Samui Sea Me/view/d79efc_2ad779e4176e44d7a03753623f1d2ea6~mv2_d_6577_3998_s_4_2.jpg",
+        "/villas/Samui Sea Me/view/IMG-20240403-WA0006.jpg",
+        "/villas/Samui Sea Me/view/IMG-20240403-WA0015.jpg"
+      ],
+      "amen": [
+        "/villas/Samui Sea Me/amen/36994354_2035843729824312_454578956356550656_n.jpg",
+        "/villas/Samui Sea Me/amen/37007507_2035843539824331_4044030567556055040_n.jpg",
+        "/villas/Samui Sea Me/amen/37030228_2035845219824163_5198718922924228608_n.jpg",
+        "/villas/Samui Sea Me/amen/37092791_2035843596490992_3902277624377901056_n.jpg",
+        "/villas/Samui Sea Me/amen/37097019_2035843696490982_3233341883979661312_n.jpg",
+        "/villas/Samui Sea Me/amen/37107887_2035843576490994_1289616264800501760_n.jpg",
+        "/villas/Samui Sea Me/amen/IMG-20240403-WA0023.jpg"
+      ]
+    },
+    "totalImages": 39,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "7.4K-11K"
+    }
+  },
+  "sanctuary-apsara": {
+    "realName": "Sanctuary Apsara (3BR)",
+    "codeName": "Santuary Aveline (3BR)",
+    "slug": "sanctuary-apsara",
+    "folderName": "Sanctuary Apsara",
+    "images": {
+      "hero": [
+        "/villas/Sanctuary Apsara/hero/SE1-Villa-5.jpg",
+        "/villas/Sanctuary Apsara/hero/SE1-Villa-6.jpg"
+      ],
+      "ext": [
+        "/villas/Sanctuary Apsara/ext/301318954_412782680953837_6988599686384723573_n.jpg",
+        "/villas/Sanctuary Apsara/ext/SE1-Lower-terrace-1.jpg",
+        "/villas/Sanctuary Apsara/ext/SE1-Lower-terrace-4.jpg"
+      ],
+      "liv": [
+        "/villas/Sanctuary Apsara/liv/288675731_561885472074378_3486426940339649266_n.jpg",
+        "/villas/Sanctuary Apsara/liv/SE1-Living-room-1.jpg",
+        "/villas/Sanctuary Apsara/liv/SE1-Living-room-13.jpg",
+        "/villas/Sanctuary Apsara/liv/SE1-Living-room-2.jpg",
+        "/villas/Sanctuary Apsara/liv/SE1-Living-room-3.jpg",
+        "/villas/Sanctuary Apsara/liv/SE1-Living-room-8.jpg"
+      ],
+      "din": [
+        "/villas/Sanctuary Apsara/din/SE1-Dining-1.jpg",
+        "/villas/Sanctuary Apsara/din/SE1-Dining-2.jpg",
+        "/villas/Sanctuary Apsara/din/SE1-Dining-3.jpg",
+        "/villas/Sanctuary Apsara/din/SE1-Dining-5.jpg",
+        "/villas/Sanctuary Apsara/din/SE1-Dining-6.jpg"
+      ],
+      "kit": [
+        "/villas/Sanctuary Apsara/kit/SE1-Kitchen-1.jpg",
+        "/villas/Sanctuary Apsara/kit/SE1-Kitchen-2.jpg",
+        "/villas/Sanctuary Apsara/kit/SE1-Kitchen-3.jpg",
+        "/villas/Sanctuary Apsara/kit/SE1-Kitchen-6.jpg"
+      ],
+      "bed1": [
+        "/villas/Sanctuary Apsara/bed1/SE1-Bedroom-2-11.jpg",
+        "/villas/Sanctuary Apsara/bed1/SE1-Bedroom-2-2.jpg",
+        "/villas/Sanctuary Apsara/bed1/SE1-Bedroom-2-4.jpg",
+        "/villas/Sanctuary Apsara/bed1/SE1-Bedroom-2-9.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sanctuary Apsara/bath1/SE1-Bathroom-1-2.jpg",
+        "/villas/Sanctuary Apsara/bath1/SE1-Bathroom-1-3.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sanctuary Apsara/pool/SE1-Lower-terrace-2.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Swimming-pool-11.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Swimming-pool-15.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Swimming-pool-3.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Swimming-pool-5.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Swimming-pool-7.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Swimming-pool-9.jpg",
+        "/villas/Sanctuary Apsara/pool/SE1-Villa-3.jpg"
+      ],
+      "view": [
+        "/villas/Sanctuary Apsara/view/87420494_108887070707556_1763798594357297152_n.jpg",
+        "/villas/Sanctuary Apsara/view/SE1-upper-terrace-1.jpg"
+      ],
+      "amen": [
+        "/villas/Sanctuary Apsara/amen/SE1-Entrance-2.jpg",
+        "/villas/Sanctuary Apsara/amen/SE1-Entrance-3.jpg",
+        "/villas/Sanctuary Apsara/amen/SE1-Pool-Bar-2.jpg",
+        "/villas/Sanctuary Apsara/amen/SE1-Pool-Bar-5.jpg"
+      ]
+    },
+    "totalImages": 40,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "12K"
+    }
+  },
+  "santisook-villa-a": {
+    "realName": "Santisook Villa A (3BR) ***",
+    "codeName": "Santisook Villa Aster",
+    "slug": "santisook-villa-a",
+    "folderName": "Santisook - Villa A",
+    "images": {
+      "hero": [
+        "/villas/Santisook - Villa A/hero/8834a667-871e-4152-8647-81c6b86b97d7.jpg"
+      ],
+      "ext": [
+        "/villas/Santisook - Villa A/ext/1f6076f5-9d97-45fa-bba5-5312ab7ae55a.jpg",
+        "/villas/Santisook - Villa A/ext/IMG-20220519-WA0073.jpg"
+      ],
+      "liv": [
+        "/villas/Santisook - Villa A/liv/IMG_20221001_104652.jpg"
+      ],
+      "din": [
+        "/villas/Santisook - Villa A/din/IMG_20221001_104338.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Santisook - Villa A/bed1/5b2be1c8-da93-48c2-b939-b50aa3983d86.jpg",
+        "/villas/Santisook - Villa A/bed1/IMG_20221001_103256.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Santisook - Villa A/bath1/20211214_175553.jpg",
+        "/villas/Santisook - Villa A/bath1/IMG_20221001_103859.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Santisook - Villa A/pool/8834a667-871e-4152-8647-81c6b86b97d7.jpg"
+      ],
+      "view": [
+        "/villas/Santisook - Villa A/view/5413fa66-bdfd-43bf-854a-c3ee3115b235.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 11,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "12K-16K"
+    }
+  },
+  "santisook-villa-c": {
+    "realName": "Santisook Villa C (3BR) ***",
+    "codeName": "Santisook Villa Coloni",
+    "slug": "santisook-villa-c",
+    "folderName": "Santisook - Villa C",
+    "images": {
+      "hero": [
+        "/villas/Santisook - Villa C/hero/IMG-20230817-WA0003.jpg",
+        "/villas/Santisook - Villa C/hero/IMG-20230817-WA0006.jpg"
+      ],
+      "ext": [
+        "/villas/Santisook - Villa C/ext/IMG-20230817-WA0006.jpg",
+        "/villas/Santisook - Villa C/ext/IMG-20230912-WA0012.jpg"
+      ],
+      "liv": [
+        "/villas/Santisook - Villa C/liv/IMG-20230912-WA0009.jpg",
+        "/villas/Santisook - Villa C/liv/IMG-20230912-WA0010.jpg"
+      ],
+      "din": [],
+      "kit": [
+        "/villas/Santisook - Villa C/kit/IMG-20230817-WA0002.jpg",
+        "/villas/Santisook - Villa C/kit/IMG-20230817-WA0004.jpg",
+        "/villas/Santisook - Villa C/kit/IMG-20230912-WA0013.jpg"
+      ],
+      "bed1": [
+        "/villas/Santisook - Villa C/bed1/IMG-20230912-WA0014.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Santisook - Villa C/bath1/IMG-20230817-WA0005.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Santisook - Villa C/pool/IMG-20230817-WA0003.jpg",
+        "/villas/Santisook - Villa C/pool/IMG-20230912-WA0011.jpg"
+      ],
+      "view": [
+        "/villas/Santisook - Villa C/view/IMG-20230817-WA0007.jpg",
+        "/villas/Santisook - Villa C/view/IMG-20230912-WA0008.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 15,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "8.5K-14K"
+    }
+  },
+  "santisook-villa-e2": {
+    "realName": "Santisook Villa E2 (2BR) ***",
+    "codeName": "Santisook Villa Ember",
+    "slug": "santisook-villa-e2",
+    "folderName": "Santisook - Villa E2",
+    "images": {
+      "hero": [
+        "/villas/Santisook - Villa E2/hero/IMG20220117151526.jpg"
+      ],
+      "ext": [
+        "/villas/Santisook - Villa E2/ext/WhatsApp Image 2022-03-03 at 14 (1).jpg"
+      ],
+      "liv": [
+        "/villas/Santisook - Villa E2/liv/DSCN0959.JPG",
+        "/villas/Santisook - Villa E2/liv/IMG20220814110511.jpg"
+      ],
+      "din": [
+        "/villas/Santisook - Villa E2/din/298960665_3276131302706204_765815249361751229_n.jpg"
+      ],
+      "kit": [
+        "/villas/Santisook - Villa E2/kit/298960665_3276131302706204_765815249361751229_n.jpg"
+      ],
+      "bed1": [
+        "/villas/Santisook - Villa E2/bed1/IMG20220812172759.jpg",
+        "/villas/Santisook - Villa E2/bed1/IMG_20220913_091520.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Santisook - Villa E2/bath1/DSCN0966.JPG"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Santisook - Villa E2/pool/DSCN0955.jpg",
+        "/villas/Santisook - Villa E2/pool/IMG20220812172948.jpg",
+        "/villas/Santisook - Villa E2/pool/IMG_20220913_091228.jpg"
+      ],
+      "view": [
+        "/villas/Santisook - Villa E2/view/IMG20220814110353.jpg"
+      ],
+      "amen": [
+        "/villas/Santisook - Villa E2/amen/WhatsApp Image 2022-03-03 at 14.34.41 (1).jpeg"
+      ]
+    },
+    "totalImages": 14,
+    "pricing": {
+      "daily": "",
+      "weekly": "2",
+      "monthly": "5.5K-8.5K"
+    }
+  },
+  "santisook-villa-f": {
+    "realName": "Santisook Villa F (4BR) ***",
+    "codeName": "Santisook Villa Fleur",
+    "slug": "santisook-villa-f",
+    "folderName": "Santisook - Villa F",
+    "images": {
+      "hero": [
+        "/villas/Santisook - Villa F/hero/67527117_2345840785497566_5027671592662990848_n.jpg",
+        "/villas/Santisook - Villa F/hero/67542213_2345839755497669_851165859828203520_n.jpg",
+        "/villas/Santisook - Villa F/hero/IMG20220812105306.jpg"
+      ],
+      "ext": [
+        "/villas/Santisook - Villa F/ext/20190722_1618381.jpg",
+        "/villas/Santisook - Villa F/ext/67443424_2345842845497360_9101926038354526208_n.jpg"
+      ],
+      "liv": [
+        "/villas/Santisook - Villa F/liv/JZRF2828.JPG",
+        "/villas/Santisook - Villa F/liv/WhatsApp Image 2022-07-22 at 3.49.02 PM.jpeg"
+      ],
+      "din": [
+        "/villas/Santisook - Villa F/din/20190722_150925.jpg",
+        "/villas/Santisook - Villa F/din/20190722_151310.jpg"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Santisook - Villa F/bed1/WhatsApp Image 2022-07-23 at 8.25.24 AM.jpeg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Santisook - Villa F/bath1/WhatsApp Image 2022-07-22 at 3.11.54 PM.jpeg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Santisook - Villa F/pool/67486902_2345840255497619_7221019968056328192_n.jpg",
+        "/villas/Santisook - Villa F/pool/67542213_2345839755497669_851165859828203520_n.jpg",
+        "/villas/Santisook - Villa F/pool/IMG20220812105306.jpg"
+      ],
+      "view": [
+        "/villas/Santisook - Villa F/view/67425982_2345825232165788_1330389695011487744_n.jpg"
+      ],
+      "amen": [
+        "/villas/Santisook - Villa F/amen/67777505_2345841498830828_2715387446765289472_n.jpg",
+        "/villas/Santisook - Villa F/amen/OUCN4621.JPG"
+      ]
+    },
+    "totalImages": 17,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "16K-20K"
+    }
+  },
+  "sasa-kiran-best-world-vision-6br": {
+    "realName": "Sasa + Kiran Best World Vision (6BR)",
+    "codeName": "Sasa Vision Bay",
+    "slug": "sasa-kiran-best-world-vision-6br",
+    "folderName": "Sasa + Kiran Best World Vision 6BR",
+    "images": {
+      "hero": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/hero/a4825ba2-ffed-40d8-b329-835364eb6324.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/hero/a8af8277-d2eb-4d64-a094-29727227f0b9.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/hero/ed5f65ea-4c2a-41c6-8632-188724f97128.webp"
+      ],
+      "ext": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/ext/6c5fa88d-742b-435a-8228-e90c9927fcdd.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/ext/70310f64-74b9-4e79-88d4-4c9e674b07fc.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/ext/ed5f65ea-4c2a-41c6-8632-188724f97128.webp"
+      ],
+      "liv": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/liv/012ac259-023c-402a-a3fb-716efc985a1d.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/liv/11add30f-f896-4a6c-93e1-b5daf9e19d2c.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/liv/709db03e-1cc0-4ea5-81fd-a101f8c450d4.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/liv/e8f1cc0e-7373-48ee-98ea-0c4857d418d1.webp"
+      ],
+      "din": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/din/1e639db3-2593-4226-8f7d-771365f898c7.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/din/2ccba5a0-bf0a-4960-9a43-5c480cde0182.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/din/536c7abe-1c72-49c4-9737-8e471d343fae.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/din/5ef8cbc7-3eda-4bbf-a646-7ef798d6caa7.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/din/795a4967-8d4a-4374-ad13-81b4fd361dd6.jpg"
+      ],
+      "kit": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/kit/466d375b-c611-4bc2-9766-fc6631c0d859.webp"
+      ],
+      "bed1": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/bed1/26b99fb8-fc68-4dd4-8070-ada13418eaf7.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/bed1/66dd2101-e292-4bbe-8d62-cd0e5f2350c9.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/bed1/98eaf758-21cb-4ad3-ae2b-a33416b3a95e.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/bed1/aaeef468-67e3-4a55-b0a4-51ed55a81939.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/bed1/dcbd0c70-2486-4fda-a4f8-bc47dde43d9e.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/bed1/ffc570d8-2d6f-40bc-8859-784abecbdc49.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/bath1/98c37b66-c32e-4667-b610-f31f17e80c84.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/pool/95367d4a-661f-4a3d-8430-f904cc6e6fbe.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/pool/a4825ba2-ffed-40d8-b329-835364eb6324.webp"
+      ],
+      "view": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/view/8297cb38-64cd-43d2-9325-7b6263911672.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/view/96211439-7d88-4c52-ac4a-9f84a41cb2ff.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/view/c4cffd2a-d965-4e8b-a8b3-7a50ae4f517d.webp"
+      ],
+      "amen": [
+        "/villas/Sasa + Kiran Best World Vision 6BR/amen/038d7419-c55f-445b-a542-cbc0e3e3be00.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/amen/46bed155-1ec0-466f-abaf-e7d15f65f4bb.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/amen/61d400d9-ae0d-4d64-b1a9-e7776a57b569.webp",
+        "/villas/Sasa + Kiran Best World Vision 6BR/amen/fa9ec3c6-0b15-4bb6-9d03-33ece1b74c8e.webp"
+      ]
+    },
+    "totalImages": 32,
+    "pricing": {
+      "daily": "",
+      "weekly": "6",
+      "monthly": "16K-24K"
+    }
+  },
+  "sasa-kiran-samui-sky-pool": {
+    "realName": "Sasa + Kiran Samui Sky Pool (4BR)",
+    "codeName": "Sasa Skyline",
+    "slug": "sasa-kiran-samui-sky-pool",
+    "folderName": "Sasa + Kiran Samui Sky Pool",
+    "images": {
+      "hero": [
+        "/villas/Sasa + Kiran Samui Sky Pool/hero/1f4d7a93-6515-4bac-8252-84a739244991.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/hero/430106d7-f0ba-45a6-8c75-51fcaed4a4fb.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/hero/447cf09d-43a2-4987-8aad-84bd93324864.webp"
+      ],
+      "ext": [
+        "/villas/Sasa + Kiran Samui Sky Pool/ext/3f1d6e0c-6eb7-4f8a-aa2e-099ae6db7fa4.webp"
+      ],
+      "liv": [],
+      "din": [
+        "/villas/Sasa + Kiran Samui Sky Pool/din/c1158bbb-7504-4fa3-8b4f-31294936b24d.webp"
+      ],
+      "kit": [
+        "/villas/Sasa + Kiran Samui Sky Pool/kit/98794de0-d5fb-431b-9420-5b62e756ab86.webp"
+      ],
+      "bed1": [
+        "/villas/Sasa + Kiran Samui Sky Pool/bed1/7bc7a7a6-e979-4126-8594-ca1bdd8c9a4c.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/bed1/8f1f9c90-0b69-403a-bf1e-deb91638cf67.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/bed1/adf0408a-0068-4658-8931-ceed9ceb7951.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sasa + Kiran Samui Sky Pool/bath1/457657a0-b31c-40a4-a745-83da20a1346e.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/bath1/f0967741-9f1e-45de-9e74-8974de99445a.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sasa + Kiran Samui Sky Pool/pool/c1a4003f-a6d0-4cb4-a346-545bf036bec7.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/pool/deb1e8e5-b5e1-4ab7-8c4a-16d9ee2d7072.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/pool/fdfbe45e-8a70-452d-bce6-4b0fa53bcd1b.webp"
+      ],
+      "view": [
+        "/villas/Sasa + Kiran Samui Sky Pool/view/2c2b7f30-d16c-40b9-a219-803e76b9b951.webp",
+        "/villas/Sasa + Kiran Samui Sky Pool/view/e6a40546-3024-480c-a179-95ac562f38c7.webp"
+      ],
+      "amen": []
+    },
+    "totalImages": 16,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "8K-22K"
+    }
+  },
+  "sasa-kiran-sunshine-oceanview": {
+    "realName": "Sasa + Kiran Sunshine Oceanview (3BR)",
+    "codeName": "Sasa Omniva",
+    "slug": "sasa-kiran-sunshine-oceanview",
+    "folderName": "Sasa + Kiran Sunshine Oceanview",
+    "images": {
+      "hero": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/hero/a22f0b5a-3ade-473b-b018-300db0431235.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/hero/b5ed74d6-9198-4570-807d-6416f71a812a.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/hero/eaec2709-7d22-4be5-868d-39825c086c6d.webp"
+      ],
+      "ext": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/ext/859245f2-4bf5-4706-8f6e-615dc52a519e.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/ext/a22f0b5a-3ade-473b-b018-300db0431235.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/ext/e91b0f11-42d8-490e-bd95-dc34ba991e66.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/ext/e970b04f-3f91-47a5-8b86-8f500d8e9cde.webp"
+      ],
+      "liv": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/052b94db-2a3f-4b8b-a826-0ad9d51288de.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/3824da9a-7d99-47d7-bc87-ee4d5229e5bf.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/72bc6de8-2849-4fe5-a13f-3e02271dd47b.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/738b8ee9-de1d-437c-ad57-ee3bc83ca18b.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/7975c166-f7ca-4f39-a40b-ee0b414c7016.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/a4e3867f-cbe9-4d58-acd2-cc44bfe235a1.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/liv/eaec2709-7d22-4be5-868d-39825c086c6d.webp"
+      ],
+      "din": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/din/7ff7d17d-9d07-4203-a958-4339ff4d9599.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/din/8e4259b0-c726-44b8-ab07-3dfccfdfa05a.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/din/d1fa3a29-dc22-4ddd-adcb-d9d1b45845fe.webp"
+      ],
+      "kit": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/kit/9e4fb30b-bdf6-4403-b73f-318b93478c5c.webp"
+      ],
+      "bed1": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/bed1/725c1ee0-f3af-4021-b9b7-a067d26f7e9d.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/bed1/b1e8db39-7596-4196-b457-32202887dfc1.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/bath1/85d6f214-8ea0-44d3-800a-f0b328e10450.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/bath1/8d2ffe6a-2bed-411d-9bae-60f56877af01.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/pool/27f2e74f-adc8-48b5-8116-a6ab97e85c25.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/pool/462234da-4fc6-429b-b039-c95152500a13.webp"
+      ],
+      "view": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/view/4d3e9750-be0a-4fb6-9f52-f03e5e41ffe8.webp"
+      ],
+      "amen": [
+        "/villas/Sasa + Kiran Sunshine Oceanview/amen/997d0c9c-7172-4f97-8a17-eaf9930c11dd.webp",
+        "/villas/Sasa + Kiran Sunshine Oceanview/amen/eb6b7709-261c-44f6-b8e7-601eae8f3a7b.webp"
+      ]
+    },
+    "totalImages": 27,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "6K-10K"
+    }
+  },
+  "sea-renity": {
+    "realName": "Sea Renity (6BR)",
+    "codeName": "Serene Villa (6BR)",
+    "slug": "sea-renity",
+    "folderName": "Sea Renity",
+    "images": {
+      "hero": [
+        "/villas/Sea Renity/hero/kohsamui-villasearenity-02.jpg",
+        "/villas/Sea Renity/hero/kohsamui-villasearenity-06.jpg",
+        "/villas/Sea Renity/hero/kohsamui-villasearenity-09.jpg",
+        "/villas/Sea Renity/hero/SeaRenity_swimming_pool-11.jpg"
+      ],
+      "ext": [
+        "/villas/Sea Renity/ext/kohsamui-villasearenity-05.jpg"
+      ],
+      "liv": [
+        "/villas/Sea Renity/liv/kohsamui-villasearenity-10.jpg",
+        "/villas/Sea Renity/liv/SeaRenity_living_room-5.jpg",
+        "/villas/Sea Renity/liv/SeaRenity_living_room-7.jpg"
+      ],
+      "din": [
+        "/villas/Sea Renity/din/kohsamui-villasearenity-16.jpg",
+        "/villas/Sea Renity/din/kohsamui-villasearenity-55.jpg",
+        "/villas/Sea Renity/din/kohsamui-villasearenity-56.jpg",
+        "/villas/Sea Renity/din/kohsamui-villasearenity-57.jpg",
+        "/villas/Sea Renity/din/SeaRenity_Dining-19.jpg",
+        "/villas/Sea Renity/din/SeaRenity_Dining-9.jpg"
+      ],
+      "kit": [
+        "/villas/Sea Renity/kit/SeaRenity_Kitchen-1.jpg"
+      ],
+      "bed1": [
+        "/villas/Sea Renity/bed1/kohsamui-villasearenity-17.jpg",
+        "/villas/Sea Renity/bed1/kohsamui-villasearenity-20.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sea Renity/bath1/kohsamui-villasearenity-23.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sea Renity/pool/kohsamui-villasearenity-02.jpg",
+        "/villas/Sea Renity/pool/kohsamui-villasearenity-04.jpg",
+        "/villas/Sea Renity/pool/kohsamui-villasearenity-06.jpg",
+        "/villas/Sea Renity/pool/kohsamui-villasearenity-14.jpg",
+        "/villas/Sea Renity/pool/kohsamui-villasearenity-15.jpg",
+        "/villas/Sea Renity/pool/SeaRenity_Garden_beach-1.jpg"
+      ],
+      "view": [
+        "/villas/Sea Renity/view/kohsamui-villasearenity-09.jpg",
+        "/villas/Sea Renity/view/SeaRenity_swimming_pool-11.jpg"
+      ],
+      "amen": [
+        "/villas/Sea Renity/amen/kohsamui-villasearenity-11.jpg",
+        "/villas/Sea Renity/amen/kohsamui-villasearenity-53.jpg",
+        "/villas/Sea Renity/amen/kohsamui-villasearenity-58.jpg",
+        "/villas/Sea Renity/amen/SeaRenity_Cinema-1.jpg",
+        "/villas/Sea Renity/amen/SeaRenity_Gym-3.jpg",
+        "/villas/Sea Renity/amen/SeaRenity_Kids_room-1.jpg",
+        "/villas/Sea Renity/amen/SeaRenity_living_room-8.jpg"
+      ]
+    },
+    "totalImages": 33,
+    "pricing": {
+      "daily": "",
+      "weekly": "6",
+      "monthly": "48K-107K"
+    }
+  },
+  "sunshine-samui-villa-chaweng-peaks": {
+    "realName": "Sunshine Samui Villa: Chaweng Peaks (4BR) MN2",
+    "codeName": "Sunny Chaweng Crest",
+    "slug": "sunshine-samui-villa-chaweng-peaks",
+    "folderName": "Sunshine Samui Villa - Chaweng Peaks",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/hero/1.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/hero/2.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/hero/4.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/ext/6.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/liv/16.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/liv/17.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/liv/18.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/liv/19.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/din/20.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/kit/21.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bed1/26.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bed1/27.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bed1/29.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bed1/31.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bed1/32.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bed1/33.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bath1/28.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/bath1/30.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/pool/10.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/pool/14.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/pool/7.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/pool/9.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/11.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/12.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/13.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/15.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/3.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/37.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/view/8.jpg"
+      ],
+      "amen": [
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/amen/22.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/amen/23.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/amen/24.jpg",
+        "/villas/Sunshine Samui Villa - Chaweng Peaks/amen/25.jpg"
+      ]
+    },
+    "totalImages": 33,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "63K-140K"
+    }
+  },
+  "sunshine-samui-villa-master-peak-h4": {
+    "realName": "Sunshine Samui Villa: Master Peak H4 (4BR)",
+    "codeName": "Sunny Mastery",
+    "slug": "sunshine-samui-villa-master-peak-h4",
+    "folderName": "Sunshine Samui Villa - Master Peak H4",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/hero/1.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/ext/40.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/liv/2.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/liv/3.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/liv/4.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/liv/5.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/liv/6.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/liv/7.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/din/38.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/din/9.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/kit/10.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/bed1/25.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/bed1/26.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/bed1/37.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/bath1/27.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/bath1/28.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/bath1/29.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/bath1/30.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/pool/7.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/view/33.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/view/34.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/view/35.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/view/36.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/view/39.jpg"
+      ],
+      "amen": [
+        "/villas/Sunshine Samui Villa - Master Peak H4/amen/12.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/amen/13.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/amen/17.jpg",
+        "/villas/Sunshine Samui Villa - Master Peak H4/amen/32.jpg"
+      ]
+    },
+    "totalImages": 28,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "11K-20K"
+    }
+  },
+  "sunshine-samui-villa-panorama-summit": {
+    "realName": "Sunshine Samui Villa: Panorama Summit (5BR) MN3",
+    "codeName": "Sunny Panorama Summit",
+    "slug": "sunshine-samui-villa-panorama-summit",
+    "folderName": "Sunshine Samui Villa - Panorama Summit",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/hero/1.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/hero/4.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/hero/6.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/ext/39.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/ext/40.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/liv/10.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/liv/12.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/liv/15.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/liv/16.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/liv/17.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/liv/18.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/din/14.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/kit/13.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/bed1/27.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/bed1/33.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/bath1/21.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/pool/20.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/pool/5.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/pool/7.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/pool/8.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/24.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/31.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/32.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/36.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/37.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/38.jpg",
+        "/villas/Sunshine Samui Villa - Panorama Summit/view/9.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 27,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "19K-41K"
+    }
+  },
+  "sunshine-samui-villa-samui-summit": {
+    "realName": "Sunshine Samui Villa: Samui Summit (5BR) MN3",
+    "codeName": "Sunny Summit Vista",
+    "slug": "sunshine-samui-villa-samui-summit",
+    "folderName": "Sunshine Samui Villa - Samui Summit",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Samui Summit/hero/2.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/hero/4.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Samui Summit/ext/1.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/ext/40.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Samui Summit/liv/11.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/liv/6.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/liv/7.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Samui Summit/din/35.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/din/5.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Samui Summit/kit/10.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/kit/8.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/kit/9.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Samui Summit/bed1/13.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/bed1/14.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Samui Summit/bath1/15.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/bath1/16.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Samui Summit/pool/3.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/pool/34.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Samui Summit/view/12.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/view/36.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/view/37.jpg"
+      ],
+      "amen": [
+        "/villas/Sunshine Samui Villa - Samui Summit/amen/25.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/amen/33.jpg",
+        "/villas/Sunshine Samui Villa - Samui Summit/amen/38.jpg"
+      ]
+    },
+    "totalImages": 24,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "17K-37K"
+    }
+  },
+  "sunshine-samui-villa-sereniwood-1": {
+    "realName": "Sunshine Samui Villa: Sereniwood 1 (3BR) MN3",
+    "codeName": "Sunny Sereniwood I",
+    "slug": "sunshine-samui-villa-sereniwood-1",
+    "folderName": "Sunshine Samui Villa - Sereniwood 1",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/hero/2.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/hero/3.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/hero/39.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/hero/4.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/ext/1.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/ext/32.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/ext/33.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/ext/37.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/ext/38.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/ext/40.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/liv/12.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/liv/19.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/liv/31.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/liv/6.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/liv/7.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/din/11.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/din/8.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/kit/10.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/kit/9.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/bed1/13.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/bed1/14.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/bed1/15.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/bed1/16.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/bed1/17.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/bath1/18.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/pool/34.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/pool/35.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/view/36.jpg"
+      ],
+      "amen": [
+        "/villas/Sunshine Samui Villa - Sereniwood 1/amen/28.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 1/amen/29.jpg"
+      ]
+    },
+    "totalImages": 30,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "6.5K-13K"
+    }
+  },
+  "sunshine-samui-villa-sereniwood-2": {
+    "realName": "Sunshine Samui Villa: Sereniwood 2 (3BR) MN3",
+    "codeName": "Sunny Sereniwood II",
+    "slug": "sunshine-samui-villa-sereniwood-2",
+    "folderName": "Sunshine Samui Villa - Sereniwood 2",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/hero/1.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/hero/3.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/ext/2.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/ext/36.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/ext/40.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/10.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/34.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/35.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/5.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/6.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/7.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/8.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/liv/9.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/din/11.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/din/13.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/din/16.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/kit/12.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/kit/14.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/bed1/18.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/bed1/19.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/bed1/20.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/bed1/22.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/bath1/21.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/pool/15.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/pool/17.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/pool/37.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/pool/38.jpg",
+        "/villas/Sunshine Samui Villa - Sereniwood 2/pool/4.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Sereniwood 2/view/39.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 29,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "6.5K-13K"
+    }
+  },
+  "sunshine-samui-villa-suan-kachamudee": {
+    "realName": "Sunshine Samui Villa: Suan Kachamudee (5-11BR)",
+    "codeName": "Sunny Suan Kachamudee",
+    "slug": "sunshine-samui-villa-suan-kachamudee",
+    "folderName": "Sunshine Samui Villa - Suan Kachamudee",
+    "images": {
+      "hero": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/hero/1.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/hero/50.jpg"
+      ],
+      "ext": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/ext/19.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/ext/21.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/ext/46.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/ext/49.jpg"
+      ],
+      "liv": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/liv/11.jpg"
+      ],
+      "din": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/din/10.jpg"
+      ],
+      "kit": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/kit/12.jpg"
+      ],
+      "bed1": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/bed1/13.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/bed1/14.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/bath1/32.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/pool/2.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/pool/3.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/pool/4.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/pool/48.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/pool/5.jpg"
+      ],
+      "view": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/17.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/18.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/20.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/23.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/26.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/28.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/29.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/47.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/view/7.jpg"
+      ],
+      "amen": [
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/amen/12.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/amen/44.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/amen/45.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/amen/8.jpg",
+        "/villas/Sunshine Samui Villa - Suan Kachamudee/amen/9.jpg"
+      ]
+    },
+    "totalImages": 31,
+    "pricing": {
+      "daily": "",
+      "weekly": "45966",
+      "monthly": "28K-72K"
+    }
+  },
+  "the-eden-samui": {
+    "realName": "The Eden Samui (4BR)",
+    "codeName": "The Edenic Villa",
+    "slug": "the-eden-samui",
+    "folderName": "The Eden Samui",
+    "images": {
+      "hero": [
+        "/villas/The Eden Samui/hero/30d5633b-6219-4319-8c6c-43e32fd0da5e.webp"
+      ],
+      "ext": [
+        "/villas/The Eden Samui/ext/625a9db4-767b-467f-9c72-0d7a110784a5.webp",
+        "/villas/The Eden Samui/ext/6fc3893f-c7cf-470e-967d-eb75a7e50672.webp",
+        "/villas/The Eden Samui/ext/8671000c-ee80-4c9c-8b64-68c3e7a96249.webp"
+      ],
+      "liv": [
+        "/villas/The Eden Samui/liv/094f20f8-2dd9-4d1e-8175-f24d476f83c5.webp",
+        "/villas/The Eden Samui/liv/27bb8955-4aa5-41dc-a6c6-618b6b105b41.webp",
+        "/villas/The Eden Samui/liv/94aa7e38-0602-4c53-88fd-2e49893c10c7.webp",
+        "/villas/The Eden Samui/liv/9644a696-88bd-4f34-9caa-6fe26c909883.webp",
+        "/villas/The Eden Samui/liv/a94cdf8f-eeec-465b-bc8c-ca7cbebd488f.webp",
+        "/villas/The Eden Samui/liv/d45f5b83-310c-44f4-9753-985cd9aaec89.webp",
+        "/villas/The Eden Samui/liv/ea79c7de-1e94-42ab-a1ae-c87f2a409816.webp"
+      ],
+      "din": [
+        "/villas/The Eden Samui/din/02a8d6e1-a794-443a-90a4-0de0b6e689fc.webp",
+        "/villas/The Eden Samui/din/150a077e-a76e-4f55-b96c-a63cf1242282.webp",
+        "/villas/The Eden Samui/din/85ce84b5-89c4-48b0-9eda-07d02fe297dd.webp"
+      ],
+      "kit": [
+        "/villas/The Eden Samui/kit/8b6ea6b9-6d0f-4eb1-83a4-c5bd693ff676.webp",
+        "/villas/The Eden Samui/kit/e14e6876-81ae-41a6-a8ef-f7e70f8af9b4.webp"
+      ],
+      "bed1": [
+        "/villas/The Eden Samui/bed1/416582d6-d6a3-40f6-bdf8-df605ceb6a83.webp",
+        "/villas/The Eden Samui/bed1/d18284cf-9c90-4a96-b77b-74b64eee70ee.webp"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/The Eden Samui/bath1/8d6e906e-9c1e-497e-a477-e0fce93623a3.webp"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/The Eden Samui/pool/30d5633b-6219-4319-8c6c-43e32fd0da5e.webp",
+        "/villas/The Eden Samui/pool/3351a535-6abb-4345-8408-6f4aebd72da6.webp",
+        "/villas/The Eden Samui/pool/67346d8f-a4e0-42e8-92fc-4cd657ab8e97.webp",
+        "/villas/The Eden Samui/pool/83d127db-5926-4c8d-be88-2e16626f26c1.webp",
+        "/villas/The Eden Samui/pool/aa56fed0-e800-4ab3-93b3-b3137af7bd41.webp",
+        "/villas/The Eden Samui/pool/c9ef1825-a728-4ab9-91b8-3309674da540.webp",
+        "/villas/The Eden Samui/pool/ce8bf4a1-6419-428b-aaa6-ea80918ff733.webp",
+        "/villas/The Eden Samui/pool/df0ad283-b81a-4636-9142-6c338ccdfa87.webp"
+      ],
+      "view": [
+        "/villas/The Eden Samui/view/29d02a8c-80ab-4bff-8ec4-5a62b14adc96.webp",
+        "/villas/The Eden Samui/view/74364201-1afb-4b4d-ab2f-4455d570d6f7.webp",
+        "/villas/The Eden Samui/view/76d78a75-a8be-4e12-841e-279ea0077add.webp",
+        "/villas/The Eden Samui/view/c3c4f1d1-80f5-4727-8f20-6b0e58589750.webp"
+      ],
+      "amen": [
+        "/villas/The Eden Samui/amen/2e656755-4963-4d86-b620-5b1c665195bf.webp"
+      ]
+    },
+    "totalImages": 32,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "14K-25K"
+    }
+  },
+  "the-highest": {
+    "realName": "The Highest (3BR) MN3",
+    "codeName": "The Highest Peak",
+    "slug": "the-highest",
+    "folderName": "The Highest",
+    "images": {
+      "hero": [
+        "/villas/The Highest/hero/dcb0f618-7212-4705-92d1-b9b62ed8a2e4.jpg",
+        "/villas/The Highest/hero/f1c11b7f-8d97-4303-9677-72ac583c7f64.jpg"
+      ],
+      "ext": [
+        "/villas/The Highest/ext/346a1d27-4975-48a7-a82c-02c99f723e3e.jpg",
+        "/villas/The Highest/ext/457437242.jpg",
+        "/villas/The Highest/ext/457437440.jpg",
+        "/villas/The Highest/ext/460226410.jpg",
+        "/villas/The Highest/ext/7123b89b-d2f1-4a94-83e7-c72143bef195.jpg",
+        "/villas/The Highest/ext/a331eb95-fa19-44f4-8123-8bd6f4e70e81.jpg",
+        "/villas/The Highest/ext/c5951343-ebf8-4ca3-967f-75c5fea0ab8f.jpg",
+        "/villas/The Highest/ext/dcb0f618-7212-4705-92d1-b9b62ed8a2e4.jpg"
+      ],
+      "liv": [
+        "/villas/The Highest/liv/06c5bf44-4d36-4e57-95ea-53d412cbed2b.jpg",
+        "/villas/The Highest/liv/a10a742f-47bf-44af-90e8-8550c2a6fd35.jpg",
+        "/villas/The Highest/liv/fa8a8da1-9160-460c-8b63-12d1a0e56b2a.jpg",
+        "/villas/The Highest/liv/fb2433d7-2a16-480c-97de-59a9e56a78cd.jpg"
+      ],
+      "din": [
+        "/villas/The Highest/din/1ee50500-04f6-483d-ace4-7ddf2ce05041.jpg",
+        "/villas/The Highest/din/7de747f9-60c8-4a9e-9d5b-9493b7353a1c.jpg",
+        "/villas/The Highest/din/9098c9fa-6c06-4288-9ddb-9665550b1c92.jpg"
+      ],
+      "kit": [
+        "/villas/The Highest/kit/89ab80d7-1503-4d93-9bd8-a81cc62ce13d.jpg",
+        "/villas/The Highest/kit/f6c137d2-7014-478d-9f9b-f72ca3087268.jpg"
+      ],
+      "bed1": [
+        "/villas/The Highest/bed1/019cad3b-5cb5-4c5a-8f3c-d19bf3d82271.jpg",
+        "/villas/The Highest/bed1/19f67493-2ae8-4b9e-bdef-54f92e39d4e7.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/The Highest/bath1/3c773080-72b4-4b45-b4fb-8e1ab1896225.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/The Highest/pool/457716792.jpg",
+        "/villas/The Highest/pool/bcf82b81-25ef-40df-a7b4-6111f5a11c21.jpg",
+        "/villas/The Highest/pool/d00c6ae4-5950-4f5e-8fef-f0a26ee551a9.jpg"
+      ],
+      "view": [
+        "/villas/The Highest/view/2b103ea2-bfef-4327-8612-d4dc3896e23d.jpg",
+        "/villas/The Highest/view/2f7d9156-28ec-48f5-b1c6-faa790185b44.jpg",
+        "/villas/The Highest/view/403068f1-7b82-49ca-bee6-be4b42028cff.jpg",
+        "/villas/The Highest/view/41f5371b-8e08-42f1-9626-fcb33616fed9.jpg",
+        "/villas/The Highest/view/457437339.jpg",
+        "/villas/The Highest/view/457437410.jpg",
+        "/villas/The Highest/view/767e1af8-3df6-456c-9d00-b90693ac0b1a.jpg",
+        "/villas/The Highest/view/8769ecc1-e5f1-4258-be8c-0a8f2e2fa6a0.jpg"
+      ],
+      "amen": [
+        "/villas/The Highest/amen/460226409.jpg",
+        "/villas/The Highest/amen/460226418.jpg"
+      ]
+    },
+    "totalImages": 35,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "13K-37K"
+    }
+  },
+  "the-perfect-villa": {
+    "realName": "The Perfect Villa MN3",
+    "codeName": "The Perfect Villa Vista",
+    "slug": "the-perfect-villa",
+    "folderName": "The Perfect Villa",
+    "images": {
+      "hero": [
+        "/villas/The Perfect Villa/hero/Living sunset.jpg",
+        "/villas/The Perfect Villa/hero/Pool sunset.jpg"
+      ],
+      "ext": [],
+      "liv": [
+        "/villas/The Perfect Villa/liv/IMG20180220093216.jpg"
+      ],
+      "din": [],
+      "kit": [
+        "/villas/The Perfect Villa/kit/IMG20180320115754.jpg"
+      ],
+      "bed1": [
+        "/villas/The Perfect Villa/bed1/IMG20190827173943.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/The Perfect Villa/bath1/bathroom.jpg",
+        "/villas/The Perfect Villa/bath1/bathroom2 - Copy.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/The Perfect Villa/pool/IMG20191030115610.jpg",
+        "/villas/The Perfect Villa/pool/IMG20191030115632.jpg",
+        "/villas/The Perfect Villa/pool/IMG20191030121105.jpg"
+      ],
+      "view": [
+        "/villas/The Perfect Villa/view/IMG20191030120823.jpg",
+        "/villas/The Perfect Villa/view/IMG_20191030_122053.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 12,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "5.5K-7.5K"
+    }
+  },
+  "tish-clay-hut-2br": {
+    "realName": "Tish: Clay Hut (2BR)",
+    "codeName": "The Clay Haven",
+    "slug": "tish-clay-hut-2br",
+    "folderName": "Tish - Clay Hut 2BR",
+    "images": {
+      "hero": [
+        "/villas/Tish - Clay Hut 2BR/hero/4b16d5ab-be94-4f09-9930-a52e89690cd0.jpg"
+      ],
+      "ext": [
+        "/villas/Tish - Clay Hut 2BR/ext/fd3f4cbc-ba4c-45c3-8a3c-d54d5b827fbe.jpeg"
+      ],
+      "liv": [
+        "/villas/Tish - Clay Hut 2BR/liv/079f4b79-7abb-4aaa-b843-574b3de8af30.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/4890db45-adb2-45b6-9b4d-7bdfa3a87ca4.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/4956c04d-1351-4efc-8bbf-e342a1ca9f50.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/658ba401-3528-4846-a653-5ddfd3ac98d9.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/79891e78-65f2-4ba0-813f-812e3ffa05c9.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/90365898-355e-49c0-b3aa-8ad569b55843.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/b28a8a8f-48a9-4953-af97-7c32c08e438c.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/c3a74526-8b52-4dc0-ac42-38ea87662739.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/de160c94-c471-4f4c-8cb0-7eed90ef7cea.jpeg",
+        "/villas/Tish - Clay Hut 2BR/liv/e5bafab1-c6bc-4293-ba0f-3f6228c47c65.jpeg"
+      ],
+      "din": [
+        "/villas/Tish - Clay Hut 2BR/din/a8d807a0-6b97-4bc9-b5c1-e4f9d7c473d9.jpeg",
+        "/villas/Tish - Clay Hut 2BR/din/c7ece3bf-645f-428e-87a5-6f09fdf0a732.jpeg"
+      ],
+      "kit": [
+        "/villas/Tish - Clay Hut 2BR/kit/c2787dc5-b48a-4117-b882-35b022f92736.jpeg"
+      ],
+      "bed1": [
+        "/villas/Tish - Clay Hut 2BR/bed1/1edb1edb-c265-4990-99c5-3457a3be5c17.jpeg",
+        "/villas/Tish - Clay Hut 2BR/bed1/5e999f7e-3fc8-4241-b749-48a7636e13b2.jpeg",
+        "/villas/Tish - Clay Hut 2BR/bed1/afd4ddf8-aa64-408f-90e3-f52db1272fe5.jpeg",
+        "/villas/Tish - Clay Hut 2BR/bed1/b1f40e32-4331-48db-abd7-b3eb5857781b.jpeg",
+        "/villas/Tish - Clay Hut 2BR/bed1/fb2f171b-f1d9-4772-bef9-e7fb8ea1be10.jpeg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Tish - Clay Hut 2BR/bath1/6ac78ded-21d6-42aa-8b9b-5d430cd38403.jpeg",
+        "/villas/Tish - Clay Hut 2BR/bath1/e0b45e04-0674-423e-b6b3-d6759cf3a08b.jpeg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Tish - Clay Hut 2BR/pool/52320891-6e9f-41c2-8d5f-a1b6d3de4f19.jpeg",
+        "/villas/Tish - Clay Hut 2BR/pool/59cdebae-fa80-45c0-9fef-7fd7f776e7cc.jpeg"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/Tish - Clay Hut 2BR/amen/2a78e7df-437c-47fe-ad80-9c72c2be7d27.jpeg",
+        "/villas/Tish - Clay Hut 2BR/amen/493a423d-5df0-4a74-91ff-fe10ea9ad5ff.jpeg",
+        "/villas/Tish - Clay Hut 2BR/amen/aefd3f38-75a6-4f34-926f-0b1746c0de9c.jpeg",
+        "/villas/Tish - Clay Hut 2BR/amen/b15bbafd-20a5-4f65-a2c5-056f65a5811f.jpeg",
+        "/villas/Tish - Clay Hut 2BR/amen/c60efa07-515a-4e93-9e77-964abb10ec38.jpeg",
+        "/villas/Tish - Clay Hut 2BR/amen/e7bca7b8-d281-4551-aae1-807eab916692.jpeg"
+      ]
+    },
+    "totalImages": 30,
+    "pricing": {
+      "daily": "",
+      "weekly": "2",
+      "monthly": "7K-16K"
+    }
+  },
+  "tish-villa-bacaya": {
+    "realName": "Tish: Villa Bacaya (3BR)",
+    "codeName": "The Bacaya Villa",
+    "slug": "tish-villa-bacaya",
+    "folderName": "Tish - Villa Bacaya",
+    "images": {
+      "hero": [
+        "/villas/Tish - Villa Bacaya/hero/305cf69c-8c81-47de-8358-c412d150ed81.jpg",
+        "/villas/Tish - Villa Bacaya/hero/68ede50e-30fb-4bbf-b407-bdf36060699a.jpeg",
+        "/villas/Tish - Villa Bacaya/hero/e6392a37-624d-4a56-8ddf-b08baadd2e5f (1).jpg"
+      ],
+      "ext": [
+        "/villas/Tish - Villa Bacaya/ext/aaa347e9-58c6-4a19-a0c0-67f084e97fb0.jpg",
+        "/villas/Tish - Villa Bacaya/ext/d1642257-5d1c-4f77-a044-9735f864ec66.jpg",
+        "/villas/Tish - Villa Bacaya/ext/e1a49691-67fc-40ef-bce9-e8bd4de08a0f.jpg",
+        "/villas/Tish - Villa Bacaya/ext/fafaf623-52c8-4825-9fd6-e1940063a698.jpg"
+      ],
+      "liv": [
+        "/villas/Tish - Villa Bacaya/liv/81338eb6-9ef0-4879-bf51-ac6474b5ecce.jpg",
+        "/villas/Tish - Villa Bacaya/liv/87ae8b30-6c0d-4f5f-a635-a810b5f325b1.jpg",
+        "/villas/Tish - Villa Bacaya/liv/cba8c8d3-526f-4e67-b11c-ca429b821b5d.jpeg"
+      ],
+      "din": [
+        "/villas/Tish - Villa Bacaya/din/881f69f4-bd75-4715-ab2c-ff3125094ee5.jpg",
+        "/villas/Tish - Villa Bacaya/din/c4d1b6b0-dc8b-4748-9d09-deab12a022b5.jpg",
+        "/villas/Tish - Villa Bacaya/din/fa1ddb91-bbfa-4402-83db-4559dc48d7d3 (1).jpg"
+      ],
+      "kit": [
+        "/villas/Tish - Villa Bacaya/kit/91461245-f5ba-4489-910c-fd99af52d3f3.jpeg"
+      ],
+      "bed1": [
+        "/villas/Tish - Villa Bacaya/bed1/5a0577a1-60eb-452a-9546-4db77e1de9c3.jpg",
+        "/villas/Tish - Villa Bacaya/bed1/9725cdf8-e24f-45c6-8dac-37b65d516721.jpg",
+        "/villas/Tish - Villa Bacaya/bed1/a6185b7f-d89b-4840-9fc3-69767a6561a9.jpg",
+        "/villas/Tish - Villa Bacaya/bed1/e22a9d27-a61e-443e-b826-6765c99cc5e1.jpeg",
+        "/villas/Tish - Villa Bacaya/bed1/e28a6a26-72b2-4f03-adc0-d48cbdcf0284.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Tish - Villa Bacaya/bath1/9d124b88-8137-4985-a301-90d03afe6096.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Tish - Villa Bacaya/pool/305cf69c-8c81-47de-8358-c412d150ed81.jpg",
+        "/villas/Tish - Villa Bacaya/pool/68ede50e-30fb-4bbf-b407-bdf36060699a.jpeg",
+        "/villas/Tish - Villa Bacaya/pool/8412fb33-a8ce-4cc8-a6bc-63f3b4f04933.jpg",
+        "/villas/Tish - Villa Bacaya/pool/d9371f32-8630-476e-ab1e-433bf55dec7e.jpg"
+      ],
+      "view": [
+        "/villas/Tish - Villa Bacaya/view/138aa39d-4403-4820-b9e5-5abdf03c9c43.jpg",
+        "/villas/Tish - Villa Bacaya/view/21e226cc-691e-4cac-bcd5-3dcafac15835.jpg",
+        "/villas/Tish - Villa Bacaya/view/4092b4fa-5105-43e2-a851-3226cab5d81c.jpg",
+        "/villas/Tish - Villa Bacaya/view/70885237-50ba-4987-9777-94630a620986.jpg"
+      ],
+      "amen": [
+        "/villas/Tish - Villa Bacaya/amen/71bc1d8b-ae1b-4c54-a67d-3eeb1e73dcbe.jpg"
+      ]
+    },
+    "totalImages": 29,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "25K"
+    }
+  },
+  "tish-villa-saru-4br": {
+    "realName": "Tish: Villa Saru (4BR)",
+    "codeName": "The Soboru Villa",
+    "slug": "tish-villa-saru-4br",
+    "folderName": "Tish - Villa Saru 4BR",
+    "images": {
+      "hero": [
+        "/villas/Tish - Villa Saru 4BR/hero/b0a37710-568b-4a62-b694-4b2837c54462.jpg",
+        "/villas/Tish - Villa Saru 4BR/hero/f0ebc285-5ae3-4f1d-ac45-fad44c761ac3.jpeg"
+      ],
+      "ext": [
+        "/villas/Tish - Villa Saru 4BR/ext/992c4de4-75ea-4e38-a50a-82864ff1b7be.jpg",
+        "/villas/Tish - Villa Saru 4BR/ext/bafafa50-ea88-4ddc-b0d4-2ddf3c7a9bf0.jpg",
+        "/villas/Tish - Villa Saru 4BR/ext/c6d5014f-6703-46d0-b307-c2c10051eb7f.jpg",
+        "/villas/Tish - Villa Saru 4BR/ext/f61f85c4-95f2-462b-bfe5-921765470e3e.jpg"
+      ],
+      "liv": [
+        "/villas/Tish - Villa Saru 4BR/liv/030dc06a-2919-4589-872f-e3be4e9d1c98.jpeg",
+        "/villas/Tish - Villa Saru 4BR/liv/1ee76e1c-76f7-481b-b659-5a09bc4094f9.jpg",
+        "/villas/Tish - Villa Saru 4BR/liv/502d877c-e5e7-4905-adb6-ac12a5dada6a.jpg",
+        "/villas/Tish - Villa Saru 4BR/liv/6de6bc6e-3a12-4358-a9b6-bdf555e3421b.jpg",
+        "/villas/Tish - Villa Saru 4BR/liv/82ac63b6-4aa4-4bd5-8751-b8d179199a3e.jpg",
+        "/villas/Tish - Villa Saru 4BR/liv/8a88b33a-dcc8-4008-864a-45f197674b22.jpg",
+        "/villas/Tish - Villa Saru 4BR/liv/a6b41f60-e50b-41f3-ab68-90dca566927a.jpg",
+        "/villas/Tish - Villa Saru 4BR/liv/f316003c-60f2-4c14-a4ed-7d88d3907287.jpg"
+      ],
+      "din": [
+        "/villas/Tish - Villa Saru 4BR/din/6c3141bd-62d6-4081-bf8b-decdd08a0977.jpg",
+        "/villas/Tish - Villa Saru 4BR/din/b4aad051-cb4e-4a10-903c-72d304f6c1a7.jpg",
+        "/villas/Tish - Villa Saru 4BR/din/d66ce842-2b6a-4687-8e4f-9399adb2547e.jpg"
+      ],
+      "kit": [
+        "/villas/Tish - Villa Saru 4BR/kit/a7e18070-8daf-47ab-9627-72857dbc4221.jpeg",
+        "/villas/Tish - Villa Saru 4BR/kit/ce3bbe34-20e8-4102-a70f-5304e35f2de7.jpg"
+      ],
+      "bed1": [
+        "/villas/Tish - Villa Saru 4BR/bed1/0a267305-cd74-4138-ba44-9b0ccffde32d.jpg",
+        "/villas/Tish - Villa Saru 4BR/bed1/0ce5056f-0735-4390-b095-1e121d7e8401.jpg",
+        "/villas/Tish - Villa Saru 4BR/bed1/d70c6097-975a-43a2-9981-37c77631b5c1.jpeg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Tish - Villa Saru 4BR/bath1/c3db8f60-ccf2-46fa-a222-4c872347aa33.jpeg",
+        "/villas/Tish - Villa Saru 4BR/bath1/c9c316f0-618a-4c15-b313-1e7a0efa7da9.jpg",
+        "/villas/Tish - Villa Saru 4BR/bath1/dc611478-7815-4253-93b0-285ec5d10178.jpg",
+        "/villas/Tish - Villa Saru 4BR/bath1/de4ed3da-7242-4dca-8020-ccd8c115a849.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Tish - Villa Saru 4BR/pool/ac7f10c8-a0a9-459f-91b5-31bb2eb045b6.jpeg",
+        "/villas/Tish - Villa Saru 4BR/pool/f53269c4-c7d6-4c9a-8709-59afde85270c.jpg"
+      ],
+      "view": [
+        "/villas/Tish - Villa Saru 4BR/view/ae737901-518d-4fd5-b144-5815c8c37fe4.jpg",
+        "/villas/Tish - Villa Saru 4BR/view/f0ebc285-5ae3-4f1d-ac45-fad44c761ac3.jpeg"
+      ],
+      "amen": [
+        "/villas/Tish - Villa Saru 4BR/amen/00a1cff1-aac4-41ed-a588-6a67aaf2960e.jpeg",
+        "/villas/Tish - Villa Saru 4BR/amen/185ff03e-9a84-44d0-8785-544da59ec407.jpg",
+        "/villas/Tish - Villa Saru 4BR/amen/393f24be-c3df-47c6-bd7c-81cdd8e4a9cf.jpg",
+        "/villas/Tish - Villa Saru 4BR/amen/a5c711f1-5034-4ca6-a184-d9d518ae42d1.jpg",
+        "/villas/Tish - Villa Saru 4BR/amen/c468057f-444e-478e-805b-e18b3176d5dd.jpeg",
+        "/villas/Tish - Villa Saru 4BR/amen/cd724a4c-ce7f-4705-9e89-eb3ee673631e.jpg",
+        "/villas/Tish - Villa Saru 4BR/amen/db7819f8-b6f0-4dfe-a649-fb2f29d5e6b9.jpg",
+        "/villas/Tish - Villa Saru 4BR/amen/f38840c3-832b-483f-824b-12772f160de9.jpg",
+        "/villas/Tish - Villa Saru 4BR/amen/fd0e5229-d494-44c3-baa2-aca190a42ce3.jpg"
+      ]
+    },
+    "totalImages": 39,
+    "pricing": {
+      "daily": "",
+      "weekly": "4",
+      "monthly": "18K-36K"
+    }
+  },
+  "villa-asi": {
+    "realName": "Villa Asi (4-6BR) MN3-4",
+    "codeName": "Villa Asi Azure",
+    "slug": "villa-asi",
+    "folderName": "Villa Asi",
+    "images": {
+      "hero": [
+        "/villas/Villa Asi/hero/629784e9-f0e8-4902-b085-ade539dd5af0.jpg",
+        "/villas/Villa Asi/hero/b9b52902-c95d-4960-a727-d2e05323d86b.jpg",
+        "/villas/Villa Asi/hero/c6688d39-b943-4fea-a949-aa54b40c6636.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Asi/ext/51fc2282-a614-444d-b3c3-66233b7146eb.jpg",
+        "/villas/Villa Asi/ext/629784e9-f0e8-4902-b085-ade539dd5af0.jpg",
+        "/villas/Villa Asi/ext/646f4ffe-95f9-47da-805f-6aa20eecd97c.jpg",
+        "/villas/Villa Asi/ext/68f88c94-7513-4815-a5ab-84313ae5d9ab.jpg",
+        "/villas/Villa Asi/ext/b9b52902-c95d-4960-a727-d2e05323d86b.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Asi/liv/68dc534e-8f2c-4a4e-adfe-7a922b364ee4.jpg",
+        "/villas/Villa Asi/liv/9115cb28-665a-48ee-ac8a-5791b856218b.jpg",
+        "/villas/Villa Asi/liv/afceab8b-0b7c-4edf-a9f3-cb27e5ccae1f.jpg",
+        "/villas/Villa Asi/liv/caa40d05-4f63-48af-9917-e7cf5dc8df20.jpg"
+      ],
+      "din": [
+        "/villas/Villa Asi/din/10ed6897-5830-448b-8f45-ae0dbb89b9bb.jpg",
+        "/villas/Villa Asi/din/80a5f485-b582-4404-bbf0-166caf9be9b3.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Asi/kit/278b2e28-083b-40b2-84b6-f51286d73b0a.jpg",
+        "/villas/Villa Asi/kit/f1f122cf-b60e-47e1-833e-950bccecea81.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Asi/bed1/758b4897-214d-4026-9e3f-258e87227de0.jpg",
+        "/villas/Villa Asi/bed1/8ae3bcb7-577b-44a1-b379-6f00308b1f23.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Asi/bath1/ab7518aa-9b01-465a-9937-df971ec47ac9.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Asi/pool/10cc875e-f67a-4a12-9f4c-adcc87e3bfbb.jpg",
+        "/villas/Villa Asi/pool/67e5f2f7-812c-44ca-81bf-6a638f62023c.jpg",
+        "/villas/Villa Asi/pool/c77a64d7-4ece-4f23-8942-5c903db62efe.jpg"
+      ],
+      "view": [
+        "/villas/Villa Asi/view/1ecb92ee-5fff-4a20-8864-cee370b11f62.jpg",
+        "/villas/Villa Asi/view/3f73741e-e685-4e27-b91c-af929c8558ba.jpg",
+        "/villas/Villa Asi/view/75d09502-f350-4906-9cae-e84a9572c20e.jpg",
+        "/villas/Villa Asi/view/f826c0aa-af76-4802-9d62-6f5b8e8558db.jpg",
+        "/villas/Villa Asi/view/fc53a26a-7d02-456f-89f4-0ad64bf5856b.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Asi/amen/5009deef-9780-4153-b0e5-85391105100d.jpg",
+        "/villas/Villa Asi/amen/b51c2cdf-675a-4f9e-bb9b-ea16e5f8e76e.jpg"
+      ]
+    },
+    "totalImages": 29,
+    "pricing": {
+      "daily": "",
+      "weekly": "4,5,6",
+      "monthly": "46K-70K"
+    }
+  },
+  "villa-kadena": {
+    "realName": "Villa Kadena (3BR)",
+    "codeName": "Vila Kenda Cove",
+    "slug": "villa-kadena",
+    "folderName": "Villa Kadena",
+    "images": {
+      "hero": [
+        "/villas/Villa Kadena/hero/440534340.jpg",
+        "/villas/Villa Kadena/hero/473691627.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Kadena/ext/440534340.jpg",
+        "/villas/Villa Kadena/ext/473691627.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Kadena/liv/423104545.jpg"
+      ],
+      "din": [
+        "/villas/Villa Kadena/din/423104543.jpg",
+        "/villas/Villa Kadena/din/474577432.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Kadena/kit/423104555.jpg",
+        "/villas/Villa Kadena/kit/474577398.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Kadena/bed1/423104505.jpg",
+        "/villas/Villa Kadena/bed1/423104511.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Kadena/bath1/423104546.jpg",
+        "/villas/Villa Kadena/bath1/474577397.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Kadena/pool/423104544.jpg",
+        "/villas/Villa Kadena/pool/423104554.jpg",
+        "/villas/Villa Kadena/pool/440534383.jpg",
+        "/villas/Villa Kadena/pool/474577441.jpg",
+        "/villas/Villa Kadena/pool/474577442.jpg"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/Villa Kadena/amen/473691621.jpg",
+        "/villas/Villa Kadena/amen/474577449.jpg"
+      ]
+    },
+    "totalImages": 20,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "8K-12K"
+    }
+  },
+  "villa-natha": {
+    "realName": "Villa Natha (3-5BR) $990-2400",
+    "codeName": "Villa Nithan",
+    "slug": "villa-natha",
+    "folderName": "Villa Natha",
+    "images": {
+      "hero": [
+        "/villas/Villa Natha/hero/Villa Natha - Cocktail Service.jpg",
+        "/villas/Villa Natha/hero/Villa Natha - Loungers by Night.jpg",
+        "/villas/Villa Natha/hero/Villa Natha - Loungers View.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Natha/ext/Villa Natha - Front Villa.jpg",
+        "/villas/Villa Natha/ext/Villa Natha - Garden.jpg",
+        "/villas/Villa Natha/ext/Villa Natha - Loungers by Night.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Natha/liv/Villa Natha - Living by Night.jpg",
+        "/villas/Villa Natha/liv/Villa Natha - Living Island View.jpg",
+        "/villas/Villa Natha/liv/Villa Natha - Living View.jpg",
+        "/villas/Villa Natha/liv/Villa Natha - Living.jpg",
+        "/villas/Villa Natha/liv/Villa Natha - Outdoor Living.jpg"
+      ],
+      "din": [
+        "/villas/Villa Natha/din/Villa Natha - Dining Island View.jpg",
+        "/villas/Villa Natha/din/Villa Natha - Dining Room.jpg",
+        "/villas/Villa Natha/din/Villa Natha - Dining Setup by Night.jpg",
+        "/villas/Villa Natha/din/Villa Natha - Dining Setup.jpg",
+        "/villas/Villa Natha/din/Villa Natha - Dining Table.jpg",
+        "/villas/Villa Natha/din/Villa Natha - Dining View.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Natha/kit/Villa Natha - Guests Kitchen.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Natha/bed1/Villa Natha - Loungers by Night.jpg",
+        "/villas/Villa Natha/bed1/Villa Natha - Master Bedroom by Night.jpg",
+        "/villas/Villa Natha/bed1/Villa Natha - Master Bedroom Front .jpg",
+        "/villas/Villa Natha/bed1/Villa Natha - Master Bedroom View.jpg",
+        "/villas/Villa Natha/bed1/Villa Natha - Master Bedroom.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Natha/bath1/Villa Natha - Master Bathroom by Night.jpg",
+        "/villas/Villa Natha/bath1/Villa Natha - Master Bathroom View.jpg",
+        "/villas/Villa Natha/bath1/Villa Natha - Master Bathroom.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Natha/pool/Villa Natha - Floating Island View.jpg",
+        "/villas/Villa Natha/pool/Villa Natha - Floating View.jpg"
+      ],
+      "view": [
+        "/villas/Villa Natha/view/Villa Natha - Balcony View.jpg",
+        "/villas/Villa Natha/view/Villa Natha - Bedroom 2 View.jpg",
+        "/villas/Villa Natha/view/Villa Natha - Cocktail Service.jpg",
+        "/villas/Villa Natha/view/Villa Natha - First View.jpg",
+        "/villas/Villa Natha/view/Villa Natha - Master View.jpg",
+        "/villas/Villa Natha/view/Villa Natha - Patio Loungers.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Natha/amen/Villa Natha - Cinema.jpg",
+        "/villas/Villa Natha/amen/Villa Natha - Cocktail by the Pool.jpg",
+        "/villas/Villa Natha/amen/Villa Natha - Gym.jpg",
+        "/villas/Villa Natha/amen/Villa Natha - Nanny Service.jpg"
+      ]
+    },
+    "totalImages": 38,
+    "pricing": {
+      "daily": "",
+      "weekly": "3,4,5",
+      "monthly": "37K-89K"
+    }
+  },
+  "villa-playa": {
+    "realName": "Villa Playa (5BR) $600-800",
+    "codeName": "Villa Playful Azure",
+    "slug": "villa-playa",
+    "folderName": "Villa Playa",
+    "images": {
+      "hero": [
+        "/villas/Villa Playa/hero/BRS_8329-scaled.jpg",
+        "/villas/Villa Playa/hero/BRS_8337-scaled.jpg",
+        "/villas/Villa Playa/hero/IMG-20231002-WA0036.jpg",
+        "/villas/Villa Playa/hero/IMG-20231002-WA0038.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Playa/ext/DJI_0417-scaled.jpg",
+        "/villas/Villa Playa/ext/DJI_0429-scaled.jpg",
+        "/villas/Villa Playa/ext/DJI_0438-scaled.jpg",
+        "/villas/Villa Playa/ext/DJI_0442-scaled.jpg",
+        "/villas/Villa Playa/ext/IMG-20231002-WA0037.jpg",
+        "/villas/Villa Playa/ext/IMG-20231002-WA0039.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Playa/liv/BRS_8297-scaled.jpg",
+        "/villas/Villa Playa/liv/IMG-20180925-WA0020.jpg"
+      ],
+      "din": [
+        "/villas/Villa Playa/din/dining-table.png"
+      ],
+      "kit": [],
+      "bed1": [
+        "/villas/Villa Playa/bed1/BRS_8345-Edit-scaled.jpg",
+        "/villas/Villa Playa/bed1/BRS_8360-Edit-scaled.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Playa/bath1/IMG-20231002-WA0050.jpg",
+        "/villas/Villa Playa/bath1/Villa-Playa-Master-Bathroom-6-scaled.jpg",
+        "/villas/Villa Playa/bath1/Villa-Playa-Master-Bathroom-evening-2-scaled.jpg",
+        "/villas/Villa Playa/bath1/Villa-Playa-Master-Bathroom-evening-8213-scaled.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Playa/pool/BRS_8292-scaled.jpg",
+        "/villas/Villa Playa/pool/BRS_8302-scaled.jpg",
+        "/villas/Villa Playa/pool/BRS_8319-scaled.jpg",
+        "/villas/Villa Playa/pool/BRS_8329-scaled.jpg",
+        "/villas/Villa Playa/pool/BRS_8337-scaled.jpg",
+        "/villas/Villa Playa/pool/IMG-20231002-WA0038.jpg"
+      ],
+      "view": [
+        "/villas/Villa Playa/view/BRS_8283-scaled.jpg",
+        "/villas/Villa Playa/view/IMG-20180925-WA0012.jpg",
+        "/villas/Villa Playa/view/IMG-20180925-WA0021.jpg"
+      ],
+      "amen": []
+    },
+    "totalImages": 28,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "22K-30K"
+    }
+  },
+  "villa-raku": {
+    "realName": "Villa Raku (3-5BR) $750-2000",
+    "codeName": "Villa Reku Horizon",
+    "slug": "villa-raku",
+    "folderName": "Villa Raku",
+    "images": {
+      "hero": [
+        "/villas/Villa Raku/hero/1 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/hero/11 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/hero/4 Villa Raku - Swimming Pool Area.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Raku/ext/10 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/ext/11 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/ext/12 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/ext/5 Villa Raku - Swimming Pool Area.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Raku/liv/16.1 Villa Raku - Living and Dining Area.jpg",
+        "/villas/Villa Raku/liv/17 Villa Raku - Living and Dining Area.jpg"
+      ],
+      "din": [
+        "/villas/Villa Raku/din/15 Villa Raku - Living and Dining Area.jpg",
+        "/villas/Villa Raku/din/16 Villa Raku - Living and Dining Area.jpg",
+        "/villas/Villa Raku/din/19 Villa Raku - Living and Dining Area.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Raku/kit/20 Villa Raku - Kitchen.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Raku/bed1/32 Villa Raku - Master Bedroom.jpg",
+        "/villas/Villa Raku/bed1/33 Villa Raku - Master Bedroom.jpg",
+        "/villas/Villa Raku/bed1/34 Villa Raku - Master Bedroom.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Raku/bath1/58 Villa Raku - Guest Bedroom 3.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Raku/pool/1 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/pool/2 Villa Raku - Swimming Pool Area.jpg"
+      ],
+      "view": [
+        "/villas/Villa Raku/view/12 Villa Raku - Swimming Pool Area.jpg",
+        "/villas/Villa Raku/view/9 Villa Raku - Swimming Pool Area.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Raku/amen/25 Villa Raku - Gym Room.jpg",
+        "/villas/Villa Raku/amen/26 Villa Raku - Gym Room.jpg",
+        "/villas/Villa Raku/amen/35 Villa Raku - Master Bedroom.jpg"
+      ]
+    },
+    "totalImages": 24,
+    "pricing": {
+      "daily": "",
+      "weekly": "3,4,5",
+      "monthly": "28K-74K"
+    }
+  },
+  "villa-sasipimon": {
+    "realName": "Villa Sasipimon (5BR+Studio) $1670-2520",
+    "codeName": "Villa Sasipimon Grand+Studio",
+    "slug": "villa-sasipimon",
+    "folderName": "Villa Sasipimon",
+    "images": {
+      "hero": [
+        "/villas/Villa Sasipimon/hero/Sasipimon_swimming_pool-23.jpg",
+        "/villas/Villa Sasipimon/hero/Sasipimon_swimming_pool-27.jpg",
+        "/villas/Villa Sasipimon/hero/Sasipimon_upper_view-4.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Sasipimon/ext/Foto 27.05.23, 15 48 58 (1).jpg",
+        "/villas/Villa Sasipimon/ext/Sasipimon_aerial-1.jpg",
+        "/villas/Villa Sasipimon/ext/Sasipimon_aerial-4.jpg",
+        "/villas/Villa Sasipimon/ext/Sasipimon_aerial-7.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Sasipimon/liv/Sasipimon_entrance-7.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_entrance-8.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_Living-10.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_Living-7.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_Living-9.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_living_2-3.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_Living_2_lounging-2.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_studio_living-6.jpg",
+        "/villas/Villa Sasipimon/liv/Sasipimon_studio_terrace-5.jpg"
+      ],
+      "din": [
+        "/villas/Villa Sasipimon/din/Foto 28.05.23, 10 04 33.jpg",
+        "/villas/Villa Sasipimon/din/Sasipimon_breakfast-3.jpg",
+        "/villas/Villa Sasipimon/din/Sasipimon_chef-4.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Sasipimon/kit/Sasipimon_studio_kitchen-1.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Sasipimon/bed1/Sasipimon_master_bedroom-12.jpg",
+        "/villas/Villa Sasipimon/bed1/Sasipimon_master_bedroom-13.jpg",
+        "/villas/Villa Sasipimon/bed1/Sasipimon_master_bedroom-7.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Sasipimon/bath1/Sasipimon_master_bathroom-12.jpg",
+        "/villas/Villa Sasipimon/bath1/Sasipimon_master_bathroom-5-1-scaled.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Sasipimon/pool/Foto 27.05.23, 16 22 36.jpg",
+        "/villas/Villa Sasipimon/pool/Sasipimon_pool_lounging-2.jpg",
+        "/villas/Villa Sasipimon/pool/Sasipimon_pool_lounging-4.jpg",
+        "/villas/Villa Sasipimon/pool/Sasipimon_swimming_pool-23.jpg",
+        "/villas/Villa Sasipimon/pool/Sasipimon_swimming_pool-27.jpg",
+        "/villas/Villa Sasipimon/pool/Sasipimon_swimming_pool-28.jpg"
+      ],
+      "view": [
+        "/villas/Villa Sasipimon/view/Foto 27.05.23, 13 45 50.jpg",
+        "/villas/Villa Sasipimon/view/Foto 27.05.23, 15 45 26.jpg",
+        "/villas/Villa Sasipimon/view/Sasipimon-1.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Sasipimon/amen/Foto 27.05.23, 13 35 15.jpg",
+        "/villas/Villa Sasipimon/amen/Foto 27.05.23, 15 16 16.jpg",
+        "/villas/Villa Sasipimon/amen/Sasipimon_cinema-1.jpg",
+        "/villas/Villa Sasipimon/amen/Sasipimon_massage-2.jpg",
+        "/villas/Villa Sasipimon/amen/Sasipimon_pool_table-7.jpg"
+      ]
+    },
+    "totalImages": 39,
+    "pricing": {
+      "daily": "",
+      "weekly": "5",
+      "monthly": "56K-86K"
+    }
+  },
+  "villa-solana": {
+    "realName": "Villa Solana (4/7BR) $1454-2684",
+    "codeName": "Villa Sola Horizon",
+    "slug": "villa-solana",
+    "folderName": "Villa Solana",
+    "images": {
+      "hero": [
+        "/villas/Villa Solana/hero/5.jpg",
+        "/villas/Villa Solana/hero/6.jpeg",
+        "/villas/Villa Solana/hero/7.jpeg",
+        "/villas/Villa Solana/hero/980037bc-0967-40c7-8105-3cda5f031beb.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Solana/ext/7cc959ef-69b3-4483-81d8-853c84a72346.jpeg",
+        "/villas/Villa Solana/ext/ce4728b7-373d-4574-afe8-5765ecdc2db2.jpg",
+        "/villas/Villa Solana/ext/d2f7ea8d-66bc-44ed-8e6e-4689cc24d12b.jpg",
+        "/villas/Villa Solana/ext/dd435e94-6d81-485f-ac29-08eb3f28774c.jpeg",
+        "/villas/Villa Solana/ext/ed798846-247f-41c3-ba7a-a1f1560939cc.jpeg"
+      ],
+      "liv": [
+        "/villas/Villa Solana/liv/051518fa-d9b4-42fb-9d05-8543e4003383.jpg",
+        "/villas/Villa Solana/liv/1101dc0c-8d58-4994-acf0-53ab707b4c97.jpg",
+        "/villas/Villa Solana/liv/1436db40-e0fb-40fc-831c-33e69d9215ca.jpg",
+        "/villas/Villa Solana/liv/2f9110e8-1d5c-44ea-98cb-56272ea29961.jpeg",
+        "/villas/Villa Solana/liv/3f4cfbaa-b825-4d72-b878-ea3b3e83e8de.jpg",
+        "/villas/Villa Solana/liv/8587ddab-dbd8-4edc-b4b9-15429ad7923d.jpg",
+        "/villas/Villa Solana/liv/86409a8d-3fe6-4b87-8a82-a6bf2092bdb2.jpeg",
+        "/villas/Villa Solana/liv/97a3b71b-a5f5-43ae-9217-1469ca76141d.jpg",
+        "/villas/Villa Solana/liv/a27546fd-c623-4ce6-91be-9d41a02af4af.jpeg",
+        "/villas/Villa Solana/liv/b1750619-2e25-4154-a0ae-c608894287ad.jpg",
+        "/villas/Villa Solana/liv/bf63d215-58f6-4bd9-8814-ab6cb2d502b2.jpeg",
+        "/villas/Villa Solana/liv/c18daa16-9057-49af-9f7e-b5975c9591ea.jpeg"
+      ],
+      "din": [
+        "/villas/Villa Solana/din/a55c39dc-6d82-4686-87ae-9ba15bc93e83.jpeg",
+        "/villas/Villa Solana/din/ae3243fe-82d8-4be8-b98d-b4d0ad8cb6fd.jpeg"
+      ],
+      "kit": [
+        "/villas/Villa Solana/kit/2bdd36be-5283-4666-ae7e-3f5ffafdc593.jpeg"
+      ],
+      "bed1": [
+        "/villas/Villa Solana/bed1/306b3a3a-67fa-479c-b526-a10ca33dc368.jpg",
+        "/villas/Villa Solana/bed1/355cbd86-1a2f-4ea1-a0ac-27b608f55bf1.jpeg",
+        "/villas/Villa Solana/bed1/99e601a0-59b9-4abc-80c7-decd7d9f6496.jpeg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Solana/bath1/355cbd86-1a2f-4ea1-a0ac-27b608f55bf1.jpeg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Solana/pool/585487c0-4cc0-4fc9-aafa-acd5a3de7cd8.jpg",
+        "/villas/Villa Solana/pool/8c269738-20c7-4d2c-954d-a1c35c0a250b.jpg",
+        "/villas/Villa Solana/pool/aea481a2-979a-4222-9ee3-0ff0cfe08c3b.jpg",
+        "/villas/Villa Solana/pool/b9927016-6f58-4333-b85f-2f697d71fd7a.jpeg",
+        "/villas/Villa Solana/pool/ca70b8bc-a6ef-4896-b8d0-9b416b46cc4e.jpg"
+      ],
+      "view": [
+        "/villas/Villa Solana/view/2c783725-017d-4c14-b2e2-0bf56c2684ef.jpg",
+        "/villas/Villa Solana/view/4ed29dab-0152-4043-8523-d9e8f4a69bb3.jpg",
+        "/villas/Villa Solana/view/980037bc-0967-40c7-8105-3cda5f031beb.jpg",
+        "/villas/Villa Solana/view/a2706bd5-61ca-4d69-9679-b63ead982f91.jpg",
+        "/villas/Villa Solana/view/b737e087-5387-4bb7-ac56-0a95e511b3b0.jpeg",
+        "/villas/Villa Solana/view/db2724aa-fbeb-441b-a3dc-e043714cb831.jpeg",
+        "/villas/Villa Solana/view/f5cdccda-ebb7-4d3b-9590-b95f441f1167.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Solana/amen/024572e2-3f7e-4a0e-b408-a12ca5aa8a33.jpg",
+        "/villas/Villa Solana/amen/56f7af50-8005-4214-9602-cf40765dda2d.jpg",
+        "/villas/Villa Solana/amen/8ae59cd4-b95d-4f9b-8394-075780cc4bc8.jpeg",
+        "/villas/Villa Solana/amen/90808b39-20e1-46c8-a371-3580329d91fe.jpg",
+        "/villas/Villa Solana/amen/c1e382a4-8acf-4df8-8a9e-7f028933c3ab.jpg",
+        "/villas/Villa Solana/amen/c3133278-8db3-471b-b724-4716a1198a88.jpeg",
+        "/villas/Villa Solana/amen/cd06e596-7a4b-4f99-a8a3-99c16fb090e5.jpg"
+      ]
+    },
+    "totalImages": 47,
+    "pricing": {
+      "daily": "",
+      "weekly": "4,5,6,7",
+      "monthly": "53K-100K"
+    }
+  },
+  "villa-tequila": {
+    "realName": "Villa Tequila (3BR) ***",
+    "codeName": "Villa Tangela Cove",
+    "slug": "villa-tequila",
+    "folderName": "Villa Tequila",
+    "images": {
+      "hero": [],
+      "ext": [
+        "/villas/Villa Tequila/ext/73edd3e4-a20e-4ad2-9117-16d42c1ecfc3.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Tequila/liv/3f39518a-7a29-4144-9790-d86ad9aaa65a.jpg",
+        "/villas/Villa Tequila/liv/a8437a25-39cd-46ab-9add-be174c6144a3.jpg",
+        "/villas/Villa Tequila/liv/e22e0b2c-7ec5-4a02-b0e6-c7db66ff37f2.jpg",
+        "/villas/Villa Tequila/liv/ee3a8199-3c9a-4b3a-8c13-2370a82ba9ed.jpg"
+      ],
+      "din": [
+        "/villas/Villa Tequila/din/c58f398f-b227-476a-9ce8-f5bfe98f7948.jpg",
+        "/villas/Villa Tequila/din/fa86f691-3a0f-47c6-b8b9-5c9672e0996f.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Tequila/kit/cf406499-7096-4ac5-8e50-371b77afe8d2.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Tequila/bed1/31747a23-9bed-4722-9eb5-345c7434e1bf.jpg",
+        "/villas/Villa Tequila/bed1/e82d2f21-525d-4297-90d1-6e8dbfb15863.jpg",
+        "/villas/Villa Tequila/bed1/ef84af36-f7d4-4a3d-a043-a7d52b685ee5.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Tequila/bath1/0b11ca98-3f13-4266-9049-847c65390fea.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Tequila/pool/3dc07c8b-0964-4280-b562-14b9cdf89102.jpg",
+        "/villas/Villa Tequila/pool/b38aed6d-c0e7-4723-a796-015c50d4679a.jpg",
+        "/villas/Villa Tequila/pool/f7402e3f-ab7a-40fa-bbfa-1e477c866c01.jpg"
+      ],
+      "view": [
+        "/villas/Villa Tequila/view/255bc01c-fd9d-44f8-9adb-2fb7a428c4ed.jpg",
+        "/villas/Villa Tequila/view/2ff4ab66-dcd9-4bd8-a44f-b432c7a2c91f.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Tequila/amen/3ec17222-1981-486a-96f9-31402e21dbfb.jpg",
+        "/villas/Villa Tequila/amen/f681e9dd-3894-4223-89b5-6e4126fc875f.jpg"
+      ]
+    },
+    "totalImages": 19,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "10K-20K"
+    }
+  },
+  "villa-tosti": {
+    "realName": "Villa Tosti (3BR)",
+    "codeName": "Villa Tossi",
+    "slug": "villa-tosti",
+    "folderName": "Villa Tosti",
+    "images": {
+      "hero": [
+        "/villas/Villa Tosti/hero/0855b791-0f06-426f-80ce-5633e618af79.jpg",
+        "/villas/Villa Tosti/hero/1231a944-24a8-4e0b-8f40-9a72aef1a1c3.jpg",
+        "/villas/Villa Tosti/hero/77621e82-b2d1-4cff-b08a-04d41cbd399a.jpg"
+      ],
+      "ext": [
+        "/villas/Villa Tosti/ext/1a3a4f0f-36d8-46b2-a9b4-175895402cc5.jpg",
+        "/villas/Villa Tosti/ext/2c1e6eaa-f831-4775-bd23-19dd1f2919ab.jpg",
+        "/villas/Villa Tosti/ext/3e92eea9-78d0-4381-9bda-3b4d9e882790.jpeg",
+        "/villas/Villa Tosti/ext/5cf36b14-e740-4bf1-9391-3436e51cc8de.jpg",
+        "/villas/Villa Tosti/ext/b0243575-5bcf-470a-b744-08cd529adf77.jpg",
+        "/villas/Villa Tosti/ext/fddff8c6-b97e-4e89-8f63-0bc376eab859.jpg"
+      ],
+      "liv": [
+        "/villas/Villa Tosti/liv/4dabbcf6-208b-45ba-8ef9-9df0b9f1ed47.jpg",
+        "/villas/Villa Tosti/liv/6a7466c4-f350-4896-b53c-ea573ffcb14f.jpg"
+      ],
+      "din": [
+        "/villas/Villa Tosti/din/27bb89ae-e135-425c-a256-851479736c26.jpg",
+        "/villas/Villa Tosti/din/356891be-70cb-46d0-a7c4-92c74f59ea20.jpg",
+        "/villas/Villa Tosti/din/368b9d4f-a02d-4ac6-a4bf-c853587e1729.jpg",
+        "/villas/Villa Tosti/din/55203295-d389-44ff-9907-35c62b44f2e1.jpg",
+        "/villas/Villa Tosti/din/bc6ab005-3cad-49a4-91e8-9506fd15c758.jpg"
+      ],
+      "kit": [
+        "/villas/Villa Tosti/kit/006936ec-7894-43a3-9cbc-a6b9757be342.jpg"
+      ],
+      "bed1": [
+        "/villas/Villa Tosti/bed1/220308b1-f031-47b0-8e41-5c8b47fdecdc.jpg",
+        "/villas/Villa Tosti/bed1/d6bfed04-00e7-4d52-a231-303cfb824816.jpg",
+        "/villas/Villa Tosti/bed1/fa9a6343-c325-43a8-b3a3-c09de959c008.jpg",
+        "/villas/Villa Tosti/bed1/fc217c8c-8e09-43bb-aa2e-9ca30fb34f20.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/Villa Tosti/bath1/37f19ad3-276e-453f-b0d4-89c19bbd3b0a.jpg",
+        "/villas/Villa Tosti/bath1/9f0a0d20-69e9-452b-a0e2-adc14be587dc.jpg",
+        "/villas/Villa Tosti/bath1/b1457b34-0dea-4777-8a6f-65894061e115.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/Villa Tosti/pool/08413339-83ba-4f44-9f69-ba354cae0228.jpg",
+        "/villas/Villa Tosti/pool/129244b5-6d0b-4332-a93c-248856ceb29e.jpg",
+        "/villas/Villa Tosti/pool/2853345e-5975-4e83-8e81-e756e2d135c6.jpg",
+        "/villas/Villa Tosti/pool/ace8d508-518c-449e-845a-9d33635ec176.jpg"
+      ],
+      "view": [
+        "/villas/Villa Tosti/view/0d052ac1-c7a8-4b8d-97cc-56bb753834a9.jpeg",
+        "/villas/Villa Tosti/view/26caa765-ea62-417d-b0dc-bc5dd518dbe6.jpg",
+        "/villas/Villa Tosti/view/4276eebb-3a55-470f-9255-ea583f038a65.jpg",
+        "/villas/Villa Tosti/view/62f87b95-94e7-4232-b262-de18e976a579.jpg",
+        "/villas/Villa Tosti/view/694c5f13-0351-491c-93da-ee94183f985b.jpg",
+        "/villas/Villa Tosti/view/696baac3-42dc-4147-8544-857fa805f43f.jpg",
+        "/villas/Villa Tosti/view/7f7fbcdf-e64c-4951-ae6d-76cdb89c63be.jpg",
+        "/villas/Villa Tosti/view/e6674c96-15be-44e4-8137-2e19838c83f0.jpg"
+      ],
+      "amen": [
+        "/villas/Villa Tosti/amen/65d5da62-b9bf-47f5-8198-8495397f19a5.jpg",
+        "/villas/Villa Tosti/amen/81d7aae1-50d2-4124-9590-f50004c02501.jpg",
+        "/villas/Villa Tosti/amen/b1e64973-c94c-4b9d-8304-d5cf28d33c50.jpg"
+      ]
+    },
+    "totalImages": 39,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "15K-25K"
+    }
+  },
+  "white-orchid": {
+    "realName": "White Orchid (3BR)",
+    "codeName": "White Orchard Ville",
+    "slug": "white-orchid",
+    "folderName": "White Orchid",
+    "images": {
+      "hero": [
+        "/villas/White Orchid/hero/6da1aa2d-e9e9-438c-9b64-64cee79f4bf5.jpg",
+        "/villas/White Orchid/hero/d6e21027-6294-4fae-9e8e-0cae1d5fbd16.jpg",
+        "/villas/White Orchid/hero/vwo_111.jpeg"
+      ],
+      "ext": [
+        "/villas/White Orchid/ext/3bba3eb3-cfa5-4a5b-97a1-0d1c180a2eaa.jpg",
+        "/villas/White Orchid/ext/72bf7a62-5ca1-4dce-a8ae-e4e7e409d154.jpg",
+        "/villas/White Orchid/ext/a8cb8ec9-2b3d-4d70-ad4c-787f6859f304.jpg",
+        "/villas/White Orchid/ext/d07a235e-775f-43d7-8395-3f4ac1d8d497.jpg",
+        "/villas/White Orchid/ext/vwo_102.jpeg",
+        "/villas/White Orchid/ext/vwo_103.jpeg",
+        "/villas/White Orchid/ext/vwo_123.jpg"
+      ],
+      "liv": [
+        "/villas/White Orchid/liv/24fce0fb-df8b-42cc-947a-90cd46c139ac.jpg",
+        "/villas/White Orchid/liv/8e43f456-b753-4010-b3e9-e18d0c561b09.jpg",
+        "/villas/White Orchid/liv/a3642328-893c-4512-9f7a-264ce428ceac.jpg",
+        "/villas/White Orchid/liv/f34fd8c1-8bc4-4be2-8187-50ac040fbe0f.jpg",
+        "/villas/White Orchid/liv/vwo_127.jpg",
+        "/villas/White Orchid/liv/vwo_131.jpg"
+      ],
+      "din": [
+        "/villas/White Orchid/din/135aa2e8-7d2b-4bdf-b52c-164a9a4de863.jpg",
+        "/villas/White Orchid/din/945c3fd6-58ca-490c-a925-56395bd207b9.jpg",
+        "/villas/White Orchid/din/ac7c6f78-bf2b-4499-be4b-ea5310164f00.jpg"
+      ],
+      "kit": [
+        "/villas/White Orchid/kit/2c777cbe-ae05-4e74-9902-17655ea131e9.jpg",
+        "/villas/White Orchid/kit/859d9c20-bad2-45a6-815f-78b84624d5f0.jpg",
+        "/villas/White Orchid/kit/vwo_136.jpg"
+      ],
+      "bed1": [
+        "/villas/White Orchid/bed1/vwo_147.jpg",
+        "/villas/White Orchid/bed1/vwo_148.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/White Orchid/bath1/5dae39ae-7712-4e1a-be15-b9f2f57216e4.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/White Orchid/pool/209212fe-eff2-4522-9f73-a190e5e47114.jpg",
+        "/villas/White Orchid/pool/2324dbaf-5132-415a-9568-dd835046d875.jpg",
+        "/villas/White Orchid/pool/43d3ff4d-eb69-40ec-aaf1-fcb2c386c474.jpg",
+        "/villas/White Orchid/pool/7d699b9f-d0e3-48de-a2e2-c9e0f4f4e78c.jpg",
+        "/villas/White Orchid/pool/fa74c9f0-7fe0-4221-b73f-a340f9f93d40.jpg",
+        "/villas/White Orchid/pool/vwo_105.jpeg",
+        "/villas/White Orchid/pool/vwo_111.jpeg"
+      ],
+      "view": [],
+      "amen": [
+        "/villas/White Orchid/amen/33595f0f-fa1c-41e5-a99e-c70abc587282.jpg",
+        "/villas/White Orchid/amen/46e52c82-3a4a-4d71-9efc-ec38028679d9.jpg",
+        "/villas/White Orchid/amen/89565a15-86d0-4d54-bb36-dab79196de1e.jpg"
+      ]
+    },
+    "totalImages": 35,
+    "pricing": {
+      "daily": "",
+      "weekly": "3",
+      "monthly": "7.5K-11K"
+    }
+  },
+  "5house": {
+    "realName": "Aqua Thomas",
+    "codeName": "",
+    "slug": "5house",
+    "folderName": "5House",
+    "images": {
+      "hero": [
+        "/villas/5House/hero/909.jpg",
+        "/villas/5House/hero/916.jpg"
+      ],
+      "ext": [
+        "/villas/5House/ext/43513d40-51ef-4180-9142-f89c3c12af70.jpg",
+        "/villas/5House/ext/d208eaac-930c-4c83-a6b0-71d830c75e86.jpg",
+        "/villas/5House/ext/d512c981-7b19-44a4-be95-3eea69a800d8.jpg"
+      ],
+      "liv": [
+        "/villas/5House/liv/913.jpg",
+        "/villas/5House/liv/914.jpg"
+      ],
+      "din": [
+        "/villas/5House/din/3ea6b686-c524-4d30-8f8d-2c076712b995.jpg",
+        "/villas/5House/din/911.jpg"
+      ],
+      "kit": [
+        "/villas/5House/kit/910.jpg",
+        "/villas/5House/kit/912.jpg",
+        "/villas/5House/kit/9c6d0c17-94d2-4c1e-b010-54e83c249f67.jpg",
+        "/villas/5House/kit/efc5134a-dada-4478-bedd-ccee3c30b121.jpg"
+      ],
+      "bed1": [
+        "/villas/5House/bed1/905.jpg"
+      ],
+      "bed2_5": [],
+      "bath1": [
+        "/villas/5House/bath1/892.jpg"
+      ],
+      "bath2_5": [],
+      "pool": [
+        "/villas/5House/pool/885.jpg",
+        "/villas/5House/pool/887.jpg",
+        "/villas/5House/pool/888.jpg",
+        "/villas/5House/pool/a6c8963d-d48b-43e5-add4-5455de222d35.jpg",
+        "/villas/5House/pool/c43c6ede-33dc-4961-9d3a-2ded9c97d76f.jpg"
+      ],
+      "view": [
+        "/villas/5House/view/915.jpg"
+      ],
+      "amen": [
+        "/villas/5House/amen/932f617d-3366-40db-aa5a-a6a1fe278cab.jpg"
+      ]
+    },
+    "totalImages": 22,
+    "pricing": {
+      "daily": "",
+      "weekly": "",
+      "monthly": "6K-7.5K"
+    }
+  }
+}

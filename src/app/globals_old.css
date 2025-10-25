@@ -1,0 +1,313 @@
+/* Tailwind CSS Layer Entrypoints --------------------------------------------------
+ * base:    Normalize + root element styles injected by Tailwind
+ * components: Registered component classes (we can extend via @layer components)
+ * utilities: Utility classes (atomic) generated from config
+ * NOTE: หาก editor เคยแจ้ง Unknown @tailwind แสดงว่า PostCSS/Tailwind plugin ไม่ถูกโหลด
+ *       ตอนนี้เราแก้ postcss.config.mjs แล้ว (tailwindcss + autoprefixer) จึงปลอดภัย
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Mobile-First Responsive Breakpoints ------------------------------ 
+ * xs: 320px   (iPhone SE, small phones)
+ * sm: 640px   (iPhone 12 mini, Pixel 4a)
+ * md: 768px   (iPhone 12/13/14 Plus, tablets)
+ * lg: 1024px  (iPad, small laptops)
+ * xl: 1280px  (Desktop)
+ * 2xl: 1536px (Large desktop)
+ */
+
+/* Custom Mobile-Optimized Breakpoints */
+@media (min-width: 320px) and (max-width: 374px) {
+  .text-mobile-xs { @apply text-sm; }
+  .p-mobile-xs { @apply p-2; }
+  .gap-mobile-xs { @apply gap-2; }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  .text-mobile-sm { @apply text-base; }
+  .p-mobile-sm { @apply p-3; }
+  .gap-mobile-sm { @apply gap-3; }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .text-mobile-md { @apply text-lg; }
+  .p-mobile-md { @apply p-4; }
+  .gap-mobile-md { @apply gap-4; }
+}
+
+/* Custom Water Flow Animations */
+@keyframes water-flow {
+  0% { transform: translateX(-100px) translateY(0px); }
+  50% { transform: translateX(100px) translateY(-20px); }
+  100% { transform: translateX(-100px) translateY(0px); }
+}
+
+@keyframes water-ripple {
+  0% { 
+    transform: scale(1) rotate(0deg); 
+    opacity: 0.6; 
+  }
+  50% { 
+    transform: scale(1.2) rotate(180deg); 
+    opacity: 0.3; 
+  }
+  100% { 
+    transform: scale(1) rotate(360deg); 
+    opacity: 0.6; 
+  }
+}
+
+@keyframes floating-bubble {
+  0% { 
+    transform: translateY(0px) rotate(0deg); 
+    opacity: 0.4; 
+  }
+  50% { 
+    transform: translateY(-20px) rotate(180deg); 
+    opacity: 0.8; 
+  }
+  100% { 
+    transform: translateY(0px) rotate(360deg); 
+    opacity: 0.4; 
+  }
+}
+
+.water-flow {
+  animation: water-flow 15s ease-in-out infinite;
+}
+
+.water-ripple {
+  animation: water-ripple 8s ease-in-out infinite;
+}
+
+.floating-bubble {
+  animation: floating-bubble 6s ease-in-out infinite;
+}
+
+/* Base design tokens & CSS variables (light / dark) ------------------------------ */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    
+    --radius: 0.5rem;
+    
+    --color-background: hsl(var(--background));
+    --color-foreground: hsl(var(--foreground));
+    /* Use Google Fonts Inter as primary, Prompt for Thai, system fallbacks */
+    --font-sans: 'Inter', 'Prompt', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+/* Global Body Styles ------------------------------------------------------------- */
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Price Range Slider Styles ------------------------------------------------------ */
+@layer components {
+  .slider {
+    @apply appearance-none cursor-pointer;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    @apply appearance-none w-5 h-5 bg-cyan-500 rounded-full shadow-lg cursor-pointer border-2 border-white;
+    box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+  }
+  
+  .slider::-webkit-slider-thumb:hover {
+    @apply bg-cyan-600;
+    box-shadow: 0 6px 16px rgba(6, 182, 212, 0.4);
+  }
+  
+  .slider::-moz-range-thumb {
+    @apply w-5 h-5 bg-cyan-500 rounded-full border-2 border-white cursor-pointer;
+    box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+  }
+  
+  .slider::-moz-range-thumb:hover {
+    @apply bg-cyan-600;
+    box-shadow: 0 6px 16px rgba(6, 182, 212, 0.4);
+  }
+
+  /* Professional Mobile Components ------------------------------------------------ */
+  
+  /* Mobile-First Typography System */
+  .heading-mobile {
+    @apply text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  
+  .subheading-mobile {
+    @apply text-lg xs:text-xl sm:text-2xl md:text-3xl font-semibold;
+  }
+  
+  .body-mobile {
+    @apply text-sm xs:text-base sm:text-lg leading-relaxed;
+  }
+  
+  .caption-mobile {
+    @apply text-xs;
+    @screen xs { @apply text-sm; }
+  }
+
+  /* Mobile-Optimized Buttons */
+  .btn-mobile {
+    @apply w-full py-3 px-4 rounded-lg font-semibold transition-all duration-300;
+    @apply text-sm;
+    @screen xs { @apply text-base py-4 px-6; }
+    @screen sm { @apply py-3 px-5 text-base; }
+    @screen md { @apply py-4 px-6 text-lg; }
+  }
+  
+  .btn-mobile-compact {
+    @apply py-2 px-3 rounded-lg font-medium transition-all duration-300;
+    @apply text-xs;
+    @screen xs { @apply text-sm py-2.5 px-4; }
+    @screen sm { @apply text-base py-3 px-5; }
+  }
+
+  /* Mobile-First Cards & Containers */
+  .card-mobile {
+    @apply bg-white rounded-lg shadow-md border border-gray-100;
+    @apply p-3 mb-3;
+    @screen xs { @apply p-4 mb-4 rounded-xl; }
+    @screen sm { @apply p-6 mb-6 rounded-2xl shadow-xl; }
+    @screen md { @apply p-8 mb-8; }
+  }
+  
+  .container-mobile {
+    @apply px-3;
+    @screen xs { @apply px-4; }
+    @screen sm { @apply px-6; }
+    @screen md { @apply px-8; }
+    @screen lg { @apply px-4; }
+    @screen xl { @apply px-6; }
+  }
+
+  /* Mobile Grid Systems */
+  .grid-mobile-1 {
+    @apply grid grid-cols-1 gap-3 xs:gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8;
+  }
+  
+  .grid-mobile-auto {
+    @apply grid gap-3 xs:gap-4 sm:gap-6;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  /* Mobile-First Spacing */
+  .space-mobile {
+    @apply space-y-3 xs:space-y-4 sm:space-y-6 md:space-y-8;
+  }
+
+  /* Touch-Friendly Interactive Elements */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+  
+  .input-mobile {
+    @apply w-full border border-gray-300 rounded-lg px-3 py-3 xs:px-4 xs:py-3 sm:rounded-xl sm:px-6 sm:py-4;
+    @apply text-base; /* Prevents zoom on iOS */
+    @screen xs { @apply px-4 py-3 rounded-xl; }
+    @screen sm { @apply px-4 py-4 text-lg; }
+  }
+
+  /* Mobile-Optimized Animations */
+  .animate-mobile-slide-up {
+    @apply transform translate-y-4 opacity-0 transition-all duration-300;
+  }
+  
+  .animate-mobile-slide-up.active {
+    @apply translate-y-0 opacity-100;
+  }
+
+  /* Device-Specific Optimizations */
+  @supports (-webkit-touch-callout: none) {
+    /* iOS Safari specific styles */
+    .ios-safe-padding {
+      padding-bottom: env(safe-area-inset-bottom);
+      padding-top: env(safe-area-inset-top);
+    }
+  }
+  
+  /* High DPI displays */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .retina-border {
+      border-width: 0.5px;
+    }
+  }
+
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    .card-mobile {
+      @apply bg-gray-800 border-gray-700 text-white;
+    }
+    
+    .input-mobile {
+      @apply bg-gray-800 border-gray-600 text-white;
+    }
+  }
+}

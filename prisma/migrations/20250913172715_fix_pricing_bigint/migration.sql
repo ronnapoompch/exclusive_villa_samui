@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "villa_pricing" ALTER COLUMN "dailyRate" SET DATA TYPE BIGINT,
+ALTER COLUMN "weeklyRate" SET DATA TYPE BIGINT,
+ALTER COLUMN "monthlyRate" SET DATA TYPE BIGINT;

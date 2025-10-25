@@ -1,0 +1,113 @@
+# Vercel deployment ignore - Critical optimization for file limit
+
+# CRITICAL: Large image directories (must be ignored to stay under Vercel limits)
+public/optimized-data-images/
+public/villas/
+public/images/
+
+# Node modules (handled automatically by Vercel)
+node_modules/
+
+# All development and testing files
+*.log
+*.md
+!README.md
+test-*
+debug-*
+check-*
+setup-*
+analyze-*
+comprehensive-*
+basic-*
+simple-*
+manual-*
+elite-*
+lighthouse-*
+luxury-*
+
+# Admin documentation files
+ADMIN_*
+AUTHENTICATION_*
+AUTO_*
+CHECKBOX_*
+CODE_*
+COMPLETE_*
+COMPREHENSIVE_*
+CORRECTED_*
+DEV_*
+DEVELOPMENT_*
+EMAIL_*
+ERROR_*
+FINAL_*
+FORGOT_*
+IMAGE_*
+INTEGRATION_*
+JSON_*
+LANGUAGE_*
+MANUAL_*
+MIGRATION_*
+MOBILE_*
+PROJECT_*
+PROFESSIONAL_*
+DEPLOYMENT_ISSUES_RESOLUTION.md
+
+# Build artifacts
+.next/
+out/
+dist/
+coverage/
+.nyc_output/
+
+# Environment files (security)
+.env*
+!.env.example
+
+# OS and editor files
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+Thumbs.db
+
+# Backup and temporary files
+*.backup
+*.tmp
+*.old
+*.bak
+
+# Git related
+.git/
+
+# Docker files (not needed for Vercel)
+Dockerfile
+docker-compose.yml
+deploy.sh
+deploy.bat
+
+# Scripts that aren't needed in production
+scripts/
+*.js.map
+
+# Large folders that can be excluded
+prisma/migrations/
+*.ps1
+*.mjs
+*.bat
+**/migrations/
+scripts/
+prisma/migrations/
+# Exclude data folder but keep villa JSON files
+!src/data/folder-based-villas.json
+!src/data/folder-based-villas-array.json
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.js
+!tailwind.config.js
+!postcss.config.mjs
+!prisma/schema.prisma
+!src/data/folder-based-villas.json
+!src/data/folder-based-villas-array.json
