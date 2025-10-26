@@ -309,10 +309,10 @@ export default function BookingForm({
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent className="w-auto p-0 bg-white border border-gray-200 rounded-lg shadow-xl z-50">
-                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-3 rounded-t-lg">
-                    <h4 className="font-semibold text-sm">Select Check-in Date</h4>
+                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-3 rounded-t-lg">
+                    <h4 className="font-semibold text-sm text-white">Select Check-in Date</h4>
                   </div>
-                  <div className="p-3">
+                  <div className="p-3 bg-white">
                     <Calendar
                       mode="single"
                       selected={checkInDate}
@@ -361,10 +361,10 @@ export default function BookingForm({
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent className="w-auto p-0 bg-white border border-gray-200 rounded-lg shadow-xl z-50">
-                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-3 rounded-t-lg">
-                    <h4 className="font-semibold text-sm">Select Check-out Date</h4>
+                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-3 rounded-t-lg">
+                    <h4 className="font-semibold text-sm text-white">Select Check-out Date</h4>
                   </div>
-                  <div className="p-3">
+                  <div className="p-3 bg-white">
                     <Calendar
                       mode="single"
                       selected={checkOutDate}
