@@ -15,8 +15,8 @@ const nextConfig: NextConfig = {
   // Compression
   compress: true,
   
-  // Webpack: Include JSON files in bundle (Vercel serverless compatible)
-  webpack: (config) => {
+  // Webpack: Ensure JSON files are included in serverless bundle
+  webpack: (config, { isServer }) => {
     config.resolve.fallback = { ...config.resolve.fallback, fs: false };
     return config;
   },

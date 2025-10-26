@@ -1,14 +1,47 @@
 // Villa API - Optimized with Cloudinary Images  
 import { NextRequest, NextResponse } from 'next/server';
-// Import villa data from same directory (Vercel bundles this)
-import villasData from './villas-optimized.json';
+
+// Cache for villa data (persists across requests in same serverless instance)
+let cachedVillas: any[] = [];
+let lastFetch: number = 0;
+const CACHE_DURATION = 3600000; // 1 hour
+
+// Load villas from GitHub raw (works reliably in Vercel)
+async function loadVillasData(): Promise<any[]> {
+  const now = Date.now();
+  
+  // Return cached data if still valid
+  if (cachedVillas.length > 0 && (now - lastFetch) < CACHE_DURATION) {
+    return cachedVillas;
+  }
+  
+  try {
+    const response = await fetch(
+      'https://raw.githubusercontent.com/ronnapoompch/exclusive_villa_samui/deployment-fresh/src/app/api/villas/villas-optimized.json',
+      { cache: 'force-cache' }
+    );
+    
+    if (!response.ok) {
+      throw new Error(`GitHub fetch failed: ${response.status}`);
+    }
+    
+    cachedVillas = await response.json();
+    lastFetch = now;
+    console.log(`✅ Loaded ${cachedVillas.length} villas from GitHub`);
+    return cachedVillas;
+  } catch (error) {
+    console.error('❌ Failed to load villas:', error);
+    // Return cached data even if expired, better than nothing
+    return cachedVillas.length > 0 ? cachedVillas : [];
+  }
+}
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     
-    // Use imported villa data
-    const allVillas: any[] = villasData as any[];
+    // Load villas data
+    const allVillas: any[] = await loadVillasData();
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
