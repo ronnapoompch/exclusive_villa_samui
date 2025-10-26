@@ -1,15 +1,29 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
 
-// Load villas from filesystem (works in both local and Vercel)
-function loadVillasData() {
+// Cache villa data in memory (loaded once per serverless instance)
+let cachedVillasData: any[] = [];
+
+// Load villas from public JSON file via HTTP (Vercel compatible)
+async function loadVillasData(): Promise<any[]> {
+  if (cachedVillasData.length > 0) {
+    return cachedVillasData;
+  }
+
   try {
-    // In production, Next.js bundles this during build
-    const jsonPath = path.join(process.cwd(), 'public', 'data', 'villas-optimized.json');
-    const jsonData = fs.readFileSync(jsonPath, 'utf8');
-    return JSON.parse(jsonData);
+    // Fetch from public folder (works in Vercel serverless)
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+    const response = await fetch(`${baseUrl}/villas-data.json`, {
+      cache: 'force-cache'
+    });
+    
+    if (!response.ok) {
+      throw new Error(`Failed to fetch: ${response.status}`);
+    }
+    
+    cachedVillasData = await response.json();
+    console.log(`✅ Loaded ${cachedVillasData?.length || 0} villas from public JSON`);
+    return cachedVillasData;
   } catch (error) {
     console.error('❌ Failed to load villas data:', error);
     return [];
@@ -21,7 +35,7 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     
     // Load villas data
-    const allVillas: any[] = loadVillasData();
+    const allVillas: any[] = await loadVillasData();
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
