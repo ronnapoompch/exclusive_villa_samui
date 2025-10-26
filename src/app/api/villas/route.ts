@@ -1,14 +1,27 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
-// Import villa data statically (bundled during build - Vercel compatible)
-import villasData from './villas-optimized.json';
+import fs from 'fs';
+import path from 'path';
+
+// Load villas from filesystem (works in both local and Vercel)
+function loadVillasData() {
+  try {
+    // In production, Next.js bundles this during build
+    const jsonPath = path.join(process.cwd(), 'public', 'data', 'villas-optimized.json');
+    const jsonData = fs.readFileSync(jsonPath, 'utf8');
+    return JSON.parse(jsonData);
+  } catch (error) {
+    console.error('❌ Failed to load villas data:', error);
+    return [];
+  }
+}
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     
-    // Use statically imported villa data (works in Vercel serverless)
-    const allVillas: any[] = villasData as any[];
+    // Load villas data
+    const allVillas: any[] = loadVillasData();
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
