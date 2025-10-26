@@ -1,7 +1,7 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
 // Import villa data statically (bundled during build - Vercel compatible)
-import villasData from '@/data/villas-optimized.json';
+import villasData from '../../../data/villas-optimized.json';
 
 export async function GET(request: NextRequest) {
   try {
