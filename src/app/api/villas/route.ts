@@ -1,7 +1,27 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
-// Import villa data using @ alias (resolves to src/)
-import villasData from '@/data/villas-optimized.json';
+import path from 'path';
+import fs from 'fs';
+
+// Load villa data from file system (Vercel-compatible)
+const loadVillasData = () => {
+  try {
+    // Try src/data first (common location)
+    const dataPath = path.join(process.cwd(), 'src', 'data', 'villas-optimized.json');
+    if (fs.existsSync(dataPath)) {
+      const fileContent = fs.readFileSync(dataPath, 'utf8');
+      return JSON.parse(fileContent);
+    }
+    
+    // Fallback to root data folder
+    const fallbackPath = path.join(process.cwd(), 'data', 'villas-optimized.json');
+    const fileContent = fs.readFileSync(fallbackPath, 'utf8');
+    return JSON.parse(fileContent);
+  } catch (error) {
+    console.error('Error loading villas data:', error);
+    return [];
+  }
+};
 
 // Use professionally optimized villa data with Cloudinary CDN
 
@@ -9,8 +29,8 @@ export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     
-    // Use imported villa data (Vercel-safe)
-    const allVillas: any[] = villasData;
+    // Load villas data at runtime (Vercel-compatible)
+    const allVillas: any[] = loadVillasData();
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
