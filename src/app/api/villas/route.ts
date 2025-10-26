@@ -1,7 +1,7 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
 // Import villa data from src/data for proper resolution
-import villasData from '../../../data/villas-optimized.json';
+import villasData from '@/data/villas-optimized.json';
 
 // Use professionally optimized villa data with Cloudinary CDN
 
