@@ -1,51 +1,14 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
-import path from 'path';
-import fs from 'fs';
-
-// Load villa data from file system (Vercel serverless compatible)
-const loadVillasData = () => {
-  try {
-    // Vercel deploys public folder to root
-    const publicPath = path.join(process.cwd(), 'public', 'data', 'villas-optimized.json');
-    if (fs.existsSync(publicPath)) {
-      console.log('✅ Loading from public/data');
-      const fileContent = fs.readFileSync(publicPath, 'utf8');
-      return JSON.parse(fileContent);
-    }
-    
-    // Local development fallback
-    const srcPath = path.join(process.cwd(), 'src', 'data', 'villas-optimized.json');
-    if (fs.existsSync(srcPath)) {
-      console.log('✅ Loading from src/data (local)');
-      const fileContent = fs.readFileSync(srcPath, 'utf8');
-      return JSON.parse(fileContent);
-    }
-    
-    // Last resort: root data folder
-    const fallbackPath = path.join(process.cwd(), 'data', 'villas-optimized.json');
-    if (fs.existsSync(fallbackPath)) {
-      console.log('✅ Loading from data/ (fallback)');
-      const fileContent = fs.readFileSync(fallbackPath, 'utf8');
-      return JSON.parse(fileContent);
-    }
-    
-    console.error('❌ No villa data file found in any location');
-    return [];
-  } catch (error) {
-    console.error('❌ Error loading villas data:', error);
-    return [];
-  }
-};
-
-// Use professionally optimized villa data with Cloudinary CDN
+// Import villa data statically (bundled during build - Vercel compatible)
+import villasData from '@/data/villas-optimized.json';
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     
-    // Load villas data at runtime (Vercel-compatible)
-    const allVillas: any[] = loadVillasData();
+    // Use statically imported villa data (works in Vercel serverless)
+    const allVillas: any[] = villasData as any[];
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters

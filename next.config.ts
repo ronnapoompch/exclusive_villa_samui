@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   
   // Performance & Image Optimization
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.unsplash.com', 'res.cloudinary.com'],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: false,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
   
   // Compression
   compress: true,
+  
+  // Webpack: Include JSON files in bundle (Vercel serverless compatible)
+  webpack: (config) => {
+    config.resolve.fallback = { ...config.resolve.fallback, fs: false };
+    return config;
+  },
   
   // Power build optimizations
   experimental: {
