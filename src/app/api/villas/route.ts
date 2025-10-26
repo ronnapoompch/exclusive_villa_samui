@@ -3,22 +3,37 @@ import { NextRequest, NextResponse } from 'next/server';
 import path from 'path';
 import fs from 'fs';
 
-// Load villa data from file system (Vercel-compatible)
+// Load villa data from file system (Vercel serverless compatible)
 const loadVillasData = () => {
   try {
-    // Try src/data first (common location)
-    const dataPath = path.join(process.cwd(), 'src', 'data', 'villas-optimized.json');
-    if (fs.existsSync(dataPath)) {
-      const fileContent = fs.readFileSync(dataPath, 'utf8');
+    // Vercel deploys public folder to root
+    const publicPath = path.join(process.cwd(), 'public', 'data', 'villas-optimized.json');
+    if (fs.existsSync(publicPath)) {
+      console.log('✅ Loading from public/data');
+      const fileContent = fs.readFileSync(publicPath, 'utf8');
       return JSON.parse(fileContent);
     }
     
-    // Fallback to root data folder
+    // Local development fallback
+    const srcPath = path.join(process.cwd(), 'src', 'data', 'villas-optimized.json');
+    if (fs.existsSync(srcPath)) {
+      console.log('✅ Loading from src/data (local)');
+      const fileContent = fs.readFileSync(srcPath, 'utf8');
+      return JSON.parse(fileContent);
+    }
+    
+    // Last resort: root data folder
     const fallbackPath = path.join(process.cwd(), 'data', 'villas-optimized.json');
-    const fileContent = fs.readFileSync(fallbackPath, 'utf8');
-    return JSON.parse(fileContent);
+    if (fs.existsSync(fallbackPath)) {
+      console.log('✅ Loading from data/ (fallback)');
+      const fileContent = fs.readFileSync(fallbackPath, 'utf8');
+      return JSON.parse(fileContent);
+    }
+    
+    console.error('❌ No villa data file found in any location');
+    return [];
   } catch (error) {
-    console.error('Error loading villas data:', error);
+    console.error('❌ Error loading villas data:', error);
     return [];
   }
 };
