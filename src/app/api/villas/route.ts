@@ -1,7 +1,7 @@
 // Villa API - Optimized with Cloudinary Images
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+// Import villa data directly for Vercel Edge compatibility
+import villasData from '../../../../data/villas-optimized.json';
 
 // Use professionally optimized villa data with Cloudinary CDN
 
@@ -9,10 +9,8 @@ export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     
-    // Read villa data from JSON file (production-safe)
-    const dataPath = path.join(process.cwd(), 'data', 'villas-optimized.json');
-    const fileContent = fs.readFileSync(dataPath, 'utf-8');
-    const allVillas: any[] = JSON.parse(fileContent);
+    // Use imported villa data (Vercel-safe)
+    const allVillas: any[] = villasData;
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
