@@ -96,7 +96,7 @@ export function RegisterForm() {
     }
 
     try {
-      const response = await fetch('/api/v1/auth/register', {
+      const response = await fetch('/en/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -105,10 +105,7 @@ export function RegisterForm() {
           name: formData.name.trim(),
           email: formData.email.trim(),
           password: formData.password,
-          confirmPassword: formData.confirmPassword,
-          phone: formData.phone?.trim() || null,
-          acceptTerms: formData.acceptTerms,
-          preferredLanguage: 'en'
+          phone: formData.phone?.trim() || null
         })
       })
 
