@@ -1,30 +1,10 @@
 import { withAuth } from 'next-auth/middleware'
 import { NextResponse } from 'next/server'
-// import createIntlMiddleware from 'next-intl/middleware'
-// import {routing} from './src/i18n/routing'
-
-// Simple locale handling for Next.js 15 compatibility
-const supportedLocales = ['en', 'th', 'zh', 'ru'];
-const defaultLocale = 'en';
 
 export default withAuth(
   function middleware(req) {
     const { pathname } = req.nextUrl
     const token = req.nextauth.token
-
-    // Simple locale handling for non-admin routes
-    if (!pathname.startsWith('/admin') && !pathname.startsWith('/api')) {
-      // Check if pathname starts with a supported locale
-      const segments = pathname.split('/');
-      const maybeLocale = segments[1];
-      
-      if (!supportedLocales.includes(maybeLocale)) {
-        // Redirect to default locale
-        return NextResponse.redirect(new URL(`/${defaultLocale}${pathname}`, req.url));
-      }
-      
-      return NextResponse.next();
-    }
 
     // Admin route protection
     if (pathname.startsWith('/admin')) {
@@ -73,8 +53,8 @@ export default withAuth(
 
 export const config = {
   matcher: [
-    // Match internationalized pathnames  
-    '/((?!api|_next/static|_next/image|favicon.ico|admin).*)',
+    // Match all routes except static files and api
+    '/((?!api|_next/static|_next/image|favicon.ico).*)',
     // Match admin routes
     '/admin/:path*'
   ]

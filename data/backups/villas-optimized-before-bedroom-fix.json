@@ -27876,9 +27876,9 @@
     "slug": "villa-baan-miku",
     "name": "Villa Baan Miku",
     "location": "Plailaem",
-    "bedrooms": 6,
-    "bathrooms": 6,
-    "guests": 12,
+    "bedrooms": 45811,
+    "bathrooms": 45810,
+    "guests": 91622,
     "pricePerNight": 50000,
     "monthlyPrice": "",
     "pricesByMonth": {

@@ -4,7 +4,6 @@ import React, { useState, useEffect, useCallback } from 'react';
 import VillaCard from './VillaCard';
 import { Button } from '@/components/ui/button';
 import { Loader2, Filter } from 'lucide-react';
-import { usePathname } from 'next/navigation';
 
 interface Villa {
   id: string;
@@ -73,8 +72,6 @@ export default function VillaList({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const pathname = usePathname();
-
   const fetchVillas = useCallback(async () => {
     try {
       setLoading(true);
@@ -99,9 +96,8 @@ export default function VillaList({
       
       if (searchQuery) params.append('search', searchQuery);
 
-      // Extract locale from pathname (e.g., /en/page -> 'en')
-      const locale = pathname.split('/')[1] || 'en';
-      const apiPath = `/${locale}/api/villas?${params.toString()}`;
+      // Direct API path without locale
+      const apiPath = `/api/villas?${params.toString()}`;
       
       console.log('[VillaList] Making API call to:', apiPath);
       const response = await fetch(apiPath);
@@ -174,9 +170,9 @@ export default function VillaList({
 
   return (
     <section className={`py-16 xs:py-20 bg-gradient-to-br from-gray-50 via-white to-amber-50 ${className}`}>
-      <div className="container-mobile max-w-7xl mx-auto">
-        {/* Villa Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 xs:gap-10 mb-12 xs:mb-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1400px]">
+        {/* Villa Grid - Professional Balanced Layout */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8 mb-12 xs:mb-16">
           {villas.map((villa) => (
             <VillaCard key={villa.id} villa={villa} />
           ))}

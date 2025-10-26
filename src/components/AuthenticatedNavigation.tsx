@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useSession, signOut } from 'next-auth/react';
 import { Button, buttonVariants } from '@/components/ui/button';
-import { Phone, User, LogOut } from 'lucide-react';
+import { Phone, User, LogOut, MessageCircle } from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,6 +15,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { MobileNavigation } from '@/components/mobile/MobileNavigation';
 import { cn } from '@/lib/utils';
+import { CONTACT_INFO } from '@/lib/constants';
 
 export default function AuthenticatedNavigation() {
   const { data: session, status } = useSession();
@@ -24,7 +25,37 @@ export default function AuthenticatedNavigation() {
   };
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 p-4 xs:p-6" role="banner">
+    <>
+      {/* Top Contact Bar */}
+      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-2 px-4 border-b border-amber-500/20">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-4">
+            <span className="text-amber-400 font-semibold">🏡 {CONTACT_INFO.tagline}</span>
+            <span className="hidden md:inline text-white/80">✨ Direct booking • Real prices</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <a 
+              href={`tel:${CONTACT_INFO.phone.replace(/[^0-9]/g, '')}`}
+              className="flex items-center gap-1.5 hover:text-amber-300 transition-colors"
+            >
+              <Phone className="w-3 h-3" />
+              <span className="hidden sm:inline">{CONTACT_INFO.phone}</span>
+            </a>
+            <a 
+              href={`https://wa.me/${CONTACT_INFO.whatsapp.replace(/[^0-9]/g, '')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-green-600 hover:bg-green-700 px-2.5 py-1 rounded-full transition-all duration-300 font-medium"
+            >
+              <MessageCircle className="w-3 h-3" />
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Navigation */}
+      <header className="absolute top-[40px] left-0 right-0 z-50 p-4 xs:p-6" role="banner">
       <nav className="container-mobile max-w-7xl mx-auto flex items-center justify-between" role="navigation" aria-label="Main navigation">
         <Link href="/" className="flex items-center space-x-2 xs:space-x-3" aria-label="Go to homepage">
           <Image
@@ -48,16 +79,6 @@ export default function AuthenticatedNavigation() {
           <Link href="#contact" className="hover:text-cyan-300 transition-colors">Contact</Link>
           
           <div className="flex items-center space-x-3 lg:space-x-4">
-            <a 
-              href="tel:+66123456789" 
-              className="flex items-center space-x-2 hover:text-cyan-300 transition-colors text-sm lg:text-base"
-              aria-label="Call us at +66 123 456 789"
-              role="link"
-            >
-              <Phone className="w-4 h-4" aria-hidden="true" />
-              <span className="hidden lg:inline text-sm">+66 123 456 789</span>
-            </a>
-            
             {/* Authentication State */}
             {status === 'loading' ? (
               <div 
@@ -122,8 +143,7 @@ export default function AuthenticatedNavigation() {
         {/* Mobile Navigation */}
         <MobileNavigation className="text-white" />
       </nav>
-
-
     </header>
+    </>
   );
 }

@@ -26,7 +26,9 @@ function readExcelData() {
   const workbook = XLSX.readFile(EXCEL_PATH);
   const sheetName = workbook.SheetNames[0];
   const worksheet = workbook.Sheets[sheetName];
-  const data = XLSX.utils.sheet_to_json(worksheet);
+  
+  // Get raw data with formatting preserved
+  const data = XLSX.utils.sheet_to_json(worksheet, { raw: false, defval: '' });
   
   console.log(`✅ Found ${data.length} rows in Excel\n`);
   
@@ -35,14 +37,37 @@ function readExcelData() {
     const villaName = (row['NEW NAME (IN CASE CAN USE)'] || row['VILLAS REAL NAME'] || '').trim();
     const folderName = villaName; // Folder names match NEW NAME exactly
     
-    // Extract bedrooms
-    const bedrooms = row['Bedroom'] || 0;
+    // Extract bedrooms - handle range like "3-4" or single number
+    let bedroomsRaw = String(row['Bedroom'] || '0').trim();
+    let bedrooms = 0;
+    
+    if (bedroomsRaw.includes('-')) {
+      // Range like "3-4" - take the maximum
+      const parts = bedroomsRaw.split('-').map(p => parseInt(p.trim()));
+      bedrooms = Math.max(...parts.filter(n => !isNaN(n)));
+    } else {
+      bedrooms = parseInt(bedroomsRaw) || 0;
+    }
+    
+    // Validate bedrooms (reject unrealistic values)
+    if (bedrooms > 50 || bedrooms < 0) {
+      console.warn(`⚠️  Invalid bedrooms for ${villaName}: ${bedroomsRaw} - using 3 as default`);
+      bedrooms = 3;
+    }
+    
+    // Extract PAX (guests) if available
+    let guests = bedrooms * 2; // Default: bedrooms * 2
+    const paxRaw = String(row['PAX'] || '').trim();
+    if (paxRaw) {
+      // PAX format: "12-14 PAX" or "10 PAX"
+      const paxMatch = paxRaw.match(/(\d+)(?:-(\d+))?/);
+      if (paxMatch) {
+        guests = parseInt(paxMatch[2] || paxMatch[1]); // Use max if range
+      }
+    }
     
     // Calculate bathrooms (estimate: bedrooms - 1, minimum 1)
     const bathrooms = Math.max(1, bedrooms - 1);
-    
-    // Calculate max guests (estimate: bedrooms * 2)
-    const guests = bedrooms * 2;
     
     // Extract location
     const location = row['Location'] || 'Koh Samui';

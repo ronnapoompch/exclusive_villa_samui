@@ -199,13 +199,19 @@ export const SOCIAL_LINKS = {
 // Contact Information
 export const CONTACT_INFO = {
   email: 'info@exclusivevillasamui.com',
-  phone: '+66 77 123 456',
-  whatsapp: '+66 98 765 4321',
-  address: '123 Beach Road, Chaweng, Koh Samui, 84320, Thailand',
+  phone: '+66 95 597 8390',
+  whatsapp: '+66 95 597 8390',
+  address: 'Koh Samui, Surat Thani, Thailand',
   workingHours: {
     weekdays: '09:00 - 18:00',
     weekends: '10:00 - 17:00',
   },
+  tagline: 'FOR RENT | FOR SALE',
+  features: [
+    '✨ Direct booking to the villas service',
+    '🏷️ Customers always get the real price!',
+    '📱 Contact us via WhatsApp +66955978390'
+  ]
 }
 
 // Error Messages

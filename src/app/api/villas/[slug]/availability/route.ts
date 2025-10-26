@@ -3,10 +3,10 @@ import prisma from '@/lib/db/prisma';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { slug: string } | Promise<{ slug: string }> }
+  { params }: { params: { locale: string; slug: string } }
 ) {
   try {
-    const resolvedParams = params instanceof Promise ? await params : params;
+    const resolvedParams = await params;
     const { slug } = resolvedParams;
     const { searchParams } = new URL(request.url);
     const startDate = searchParams.get('startDate');
@@ -83,6 +83,27 @@ export async function GET(
       }
     });
 
+    // ดึง blocked dates จาก Airbnb และ OTA อื่นๆ
+    const blockedDates = await prisma.blockedDate.findMany({
+      where: {
+        villaId: villa.id,
+        ...(startDate && endDate ? {
+          date: {
+            gte: new Date(startDate),
+            lte: new Date(endDate)
+          }
+        } : {})
+      },
+      select: {
+        date: true,
+        reason: true,
+        source: true
+      },
+      orderBy: {
+        date: 'asc'
+      }
+    });
+
     // แปลงเป็น array ของวันที่ที่ถูกจองแล้ว
     const bookedDates: string[] = [];
     const bookedRanges = bookings.map(booking => ({
@@ -103,6 +124,11 @@ export async function GET(
       }
     });
 
+    // เพิ่ม blocked dates จาก Airbnb/OTA
+    blockedDates.forEach(blocked => {
+      bookedDates.push(blocked.date.toISOString().split('T')[0]);
+    });
+
     return NextResponse.json({
       success: true,
       data: {
@@ -110,7 +136,13 @@ export async function GET(
         villaName: villa.name,
         bookedDates: [...new Set(bookedDates)], // Remove duplicates
         bookedRanges,
-        totalBookings: bookings.length
+        totalBookings: bookings.length,
+        blockedDates: blockedDates.map(b => ({
+          date: b.date.toISOString().split('T')[0],
+          reason: b.reason,
+          source: b.source
+        })),
+        totalBlocked: blockedDates.length
       }
     });
 
@@ -130,10 +162,10 @@ export async function GET(
 // POST - เช็คว่าช่วงวันที่ต้องการจองว่างไหม
 export async function POST(
   request: NextRequest,
-  { params }: { params: { slug: string } | Promise<{ slug: string }> }
+  { params }: { params: { locale: string; slug: string } }
 ) {
   try {
-    const resolvedParams = params instanceof Promise ? await params : params;
+    const resolvedParams = await params;
     const { slug } = resolvedParams;
     const body = await request.json();
     const { checkInDate, checkOutDate } = body;
@@ -207,7 +239,28 @@ export async function POST(
       }
     });
 
-    const isAvailable = conflictingBookings.length === 0;
+    // เช็ค blocked dates (Airbnb/OTA) - ใช้ range query เพราะ timezone issues
+    const dayStart = new Date(startDate);
+    dayStart.setHours(0, 0, 0, 0);
+    const dayEnd = new Date(endDate);
+    dayEnd.setHours(23, 59, 59, 999);
+    
+    const blockedInRange = await prisma.blockedDate.findMany({
+      where: {
+        villaId: villa.id,
+        date: {
+          gte: dayStart,
+          lte: dayEnd
+        }
+      },
+      select: {
+        date: true,
+        reason: true,
+        source: true
+      }
+    });
+
+    const isAvailable = conflictingBookings.length === 0 && blockedInRange.length === 0;
 
     return NextResponse.json({
       success: true,
@@ -219,6 +272,13 @@ export async function POST(
           start: b.checkIn.toISOString(),
           end: b.checkOut.toISOString(),
           status: b.status
+        }))
+      }),
+      ...(blockedInRange.length > 0 && {
+        blocked: blockedInRange.map(b => ({
+          date: b.date.toISOString().split('T')[0],
+          reason: b.reason,
+          source: b.source
         }))
       })
     });

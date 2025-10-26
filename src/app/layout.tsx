@@ -1,4 +1,7 @@
 import type { Metadata } from 'next'
+import SessionProvider from '@/components/SessionProvider'
+import { Toaster } from 'react-hot-toast'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Exclusive Villa Samui',
@@ -13,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
-        {children}
+        <SessionProvider>
+          {children}
+          <Toaster position="top-right" />
+        </SessionProvider>
       </body>
     </html>
   )

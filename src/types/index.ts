@@ -61,7 +61,7 @@ export interface SearchParams {
 }
 
 export interface VillaFilters {
-  priceRange?: [number, number]
+  priceRange?: [number, number] | { min: number; max: number; display: string }
   bedroomsCount?: number
   bathroomsCount?: number
   maxGuests?: number

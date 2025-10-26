@@ -8,7 +8,12 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
+    "priceRange": {
+      "min": 29000,
+      "max": 89000,
+      "display": "฿29,000-89,000"
+    },
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Maret, Koh Samui. Beachfront location with ocean views. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -129,7 +134,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 120140000,
+    "pricePerNight": 120000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly 120K-140K"
@@ -227,7 +232,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:15.273Z"
+    "createdAt": "2025-10-24T10:21:15.273Z",
+    "priceRange": "฿120,000-140,000",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "anzhu-serenity": {
     "id": 3,
@@ -238,7 +246,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 22750,
+    "pricePerNight": 31000,
     "monthlyPrice": "180K/M",
     "pricesByMonth": {
       "january": "32K",
@@ -338,7 +346,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:16.629Z"
+    "createdAt": "2025-10-24T10:21:16.629Z",
+    "monthlyRate": 180000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "alicia-serenity-a3": {
     "id": 4,
@@ -349,7 +360,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 32417,
+    "pricePerNight": 28000,
     "monthlyPrice": "All Include",
     "pricesByMonth": {
       "january": "35K",
@@ -474,7 +485,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:19.741Z"
+    "createdAt": "2025-10-24T10:21:19.741Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "alicia-serenity-a5": {
     "id": 5,
@@ -485,7 +498,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Maret, Koh Samui. Prime location with modern amenities. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -602,7 +615,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 28417,
+    "pricePerNight": 25000,
     "monthlyPrice": "All Include",
     "pricesByMonth": {
       "january": "30K",
@@ -715,7 +728,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:26.025Z"
+    "createdAt": "2025-10-24T10:21:26.025Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "alicia-serenity-a28": {
     "id": 7,
@@ -726,7 +741,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 18333,
+    "pricePerNight": 15000,
     "monthlyPrice": "All Include",
     "pricesByMonth": {
       "january": "20K",
@@ -857,7 +872,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:28.611Z"
+    "createdAt": "2025-10-24T10:21:28.611Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "aurelia-villa-air": {
     "id": 8,
@@ -868,7 +885,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 100180000,
+    "pricePerNight": 100000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly 100-180K"
@@ -947,7 +964,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:29.333Z"
+    "createdAt": "2025-10-24T10:21:29.333Z",
+    "priceRange": "฿100,000-180,000",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "aurelia-villa-garden": {
     "id": 9,
@@ -958,7 +978,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 100180000,
+    "pricePerNight": 100000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly 100-180K"
@@ -1041,7 +1061,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:31.444Z"
+    "createdAt": "2025-10-24T10:21:31.444Z",
+    "priceRange": "฿100,000-180,000",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "baan-coral": {
     "id": 10,
@@ -1052,7 +1075,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1523000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15-23K",
@@ -1171,7 +1194,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:32.874Z"
+    "createdAt": "2025-10-24T10:21:32.874Z",
+    "priceRange": "฿15,000-23,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "baan-infinity": {
     "id": 11,
@@ -1182,7 +1208,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1023000,
+    "pricePerNight": 10000,
     "monthlyPrice": "180K/M",
     "pricesByMonth": {
       "january": "10K-23K",
@@ -1260,7 +1286,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:33.250Z"
+    "createdAt": "2025-10-24T10:21:33.250Z",
+    "priceRange": "฿10,000-23,000",
+    "monthlyRate": 180000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "baan-luxy": {
     "id": 12,
@@ -1271,7 +1301,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 5580,
+    "pricePerNight": 5500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "5.5K-8.5K",
@@ -1371,7 +1401,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:35.596Z"
+    "createdAt": "2025-10-24T10:21:35.596Z",
+    "priceRange": "฿5,500-8,500",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "baan-nagi-nami": {
     "id": 13,
@@ -1478,7 +1511,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:21:36.788Z"
+    "createdAt": "2025-10-24T10:21:36.788Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "baan-suwanee": {
     "id": 14,
@@ -1489,7 +1524,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -1570,7 +1605,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Bophut, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -1679,7 +1714,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Bantai, Koh Samui. Beachfront location with ocean views. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -1796,7 +1831,7 @@
     "bedrooms": 1,
     "bathrooms": 1,
     "guests": 2,
-    "pricePerNight": 5000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 1-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 2 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -1873,7 +1908,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -1959,7 +1994,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -2098,7 +2133,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -2195,7 +2230,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -2322,7 +2357,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -2425,7 +2460,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -2560,7 +2595,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Bantai, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -2654,7 +2689,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Plailaem, Koh Samui. Prime location with modern amenities. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -2789,7 +2824,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Huathanon, Koh Samui. Beachfront location with ocean views. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -2900,7 +2935,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -3005,7 +3040,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "guests": 12,
-    "pricePerNight": 30000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 6-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 12 guests with 5 bathrooms, private pool, and elegant furnishings.",
@@ -3134,7 +3169,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -3244,7 +3279,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Choengmon, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -3365,7 +3400,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Choengmon, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -3453,7 +3488,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Choengmon, Koh Samui. Prime location with modern amenities. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -3545,7 +3580,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Bangrak, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -3661,7 +3696,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Bangrak, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -3778,7 +3813,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 70500,
+    "pricePerNight": 7000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "28K",
@@ -3874,7 +3909,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:12.528Z"
+    "createdAt": "2025-10-24T10:22:12.528Z",
+    "priceRange": "฿7,000-9,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "chaweng-cresta-hill": {
     "id": 36,
@@ -3882,9 +3920,9 @@
     "slug": "chaweng-cresta-hill",
     "name": "Chaweng Cresta Hill",
     "location": "Chaweng",
-    "bedrooms": 45750,
-    "bathrooms": 45749,
-    "guests": 91500,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "guests": 8,
     "pricePerNight": 100000,
     "monthlyPrice": "",
     "pricesByMonth": {
@@ -3995,7 +4033,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:14.345Z"
+    "createdAt": "2025-10-24T10:22:14.345Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "cadenza-garden-2-4br": {
     "id": 37,
@@ -4003,10 +4043,10 @@
     "slug": "cadenza-garden-2-4br",
     "name": "Cadenza Garden (2-4BR)",
     "location": "Choengmon",
-    "bedrooms": 45749,
-    "bathrooms": 45748,
-    "guests": 91498,
-    "pricePerNight": 6688000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "guests": 8,
+    "pricePerNight": 66000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly 66K-88K"
@@ -4118,7 +4158,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:16.023Z"
+    "createdAt": "2025-10-24T10:22:16.023Z",
+    "priceRange": "฿66,000-88,000",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "dada-vista-ludwig": {
     "id": 38,
@@ -4129,7 +4172,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Maret, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -4241,7 +4284,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 884167,
+    "pricePerNight": 27000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "55K-39K",
@@ -4394,7 +4437,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:19.474Z"
+    "createdAt": "2025-10-24T10:22:19.474Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "dahlia-residence-a2": {
     "id": 40,
@@ -4481,7 +4526,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:20.849Z"
+    "createdAt": "2025-10-24T10:22:20.849Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "dahlia-residence-a3": {
     "id": 41,
@@ -4606,7 +4653,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:24.165Z"
+    "createdAt": "2025-10-24T10:22:24.165Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "dahlia-residence-b1": {
     "id": 42,
@@ -4745,7 +4794,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:28.574Z"
+    "createdAt": "2025-10-24T10:22:28.574Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "dahlia-residence-b3": {
     "id": 43,
@@ -4835,7 +4886,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:29.996Z"
+    "createdAt": "2025-10-24T10:22:29.996Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "dahlia-residence-b5": {
     "id": 44,
@@ -4992,7 +5045,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:35.448Z"
+    "createdAt": "2025-10-24T10:22:35.448Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "davide-kalyssa": {
     "id": 45,
@@ -5003,7 +5058,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 3563000,
+    "pricePerNight": 35000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "35K-63K",
@@ -5196,7 +5251,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:39.084Z"
+    "createdAt": "2025-10-24T10:22:39.084Z",
+    "priceRange": "฿35,000-63,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "davide-saffron": {
     "id": 46,
@@ -5207,7 +5265,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1729000,
+    "pricePerNight": 17000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "17K-29K",
@@ -5364,7 +5422,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:41.939Z"
+    "createdAt": "2025-10-24T10:22:41.939Z",
+    "priceRange": "฿17,000-29,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "davide-solstice": {
     "id": 47,
@@ -5375,7 +5436,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1939000,
+    "pricePerNight": 19000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "19K-39K",
@@ -5536,7 +5597,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:46.867Z"
+    "createdAt": "2025-10-24T10:22:46.867Z",
+    "priceRange": "฿19,000-39,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "fabrice-dune": {
     "id": 48,
@@ -5547,7 +5611,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 7510,
+    "pricePerNight": 7500,
     "monthlyPrice": "130K",
     "pricesByMonth": {
       "january": "7.5K-10K",
@@ -5633,7 +5697,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:47.429Z"
+    "createdAt": "2025-10-24T10:22:47.429Z",
+    "priceRange": "฿7,500-10,000",
+    "monthlyRate": 130000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-1": {
     "id": 49,
@@ -5644,7 +5712,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 9518,
+    "pricePerNight": 9500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "9.5K-18K",
@@ -5763,7 +5831,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:49.217Z"
+    "createdAt": "2025-10-24T10:22:49.217Z",
+    "priceRange": "฿9,500-18,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-4": {
     "id": 50,
@@ -5774,7 +5845,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 812000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-12K",
@@ -5893,7 +5964,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:51.110Z"
+    "createdAt": "2025-10-24T10:22:51.110Z",
+    "priceRange": "฿8,000-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-5": {
     "id": 51,
@@ -5904,7 +5978,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 812000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-12K",
@@ -6031,7 +6105,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:52.855Z"
+    "createdAt": "2025-10-24T10:22:52.855Z",
+    "priceRange": "฿8,000-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-6": {
     "id": 52,
@@ -6042,7 +6119,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 712000,
+    "pricePerNight": 7000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "7K-12K",
@@ -6169,7 +6246,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:54.557Z"
+    "createdAt": "2025-10-24T10:22:54.557Z",
+    "priceRange": "฿7,000-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-7": {
     "id": 53,
@@ -6180,7 +6260,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 7512,
+    "pricePerNight": 7500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "7.5K-12K",
@@ -6317,7 +6397,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:22:56.768Z"
+    "createdAt": "2025-10-24T10:22:56.768Z",
+    "priceRange": "฿7,500-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-8": {
     "id": 54,
@@ -6328,7 +6411,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 8514,
+    "pricePerNight": 8500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8.5K-14K"
@@ -6456,7 +6539,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:00.526Z"
+    "createdAt": "2025-10-24T10:23:00.526Z",
+    "priceRange": "฿8,500-14,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-9": {
     "id": 55,
@@ -6467,7 +6553,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 8514,
+    "pricePerNight": 8500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8.5K-14K",
@@ -6594,7 +6680,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:02.479Z"
+    "createdAt": "2025-10-24T10:23:02.479Z",
+    "priceRange": "฿8,500-14,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "flying-seaview-villa-10": {
     "id": 56,
@@ -6605,7 +6694,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 8512,
+    "pricePerNight": 8500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8.5K-12K",
@@ -6714,7 +6803,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:04.093Z"
+    "createdAt": "2025-10-24T10:23:04.093Z",
+    "priceRange": "฿8,500-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "gary-grand-1": {
     "id": 57,
@@ -6725,7 +6817,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1015000,
+    "pricePerNight": 10000,
     "monthlyPrice": "150K",
     "pricesByMonth": {
       "january": "10K-15K",
@@ -6875,7 +6967,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:07.009Z"
+    "createdAt": "2025-10-24T10:23:07.009Z",
+    "priceRange": "฿10,000-15,000",
+    "monthlyRate": 150000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "gary-grand-2": {
     "id": 58,
@@ -6886,7 +6982,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1015000,
+    "pricePerNight": 10000,
     "monthlyPrice": "150K",
     "pricesByMonth": {
       "january": "10K-15K",
@@ -7016,7 +7112,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:09.412Z"
+    "createdAt": "2025-10-24T10:23:09.412Z",
+    "priceRange": "฿10,000-15,000",
+    "monthlyRate": 150000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "garry-grand-3": {
     "id": 59,
@@ -7027,7 +7127,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1015000,
+    "pricePerNight": 10000,
     "monthlyPrice": "150K",
     "pricesByMonth": {
       "january": "10K-15K",
@@ -7136,7 +7236,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:11.019Z"
+    "createdAt": "2025-10-24T10:23:11.019Z",
+    "priceRange": "฿10,000-15,000",
+    "monthlyRate": 150000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "iconic-villa": {
     "id": 60,
@@ -7147,7 +7251,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1218000,
+    "pricePerNight": 12000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "12K-18K",
@@ -7255,7 +7359,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:12.481Z"
+    "createdAt": "2025-10-24T10:23:12.481Z",
+    "priceRange": "฿12,000-18,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "island-vista-villa": {
     "id": 61,
@@ -7266,7 +7373,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "guests": 12,
-    "pricePerNight": 2949000,
+    "pricePerNight": 29000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "29K-49K",
@@ -7379,7 +7486,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:14.990Z"
+    "createdAt": "2025-10-24T10:23:14.990Z",
+    "priceRange": "฿29,000-49,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "istvan-bobi-villa-jewel": {
     "id": 62,
@@ -7390,7 +7500,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 954917,
+    "pricePerNight": 6000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "13K-18K",
@@ -7499,7 +7609,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:19.121Z"
+    "createdAt": "2025-10-24T10:23:19.121Z",
+    "priceRange": "฿6,000-10,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "istvan-bobi-villa-kamelia": {
     "id": 63,
@@ -7510,7 +7623,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Bophut, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -7647,7 +7760,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "200K",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -7866,7 +7979,9 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:27.947Z"
+    "createdAt": "2025-10-24T10:23:27.947Z",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "joanna-serenity-villa": {
     "id": 66,
@@ -8004,7 +8119,9 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:29.408Z"
+    "createdAt": "2025-10-24T10:23:29.408Z",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "joanna-samui-garden-park": {
     "id": 67,
@@ -8122,7 +8239,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:30.608Z"
+    "createdAt": "2025-10-24T10:23:30.608Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "jungle-pearl": {
     "id": 68,
@@ -8133,7 +8252,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 68000,
+    "pricePerNight": 6000,
     "monthlyPrice": "90K",
     "pricesByMonth": {
       "january": "6K-8K",
@@ -8234,7 +8353,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:31.567Z"
+    "createdAt": "2025-10-24T10:23:31.567Z",
+    "priceRange": "฿6,000-8,000",
+    "monthlyRate": 90000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "kterra-villa": {
     "id": 69,
@@ -8245,7 +8368,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 822000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-22K",
@@ -8418,7 +8541,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:34.724Z"
+    "createdAt": "2025-10-24T10:23:34.724Z",
+    "priceRange": "฿8,000-22,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "kanda-villa-pearl": {
     "id": 70,
@@ -8429,7 +8555,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1322000,
+    "pricePerNight": 13000,
     "monthlyPrice": "350K",
     "pricesByMonth": {
       "january": "13K-22K",
@@ -8555,7 +8681,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:36.486Z"
+    "createdAt": "2025-10-24T10:23:36.486Z",
+    "priceRange": "฿13,000-22,000",
+    "monthlyRate": 350000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "kaya-mani-tranquil": {
     "id": 71,
@@ -8566,7 +8696,7 @@
     "bedrooms": 1,
     "bathrooms": 1,
     "guests": 2,
-    "pricePerNight": 1830,
+    "pricePerNight": 1800,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "1.8K-3.2K",
@@ -8667,7 +8797,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:37.425Z"
+    "createdAt": "2025-10-24T10:23:37.425Z",
+    "priceRange": "฿1,800-3,200",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "kiri-tara": {
     "id": 72,
@@ -8678,7 +8811,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 81775000,
+    "pricePerNight": 74000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "120K-150K",
@@ -8791,7 +8924,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:40.514Z"
+    "createdAt": "2025-10-24T10:23:40.514Z",
+    "priceRange": "฿74,000-100,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "kieren-villa-grace": {
     "id": 73,
@@ -8802,7 +8938,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3359000,
+    "pricePerNight": 33000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "33K-59K",
@@ -8908,7 +9044,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:42.600Z"
+    "createdAt": "2025-10-24T10:23:42.600Z",
+    "priceRange": "฿33,000-59,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "kieren-villa-mirage": {
     "id": 74,
@@ -8919,7 +9058,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3359000,
+    "pricePerNight": 33000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "33K-59K",
@@ -9033,7 +9172,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:45.062Z"
+    "createdAt": "2025-10-24T10:23:45.062Z",
+    "priceRange": "฿33,000-59,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "kieren-villa-solaria": {
     "id": 75,
@@ -9044,7 +9186,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 4274000,
+    "pricePerNight": 42000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "42K-74K",
@@ -9193,7 +9335,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:49.029Z"
+    "createdAt": "2025-10-24T10:23:49.029Z",
+    "priceRange": "฿42,000-74,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "kieren-villa-sylvan": {
     "id": 76,
@@ -9204,7 +9349,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 4274000,
+    "pricePerNight": 42000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "42K-74K",
@@ -9347,7 +9492,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:52.395Z"
+    "createdAt": "2025-10-24T10:23:52.395Z",
+    "priceRange": "฿42,000-74,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "kofe-samui-4br": {
     "id": 77,
@@ -9358,7 +9506,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1736000,
+    "pricePerNight": 17000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "17K-36K",
@@ -9463,7 +9611,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:53.534Z"
+    "createdAt": "2025-10-24T10:23:53.534Z",
+    "priceRange": "฿17,000-36,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "kofe-samui-5br": {
     "id": 78,
@@ -9474,7 +9625,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1739000,
+    "pricePerNight": 17000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "17K-39K",
@@ -9575,7 +9726,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:54.547Z"
+    "createdAt": "2025-10-24T10:23:54.547Z",
+    "priceRange": "฿17,000-39,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "kofe-samui-9br": {
     "id": 79,
@@ -9586,7 +9740,7 @@
     "bedrooms": 9,
     "bathrooms": 8,
     "guests": 18,
-    "pricePerNight": 3479000,
+    "pricePerNight": 34000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "34K-79K",
@@ -9714,7 +9868,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:56.435Z"
+    "createdAt": "2025-10-24T10:23:56.435Z",
+    "priceRange": "฿34,000-79,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "la-jewel": {
     "id": 80,
@@ -9725,7 +9882,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 816000,
+    "pricePerNight": 8000,
     "monthlyPrice": "130K",
     "pricesByMonth": {
       "january": "8K-16K",
@@ -9824,7 +9981,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:57.317Z"
+    "createdAt": "2025-10-24T10:23:57.317Z",
+    "priceRange": "฿8,000-16,000",
+    "monthlyRate": 130000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "la-mirage": {
     "id": 81,
@@ -9835,7 +9996,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1630000,
+    "pricePerNight": 16000,
     "monthlyPrice": "180K",
     "pricesByMonth": {
       "january": "16K-30K",
@@ -9953,7 +10114,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:58.714Z"
+    "createdAt": "2025-10-24T10:23:58.714Z",
+    "priceRange": "฿16,000-30,000",
+    "monthlyRate": 180000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "lyric-villa-jasmine": {
     "id": 82,
@@ -10053,7 +10218,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:23:59.491Z"
+    "createdAt": "2025-10-24T10:23:59.491Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "lyric-villa-lelle": {
     "id": 83,
@@ -10145,7 +10312,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:00.552Z"
+    "createdAt": "2025-10-24T10:24:00.552Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "lando-lamai": {
     "id": 84,
@@ -10246,7 +10415,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:01.571Z"
+    "createdAt": "2025-10-24T10:24:01.571Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "luxury-villa-siam-baan-breeze": {
     "id": 85,
@@ -10257,7 +10428,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 68500,
+    "pricePerNight": 6000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "6K-8.5K",
@@ -10337,7 +10508,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:02.011Z"
+    "createdAt": "2025-10-24T10:24:02.011Z",
+    "priceRange": "฿6,000-8,500",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "luxury-villa-siam-baan-lumina": {
     "id": 86,
@@ -10348,7 +10522,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1216000,
+    "pricePerNight": 12000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "12K-16K",
@@ -10427,7 +10601,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:02.450Z"
+    "createdAt": "2025-10-24T10:24:02.450Z",
+    "priceRange": "฿12,000-16,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "maison-dlan": {
     "id": 87,
@@ -10438,7 +10615,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 810000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-10K",
@@ -10539,7 +10716,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:03.317Z"
+    "createdAt": "2025-10-24T10:24:03.317Z",
+    "priceRange": "฿8,000-10,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "mam-seaview": {
     "id": 88,
@@ -10550,7 +10730,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 2035000,
+    "pricePerNight": 20000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "20K-35K",
@@ -10707,7 +10887,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:05.821Z"
+    "createdAt": "2025-10-24T10:24:05.821Z",
+    "priceRange": "฿20,000-35,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "mia-bayfront-6br": {
     "id": 89,
@@ -10718,7 +10901,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "guests": 12,
-    "pricePerNight": 74200000,
+    "pricePerNight": 74000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "74K-200K",
@@ -10834,7 +11017,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:07.107Z"
+    "createdAt": "2025-10-24T10:24:07.107Z",
+    "priceRange": "฿74,000-200,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "mia-estate-grand-17br": {
     "id": 90,
@@ -10845,7 +11031,7 @@
     "bedrooms": 17,
     "bathrooms": 16,
     "guests": 34,
-    "pricePerNight": 185250000,
+    "pricePerNight": 185000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "185K-250K",
@@ -11000,7 +11186,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:09.119Z"
+    "createdAt": "2025-10-24T10:24:09.119Z",
+    "priceRange": "฿185,000-250,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "mia-gallerie": {
     "id": 91,
@@ -11011,7 +11200,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Chaweng, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -11090,7 +11279,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 6389000,
+    "pricePerNight": 63000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "63K-89K",
@@ -11228,7 +11417,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:11.441Z"
+    "createdAt": "2025-10-24T10:24:11.441Z",
+    "priceRange": "฿63,000-89,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "mia-palmera-5br": {
     "id": 93,
@@ -11239,7 +11431,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 67100000,
+    "pricePerNight": 67000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "67K-100K",
@@ -11411,7 +11603,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:14.000Z"
+    "createdAt": "2025-10-24T10:24:14.000Z",
+    "priceRange": "฿67,000-100,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-residence-villa-solara": {
     "id": 94,
@@ -11419,10 +11614,10 @@
     "slug": "millennial-residence-villa-solara",
     "name": "Millennial Residence Villa Solara",
     "location": "Maenam",
-    "bedrooms": 45844,
-    "bathrooms": 45843,
-    "guests": 91688,
-    "pricePerNight": 66126000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "guests": 8,
+    "pricePerNight": 66000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "66K-126K"
@@ -11544,7 +11739,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:17.432Z"
+    "createdAt": "2025-10-24T10:24:17.432Z",
+    "priceRange": "฿66,000-126,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-residence-villa-wind": {
     "id": 95,
@@ -11552,10 +11750,10 @@
     "slug": "millennial-residence-villa-wind",
     "name": "Millennial Residence Villa Wind",
     "location": "Maenam",
-    "bedrooms": 45844,
-    "bathrooms": 45843,
-    "guests": 91688,
-    "pricePerNight": 66126000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "guests": 8,
+    "pricePerNight": 66000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "66K-126K"
@@ -11673,7 +11871,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:21.079Z"
+    "createdAt": "2025-10-24T10:24:21.079Z",
+    "priceRange": "฿66,000-126,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-the-residence": {
     "id": 96,
@@ -11684,7 +11885,7 @@
     "bedrooms": 10,
     "bathrooms": 9,
     "guests": 20,
-    "pricePerNight": 119252000,
+    "pricePerNight": 119000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "119K-252K"
@@ -11830,7 +12031,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:27.303Z"
+    "createdAt": "2025-10-24T10:24:27.303Z",
+    "priceRange": "฿119,000-252,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-aurora": {
     "id": 97,
@@ -11841,7 +12045,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 3888000,
+    "pricePerNight": 38000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "38K-88K"
@@ -11943,7 +12147,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:31.596Z"
+    "createdAt": "2025-10-24T10:24:31.596Z",
+    "priceRange": "฿38,000-88,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-bliss": {
     "id": 98,
@@ -11954,7 +12161,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 4085000,
+    "pricePerNight": 40000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "40K-85K"
@@ -12085,7 +12292,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:38.338Z"
+    "createdAt": "2025-10-24T10:24:38.338Z",
+    "priceRange": "฿40,000-85,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-colora": {
     "id": 99,
@@ -12096,7 +12306,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Maenam, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -12244,7 +12454,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 5096000,
+    "pricePerNight": 50000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "50K-96K"
@@ -12366,7 +12576,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:53.030Z"
+    "createdAt": "2025-10-24T10:24:53.030Z",
+    "priceRange": "฿50,000-96,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-flora": {
     "id": 101,
@@ -12377,7 +12590,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 4988000,
+    "pricePerNight": 49000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "49K-88K"
@@ -12535,7 +12748,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:24:59.171Z"
+    "createdAt": "2025-10-24T10:24:59.171Z",
+    "priceRange": "฿49,000-88,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-harmony": {
     "id": 102,
@@ -12546,7 +12762,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 3888000,
+    "pricePerNight": 38000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "38K-88K"
@@ -12646,7 +12862,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:02.629Z"
+    "createdAt": "2025-10-24T10:25:02.629Z",
+    "priceRange": "฿38,000-88,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-lumina": {
     "id": 103,
@@ -12657,7 +12876,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 5998000,
+    "pricePerNight": 59000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "59K-98K"
@@ -12774,7 +12993,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:07.796Z"
+    "createdAt": "2025-10-24T10:25:07.796Z",
+    "priceRange": "฿59,000-98,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "millennial-villa-watu": {
     "id": 104,
@@ -12785,7 +13007,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 5298000,
+    "pricePerNight": 52000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "52K-98K"
@@ -12936,7 +13158,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:16.215Z"
+    "createdAt": "2025-10-24T10:25:16.215Z",
+    "priceRange": "฿52,000-98,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "orchard-vista": {
     "id": 105,
@@ -12947,7 +13172,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 510000,
+    "pricePerNight": 5000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "5K-10K",
@@ -13063,7 +13288,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:18.015Z"
+    "createdAt": "2025-10-24T10:25:18.015Z",
+    "priceRange": "฿5,000-10,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-2-tropica": {
     "id": 106,
@@ -13074,7 +13302,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 814000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-14K",
@@ -13198,7 +13426,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:19.999Z"
+    "createdAt": "2025-10-24T10:25:19.999Z",
+    "priceRange": "฿8,000-14,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-5-boheme": {
     "id": 107,
@@ -13209,7 +13440,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1319000,
+    "pricePerNight": 13000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "13K-19K",
@@ -13390,7 +13621,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:24.503Z"
+    "createdAt": "2025-10-24T10:25:24.503Z",
+    "priceRange": "฿13,000-19,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-6-wabi-essence": {
     "id": 108,
@@ -13401,7 +13635,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1218000,
+    "pricePerNight": 12000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "12K-18K",
@@ -13590,7 +13824,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:29.198Z"
+    "createdAt": "2025-10-24T10:25:29.198Z",
+    "priceRange": "฿12,000-18,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-7-tranquil": {
     "id": 109,
@@ -13601,7 +13838,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 814000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-14K",
@@ -13737,7 +13974,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:32.061Z"
+    "createdAt": "2025-10-24T10:25:32.061Z",
+    "priceRange": "฿8,000-14,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-9-palma": {
     "id": 110,
@@ -13748,7 +13988,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 1016000,
+    "pricePerNight": 10000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "10K-16K",
@@ -13861,7 +14101,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:33.711Z"
+    "createdAt": "2025-10-24T10:25:33.711Z",
+    "priceRange": "฿10,000-16,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-10-exotica": {
     "id": 111,
@@ -13872,7 +14115,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 814000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-14K",
@@ -13964,7 +14207,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:34.695Z"
+    "createdAt": "2025-10-24T10:25:34.695Z",
+    "priceRange": "฿8,000-14,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-13-azurea": {
     "id": 112,
@@ -13975,7 +14221,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1420000,
+    "pricePerNight": 14000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "14K-20K",
@@ -14164,7 +14410,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:39.336Z"
+    "createdAt": "2025-10-24T10:25:39.336Z",
+    "priceRange": "฿14,000-20,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-15-infinite": {
     "id": 113,
@@ -14175,7 +14424,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1522000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15K-22K",
@@ -14309,7 +14558,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:41.901Z"
+    "createdAt": "2025-10-24T10:25:41.901Z",
+    "priceRange": "฿15,000-22,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-17-venezia": {
     "id": 114,
@@ -14320,7 +14572,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1522000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15K-22K",
@@ -14443,7 +14695,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:43.551Z"
+    "createdAt": "2025-10-24T10:25:43.551Z",
+    "priceRange": "฿15,000-22,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-19-elara": {
     "id": 115,
@@ -14454,7 +14709,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1521000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15K-21K",
@@ -14587,7 +14842,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:45.465Z"
+    "createdAt": "2025-10-24T10:25:45.465Z",
+    "priceRange": "฿15,000-21,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "perfect-paradise-villa-20-stellar": {
     "id": 116,
@@ -14598,7 +14856,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1522000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15K-22K",
@@ -14789,7 +15047,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:49.140Z"
+    "createdAt": "2025-10-24T10:25:49.140Z",
+    "priceRange": "฿15,000-22,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "paradox-samui-serenity": {
     "id": 117,
@@ -14800,7 +15061,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1523000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15K-23K",
@@ -14937,7 +15198,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:51.080Z"
+    "createdAt": "2025-10-24T10:25:51.080Z",
+    "priceRange": "฿15,000-23,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "palis-villa": {
     "id": 118,
@@ -14948,7 +15212,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 125000,
+    "pricePerNight": 130000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": " Monthly130K ",
@@ -15077,7 +15341,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:53.404Z"
+    "createdAt": "2025-10-24T10:25:53.404Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "prescott-villa": {
     "id": 119,
@@ -15179,7 +15445,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:54.352Z"
+    "createdAt": "2025-10-24T10:25:54.352Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "porta-laguna": {
     "id": 120,
@@ -15330,7 +15598,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:57.184Z"
+    "createdAt": "2025-10-24T10:25:57.184Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "porta-santi": {
     "id": 121,
@@ -15338,9 +15608,9 @@
     "slug": "porta-santi",
     "name": "Porta Santi",
     "location": "Bangpor",
-    "bedrooms": 45718,
-    "bathrooms": 45717,
-    "guests": 91436,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "guests": 6,
     "pricePerNight": 80000,
     "monthlyPrice": "",
     "pricesByMonth": {
@@ -15421,7 +15691,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:57.965Z"
+    "createdAt": "2025-10-24T10:25:57.965Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "prysm-penthouse": {
     "id": 122,
@@ -15571,7 +15843,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:25:59.939Z"
+    "createdAt": "2025-10-24T10:25:59.939Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "rover-aqua-one": {
     "id": 123,
@@ -15582,7 +15856,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 67500,
+    "pricePerNight": 6000,
     "monthlyPrice": "125K",
     "pricesByMonth": {
       "january": "6K-7.5K",
@@ -15684,7 +15958,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:00.716Z"
+    "createdAt": "2025-10-24T10:26:00.716Z",
+    "priceRange": "฿6,000-7,500",
+    "monthlyRate": 125000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "rover-aqua-two": {
     "id": 124,
@@ -15695,7 +15973,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 5511,
+    "pricePerNight": 5500,
     "monthlyPrice": "125K",
     "pricesByMonth": {
       "january": "5.5K-11K",
@@ -15800,7 +16078,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:01.793Z"
+    "createdAt": "2025-10-24T10:26:01.793Z",
+    "priceRange": "฿5,500-11,000",
+    "monthlyRate": 125000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "rover-pearl": {
     "id": 125,
@@ -15811,7 +16093,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 6512,
+    "pricePerNight": 6500,
     "monthlyPrice": "160K",
     "pricesByMonth": {
       "january": "6.5K-12K",
@@ -15916,7 +16198,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:02.794Z"
+    "createdAt": "2025-10-24T10:26:02.794Z",
+    "priceRange": "฿6,500-12,000",
+    "monthlyRate": 160000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "solira-peak": {
     "id": 126,
@@ -16038,7 +16324,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:03.801Z"
+    "createdAt": "2025-10-24T10:26:03.801Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "seluna-blue-orchid": {
     "id": 127,
@@ -16046,10 +16334,10 @@
     "slug": "seluna-blue-orchid",
     "name": "Seluna Blue Orchid",
     "location": "Choengmon",
-    "bedrooms": 45689,
-    "bathrooms": 45688,
-    "guests": 91378,
-    "pricePerNight": 215000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "guests": 6,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly (1BR) 55K",
@@ -16144,7 +16432,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:04.985Z"
+    "createdAt": "2025-10-24T10:26:04.985Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "seluna-boat-lagoon": {
     "id": 128,
@@ -16152,10 +16442,10 @@
     "slug": "seluna-boat-lagoon",
     "name": "Seluna Boat Lagoon",
     "location": "Plailaem",
-    "bedrooms": 45689,
-    "bathrooms": 45688,
-    "guests": 91378,
-    "pricePerNight": 215000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "guests": 6,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly (1BR) 55K",
@@ -16254,7 +16544,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:06.236Z"
+    "createdAt": "2025-10-24T10:26:06.236Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "samui-seaview": {
     "id": 129,
@@ -16265,7 +16557,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 7411,
+    "pricePerNight": 7400,
     "monthlyPrice": "185K-265K",
     "pricesByMonth": {
       "january": "7.4K-11K",
@@ -16426,7 +16718,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:08.659Z"
+    "createdAt": "2025-10-24T10:26:08.659Z",
+    "priceRange": "฿7,400-11,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "samui-sentry-villa-2-4br": {
     "id": 130,
@@ -16434,10 +16729,10 @@
     "slug": "samui-sentry-villa-2-4br",
     "name": "Samui Sentry Villa (2-4BR)",
     "location": "Koh Samui",
-    "bedrooms": 45749,
-    "bathrooms": 45748,
-    "guests": 91498,
-    "pricePerNight": 711000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "guests": 8,
+    "pricePerNight": 7000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "7K-11K",
@@ -16550,7 +16845,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:09.488Z"
+    "createdAt": "2025-10-24T10:26:09.488Z",
+    "priceRange": "฿7,000-11,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "santuary-aveline-3br": {
     "id": 131,
@@ -16718,7 +17016,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:13.176Z"
+    "createdAt": "2025-10-24T10:26:13.176Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "seko-beachhouse-deluxe": {
     "id": 132,
@@ -16834,7 +17134,9 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:14.789Z"
+    "createdAt": "2025-10-24T10:26:14.789Z",
+    "isMonthlyRate": true,
+    "beachfront": true
   },
   "seko-beachhouse-standard": {
     "id": 133,
@@ -16932,7 +17234,9 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:15.820Z"
+    "createdAt": "2025-10-24T10:26:15.820Z",
+    "isMonthlyRate": true,
+    "beachfront": true
   },
   "santisook-villa-aster": {
     "id": 134,
@@ -16943,7 +17247,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1216000,
+    "pricePerNight": 12000,
     "monthlyPrice": "(6M) 150K-210K (1M)",
     "pricesByMonth": {
       "january": "12K-16K",
@@ -17033,7 +17337,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:16.729Z"
+    "createdAt": "2025-10-24T10:26:16.729Z",
+    "priceRange": "฿12,000-16,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "santisook-villa-coloni": {
     "id": 135,
@@ -17044,7 +17351,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 8514,
+    "pricePerNight": 8500,
     "monthlyPrice": "(6M) 120K-220K (1M)",
     "pricesByMonth": {
       "january": "8.5K-14K",
@@ -17138,7 +17445,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:17.810Z"
+    "createdAt": "2025-10-24T10:26:17.810Z",
+    "priceRange": "฿8,500-14,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "santisook-villa-eve": {
     "id": 136,
@@ -17149,7 +17459,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 6510,
+    "pricePerNight": 6500,
     "monthlyPrice": "(6M) 90K-150K (1M)",
     "pricesByMonth": {
       "january": "6.5K-10K",
@@ -17277,7 +17587,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:20.299Z"
+    "createdAt": "2025-10-24T10:26:20.299Z",
+    "priceRange": "฿6,500-10,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "santisook-villa-ember": {
     "id": 137,
@@ -17288,7 +17601,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 5580,
+    "pricePerNight": 5500,
     "monthlyPrice": "(6M) 65K-80K (1M)",
     "pricesByMonth": {
       "january": "5.5K-8.5K",
@@ -17389,7 +17702,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:21.751Z"
+    "createdAt": "2025-10-24T10:26:21.751Z",
+    "priceRange": "฿5,500-8,500",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "santisook-villa-fleur": {
     "id": 138,
@@ -17400,7 +17716,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1620000,
+    "pricePerNight": 16000,
     "monthlyPrice": "(6M) 190K-280K (1M)",
     "pricesByMonth": {
       "january": "16K-20K",
@@ -17505,7 +17821,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:23.263Z"
+    "createdAt": "2025-10-24T10:26:23.263Z",
+    "priceRange": "฿16,000-20,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "santisook-villa-jade": {
     "id": 139,
@@ -17516,7 +17835,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "55K 6M-1Y",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Bangpor, Koh Samui. Prime location with modern amenities. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -17626,7 +17945,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Bangpor, Koh Samui. Beachfront location with ocean views. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -17765,7 +18084,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "guests": 12,
-    "pricePerNight": 1624000,
+    "pricePerNight": 16000,
     "monthlyPrice": "350K",
     "pricesByMonth": {
       "january": "16K-24K",
@@ -17926,7 +18245,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:29.810Z"
+    "createdAt": "2025-10-24T10:26:29.810Z",
+    "priceRange": "฿16,000-24,000",
+    "monthlyRate": 350000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sasa-skyline": {
     "id": 142,
@@ -17937,7 +18260,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 822000,
+    "pricePerNight": 8000,
     "monthlyPrice": "200K",
     "pricesByMonth": {
       "january": "8K-22K",
@@ -18050,7 +18373,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:31.265Z"
+    "createdAt": "2025-10-24T10:26:31.265Z",
+    "priceRange": "฿8,000-22,000",
+    "monthlyRate": 200000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sasa-omniva": {
     "id": 143,
@@ -18061,7 +18388,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 610000,
+    "pricePerNight": 6000,
     "monthlyPrice": "200K",
     "pricesByMonth": {
       "january": "6K-10K",
@@ -18194,7 +18521,11 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:33.195Z"
+    "createdAt": "2025-10-24T10:26:33.195Z",
+    "priceRange": "฿6,000-10,000",
+    "monthlyRate": 200000,
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "serene-villa-4-5br": {
     "id": 144,
@@ -18202,10 +18533,10 @@
     "slug": "serene-villa-4-5br",
     "name": "Serene Villa (4-5BR)",
     "location": "Taling Ngam",
-    "bedrooms": 45781,
-    "bathrooms": 45780,
-    "guests": 91562,
-    "pricePerNight": 41107000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "guests": 10,
+    "pricePerNight": 41000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "41K-107K",
@@ -18352,7 +18683,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:34.801Z"
+    "createdAt": "2025-10-24T10:26:34.801Z",
+    "priceRange": "฿41,000-107,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "stellar-swift": {
     "id": 145,
@@ -18482,7 +18816,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:36.749Z"
+    "createdAt": "2025-10-24T10:26:36.749Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "synera-destine-villa": {
     "id": 146,
@@ -18559,7 +18895,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:37.043Z"
+    "createdAt": "2025-10-24T10:26:37.043Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "sancia-chaweng": {
     "id": 147,
@@ -18661,7 +18999,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:38.024Z"
+    "createdAt": "2025-10-24T10:26:38.024Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "styla-villa": {
     "id": 148,
@@ -18750,7 +19090,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:38.659Z"
+    "createdAt": "2025-10-24T10:26:38.659Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "solaya-pool-villa": {
     "id": 149,
@@ -18863,7 +19205,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:40.266Z"
+    "createdAt": "2025-10-24T10:26:40.266Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "sunny-chaweng-crest": {
     "id": 150,
@@ -18874,7 +19218,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 63140000,
+    "pricePerNight": 63000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "63K-140K",
@@ -19019,7 +19363,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:42.488Z"
+    "createdAt": "2025-10-24T10:26:42.488Z",
+    "priceRange": "฿63,000-140,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-fire-cove": {
     "id": 151,
@@ -19030,7 +19377,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 2449000,
+    "pricePerNight": 24000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "24K-49K",
@@ -19171,7 +19518,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:45.743Z"
+    "createdAt": "2025-10-24T10:26:45.743Z",
+    "priceRange": "฿24,000-49,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-lilly-belle": {
     "id": 152,
@@ -19182,7 +19532,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1124000,
+    "pricePerNight": 11000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "11K-24K",
@@ -19332,7 +19682,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:48.911Z"
+    "createdAt": "2025-10-24T10:26:48.911Z",
+    "priceRange": "฿11,000-24,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-savory": {
     "id": 153,
@@ -19343,7 +19696,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3583000,
+    "pricePerNight": 35000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "35K-83K",
@@ -19488,7 +19841,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:54.185Z"
+    "createdAt": "2025-10-24T10:26:54.185Z",
+    "priceRange": "฿35,000-83,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-sprinkle": {
     "id": 154,
@@ -19499,7 +19855,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3583000,
+    "pricePerNight": 35000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "35K-83K",
@@ -19644,7 +20000,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:26:58.634Z"
+    "createdAt": "2025-10-24T10:26:58.634Z",
+    "priceRange": "฿35,000-83,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-zestia": {
     "id": 155,
@@ -19655,7 +20014,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3280000,
+    "pricePerNight": 32000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "32K-80K",
@@ -19804,7 +20163,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:05.927Z"
+    "createdAt": "2025-10-24T10:27:05.927Z",
+    "priceRange": "฿32,000-80,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-mastery": {
     "id": 156,
@@ -19815,7 +20177,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1120000,
+    "pricePerNight": 11000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "11K-20K",
@@ -19958,7 +20320,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:12.132Z"
+    "createdAt": "2025-10-24T10:27:12.132Z",
+    "priceRange": "฿11,000-20,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-panorama-summit": {
     "id": 157,
@@ -19969,7 +20334,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1941000,
+    "pricePerNight": 19000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "19K-41K",
@@ -20103,7 +20468,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:17.996Z"
+    "createdAt": "2025-10-24T10:27:17.996Z",
+    "priceRange": "฿19,000-41,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-summit-vista": {
     "id": 158,
@@ -20114,7 +20482,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 1737000,
+    "pricePerNight": 17000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "17K-37K",
@@ -20255,7 +20623,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:21.327Z"
+    "createdAt": "2025-10-24T10:27:21.327Z",
+    "priceRange": "฿17,000-37,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-sereniwood-i": {
     "id": 159,
@@ -20266,7 +20637,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 6513,
+    "pricePerNight": 6500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "6.5K-13K",
@@ -20411,7 +20782,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:25.036Z"
+    "createdAt": "2025-10-24T10:27:25.036Z",
+    "priceRange": "฿6,500-13,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-sereniwood-ii": {
     "id": 160,
@@ -20422,7 +20796,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 6513,
+    "pricePerNight": 6500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "6.5K-13K",
@@ -20564,7 +20938,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:28.332Z"
+    "createdAt": "2025-10-24T10:27:28.332Z",
+    "priceRange": "฿6,500-13,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-suan-kachamudee": {
     "id": 161,
@@ -20572,10 +20949,10 @@
     "slug": "sunny-suan-kachamudee",
     "name": "Sunny Suan Kachamudee",
     "location": "Chaweng Noi",
-    "bedrooms": 45966,
-    "bathrooms": 45965,
-    "guests": 91932,
-    "pricePerNight": 2872000,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "guests": 10,
+    "pricePerNight": 28000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "28K-72K",
@@ -20736,7 +21113,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:32.780Z"
+    "createdAt": "2025-10-24T10:27:32.780Z",
+    "priceRange": "฿28,000-72,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-twin-hill": {
     "id": 162,
@@ -20747,7 +21127,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 920000,
+    "pricePerNight": 9000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "9K-20K",
@@ -20895,7 +21275,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:41.022Z"
+    "createdAt": "2025-10-24T10:27:41.022Z",
+    "priceRange": "฿9,000-20,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-ashka-villa": {
     "id": 163,
@@ -20906,7 +21289,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 819000,
+    "pricePerNight": 8000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "8K-19K",
@@ -21056,7 +21439,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:48.661Z"
+    "createdAt": "2025-10-24T10:27:48.661Z",
+    "priceRange": "฿8,000-19,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-ammouri-villa": {
     "id": 164,
@@ -21067,7 +21453,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 2874000,
+    "pricePerNight": 28000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "28K-74K",
@@ -21198,7 +21584,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:50.148Z"
+    "createdAt": "2025-10-24T10:27:50.148Z",
+    "priceRange": "฿28,000-74,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-azuri-villa": {
     "id": 165,
@@ -21209,7 +21598,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1228000,
+    "pricePerNight": 12000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "12K-28K",
@@ -21317,7 +21706,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:53.203Z"
+    "createdAt": "2025-10-24T10:27:53.203Z",
+    "priceRange": "฿12,000-28,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-melophyte-ville": {
     "id": 166,
@@ -21328,7 +21720,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "guests": 12,
-    "pricePerNight": 5569000,
+    "pricePerNight": 55000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "55K-69K",
@@ -21488,7 +21880,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:27:57.455Z"
+    "createdAt": "2025-10-24T10:27:57.455Z",
+    "priceRange": "฿55,000-69,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-skyline": {
     "id": 167,
@@ -21499,7 +21894,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 48130000,
+    "pricePerNight": 48000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "48K-130K",
@@ -21654,7 +22049,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:04.580Z"
+    "createdAt": "2025-10-24T10:28:04.580Z",
+    "priceRange": "฿48,000-130,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-sunsei-villa": {
     "id": 168,
@@ -21665,7 +22063,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3074000,
+    "pricePerNight": 30000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "30K-74K",
@@ -21810,7 +22208,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:08.472Z"
+    "createdAt": "2025-10-24T10:28:08.472Z",
+    "priceRange": "฿30,000-74,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-tigate-villa": {
     "id": 169,
@@ -21821,7 +22222,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1730000,
+    "pricePerNight": 17000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "17K-30K",
@@ -21972,7 +22373,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:16.338Z"
+    "createdAt": "2025-10-24T10:28:16.338Z",
+    "priceRange": "฿17,000-30,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "sunny-universal-villa": {
     "id": 170,
@@ -21983,7 +22387,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 2447000,
+    "pricePerNight": 24000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "24K-47K",
@@ -22148,7 +22552,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:24.346Z"
+    "createdAt": "2025-10-24T10:28:24.346Z",
+    "priceRange": "฿24,000-47,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "the-edenic-villa": {
     "id": 171,
@@ -22159,7 +22566,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1425000,
+    "pricePerNight": 14000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "14K-25K",
@@ -22300,7 +22707,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:26.930Z"
+    "createdAt": "2025-10-24T10:28:26.930Z",
+    "priceRange": "฿14,000-25,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "the-highest-peak": {
     "id": 172,
@@ -22311,7 +22721,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1337000,
+    "pricePerNight": 13000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "13K-37K",
@@ -22470,7 +22880,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:29.706Z"
+    "createdAt": "2025-10-24T10:28:29.706Z",
+    "priceRange": "฿13,000-37,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "the-perfect-villa-vista": {
     "id": 173,
@@ -22481,7 +22894,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 5570,
+    "pricePerNight": 5500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "5.5K-7.5K",
@@ -22575,7 +22988,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:30.943Z"
+    "createdAt": "2025-10-24T10:28:30.943Z",
+    "priceRange": "฿5,500-7,500",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "the-wavora-1-deluxe-sea-view-3br": {
     "id": 174,
@@ -22586,7 +23002,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -22738,7 +23154,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -22879,7 +23295,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -22978,7 +23394,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -23158,7 +23574,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -23322,7 +23738,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -23427,7 +23843,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -23552,7 +23968,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -23728,7 +24144,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -23910,7 +24326,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -24082,7 +24498,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -24220,7 +24636,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -24355,7 +24771,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -24442,7 +24858,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 3-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 6 guests with 2 bathrooms, private pool, and elegant furnishings.",
@@ -24580,7 +24996,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 20000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 4-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 8 guests with 3 bathrooms, private pool, and elegant furnishings.",
@@ -24799,7 +25215,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 25000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 5-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 10 guests with 4 bathrooms, private pool, and elegant furnishings.",
@@ -24915,7 +25331,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3663000,
+    "pricePerNight": 36000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "36K-63K",
@@ -25035,7 +25451,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:28:57.755Z"
+    "createdAt": "2025-10-24T10:28:57.755Z",
+    "priceRange": "฿36,000-63,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "the-clay-haven": {
     "id": 191,
@@ -25046,7 +25465,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 716000,
+    "pricePerNight": 7000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "7K-16K",
@@ -25184,7 +25603,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:00.815Z"
+    "createdAt": "2025-10-24T10:29:00.815Z",
+    "priceRange": "฿7,000-16,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "the-cobham-suite-apartment": {
     "id": 192,
@@ -25195,7 +25617,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 10000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 2-bedroom villa in Plailaem, Koh Samui. Prime location with modern amenities. Accommodates up to 4 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -25421,7 +25843,9 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:04.867Z"
+    "createdAt": "2025-10-24T10:29:04.867Z",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "the-soboru-villa": {
     "id": 194,
@@ -25432,7 +25856,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 1836000,
+    "pricePerNight": 18000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "18K-36K",
@@ -25597,7 +26021,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:08.727Z"
+    "createdAt": "2025-10-24T10:29:08.727Z",
+    "priceRange": "฿18,000-36,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "tayla-coco-residence": {
     "id": 195,
@@ -25706,7 +26133,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:09.887Z"
+    "createdAt": "2025-10-24T10:29:09.887Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "tropy-serenity-resort": {
     "id": 196,
@@ -25717,7 +26146,7 @@
     "bedrooms": 1,
     "bathrooms": 1,
     "guests": 2,
-    "pricePerNight": 4510,
+    "pricePerNight": 4500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "4.5K-10K",
@@ -25826,7 +26255,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:11.563Z"
+    "createdAt": "2025-10-24T10:29:11.563Z",
+    "priceRange": "฿4,500-10,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-amnado": {
     "id": 197,
@@ -25934,7 +26366,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:12.992Z"
+    "createdAt": "2025-10-24T10:29:12.992Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "villa-asi-azure": {
     "id": 198,
@@ -25945,7 +26379,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 4670000,
+    "pricePerNight": 46000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "46K-70K",
@@ -26090,7 +26524,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:15.551Z"
+    "createdAt": "2025-10-24T10:29:15.551Z",
+    "priceRange": "฿46,000-70,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-astro": {
     "id": 199,
@@ -26227,7 +26664,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:19.676Z"
+    "createdAt": "2025-10-24T10:29:19.676Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "villa-delsy": {
     "id": 200,
@@ -26238,7 +26677,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 120000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthky 130K",
@@ -26310,7 +26749,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:20.258Z"
+    "createdAt": "2025-10-24T10:29:20.258Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "vila-kenda-cove": {
     "id": 201,
@@ -26321,7 +26762,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 812000,
+    "pricePerNight": 8000,
     "monthlyPrice": "70K-100K",
     "pricesByMonth": {
       "january": "8K-12K",
@@ -26433,7 +26874,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:21.365Z"
+    "createdAt": "2025-10-24T10:29:21.365Z",
+    "priceRange": "฿8,000-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-marina": {
     "id": 202,
@@ -26536,7 +26980,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:22.761Z"
+    "createdAt": "2025-10-24T10:29:22.761Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "villa-marvella": {
     "id": 203,
@@ -26630,7 +27076,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:23.578Z"
+    "createdAt": "2025-10-24T10:29:23.578Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "villa-maestro": {
     "id": 204,
@@ -26641,7 +27089,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 512000,
+    "pricePerNight": 5000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "5K-12K",
@@ -26749,7 +27197,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:25.307Z"
+    "createdAt": "2025-10-24T10:29:25.307Z",
+    "priceRange": "฿5,000-12,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-moonlight": {
     "id": 205,
@@ -26760,7 +27211,7 @@
     "bedrooms": 6,
     "bathrooms": 5,
     "guests": 12,
-    "pricePerNight": 2535000,
+    "pricePerNight": 25000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "25K-35K",
@@ -26899,7 +27350,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:27.921Z"
+    "createdAt": "2025-10-24T10:29:27.921Z",
+    "priceRange": "฿25,000-35,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-moonstone-pearl": {
     "id": 206,
@@ -26910,7 +27364,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 49120000,
+    "pricePerNight": 49000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "49K-120K",
@@ -27087,7 +27541,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:32.945Z"
+    "createdAt": "2025-10-24T10:29:32.945Z",
+    "priceRange": "฿49,000-120,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "villa-nithan": {
     "id": 207,
@@ -27098,7 +27555,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 3789000,
+    "pricePerNight": 37000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "37K-89K",
@@ -27271,7 +27728,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:41.899Z"
+    "createdAt": "2025-10-24T10:29:41.899Z",
+    "priceRange": "฿37,000-89,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-obsidian-black": {
     "id": 208,
@@ -27282,7 +27742,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 2333000,
+    "pricePerNight": 23000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "23K-33K",
@@ -27405,7 +27865,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:44.816Z"
+    "createdAt": "2025-10-24T10:29:44.816Z",
+    "priceRange": "฿23,000-33,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-baan-miku": {
     "id": 209,
@@ -27413,10 +27876,10 @@
     "slug": "villa-baan-miku",
     "name": "Villa Baan Miku",
     "location": "Plailaem",
-    "bedrooms": 45811,
-    "bathrooms": 45810,
-    "guests": 91622,
-    "pricePerNight": 50102000,
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "guests": 12,
+    "pricePerNight": 50000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "50K-102K",
@@ -27549,7 +28012,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:29:51.724Z"
+    "createdAt": "2025-10-24T10:29:51.724Z",
+    "priceRange": "฿50,000-102,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-sierrena-sky": {
     "id": 210,
@@ -27560,7 +28026,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 2530000,
+    "pricePerNight": 25000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "25K-30K",
@@ -27717,7 +28183,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:00.491Z"
+    "createdAt": "2025-10-24T10:30:00.491Z",
+    "priceRange": "฿25,000-30,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-playful-azure": {
     "id": 211,
@@ -27728,7 +28197,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 2230000,
+    "pricePerNight": 22000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "22K-30K",
@@ -27866,7 +28335,10 @@
     "featured": true,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:03.211Z"
+    "createdAt": "2025-10-24T10:30:03.211Z",
+    "priceRange": "฿22,000-30,000",
+    "isMonthlyRate": false,
+    "beachfront": true
   },
   "villa-reku-horizon": {
     "id": 212,
@@ -27877,7 +28349,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 2874000,
+    "pricePerNight": 28000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "28K-74K",
@@ -28010,7 +28482,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:09.979Z"
+    "createdAt": "2025-10-24T10:30:09.979Z",
+    "priceRange": "฿28,000-74,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-romeo": {
     "id": 213,
@@ -28021,7 +28496,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 120000,
+    "pricePerNight": 140000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "Monthly 140K",
@@ -28116,7 +28591,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:11.075Z"
+    "createdAt": "2025-10-24T10:30:11.075Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "villa-sasipimon-grand": {
     "id": 214,
@@ -28127,7 +28604,7 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "guests": 10,
-    "pricePerNight": 4986000,
+    "pricePerNight": 49000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "49K-86K",
@@ -28288,7 +28765,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:15.980Z"
+    "createdAt": "2025-10-24T10:30:15.980Z",
+    "priceRange": "฿49,000-86,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-seawaree": {
     "id": 215,
@@ -28299,7 +28779,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 15000,
+    "pricePerNight": null,
     "monthlyPrice": "",
     "pricesByMonth": {},
     "description": "Experience luxury in this stunning 0-bedroom villa in Chaweng Noi, Koh Samui. Prime location with modern amenities. Accommodates up to 0 guests with 1 bathrooms, private pool, and elegant furnishings.",
@@ -28446,7 +28926,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 53100000,
+    "pricePerNight": 53000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "53K-100K",
@@ -28614,7 +29094,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:25.654Z"
+    "createdAt": "2025-10-24T10:30:25.654Z",
+    "priceRange": "฿53,000-100,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-tangela-cove": {
     "id": 217,
@@ -28625,7 +29108,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1020000,
+    "pricePerNight": 10000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "10K-20K",
@@ -28741,7 +29224,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:27.159Z"
+    "createdAt": "2025-10-24T10:30:27.159Z",
+    "priceRange": "฿10,000-20,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-tossi": {
     "id": 218,
@@ -28752,7 +29238,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 1525000,
+    "pricePerNight": 15000,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "15K-25K",
@@ -28903,7 +29389,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:30.763Z"
+    "createdAt": "2025-10-24T10:30:30.763Z",
+    "priceRange": "฿15,000-25,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "villa-zodiac": {
     "id": 219,
@@ -29024,7 +29513,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:32.769Z"
+    "createdAt": "2025-10-24T10:30:32.769Z",
+    "isMonthlyRate": true,
+    "beachfront": false
   },
   "white-orchard-ville": {
     "id": 220,
@@ -29035,7 +29526,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 7511,
+    "pricePerNight": 7500,
     "monthlyPrice": "",
     "pricesByMonth": {
       "january": "7.5K-11K",
@@ -29189,7 +29680,10 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:35.900Z"
+    "createdAt": "2025-10-24T10:30:35.900Z",
+    "priceRange": "฿7,500-11,000",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "yuki-haven-villa": {
     "id": 221,
@@ -29283,7 +29777,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:37.195Z"
+    "createdAt": "2025-10-24T10:30:37.195Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "zulu-vista-a1": {
     "id": 222,
@@ -29294,7 +29790,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "guests": 4,
-    "pricePerNight": 1620911000,
+    "pricePerNight": 16000,
     "monthlyPrice": "150K-175K",
     "pricesByMonth": {
       "january": "16K-20K (9K-11K)",
@@ -29463,7 +29959,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:43.163Z"
+    "createdAt": "2025-10-24T10:30:43.163Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "zulu-vista-a2": {
     "id": 223,
@@ -29474,7 +29972,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 20251114000,
+    "pricePerNight": 20000,
     "monthlyPrice": "170K-225K",
     "pricesByMonth": {
       "january": "20K-25K (11K-14K)",
@@ -29641,7 +30139,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:48.777Z"
+    "createdAt": "2025-10-24T10:30:48.777Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "zulu-vista-a3": {
     "id": 224,
@@ -29652,7 +30152,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 23301518000,
+    "pricePerNight": 23000,
     "monthlyPrice": "200K-250K",
     "pricesByMonth": {
       "january": "23K-30K (15K-18K)",
@@ -29843,7 +30343,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:30:56.169Z"
+    "createdAt": "2025-10-24T10:30:56.169Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "zulu-vista-a4": {
     "id": 225,
@@ -29854,7 +30356,7 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "guests": 6,
-    "pricePerNight": 28351822000,
+    "pricePerNight": 28000,
     "monthlyPrice": "200K-300K",
     "pricesByMonth": {
       "january": "28K-35K (18K-22K)",
@@ -30017,7 +30519,9 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:31:01.930Z"
+    "createdAt": "2025-10-24T10:31:01.930Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   },
   "zulu-vista-b1": {
     "id": 226,
@@ -30028,7 +30532,7 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "guests": 8,
-    "pricePerNight": 28351822000,
+    "pricePerNight": 28000,
     "monthlyPrice": "200K-300K",
     "pricesByMonth": {
       "january": "28K-35K (18K-22K)",
@@ -30221,6 +30725,8 @@
     "featured": false,
     "rating": 5,
     "reviews": 0,
-    "createdAt": "2025-10-24T10:31:09.518Z"
+    "createdAt": "2025-10-24T10:31:09.518Z",
+    "isMonthlyRate": false,
+    "beachfront": false
   }
 }

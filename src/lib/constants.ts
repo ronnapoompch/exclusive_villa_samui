@@ -48,6 +48,24 @@ export const APP_NAME = 'Exclusive Villa Samui'
 export const APP_DESCRIPTION = 'Luxury villa booking platform for Samui with 100+ properties'
 export const APP_URL = process.env.NEXTAUTH_URL || 'http://localhost:3000'
 
+// Contact Information
+export const CONTACT_INFO = {
+  email: 'info@exclusivevillasamui.com',
+  phone: '+66 95 597 8390',
+  whatsapp: '+66 95 597 8390',
+  address: 'Koh Samui, Surat Thani, Thailand',
+  workingHours: {
+    weekdays: '09:00 - 18:00',
+    weekends: '10:00 - 17:00',
+  },
+  tagline: 'FOR RENT | FOR SALE',
+  features: [
+    '✨ Direct booking to the villas service',
+    '🏷️ Customers always get the real price!',
+    '📱 Contact us via WhatsApp +66955978390'
+  ]
+} as const
+
 // Session settings
 export const SESSION_MAX_AGE = 30 * 24 * 60 * 60 // 30 days
 export const SESSION_UPDATE_AGE = 24 * 60 * 60 // 1 day
