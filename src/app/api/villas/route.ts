@@ -1,18 +1,14 @@
 // Villa API - Optimized with Cloudinary Images  
 import { NextRequest, NextResponse } from 'next/server';
-
-// Dynamically import villa data (Vercel bundles this during build)
-const getVillasData = async () => {
-  const data = await import('../../../../public/villas-data.json');
-  return data.default || data;
-};
+// Import villa data from same directory (Vercel bundles this)
+import villasData from './villas-optimized.json';
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     
-    // Load villas data via dynamic import
-    const allVillas: any[] = await getVillasData();
+    // Use imported villa data
+    const allVillas: any[] = villasData as any[];
     console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
