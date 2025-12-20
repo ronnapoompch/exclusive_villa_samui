@@ -55,26 +55,24 @@ async function parseAndSyncCalendar(villaSlug, icalUrl, source) {
       if (event.type === 'VEVENT') {
         eventCount++;
         
-        // Airbnb blocked dates - all VEVENT entries are bookings/blocks
+        // Airbnb blocked dates - each VEVENT is a booking/blocked period
         const startDate = new Date(event.start);
         const endDate = new Date(event.end);
         const summary = event.summary || 'Reserved';
         
-        // Add each day in the range
-        let currentDate = new Date(startDate);
-        while (currentDate < endDate) {
-          blockedDates.push({
-            villaId: villa.id,
-            date: new Date(currentDate),
-            reason: summary,
-            source: source
-          });
-          currentDate.setDate(currentDate.getDate() + 1);
-        }
+        // Store as date range (not individual days)
+        blockedDates.push({
+          villaId: villa.id,
+          startDate: startDate,
+          endDate: endDate,
+          reason: summary,
+          source: source,
+          externalId: event.uid || null
+        });
       }
     }
     
-    console.log(`📅 Found ${eventCount} events, ${blockedDates.length} blocked dates`);
+    console.log(`📅 Found ${eventCount} events, ${blockedDates.length} blocked periods`);
     
     if (blockedDates.length > 0) {
       // Delete existing blocked dates from this source
@@ -93,13 +91,13 @@ async function parseAndSyncCalendar(villaSlug, icalUrl, source) {
         skipDuplicates: true
       });
       
-      console.log(`✅ Synced ${blockedDates.length} blocked dates for ${villa.name}`);
+      console.log(`✅ Synced ${blockedDates.length} blocked periods for ${villa.name}`);
       
       // Show sample dates
       const sampleDates = blockedDates.slice(0, 5).map(d => 
-        d.date.toISOString().split('T')[0]
+        `${d.startDate.toISOString().split('T')[0]} → ${d.endDate.toISOString().split('T')[0]}`
       );
-      console.log(`📆 Sample blocked dates: ${sampleDates.join(', ')}...`);
+      console.log(`📆 Sample blocked periods:\n   ${sampleDates.join('\n   ')}...`);
     } else {
       console.log(`✅ No blocked dates found - villa is available`);
     }

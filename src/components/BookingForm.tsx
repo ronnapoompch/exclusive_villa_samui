@@ -43,6 +43,27 @@ interface BookingData {
   specialRequests: string;
 }
 
+interface PricingData {
+  pricing: {
+    pricePerNight: number;
+    totalNights: number;
+    cleaningFee: number;
+    serviceFee: number;
+    total: number;
+    breakdown: Array<{
+      date: string;
+      price: number;
+      seasonName: string;
+    }>;
+  };
+  requirements: {
+    minStay: number;
+    maxStay: number;
+    maxGuests: number;
+  };
+  warnings: string[];
+}
+
 export default function BookingForm({ villa }: BookingFormProps) {
   const [bookingData, setBookingData] = useState<BookingData>({
     checkIn: '',
@@ -55,9 +76,77 @@ export default function BookingForm({ villa }: BookingFormProps) {
     specialRequests: ''
   });
 
-
   const [bookingStatus, setBookingStatus] = useState<'idle' | 'payment' | 'success' | 'error'>('idle');
   const [completedBookingId, setCompletedBookingId] = useState<string | null>(null);
+  
+  // New state for real-time checks
+  const [isCheckingAvailability, setIsCheckingAvailability] = useState(false);
+  const [isAvailable, setIsAvailable] = useState<boolean | null>(null);
+  const [pricingData, setPricingData] = useState<PricingData | null>(null);
+  const [availabilityError, setAvailabilityError] = useState<string | null>(null);
+
+  // Check availability and pricing when dates change
+  const checkAvailabilityAndPricing = async () => {
+    if (!bookingData.checkIn || !bookingData.checkOut) {
+      setIsAvailable(null);
+      setPricingData(null);
+      setAvailabilityError(null);
+      return;
+    }
+
+    setIsCheckingAvailability(true);
+    setAvailabilityError(null);
+
+    try {
+      // Check availability first
+      const availabilityResponse = await fetch(`/api/villas/${villa.slug}/availability`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          checkIn: bookingData.checkIn,
+          checkOut: bookingData.checkOut
+        })
+      });
+
+      const availabilityResult = await availabilityResponse.json();
+
+      if (!availabilityResult.available) {
+        setIsAvailable(false);
+        setPricingData(null);
+        setAvailabilityError(availabilityResult.reason || 'Dates not available');
+        setIsCheckingAvailability(false);
+        return;
+      }
+
+      setIsAvailable(true);
+
+      // Get pricing
+      const pricingResponse = await fetch(`/api/villas/${villa.slug}/pricing`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          checkIn: bookingData.checkIn,
+          checkOut: bookingData.checkOut,
+          guests: bookingData.guests
+        })
+      });
+
+      if (!pricingResponse.ok) {
+        throw new Error('Pricing not available for selected dates');
+      }
+
+      const pricingResult = await pricingResponse.json();
+      setPricingData(pricingResult);
+
+    } catch (error) {
+      console.error('Availability/Pricing check error:', error);
+      setAvailabilityError('Unable to check availability. Please try again.');
+      setIsAvailable(null);
+      setPricingData(null);
+    } finally {
+      setIsCheckingAvailability(false);
+    }
+  };
 
   // Calculate number of nights
   const calculateNights = () => {
@@ -71,6 +160,12 @@ export default function BookingForm({ villa }: BookingFormProps) {
 
   // Calculate total price
   const calculateTotal = () => {
+    // Use real-time pricing if available
+    if (pricingData) {
+      return pricingData.pricing.total;
+    }
+    
+    // Fallback to basic calculation
     const nights = calculateNights();
     if (!nights || !villa.pricing.dailyRate) return 0;
     return nights * parseInt(villa.pricing.dailyRate);
@@ -89,6 +184,20 @@ export default function BookingForm({ villa }: BookingFormProps) {
     if (calculateNights() < 1 || calculateTotal() <= 0) {
       alert('Please select valid dates');
       return;
+    }
+
+    // Check availability before proceeding
+    if (isAvailable === false) {
+      alert('Selected dates are not available. Please choose different dates.');
+      return;
+    }
+
+    // Check minimum stay requirement
+    if (pricingData?.warnings && pricingData.warnings.length > 0) {
+      const confirmed = confirm(
+        `${pricingData.warnings.join('\n')}\n\nDo you want to proceed anyway?`
+      );
+      if (!confirmed) return;
     }
 
     // Proceed to payment
@@ -110,6 +219,12 @@ export default function BookingForm({ villa }: BookingFormProps) {
       ...prev,
       [field]: value
     }));
+
+    // Trigger availability check when dates change
+    if (field === 'checkIn' || field === 'checkOut') {
+      // Use setTimeout to debounce and wait for state update
+      setTimeout(() => checkAvailabilityAndPricing(), 100);
+    }
   };
 
   const nights = calculateNights();
@@ -239,13 +354,65 @@ export default function BookingForm({ villa }: BookingFormProps) {
           </div>
 
           {nights > 0 && (
-            <div className="bg-cyan-50 rounded-lg p-3 border border-cyan-200">
-              <div className="flex items-center">
-                <Clock className="w-4 h-4 mr-2 text-cyan-600" />
-                <span className="text-cyan-700 font-medium">
-                  {nights} night{nights > 1 ? 's' : ''} stay
-                </span>
+            <div className="space-y-2">
+              <div className="bg-cyan-50 rounded-lg p-3 border border-cyan-200">
+                <div className="flex items-center">
+                  <Clock className="w-4 h-4 mr-2 text-cyan-600" />
+                  <span className="text-cyan-700 font-medium">
+                    {nights} night{nights > 1 ? 's' : ''} stay
+                  </span>
+                </div>
               </div>
+
+              {/* Availability Check Status */}
+              {isCheckingAvailability && (
+                <div className="bg-blue-50 rounded-lg p-3 border border-blue-200">
+                  <div className="flex items-center">
+                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600 mr-2"></div>
+                    <span className="text-blue-700 text-sm">
+                      Checking availability and pricing...
+                    </span>
+                  </div>
+                </div>
+              )}
+
+              {/* Available */}
+              {!isCheckingAvailability && isAvailable === true && (
+                <div className="bg-green-50 rounded-lg p-3 border border-green-200">
+                  <div className="flex items-center">
+                    <CheckCircle className="w-4 h-4 mr-2 text-green-600" />
+                    <span className="text-green-700 font-medium">
+                      Dates available!
+                    </span>
+                  </div>
+                </div>
+              )}
+
+              {/* Not Available */}
+              {!isCheckingAvailability && isAvailable === false && (
+                <div className="bg-red-50 rounded-lg p-3 border border-red-200">
+                  <div className="flex items-center">
+                    <AlertCircle className="w-4 h-4 mr-2 text-red-600" />
+                    <span className="text-red-700 font-medium">
+                      {availabilityError || 'Dates not available'}
+                    </span>
+                  </div>
+                </div>
+              )}
+
+              {/* Pricing Warnings */}
+              {pricingData?.warnings && pricingData.warnings.length > 0 && (
+                <div className="bg-yellow-50 rounded-lg p-3 border border-yellow-200">
+                  <div className="flex items-start">
+                    <AlertCircle className="w-4 h-4 mr-2 text-yellow-600 mt-0.5" />
+                    <div className="text-yellow-700 text-sm">
+                      {pricingData.warnings.map((warning, idx) => (
+                        <div key={idx}>{warning}</div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -368,14 +535,57 @@ export default function BookingForm({ villa }: BookingFormProps) {
             </h3>
             
             <div className="space-y-2 text-sm">
-              <div className="flex justify-between">
-                <span>฿{parseInt(villa.pricing.dailyRate || '0').toLocaleString()} × {nights} nights</span>
-                <span>฿{totalAmount.toLocaleString()}</span>
-              </div>
-              <div className="flex justify-between font-bold text-lg border-t pt-2">
-                <span>Total Amount</span>
-                <span>฿{totalAmount.toLocaleString()}</span>
-              </div>
+              {pricingData ? (
+                <>
+                  <div className="flex justify-between">
+                    <span>฿{pricingData.pricing.pricePerNight.toLocaleString()} × {nights} nights</span>
+                    <span>฿{pricingData.pricing.totalNights.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between text-gray-600">
+                    <span>Cleaning Fee</span>
+                    <span>฿{pricingData.pricing.cleaningFee.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between text-gray-600">
+                    <span>Service Fee (5%)</span>
+                    <span>฿{pricingData.pricing.serviceFee.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between font-bold text-lg border-t pt-2">
+                    <span>Total Amount</span>
+                    <span>฿{pricingData.pricing.total.toLocaleString()}</span>
+                  </div>
+                  
+                  {/* Season Breakdown */}
+                  {pricingData.pricing.breakdown.length > 0 && (
+                    <details className="mt-3">
+                      <summary className="text-xs text-gray-500 cursor-pointer hover:text-gray-700">
+                        View daily breakdown
+                      </summary>
+                      <div className="mt-2 space-y-1 text-xs text-gray-600">
+                        {pricingData.pricing.breakdown.map((day, idx) => (
+                          <div key={idx} className="flex justify-between">
+                            <span>{new Date(day.date).toLocaleDateString()} - {day.seasonName}</span>
+                            <span>฿{day.price.toLocaleString()}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  )}
+                </>
+              ) : (
+                <>
+                  <div className="flex justify-between">
+                    <span>฿{parseInt(villa.pricing.dailyRate || '0').toLocaleString()} × {nights} nights</span>
+                    <span>฿{totalAmount.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between font-bold text-lg border-t pt-2">
+                    <span>Total Amount</span>
+                    <span>฿{totalAmount.toLocaleString()}</span>
+                  </div>
+                  <div className="text-xs text-gray-500 mt-2">
+                    * Final price will be calculated based on seasonal rates
+                  </div>
+                </>
+              )}
             </div>
           </div>
         )}
@@ -395,11 +605,25 @@ export default function BookingForm({ villa }: BookingFormProps) {
         {/* Submit Button */}
         <button
           type="submit"
-          disabled={!nights || !totalAmount}
+          disabled={!nights || !totalAmount || isCheckingAvailability || isAvailable === false}
           className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:from-cyan-700 hover:to-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center"
         >
-          <CreditCard className="w-5 h-5 mr-2" />
-          Proceed to Payment - ฿{totalAmount.toLocaleString()}
+          {isCheckingAvailability ? (
+            <>
+              <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
+              Checking Availability...
+            </>
+          ) : isAvailable === false ? (
+            <>
+              <AlertCircle className="w-5 h-5 mr-2" />
+              Dates Not Available
+            </>
+          ) : (
+            <>
+              <CreditCard className="w-5 h-5 mr-2" />
+              Proceed to Payment - ฿{totalAmount.toLocaleString()}
+            </>
+          )}
         </button>
 
         {/* Security Note */}

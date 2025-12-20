@@ -68,6 +68,7 @@
     "@types/nodemailer": "^7.0.2",
     "@upstash/ratelimit": "^1.0.1",
     "@upstash/redis": "^1.28.3",
+    "@vercel/blob": "^2.0.0",
     "axios": "^1.12.2",
     "bcryptjs": "^2.4.3",
     "bullmq": "^5.60.0",

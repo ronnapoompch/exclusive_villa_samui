@@ -8,26 +8,26 @@ datasource db {
 }
 
 model User {
-  id                 String              @id @default(cuid())
-  email              String              @unique
-  password           String
-  name               String?
-  phone              String?
-  role               UserRole            @default(USER)
-  active             Boolean             @default(true)
-  avatar             String?
-  createdAt          DateTime            @default(now())
-  emailVerified      DateTime?
-  language           String              @default("en")
-  preferredCurrency  String              @default("THB")
-  preferredLanguage  String              @default("en")
-  updatedAt          DateTime            @updatedAt
-  auditLogs          AuditLog[]
-  bookings           Booking[]
-  loginAttempts      LoginAttempt[]
+  id                  String               @id @default(cuid())
+  email               String               @unique
+  password            String
+  name                String?
+  phone               String?
+  role                UserRole             @default(USER)
+  active              Boolean              @default(true)
+  avatar              String?
+  createdAt           DateTime             @default(now())
+  emailVerified       DateTime?
+  language            String               @default("en")
+  preferredCurrency   String               @default("THB")
+  preferredLanguage   String               @default("en")
+  updatedAt           DateTime             @updatedAt
+  auditLogs           AuditLog[]
+  bookings            Booking[]
+  loginAttempts       LoginAttempt[]
   passwordResetTokens PasswordResetToken[]
-  reviews            Review[]
-  verificationTokens VerificationToken[]
+  reviews             Review[]
+  verificationTokens  VerificationToken[]
 
   @@index([email])
   @@map("users")
@@ -119,6 +119,8 @@ model Villa {
   reviews         Review[]
   pricing         VillaPricing[]
   blockedDates    BlockedDate[]
+  priceRates      PriceRate[]
+  villaImages     VillaImage[]
 
   @@index([location])
   @@index([bedrooms])
@@ -128,21 +130,71 @@ model Villa {
   @@map("villas")
 }
 
-model BlockedDate {
-  id        String   @id @default(cuid())
-  villaId   String
-  date      DateTime
-  reason    String?
-  source    String?  @default("Manual") // "Airbnb", "Booking.com", "Manual", etc.
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  villa     Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
+model VillaImage {
+  id          String   @id @default(cuid())
+  villaId     String
+  url         String   // Local path: /optimized-villas/{slug}/{category}/{filename}
+  category    String   // "hero", "exterior", "living", "bedroom", "bathroom", "kitchen", "dining", "pool", "amenities", "view"
+  order       Int      @default(0)
+  altText     String?
+  width       Int?
+  height      Int?
+  size        Int?     // File size in bytes
+  format      String?  @default("webp")
+  isHero      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  villa       Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
 
-  @@unique([villaId, date, source])
   @@index([villaId])
-  @@index([date])
+  @@index([category])
+  @@index([isHero])
+  @@index([order])
+  @@map("villa_images")
+}
+
+model BlockedDate {
+  id         String   @id @default(cuid())
+  villaId    String
+  startDate  DateTime // Changed from 'date' to support date ranges
+  endDate    DateTime // End date of blocked period
+  reason     String?
+  source     String?  @default("Manual") // "Airbnb", "Booking.com", "Agoda", "Manual", etc.
+  externalId String? // UID from iCal feed for deduplication
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  villa      Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
+
+  @@unique([villaId, externalId, source])
+  @@index([villaId])
+  @@index([startDate])
+  @@index([endDate])
   @@index([source])
   @@map("blocked_dates")
+}
+
+model PriceRate {
+  id            String   @id @default(cuid())
+  villaId       String
+  startDate     DateTime // Start date of pricing period
+  endDate       DateTime // End date of pricing period
+  pricePerNight Int // Price per night in smallest currency unit (e.g., satang for THB)
+  currency      String   @default("THB")
+  minStay       Int? // Minimum nights required
+  maxStay       Int? // Maximum nights allowed
+  seasonName    String? // e.g., "High Season", "Peak Season", "Low Season"
+  source        String   @default("manual") // "manual", "airbnb", "booking.com", "channel-manager"
+  externalId    String? // For sync tracking with external sources
+  active        Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  villa         Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
+
+  @@index([villaId])
+  @@index([startDate, endDate])
+  @@index([active])
+  @@index([source])
+  @@map("price_rates")
 }
 
 model VillaPricing {

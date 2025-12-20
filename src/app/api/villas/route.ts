@@ -1,48 +1,12 @@
-// Villa API - Optimized with Cloudinary Images  
+// Villa API - Database with Local Images
 import { NextRequest, NextResponse } from 'next/server';
+import { PrismaClient } from '@prisma/client';
 
-// Cache for villa data (persists across requests in same serverless instance)
-let cachedVillas: any[] = [];
-let lastFetch: number = 0;
-const CACHE_DURATION = 3600000; // 1 hour
-
-// Load villas from GitHub raw (works reliably in Vercel)
-async function loadVillasData(): Promise<any[]> {
-  const now = Date.now();
-  
-  // Return cached data if still valid
-  if (cachedVillas.length > 0 && (now - lastFetch) < CACHE_DURATION) {
-    return cachedVillas;
-  }
-  
-  try {
-    const response = await fetch(
-      'https://raw.githubusercontent.com/ronnapoompch/exclusive_villa_samui/deployment-fresh/src/app/api/villas/villas-optimized.json',
-      { cache: 'force-cache' }
-    );
-    
-    if (!response.ok) {
-      throw new Error(`GitHub fetch failed: ${response.status}`);
-    }
-    
-    cachedVillas = await response.json();
-    lastFetch = now;
-    console.log(`✅ Loaded ${cachedVillas.length} villas from GitHub`);
-    return cachedVillas;
-  } catch (error) {
-    console.error('❌ Failed to load villas:', error);
-    // Return cached data even if expired, better than nothing
-    return cachedVillas.length > 0 ? cachedVillas : [];
-  }
-}
+const prisma = new PrismaClient();
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
-    
-    // Load villas data
-    const allVillas: any[] = await loadVillasData();
-    console.log(`✅ Using ${allVillas.length} optimized villas with Cloudinary images`);
     
     // API parameters
     const featuredOnly = searchParams.get('featured') === 'true';
@@ -50,121 +14,114 @@ export async function GET(request: NextRequest) {
     const location = searchParams.get('location');
     const bedrooms = searchParams.get('bedrooms');
     const guests = searchParams.get('guests');
-    const minPrice = searchParams.get('minPrice');
-    const maxPrice = searchParams.get('maxPrice');
     const search = searchParams.get('search');
     const limit = parseInt(searchParams.get('limit') || '12');
     const offset = parseInt(searchParams.get('offset') || '0');
 
-    // Filter villas based on search parameters
-    let filteredVillas = allVillas;
+    // Build where clause
+    const where: any = {
+      active: true
+    };
 
     if (featuredOnly) {
-      filteredVillas = filteredVillas.filter((villa: any) => villa.featured);
+      where.featured = true;
     }
     
     if (beachfront) {
-      filteredVillas = filteredVillas.filter((villa: any) => villa.features?.beachfront);
+      where.beachfront = true;
     }
     
     if (location && location !== 'All Locations') {
-      filteredVillas = filteredVillas.filter((villa: any) => 
-        villa.location.toLowerCase().includes(location.toLowerCase())
-      );
+      where.location = {
+        contains: location,
+        mode: 'insensitive'
+      };
     }
     
     if (bedrooms) {
-      filteredVillas = filteredVillas.filter((villa: any) => villa.bedrooms >= parseInt(bedrooms));
+      where.bedrooms = { gte: parseInt(bedrooms) };
     }
     
     if (guests) {
-      filteredVillas = filteredVillas.filter((villa: any) => villa.guests >= parseInt(guests));
+      where.maxGuests = { gte: parseInt(guests) };
     }
     
     if (search) {
-      const searchLower = search.toLowerCase();
-      filteredVillas = filteredVillas.filter((villa: any) =>
-        villa.name.toLowerCase().includes(searchLower) ||
-        villa.description.toLowerCase().includes(searchLower) ||
-        villa.location.toLowerCase().includes(searchLower)
-      );
-    }
-    
-    if (minPrice || maxPrice) {
-      filteredVillas = filteredVillas.filter((villa: any) => {
-        // Get the price to compare - use min from range if available, otherwise use pricePerNight
-        let villaPrice = villa.pricePerNight;
-        
-        // If villa has priceRange, use the minimum price from the range
-        if (villa.priceRange?.min) {
-          villaPrice = villa.priceRange.min;
-        }
-        
-        if (!villaPrice || villaPrice === 0) return true; // Include villas without price info
-        
-        // Apply min/max filters
-        if (minPrice && villaPrice < parseInt(minPrice)) return false;
-        if (maxPrice && villaPrice > parseInt(maxPrice)) return false;
-        
-        return true;
-      });
+      where.OR = [
+        { name: { contains: search, mode: 'insensitive' } },
+        { description: { contains: search, mode: 'insensitive' } },
+        { location: { contains: search, mode: 'insensitive' } }
+      ];
     }
 
-    const total = filteredVillas.length;
-    
-    // Apply pagination
-    const paginatedVillas = filteredVillas.slice(offset, offset + limit);
+    // Get total count
+    const total = await prisma.villa.count({ where });
 
-    // Transform villas for API response
-    const transformedVillas = paginatedVillas.map((villa: any) => {
-      // Combine all images into images array for VillaCard
-      const allImages: string[] = [];
-      
-      // Image categories from villas-optimized.json
-      const imageCategories = ['hero', 'ext', 'liv', 'din', 'kit', 'bed1', 'bed2-5', 'bath1', 'bath2-5', 'pool', 'view', 'amen'];
-      
-      imageCategories.forEach(category => {
-        if (villa[category] && Array.isArray(villa[category])) {
-          allImages.push(...villa[category]);
+    // Get villas with images
+    const villas = await prisma.villa.findMany({
+      where,
+      include: {
+        villaImages: {
+          orderBy: [
+            { isHero: 'desc' },
+            { order: 'asc' }
+          ]
+        },
+        pricing: {
+          take: 1,
+          orderBy: {
+            createdAt: 'desc'
+          }
         }
-      });
-      
+      },
+      skip: offset,
+      take: limit,
+      orderBy: [
+        { featured: 'desc' },
+        { name: 'asc' }
+      ]
+    });
+
+    // Transform villas for response
+    const transformedVillas = villas.map(villa => {
+      // Group images by category
+      const images = villa.villaImages.map(img => img.url);
+      const heroImage = villa.villaImages.find(img => img.isHero)?.url || images[0];
+
+      // Calculate price from pricing table if available
+      const latestPricing = villa.pricing[0];
+      let pricePerNight = 0;
+      if (latestPricing) {
+        pricePerNight = Number(latestPricing.dailyRate || 0);
+      }
+
       return {
-        id: villa.id?.toString() || villa.codeId,
+        id: villa.id,
         slug: villa.slug,
         name: villa.name,
         description: villa.description,
         bedrooms: villa.bedrooms,
         bathrooms: villa.bathrooms,
-        maxGuests: villa.guests,
-        beachfront: villa.features?.beachfront || false,
+        maxGuests: villa.maxGuests,
+        beachfront: villa.beachfront,
         location: villa.location,
-        images: allImages.length > 0 ? allImages : (villa.gallery || [villa.image]),
+        images: images,
+        heroImage: heroImage,
         amenities: villa.amenities || [],
-        featured: villa.featured || false,
+        featured: villa.featured,
         pricing: {
-          dailyRate: villa.pricePerNight?.toString() || '0',
-          currency: 'THB'
+          dailyRate: latestPricing?.dailyRate?.toString() || '0',
+          currency: latestPricing?.currency || 'THB'
         },
-        pricePerNight: villa.pricePerNight || 0,
-        priceRange: villa.priceRange,
-        isMonthlyRate: villa.isMonthlyRate || false,
-        weeklyRate: villa.weeklyRate,
-        monthlyRate: villa.monthlyRate
+        pricePerNight: pricePerNight,
+        imageCount: villa.villaImages.length
       };
     });
 
-    // Sort by featured first, then by name
-    const sortedVillas = transformedVillas.sort((a: any, b: any) => {
-      if (a.featured && !b.featured) return -1;
-      if (!a.featured && b.featured) return 1;
-      return a.name.localeCompare(b.name);
-    });
-
-    const response = {
+    return NextResponse.json({
       success: true,
       data: {
-        villas: sortedVillas,
+        villas: transformedVillas,
         pagination: {
           total,
           limit,
@@ -174,16 +131,12 @@ export async function GET(request: NextRequest) {
           currentPage: Math.floor(offset / limit) + 1
         }
       },
-      optimizedStats: {
-        totalVillas: allVillas.length,
-        totalImages: allVillas.reduce((sum: number, villa: any) => sum + (villa.gallery?.length || 0), 0),
-        averageImagesPerVilla: Math.round(allVillas.reduce((sum: number, villa: any) => sum + (villa.gallery?.length || 0), 0) / allVillas.length),
-        dataSource: 'villas-optimized-cloudinary',
-        message: 'Using optimized villa data with Cloudinary CDN'
+      stats: {
+        totalVillas: total,
+        dataSource: 'database-local-images',
+        message: 'Using local images from database'
       }
-    };
-
-    return NextResponse.json(response);
+    });
 
   } catch (error) {
     console.error('❌ Villa API Error:', error);
@@ -191,9 +144,11 @@ export async function GET(request: NextRequest) {
       { 
         success: false, 
         error: 'Failed to fetch villas',
-        details: error instanceof Error ? error.message : 'Unknown error'
+        message: error instanceof Error ? error.message : 'Unknown error'
       },
       { status: 500 }
     );
+  } finally {
+    await prisma.$disconnect();
   }
 }

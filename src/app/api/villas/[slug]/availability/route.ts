@@ -3,7 +3,7 @@ import prisma from '@/lib/db/prisma';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { locale: string; slug: string } }
+  { params }: { params: { slug: string } }
 ) {
   try {
     const resolvedParams = await params;
@@ -83,24 +83,24 @@ export async function GET(
       }
     });
 
-    // ดึง blocked dates จาก Airbnb และ OTA อื่นๆ
+    // ดึง blocked dates จาก Airbnb และ OTA อื่นๆ (using date ranges)
     const blockedDates = await prisma.blockedDate.findMany({
       where: {
         villaId: villa.id,
         ...(startDate && endDate ? {
-          date: {
-            gte: new Date(startDate),
-            lte: new Date(endDate)
-          }
+          // Find overlapping periods
+          startDate: { lte: new Date(endDate) },
+          endDate: { gte: new Date(startDate) }
         } : {})
       },
       select: {
-        date: true,
+        startDate: true,
+        endDate: true,
         reason: true,
         source: true
       },
       orderBy: {
-        date: 'asc'
+        startDate: 'asc'
       }
     });
 
@@ -124,9 +124,16 @@ export async function GET(
       }
     });
 
-    // เพิ่ม blocked dates จาก Airbnb/OTA
+    // เพิ่ม blocked dates จาก Airbnb/OTA (expand date ranges to individual days)
     blockedDates.forEach(blocked => {
-      bookedDates.push(blocked.date.toISOString().split('T')[0]);
+      const start = new Date(blocked.startDate);
+      const end = new Date(blocked.endDate);
+      const current = new Date(start);
+
+      while (current < end) {
+        bookedDates.push(current.toISOString().split('T')[0]);
+        current.setDate(current.getDate() + 1);
+      }
     });
 
     return NextResponse.json({
@@ -138,7 +145,8 @@ export async function GET(
         bookedRanges,
         totalBookings: bookings.length,
         blockedDates: blockedDates.map(b => ({
-          date: b.date.toISOString().split('T')[0],
+          startDate: b.startDate.toISOString().split('T')[0],
+          endDate: b.endDate.toISOString().split('T')[0],
           reason: b.reason,
           source: b.source
         })),
@@ -162,7 +170,7 @@ export async function GET(
 // POST - เช็คว่าช่วงวันที่ต้องการจองว่างไหม
 export async function POST(
   request: NextRequest,
-  { params }: { params: { locale: string; slug: string } }
+  { params }: { params: { slug: string } }
 ) {
   try {
     const resolvedParams = await params;
@@ -239,22 +247,17 @@ export async function POST(
       }
     });
 
-    // เช็ค blocked dates (Airbnb/OTA) - ใช้ range query เพราะ timezone issues
-    const dayStart = new Date(startDate);
-    dayStart.setHours(0, 0, 0, 0);
-    const dayEnd = new Date(endDate);
-    dayEnd.setHours(23, 59, 59, 999);
-    
+    // เช็ค blocked dates (Airbnb/OTA) using date ranges
     const blockedInRange = await prisma.blockedDate.findMany({
       where: {
         villaId: villa.id,
-        date: {
-          gte: dayStart,
-          lte: dayEnd
-        }
+        // Check if blocked period overlaps with requested dates
+        startDate: { lt: endDate },
+        endDate: { gt: startDate }
       },
       select: {
-        date: true,
+        startDate: true,
+        endDate: true,
         reason: true,
         source: true
       }
@@ -276,7 +279,8 @@ export async function POST(
       }),
       ...(blockedInRange.length > 0 && {
         blocked: blockedInRange.map(b => ({
-          date: b.date.toISOString().split('T')[0],
+          startDate: b.startDate.toISOString().split('T')[0],
+          endDate: b.endDate.toISOString().split('T')[0],
           reason: b.reason,
           source: b.source
         }))
