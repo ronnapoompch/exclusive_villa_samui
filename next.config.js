@@ -15,7 +15,7 @@ const securityHeaders = [
       default-src 'self';
       script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://www.google-analytics.com;
       style-src 'self' 'unsafe-inline';
-      img-src 'self' blob: data: https://res.cloudinary.com https://images.unsplash.com https://www.google-analytics.com https://raw.githubusercontent.com;
+      img-src 'self' blob: data: https://res.cloudinary.com https://images.unsplash.com https://www.google-analytics.com https://raw.githubusercontent.com https://apyrnttbxpountnopuoq.supabase.co;
       font-src 'self';
       object-src 'none';
       base-uri 'self';
@@ -43,7 +43,8 @@ const nextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'res.cloudinary.com', pathname: '/**' },
       { protocol: 'https', hostname: 'images.unsplash.com', pathname: '/**' },
-      { protocol: 'https', hostname: 'raw.githubusercontent.com', pathname: '/**' }
+      { protocol: 'https', hostname: 'raw.githubusercontent.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'apyrnttbxpountnopuoq.supabase.co', pathname: '/storage/v1/object/public/villa-images/**' }
     ],
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
