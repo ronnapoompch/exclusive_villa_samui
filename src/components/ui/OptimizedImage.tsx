@@ -47,7 +47,7 @@ export function OptimizedVillaImage({
   // Optimized fallback system - ถ้า WebP ไม่ได้ ลอง JPG
   const getFallbackSrc = (originalSrc: string) => {
     // ถ้าเป็น optimized path และเป็น webp ที่ล้มเหลว ลอง jpg
-    if (originalSrc.startsWith('/optimized-data-images/') && originalSrc.endsWith('.webp')) {
+    if (originalSrc.startsWith('/optimized-villas/') && originalSrc.endsWith('.webp')) {
       const jpgPath = originalSrc.replace('.webp', '.jpg');
       console.log('[OptimizedImage] Falling back from WebP to JPG:', originalSrc, '->', jpgPath);
       return jpgPath;

@@ -17,7 +17,7 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
   // Helper function to convert API path to optimized path
   const getOptimizedImageUrl = (imageUrl: string): string => {
     if (imageUrl.startsWith('/api/images/')) {
-      let staticPath = imageUrl.replace('/api/images/', '/optimized-data-images/');
+      let staticPath = imageUrl.replace('/api/images/', '/optimized-villas/');
       
       // URL encode villa folder name
       const pathParts = staticPath.split('/');
@@ -33,7 +33,7 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
   };
 
   // Default fallback image
-  const defaultImages = ['/optimized-data-images/5House/hero/909.jpg'];
+  const defaultImages = ['/optimized-villas/5-stars-beachfront-villa/hero/909.webp'];
 
   const processedImages = images?.length > 0 
     ? images.map(getOptimizedImageUrl) 
