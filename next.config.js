@@ -40,6 +40,7 @@ const nextConfig = {
   // Use next-intl or similar library instead
   
   images: {
+    unoptimized: true, // Serve images from public directory without optimization
     remotePatterns: [
       { protocol: 'https', hostname: 'res.cloudinary.com', pathname: '/**' },
       { protocol: 'https', hostname: 'images.unsplash.com', pathname: '/**' },
