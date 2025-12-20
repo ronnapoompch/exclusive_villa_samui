@@ -136,6 +136,12 @@ export async function GET(request: NextRequest) {
         dataSource: 'database-local-images',
         message: 'Using local images from database'
       }
+    }, {
+      headers: {
+        'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0',
+        'CDN-Cache-Control': 'no-store',
+        'Vercel-CDN-Cache-Control': 'no-store'
+      }
     });
 
   } catch (error) {
