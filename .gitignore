@@ -46,4 +46,4 @@ next-env.d.ts
 /public/optimized-data-images/
 /public/villas/
 /public/images/
-/public/optimized-villas/
+# /public/optimized-villas/ - ENABLED for deployment
