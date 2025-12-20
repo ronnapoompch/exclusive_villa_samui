@@ -96,11 +96,10 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
         <div className="grid grid-cols-4 gap-1 h-[400px] overflow-hidden rounded-3xl shadow-lg">
           {/* Main large image */}
           <div className="col-span-2 row-span-2 relative group cursor-pointer" onClick={() => openModal(0)}>
-            <Image
+            <img
               src={galleryImages[0]}
               alt={`${villaName} - Main view`}
-              fill
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <Expand className="w-8 h-8 text-white" />
@@ -114,11 +113,10 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
               className="relative group cursor-pointer"
               onClick={() => openModal(index + 1)}
             >
-              <Image
+              <img
                 src={image}
                 alt={`${villaName} - View ${index + 2}`}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <Expand className="w-6 h-6 text-white" />
@@ -161,13 +159,11 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
           </div>
 
           {/* Main Image */}
-          <div className="relative w-full h-full max-w-5xl max-h-[80vh] mx-4">
-            <Image
+          <div className="relative w-full h-full max-w-5xl max-h-[80vh] mx-4 flex items-center justify-center">
+            <img
               src={galleryImages[currentImageIndex]}
               alt={`${villaName} - View ${currentImageIndex + 1}`}
-              fill
-              className="object-contain"
-              priority
+              className="max-w-full max-h-full object-contain"
             />
           </div>
 
@@ -199,11 +195,10 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
                 }`}
                 onClick={() => goToImage(index)}
               >
-                <Image
+                <img
                   src={image}
                   alt={`Thumbnail ${index + 1}`}
-                  fill
-                  className="object-cover rounded-2xl"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
             ))}

@@ -57,11 +57,10 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
     <Card className={`group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] bg-white border border-gray-200 hover:border-amber-300/60 rounded-2xl shadow-lg ${className}`}>
       <Link href={`/villa/${villa.slug}`} className="block">
         <div className="aspect-[16/11] relative overflow-hidden bg-gray-100 rounded-t-2xl">
-          <Image
+          <img
             src={heroImage}
             alt={villa.name}
-            fill
-            className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <div className="absolute top-3 left-3 flex flex-wrap gap-2">
