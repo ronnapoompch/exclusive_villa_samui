@@ -1,7 +1,7 @@
 'use client'
 
 // Mobile Responsiveness Testing Tool
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { X, Minimize2, Monitor, Smartphone } from 'lucide-react'
 
 const MobileTestingPanel = () => {

@@ -70,9 +70,7 @@ const nextConfig = {
   
   // Disable Turbopack explicitly on Windows due to symlink errors
   // Use webpack for builds instead
-  experimental: {
-    turbo: false
-  },
+  turbopack: {},
   
   webpack: (config, { isServer }) => {
     if (!isServer) {

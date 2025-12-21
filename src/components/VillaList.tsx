@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import VillaCard from './VillaCard';
 import { Button } from '@/components/ui/button';
 import { Loader2, Filter } from 'lucide-react';

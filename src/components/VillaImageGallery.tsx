@@ -1,5 +1,5 @@
 "use client";
-import * as React from 'react';
+import { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, Grid3X3, Expand } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -10,8 +10,8 @@ interface VillaImageGalleryProps {
 }
 
 export default function VillaImageGallery({ images, villaName, className = '' }: VillaImageGalleryProps) {
-  const [isModalOpen, setIsModalOpen] = React.useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = React.useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Helper function to convert API path to optimized path
   const getOptimizedImageUrl = (imageUrl: string): string => {
@@ -63,7 +63,7 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
   };
 
   // Keyboard navigation
-  React.useEffect(() => {
+  useEffect(() => {
     if (!isModalOpen) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -77,7 +77,7 @@ export default function VillaImageGallery({ images, villaName, className = '' }:
   }, [isModalOpen]);
 
   // Prevent body scroll when modal is open
-  React.useEffect(() => {
+  useEffect(() => {
     if (isModalOpen) {
       document.body.style.overflow = 'hidden';
     } else {
