@@ -90,9 +90,7 @@ export const authOptions: NextAuthOptions = {
     }
   },
   debug: process.env.NODE_ENV === 'development',
-  secret: process.env.NEXTAUTH_SECRET,
-  // Ensure these are set for production
-  url: process.env.NEXTAUTH_URL || 'https://exclusive-villa-samui.vercel.app',
+  secret: process.env.NEXTAUTH_SECRET || process.env.AUTH_SECRET || 'temporary-secret-for-build-only-change-in-production',
 }
 
 const handler = NextAuth(authOptions)
