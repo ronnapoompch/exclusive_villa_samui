@@ -9,11 +9,11 @@ export const imageConfig = {
     hero: '/api/placeholder/hero'
   },
   
-  // CDN configuration for external image hosting
+  // CDN configuration for external image hosting (Vercel Blob)
   cdnConfig: {
     enabled: process.env.NODE_ENV === 'production',
     baseUrl: process.env.NEXT_PUBLIC_CDN_URL || '',
-    domains: ['images.unsplash.com', 'res.cloudinary.com']
+    domains: ['images.unsplash.com', '*.public.blob.vercel-storage.com']
   },
   
   // Image optimization settings

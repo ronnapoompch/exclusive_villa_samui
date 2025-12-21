@@ -50,7 +50,11 @@ async function uploadImage(imagePath, blobPath, retries = 0) {
     // Upload to Vercel Blob
     const blob = await put(blobPath, fileBuffer, {
       access: 'public',
-      addRandomSuffix: false // Use exact path for predictable URLs
+      addRandomSuffix: false, // Use exact path for predictable URLs
+      token: process.env.BLOB_READ_WRITE_TOKEN,
+      contentType: 'image/webp',
+      cacheControlMaxAge: 31536000, // Cache for 1 year
+      allowOverwrite: true // Allow overwriting existing files
     });
     
     return blob.url;
@@ -96,7 +100,7 @@ async function processVilla(villa) {
         try {
           // Check if already uploaded (URL starts with https://)
           if (image.url.startsWith('https://')) {
-            console.log(`   ✓ Already uploaded: ${path.basename(image.url)}`);
+            console.log(`   ⏭️  Already uploaded: ${path.basename(image.url)}`);
             stats.skipped++;
             return;
           }

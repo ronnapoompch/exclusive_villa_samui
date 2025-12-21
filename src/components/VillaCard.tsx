@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 import { MapPin, Bed, Users, Star, Waves } from 'lucide-react';
 
 interface Villa {
@@ -40,14 +39,14 @@ interface VillaCardProps {
 
 export type { Villa };
 export default function VillaCard({ villa, className = '' }: VillaCardProps) {
-  // Handle both local and Cloudinary URLs
+  // Handle Vercel Blob URLs and local paths
   const getValidImageUrl = (imageUrl?: string): string => {
     if (!imageUrl) {
       // Fallback to first villa's hero image
       return '/optimized-villas/5-stars-beachfront-villa/hero/909.webp';
     }
     
-    // Already a valid URL (local or Cloudinary)
+    // Support Vercel Blob URLs and local paths
     return imageUrl;
   };
   

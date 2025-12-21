@@ -1,6 +1,5 @@
 "use client";
 import * as React from 'react';
-import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight, Grid3X3, Expand } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
