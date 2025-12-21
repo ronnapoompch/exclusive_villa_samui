@@ -53,9 +53,7 @@ export default withAuth(
 
 export const config = {
   matcher: [
-    // Match all routes except static files and api
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
-    // Match admin routes
+    // Match admin routes only
     '/admin/:path*'
   ]
 }
