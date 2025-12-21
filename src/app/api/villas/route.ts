@@ -1,8 +1,6 @@
 // Villa API - Database with Local Images
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
-
-const prisma = new PrismaClient();
+import prisma from '@/lib/db/prisma';
 
 export async function GET(request: NextRequest) {
   try {
@@ -150,11 +148,10 @@ export async function GET(request: NextRequest) {
       { 
         success: false, 
         error: 'Failed to fetch villas',
-        message: error instanceof Error ? error.message : 'Unknown error'
+        message: error instanceof Error ? error.message : 'Unknown error',
+        details: process.env.NODE_ENV === 'development' ? error : undefined
       },
       { status: 500 }
     );
-  } finally {
-    await prisma.$disconnect();
   }
 }
