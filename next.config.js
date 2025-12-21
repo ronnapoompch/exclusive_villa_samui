@@ -68,6 +68,9 @@ const nextConfig = {
     ]
   },
   
+  // Turbopack disabled in favor of webpack
+  turbopack: {},
+  
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
