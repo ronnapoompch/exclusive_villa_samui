@@ -1,6 +1,6 @@
 // Villa API - JSON File with Vercel Blob Images
 import { NextRequest, NextResponse } from 'next/server';
-import villasData from '../../../../data/villas-vercel-blob.json';
+import villasData from '@/data/villas-vercel-blob.json';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
