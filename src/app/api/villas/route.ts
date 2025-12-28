@@ -1,11 +1,21 @@
 // Villa API - JSON File with Vercel Blob Images
 import { NextRequest, NextResponse } from 'next/server';
+import { mockVillas } from '@/lib/mock-data';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 export async function GET(request: NextRequest) {
   try {
+    // Temporary: Return mock data in production until JSON loading is fixed
+    if (process.env.VERCEL_ENV === 'production') {
+      return NextResponse.json(mockVillas, {
+        headers: {
+          'Cache-Control': 'no-store, must-revalidate',
+        },
+      });
+    }
+
     const { searchParams } = new URL(request.url);
     
     // API parameters
