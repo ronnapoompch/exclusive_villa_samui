@@ -29,8 +29,8 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   
-  // Enable standalone output for Docker deployment
-  output: process.env.NODE_ENV === 'production' ? 'standalone' : undefined,
+  // Disable standalone output for Vercel deployment
+  // output: process.env.NODE_ENV === 'production' ? 'standalone' : undefined,
   
   // Disable telemetry in production
   // telemetry: false, // This option is deprecated
