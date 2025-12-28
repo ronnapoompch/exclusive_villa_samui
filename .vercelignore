@@ -99,8 +99,10 @@ prisma/migrations/
 scripts/
 prisma/migrations/
 # Exclude data folder but keep villa JSON files
+!data/villas-vercel-blob.json
 !src/data/folder-based-villas.json
 !src/data/folder-based-villas-array.json
+!src/data/villas-vercel-blob.json
 *.json
 !package.json
 !package-lock.json
@@ -109,5 +111,7 @@ prisma/migrations/
 !tailwind.config.js
 !postcss.config.mjs
 !prisma/schema.prisma
+!data/villas-vercel-blob.json
 !src/data/folder-based-villas.json
 !src/data/folder-based-villas-array.json
+!src/data/villas-vercel-blob.json
