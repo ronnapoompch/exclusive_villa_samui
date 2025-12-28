@@ -20,10 +20,18 @@ export async function GET(request: NextRequest) {
     const offset = parseInt(searchParams.get('offset') || '0');
 
     // Fetch JSON from public folder (works reliably in serverless)
-    const baseUrl = process.env.VERCEL_URL 
-      ? `https://${process.env.VERCEL_URL}` 
-      : 'http://localhost:3000';
-    const response = await fetch(`${baseUrl}/villas-data.json`);
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 
+                    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+    
+    const jsonUrl = `${baseUrl}/villas-data.json`;
+    console.log('Fetching villas from:', jsonUrl);
+    
+    const response = await fetch(jsonUrl, { cache: 'no-store' });
+    
+    if (!response.ok) {
+      throw new Error(`Failed to fetch villas: ${response.status} ${response.statusText}`);
+    }
+    
     const villasData = await response.json();
     let villas = villasData as any[];
 
