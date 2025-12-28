@@ -1,9 +1,17 @@
 // Villa API - JSON File with Vercel Blob Images
 import { NextRequest, NextResponse } from 'next/server';
-import villasData from '@/data/villas-vercel-blob.json' assert { type: 'json' };
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
+
+// Load JSON data from file system (runtime)
+function getVillasData() {
+  const filePath = join(process.cwd(), 'data', 'villas-vercel-blob.json');
+  const fileContents = readFileSync(filePath, 'utf8');
+  return JSON.parse(fileContents);
+}
 
 export async function GET(request: NextRequest) {
   try {
@@ -20,7 +28,8 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get('limit') || '1000');
     const offset = parseInt(searchParams.get('offset') || '0');
 
-    let villas = villasData as any[];
+    // Load villas data at runtime
+    let villas = getVillasData() as any[];
 
     // Filter by slug (for single villa)
     if (slug) {
