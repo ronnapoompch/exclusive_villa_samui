@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 
-// Security headers (OWASP baseline hardening)
+// TEMPORARILY DISABLED - Testing if headers cause 500 error
+const securityHeaders = []
+
+// Original security headers (OWASP baseline hardening) - DISABLED FOR TESTING
+/*
 const securityHeaders = [
   { key: 'X-DNS-Prefetch-Control', value: 'on' },
   { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
@@ -25,6 +29,7 @@ const securityHeaders = [
     `.replace(/\s{2,}/g, ' ').trim()
   }
 ]
+*/
 
 const nextConfig = {
   reactStrictMode: true,
@@ -55,11 +60,12 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp']
   },
   
-  async headers() {
-    return [
-      { source: '/:path*', headers: securityHeaders }
-    ]
-  },
+  // TEMPORARILY DISABLED - Testing
+  // async headers() {
+  //   return [
+  //     { source: '/:path*', headers: securityHeaders }
+  //   ]
+  // },
   
   async redirects() {
     return [
