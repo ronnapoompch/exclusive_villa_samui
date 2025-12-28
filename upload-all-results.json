@@ -1,0 +1,334 @@
+[
+  {
+    "slug": "baan-infinity",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/hero/IMG-20231219-WA0043.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/bed1/IMG-20231007-WA0011.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/bed2-5/IMG-20231007-WA0006.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/bed2-5/IMG-20231007-WA0012.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/kit/IMG-20231007-WA0005.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/din/IMG-20231007-WA0007.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/din/IMG-20231007-WA0009.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/pool/IMG-20231007-WA0013.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-infinity/view/IMG-20231219-WA0042.webp"
+      ]
+    },
+    "total": 9
+  },
+  {
+    "slug": "baan-tawisa",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/hero/IMG-20231109-WA0004.webp"
+      ],
+      "liv": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/liv/IMG-20231109-WA0014.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bed1/IMG-20231109-WA0025.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bed1/IMG-20231109-WA0028.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bed2-5/IMG-20231109-WA0031.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bed2-5/IMG-20231109-WA0041.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bed2-5/IMG-20231109-WA0043.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bath1/IMG-20231109-WA0036.webp"
+      ],
+      "bath2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/bath2-5/IMG-20231109-WA0019.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/kit/IMG-20231109-WA0018.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/din/IMG-20231109-WA0010.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/pool/IMG-20231109-WA0008.webp"
+      ],
+      "amen": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/amen/IMG-20231109-WA0012.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/amen/IMG-20231109-WA0030.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/baan-tawisa/view/IMG-20231109-WA0020.webp"
+      ]
+    },
+    "total": 15
+  },
+  {
+    "slug": "dahlia-residence-b3",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/hero/IMG_2931.webp"
+      ],
+      "ext": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/ext/IMG_2740.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bed1/IMG_3489.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bed1/IMG_3529.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bed2-5/IMG_2959.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bed2-5/IMG_3541.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bath1/IMG_3493.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bath1/IMG_3504.webp"
+      ],
+      "bath2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bath2-5/IMG_2962.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/bath2-5/IMG_3545.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/pool/IMG_2857.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/view/IMG_3337.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/view/IMG_3470.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/view/IMG_3487.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/dahlia-residence-b3/view/IMG_3630.webp"
+      ]
+    },
+    "total": 15
+  },
+  {
+    "slug": "fabrice-dune",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/hero/432438845_930604388471678_8880065114335065109_n.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/bed1/432398353_1372506663434959_725960422070313807_n.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/bed2-5/419026091_786470639536565_6253538535790730190_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/bed2-5/431714864_3409717912622118_4609756947044186367_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/bed2-5/432380398_1098292331375878_2485685985758283995_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/bed2-5/6cd9b396-518a-43e7-bd25-3ee4f4a18bae.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/bed2-5/a5d8e1fa-4ebd-429a-ab84-ce61bec8cffd.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/kit/e5ab0eef-9352-45ba-a289-c67f2350cae5.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/din/432513792_760781015762481_1430591844918596393_n.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/pool/432365926_936543011260710_8232798186468048060_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/pool/432397992_421105983930220_3465301600875001728_n.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/view/432263081_876814294133341_7076773337357419607_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/fabrice-dune/view/432488241_447341247631790_9179289062815738938_n.webp"
+      ]
+    },
+    "total": 13
+  },
+  {
+    "slug": "joanna-bay-villa",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/hero/dfd1e230-562a-481d-98fd-176e0f7bf7d0.webp"
+      ],
+      "ext": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/ext/6e1f20c5-9520-4cb4-afb0-6b3735384040.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/bed1/116524a3-2cab-47f1-9794-08603731cf64.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/bed1/3b9b0795-7200-41f6-9016-746cfaac1d30.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/bed1/41fdef76-871c-4451-b7ff-e4f8acf2b0a1.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/bed1/7a2a8470-cb72-4b60-80c6-fcab8980705b.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/bed1/a9da548a-3540-4683-80aa-35755befaa13.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/bath1/3a7dc2f0-680b-49a0-aa62-4e05653b36ea.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/kit/2f257408-63e3-4506-997f-1dd8a5a1d897.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/kit/6a2c53ed-40b5-4f30-b603-a7e0a72f2594.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/din/0e7c42f8-1e3d-42df-88a9-8fcb66b389f2.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/pool/0bd3cc83-e98e-4625-bb65-33e17430b3c8.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/pool/5ba1d142-e918-41c5-a1d8-6e537d10d223.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/pool/6d458aff-5380-4736-a734-1036e094a86d.webp"
+      ],
+      "amen": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/amen/6aad4b16-1712-483f-9b3a-052538ee364e.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/view/7c8bf30c-2868-4768-9870-0bd58759e3b6.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/view/84ae3ea9-b850-49f3-b3b3-da91bc2b2e29.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/view/8c158dde-1060-4650-8f40-ddac1ed0c66b.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/view/a089fd60-7abd-49d9-bc3b-919d243efb64.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/view/ae023d9e-8d18-43c8-8da8-b8e51c650a9c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/joanna-bay-villa/view/fff3ef57-383f-4e28-83c4-9239344e131f.webp"
+      ]
+    },
+    "total": 21
+  },
+  {
+    "slug": "luxury-villa-siam-baan-lumina",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/hero/Baan-Lily-07.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/bed1/Baan-Lily-16.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/bed2-5/Baan-Lily-33.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/bed2-5/Baan-Lily-35.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/bath1/Baan-Lily-21.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/din/Baan-Lily-47.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/pool/Baan-Lily-08.webp"
+      ],
+      "amen": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/amen/Baan-Lily-45.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/luxury-villa-siam-baan-lumina/amen/Baan-Lily-52.webp"
+      ]
+    },
+    "total": 9
+  },
+  {
+    "slug": "villa-amnado",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/hero/IMG-20231104-WA0027.webp"
+      ],
+      "ext": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/ext/IMG-20231104-WA0008.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/ext/IMG-20231104-WA0010.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/ext/IMG-20231104-WA0027.webp"
+      ],
+      "liv": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/liv/IMG-20231104-WA0022.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/liv/IMG-20231104-WA0023.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/bed1/IMG-20231104-WA0019.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/bed1/IMG-20231104-WA0024.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/bed2-5/IMG-20231104-WA0012.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/bed2-5/IMG-20231104-WA0018.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/bed2-5/IMG-20231104-WA0026.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/bath1/IMG-20231104-WA0020.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/kit/IMG-20231104-WA0029.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/kit/IMG-20231104-WA0030.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/din/IMG-20231104-WA0014.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/din/IMG-20231104-WA0015.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/din/IMG-20231104-WA0021.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/pool/IMG-20231104-WA0009.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/pool/IMG-20231104-WA0011.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/pool/IMG-20231104-WA0014.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/pool/IMG-20231104-WA0016.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/pool/IMG-20231104-WA0017.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-amnado/pool/IMG-20231104-WA0025.webp"
+      ]
+    },
+    "total": 23
+  },
+  {
+    "slug": "villa-asi-azure",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/hero/629784e9-f0e8-4902-b085-ade539dd5af0.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/hero/b9b52902-c95d-4960-a727-d2e05323d86b.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/hero/c6688d39-b943-4fea-a949-aa54b40c6636.webp"
+      ],
+      "ext": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/ext/51fc2282-a614-444d-b3c3-66233b7146eb.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/ext/629784e9-f0e8-4902-b085-ade539dd5af0.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/ext/646f4ffe-95f9-47da-805f-6aa20eecd97c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/ext/68f88c94-7513-4815-a5ab-84313ae5d9ab.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/ext/b9b52902-c95d-4960-a727-d2e05323d86b.webp"
+      ],
+      "liv": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/liv/68dc534e-8f2c-4a4e-adfe-7a922b364ee4.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/liv/9115cb28-665a-48ee-ac8a-5791b856218b.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/liv/afceab8b-0b7c-4edf-a9f3-cb27e5ccae1f.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/liv/caa40d05-4f63-48af-9917-e7cf5dc8df20.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed1/758b4897-214d-4026-9e3f-258e87227de0.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed1/8ae3bcb7-577b-44a1-b379-6f00308b1f23.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed2-5/3cbc2aa7-8d0e-4b5d-bc3d-319a661a4bdc.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed2-5/4299c630-ddd3-4957-84b8-0b8a8459a89c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed2-5/6a645d85-bf86-40cf-b12f-490c2ef111e9.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed2-5/c9b398c3-eccf-4a91-a89a-33fda1e619c3.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed2-5/e5734d67-c9e6-4d60-8b46-bdd76f0b4651.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bed2-5/e7586998-6313-4e09-887b-9d15e9bdd067.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bath1/ab7518aa-9b01-465a-9937-df971ec47ac9.webp"
+      ],
+      "bath2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bath2-5/2bdc83db-a7ae-457c-93e2-940fd1e54e6a.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bath2-5/2ff98683-456d-4250-bc51-795846f975ae.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bath2-5/58718e45-91a4-47fe-bc8a-6c49aae7fb06.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/bath2-5/b2669fbd-20ef-424f-931c-2159db09f63a.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/kit/278b2e28-083b-40b2-84b6-f51286d73b0a.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/kit/f1f122cf-b60e-47e1-833e-950bccecea81.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/din/10ed6897-5830-448b-8f45-ae0dbb89b9bb.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/din/80a5f485-b582-4404-bbf0-166caf9be9b3.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/pool/10cc875e-f67a-4a12-9f4c-adcc87e3bfbb.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/pool/67e5f2f7-812c-44ca-81bf-6a638f62023c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/pool/c77a64d7-4ece-4f23-8942-5c903db62efe.webp"
+      ],
+      "amen": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/amen/5009deef-9780-4153-b0e5-85391105100d.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/amen/b51c2cdf-675a-4f9e-bb9b-ea16e5f8e76e.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/view/1ecb92ee-5fff-4a20-8864-cee370b11f62.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/view/3f73741e-e685-4e27-b91c-af929c8558ba.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/view/75d09502-f350-4906-9cae-e84a9572c20e.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/view/f826c0aa-af76-4802-9d62-6f5b8e8558db.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-asi-azure/view/fc53a26a-7d02-456f-89f4-0ad64bf5856b.webp"
+      ]
+    },
+    "total": 39
+  }
+]

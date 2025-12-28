@@ -46,7 +46,7 @@ interface Villa {
 async function getVilla(slug: string): Promise<Villa | null> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-    // ใช้ villa API ที่มีอยู่แล้ว แล้วค้นหา by slug
+    // Use JSON API with complete pricing data and Vercel Blob images
     const response = await fetch(`${baseUrl}/api/villas?limit=1000`, {
       cache: 'no-store'
     });

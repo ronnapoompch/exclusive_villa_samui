@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Villa Images Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        .villa { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .villa h3 { margin: 0 0 10px 0; color: #333; }
+        .villa img { max-width: 200px; height: 150px; object-fit: cover; margin: 5px; border-radius: 4px; }
+        .no-images { color: red; font-weight: bold; }
+        .has-images { color: green; }
+        .images-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .status { padding: 5px 10px; border-radius: 4px; display: inline-block; margin: 5px 0; }
+        .status.good { background: #d4edda; color: #155724; }
+        .status.bad { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <h1>🏖️ Villa Images Test - API Response</h1>
+    <div id="loading">Loading villas...</div>
+    <div id="results"></div>
+
+    <script>
+        async function testVillas() {
+            try {
+                const response = await fetch('/api/villas-json?limit=20');
+                const data = await response.json();
+                
+                const resultsDiv = document.getElementById('results');
+                const loadingDiv = document.getElementById('loading');
+                
+                if (!data.success) {
+                    resultsDiv.innerHTML = '<div class="status bad">❌ API Error: ' + JSON.stringify(data) + '</div>';
+                    loadingDiv.style.display = 'none';
+                    return;
+                }
+                
+                const villas = data.data.villas;
+                let noImagesCount = 0;
+                let withImagesCount = 0;
+                
+                let html = `<div class="status good">✅ Loaded ${villas.length} villas from API</div>`;
+                
+                villas.forEach(villa => {
+                    const imageCount = villa.images ? villa.images.length : 0;
+                    const hasImages = imageCount > 0;
+                    
+                    if (hasImages) {
+                        withImagesCount++;
+                    } else {
+                        noImagesCount++;
+                    }
+                    
+                    html += `
+                        <div class="villa">
+                            <h3>${villa.name}</h3>
+                            <div class="${hasImages ? 'has-images' : 'no-images'}">
+                                ${hasImages ? '✅' : '❌'} ${imageCount} images
+                            </div>
+                            ${hasImages ? `
+                                <div class="images-grid">
+                                    ${villa.images.slice(0, 3).map(img => 
+                                        `<img src="${img}" alt="${villa.name}" onerror="this.style.border='2px solid red'">`
+                                    ).join('')}
+                                </div>
+                                <div style="margin-top: 10px; font-size: 12px; color: #666;">
+                                    Hero: ${villa.hero?.length || 0}, 
+                                    Ext: ${villa.ext?.length || 0}, 
+                                    Liv: ${villa.liv?.length || 0}
+                                </div>
+                            ` : '<div class="status bad">No images array!</div>'}
+                        </div>
+                    `;
+                });
+                
+                html = `
+                    <div style="background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px;">
+                        <h2>Summary</h2>
+                        <div class="status good">✅ With images: ${withImagesCount}</div>
+                        <div class="status ${noImagesCount > 0 ? 'bad' : 'good'}">
+                            ${noImagesCount > 0 ? '❌' : '✅'} Without images: ${noImagesCount}
+                        </div>
+                    </div>
+                ` + html;
+                
+                resultsDiv.innerHTML = html;
+                loadingDiv.style.display = 'none';
+                
+            } catch (error) {
+                document.getElementById('results').innerHTML = 
+                    '<div class="status bad">❌ Error: ' + error.message + '</div>';
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        testVillas();
+    </script>
+</body>
+</html>

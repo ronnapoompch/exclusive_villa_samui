@@ -1,0 +1,133 @@
+[
+  {
+    "slug": "villa-amnado",
+    "images": {
+      "hero": [],
+      "ext": [],
+      "liv": [],
+      "bed1": [],
+      "bed2-5": [],
+      "bath1": [],
+      "kit": [],
+      "din": [],
+      "pool": []
+    },
+    "totalUploaded": 0
+  },
+  {
+    "slug": "villa-asi-azure",
+    "images": {
+      "hero": [],
+      "ext": [],
+      "liv": [],
+      "bed1": [],
+      "bed2-5": [],
+      "bath1": [],
+      "bath2-5": [],
+      "kit": [],
+      "din": [],
+      "pool": [],
+      "amen": [],
+      "view": []
+    },
+    "totalUploaded": 0
+  },
+  {
+    "slug": "villa-astro",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/hero/a1cc5dd0-15cc-4c9c-9733-45e7347df8a9.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/hero/cf5bd98a-351e-40a7-b853-470f92a8202c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/hero/IMG-20230824-WA0017.webp"
+      ],
+      "ext": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/ext/ccc4c937-c6db-44b7-82bb-70fe4a612ed8.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/ext/ff062d92-debe-4f05-bc07-c79e638f764e.webp"
+      ],
+      "liv": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/liv/0dd5bf9f-33c2-4076-bbae-615e11026d5c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/liv/33d78a91-c023-4041-b474-6360e80ed8a7.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/liv/741af986-6845-409c-8943-319d12f1490f.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/liv/917dedd8-7f93-409b-9b3e-3ff812210687.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bed1/547100b2-d493-41a3-89fa-c37eb9c85534.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bed1/c7319918-060d-41fe-b37c-f99b52eb92cd.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bed2-5/42e00ae1cadbdb8642c5660248e45b235c3b623e.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bed2-5/b1f8f59b-2fa6-4f88-9b3d-b9c1607128ab.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bed2-5/cd851ccd-71b3-4a2e-a246-5d7dabe260bc.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bed2-5/e03918d6-c08f-428d-afd3-5ff9e5c62f3b.webp"
+      ],
+      "bath1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bath1/4451899e-cf4e-4064-b24c-aca0b02f2408.webp"
+      ],
+      "bath2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bath2-5/94aa0a18-af51-4e76-8c77-a6ef2ec36642.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bath2-5/953c2aa6-ded2-4a19-8e85-f5aeb6412c43.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bath2-5/a9067c18-a424-4222-9c53-bf229cd76bb1.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/bath2-5/bc52d695-d6a8-4ab0-893a-90e4a2d28d8c.webp"
+      ],
+      "kit": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/kit/10735f97-8962-4ba5-b313-27e7c1a4bfa2.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/kit/b87a8d5c-cca2-435e-ac48-e134a94471cb.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/din/9c0da3d7-bb58-4c68-ba46-5660b976f79f.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/din/be0e8cdd-c65a-44d7-b5b5-597380774342.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/pool/a1cc5dd0-15cc-4c9c-9733-45e7347df8a9.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/pool/a3c16f03-6c2a-4e0d-a98e-bc7a58e77774.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/pool/cf5bd98a-351e-40a7-b853-470f92a8202c.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/pool/IMG-20230824-WA0052.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/pool/IMG-20230824-WA0053.webp"
+      ],
+      "amen": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/amen/e62e181c-a51c-4aaa-9520-f7da249a28d2.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/view/a65fc229-7e2b-44dc-94ef-07909a0fb784.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/view/ac753f8a-33c2-4c72-91e7-fab0813e6639.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/view/IMG-20230824-WA0044.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/view/IMG-20230824-WA0046.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-astro/view/IMG-20230824-WA0051.webp"
+      ]
+    },
+    "totalUploaded": 35
+  },
+  {
+    "slug": "villa-delsy",
+    "images": {
+      "hero": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/hero/345871219_972653577248453_707123243209897975_n.webp"
+      ],
+      "ext": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/ext/345871219_972653577248453_707123243209897975_n.webp"
+      ],
+      "liv": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/liv/346094765_222022243877111_8757270158614808588_n.webp"
+      ],
+      "bed1": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/bed1/345866864_207329295452135_599542530995857358_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/bed1/346055875_955209105672563_6913342459908029175_n.webp"
+      ],
+      "bed2-5": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/bed2-5/346103677_1306453860246871_2438636794390946112_n.webp"
+      ],
+      "din": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/din/344580504_633797454914804_9146692471672121905_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/din/345895770_689386886326450_8065209750028773829_n.webp"
+      ],
+      "pool": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/pool/344585279_554924729904144_3648531229268430208_n.webp",
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/pool/346109099_794358335532992_3968291379354276627_n.webp"
+      ],
+      "view": [
+        "https://xkoncnp41eepsysa.public.blob.vercel-storage.com/villas/villa-delsy/view/344668768_640754110744620_1398860965993137630_n.webp"
+      ]
+    },
+    "totalUploaded": 11
+  }
+]
