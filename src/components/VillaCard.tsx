@@ -169,7 +169,7 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
                     {villa.isMonthlyRate ? 'per month' : 
                        (villa.pricePerNight && villa.pricePerNight > 0) || villa.priceRange ? 'per night' : ''}
                   </div>
-                  {!villa.isMonthlyRate && (villa.pricePerNight || villa.priceRange) && villa.pricePerNight > 0 && (
+                  {!villa.isMonthlyRate && (villa.pricePerNight || villa.priceRange) && (villa.pricePerNight ?? 0) > 0 && (
                     <div className="text-xs text-amber-600 mt-2 font-semibold">
                       Min. 3 nights
                     </div>
