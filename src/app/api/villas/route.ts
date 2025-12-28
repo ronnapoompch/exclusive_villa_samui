@@ -8,10 +8,20 @@ export const revalidate = 0;
 export async function GET(request: NextRequest) {
   try {
     // Temporary: Return mock data in production until JSON loading is fixed
-    const isProduction = process.env.NODE_ENV === 'production' || process.env.VERCEL;
+    // Check multiple env vars to ensure we catch production environment
+    const isProduction = process.env.VERCEL_ENV === 'production' || 
+                         process.env.VERCEL === '1' || 
+                         process.env.NODE_ENV === 'production';
+    
+    console.log('Environment check:', {
+      NODE_ENV: process.env.NODE_ENV,
+      VERCEL: process.env.VERCEL,
+      VERCEL_ENV: process.env.VERCEL_ENV,
+      isProduction
+    });
     
     if (isProduction) {
-      console.log('Production detected - returning mock data');
+      console.log('✅ Production detected - returning mock data');
       return NextResponse.json(mockVillas, {
         headers: {
           'Cache-Control': 'no-store, must-revalidate',
