@@ -20,8 +20,8 @@ export async function GET(request: NextRequest) {
     const offset = parseInt(searchParams.get('offset') || '0');
 
     // Load villas data using dynamic import (works in serverless)
-    const { default: villasData } = await import('@/../data/villas-vercel-blob.json');
-    let villas = villasData as any[];
+    const villasModule = await import('../../../../../../data/villas-vercel-blob.json');
+    let villas = villasModule.default as any[];
 
     // Filter by slug (for single villa)
     if (slug) {
