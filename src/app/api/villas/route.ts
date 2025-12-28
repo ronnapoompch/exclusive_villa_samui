@@ -8,7 +8,10 @@ export const revalidate = 0;
 export async function GET(request: NextRequest) {
   try {
     // Temporary: Return mock data in production until JSON loading is fixed
-    if (process.env.VERCEL_ENV === 'production') {
+    const isProduction = process.env.NODE_ENV === 'production' || process.env.VERCEL;
+    
+    if (isProduction) {
+      console.log('Production detected - returning mock data');
       return NextResponse.json(mockVillas, {
         headers: {
           'Cache-Control': 'no-store, must-revalidate',
