@@ -19,6 +19,13 @@ export const authOptions: NextAuthOptions = {
           return null
         }
 
+        // Skip database auth in production to avoid connection errors
+        // TODO: Fix database connection and re-enable
+        if (process.env.VERCEL_ENV === 'production') {
+          console.log('⚠️ Production: Skipping database auth')
+          return null
+        }
+
         try {
           const dbUser = await prisma.user.findUnique({ 
             where: { email: credentials.email } 
