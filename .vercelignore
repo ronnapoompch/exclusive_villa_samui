@@ -99,11 +99,12 @@ prisma/migrations/
 scripts/
 prisma/migrations/
 # Exclude data folder but keep villa JSON files
+# IMPORTANT: *.json must come BEFORE exceptions
+*.json
 !data/villas-vercel-blob.json
 !src/data/folder-based-villas.json
 !src/data/folder-based-villas-array.json
 !src/data/villas-vercel-blob.json
-*.json
 !package.json
 !package-lock.json
 !tsconfig.json
