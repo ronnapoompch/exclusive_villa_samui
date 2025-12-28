@@ -1,6 +1,9 @@
-// Villa API - Database with Local Images
+// Villa API - JSON File with Vercel Blob Images
 import { NextRequest, NextResponse } from 'next/server';
-import prisma from '@/lib/db/prisma';
+import villasData from '../../../../data/villas-vercel-blob.json';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET(request: NextRequest) {
   try {
@@ -13,187 +16,77 @@ export async function GET(request: NextRequest) {
     const bedrooms = searchParams.get('bedrooms');
     const guests = searchParams.get('guests');
     const search = searchParams.get('search');
-    const limit = parseInt(searchParams.get('limit') || '12');
+    const slug = searchParams.get('slug');
+    const limit = parseInt(searchParams.get('limit') || '1000');
     const offset = parseInt(searchParams.get('offset') || '0');
 
-    // Build where clause
-    const where: any = {
-      active: true
-    };
+    let villas = villasData as any[];
 
+    // Filter by slug (for single villa)
+    if (slug) {
+      const villa = villas.find(v => v.slug === slug);
+      if (!villa) {
+        return NextResponse.json(
+          { error: 'Villa not found' },
+          { status: 404 }
+        );
+      }
+      return NextResponse.json(villa);
+    }
+
+    // Filter by featured
     if (featuredOnly) {
-      where.featured = true;
+      villas = villas.filter(v => v.featured === true);
     }
-    
+
+    // Filter by beachfront
     if (beachfront) {
-      where.beachfront = true;
+      villas = villas.filter(v => v.beachfront === true);
     }
-    
+
+    // Filter by location
     if (location && location !== 'All Locations') {
-      where.location = {
-        contains: location,
-        mode: 'insensitive'
-      };
-    }
-    
-    if (bedrooms) {
-      where.bedrooms = { gte: parseInt(bedrooms) };
-    }
-    
-    if (guests) {
-      where.maxGuests = { gte: parseInt(guests) };
-    }
-    
-    if (search) {
-      where.OR = [
-        { name: { contains: search, mode: 'insensitive' } },
-        { description: { contains: search, mode: 'insensitive' } },
-        { location: { contains: search, mode: 'insensitive' } }
-      ];
-    }
-
-    // Get total count
-    const total = await prisma.villa.count({ where });
-
-    // Get current month/year for pricing
-    const now = new Date();
-    const currentMonth = now.getMonth() + 1; // 1-12
-    const currentYear = now.getFullYear();
-
-    // Get villas with images
-    const villas = await prisma.villa.findMany({
-      where,
-      include: {
-        villaImages: {
-          orderBy: [
-            { isHero: 'desc' },
-            { order: 'asc' }
-          ]
-        },
-        pricing: true // Get all pricing records
-      },
-      skip: offset,
-      take: limit,
-      orderBy: [
-        { featured: 'desc' },
-        { name: 'asc' }
-      ]
-    });
-
-    // Transform villas for response
-    const transformedVillas = villas.map(villa => {
-      // Group images by category
-      const images = villa.villaImages.map(img => img.url);
-      const heroImage = villa.villaImages.find(img => img.isHero)?.url || images[0];
-
-      // Find current month pricing (December 2025)
-      const currentPricing = villa.pricing.find(
-        p => p.month === currentMonth && p.year === currentYear
+      villas = villas.filter(v => 
+        v.location?.toLowerCase().includes(location.toLowerCase())
       );
+    }
 
-      // Fallback to latest pricing if current month not available
-      const latestPricing = currentPricing || villa.pricing[0];
+    // Filter by bedrooms
+    if (bedrooms) {
+      const bedroomsNum = parseInt(bedrooms);
+      villas = villas.filter(v => v.bedrooms >= bedroomsNum);
+    }
 
-      let pricePerNight = 0;
-      let weeklyRate = 0;
-      let monthlyRate = 0;
-      let isMonthlyRate = false;
-      let allMonthlyRates = undefined;
+    // Filter by guests
+    if (guests) {
+      const guestsNum = parseInt(guests);
+      villas = villas.filter(v => v.maxGuests >= guestsNum);
+    }
 
-      if (latestPricing) {
-        pricePerNight = Number(latestPricing.dailyRate || 0);
-        weeklyRate = Number(latestPricing.weeklyRate || 0);
-        monthlyRate = Number(latestPricing.monthlyRate || 0);
-        
-        // If monthly rate is available, get all 12 months for display
-        if (monthlyRate > 0) {
-          // Get all 12 months pricing for villas with monthly rates
-          const monthlyPricing = villa.pricing
-            .filter(p => p.year === currentYear && p.monthlyRate && Number(p.monthlyRate) > 0)
-            .sort((a, b) => a.month - b.month)
-            .map(p => ({
-              month: p.month,
-              rate: Number(p.monthlyRate)
-            }));
-          
-          if (monthlyPricing.length > 0) {
-            allMonthlyRates = monthlyPricing;
-          }
-          
-          // If only monthly rate available (no daily rate), mark as monthly-only
-          if (pricePerNight === 0) {
-            isMonthlyRate = true;
-            pricePerNight = monthlyRate; // Use monthly as primary price
-          }
-        }
-      }
+    // Filter by search text
+    if (search) {
+      const searchLower = search.toLowerCase();
+      villas = villas.filter(villa => 
+        villa.name?.toLowerCase().includes(searchLower) ||
+        villa.description?.toLowerCase().includes(searchLower) ||
+        villa.location?.toLowerCase().includes(searchLower)
+      );
+    }
 
-      return {
-        id: villa.id,
-        slug: villa.slug,
-        name: villa.name,
-        description: villa.description,
-        bedrooms: villa.bedrooms,
-        bathrooms: villa.bathrooms,
-        maxGuests: villa.maxGuests,
-        beachfront: villa.beachfront,
-        location: villa.location,
-        images: images,
-        heroImage: heroImage,
-        amenities: villa.amenities || [],
-        featured: villa.featured,
-        pricing: {
-          dailyRate: latestPricing?.dailyRate?.toString() || '0',
-          weeklyRate: latestPricing?.weeklyRate?.toString() || '0',
-          monthlyRate: latestPricing?.monthlyRate?.toString() || '0',
-          currency: latestPricing?.currency || 'THB',
-          month: latestPricing?.month || currentMonth,
-          year: latestPricing?.year || currentYear
-        },
-        pricePerNight: pricePerNight,
-        weeklyRate: weeklyRate > 0 ? weeklyRate : undefined,
-        monthlyRate: monthlyRate > 0 ? monthlyRate : undefined,
-        isMonthlyRate: isMonthlyRate,
-        allMonthlyRates: allMonthlyRates,
-        imageCount: villa.villaImages.length
-      };
-    });
+    // Apply pagination
+    const total = villas.length;
+    const paginatedVillas = villas.slice(offset, offset + limit);
 
-    return NextResponse.json({
-      success: true,
-      data: {
-        villas: transformedVillas,
-        pagination: {
-          total,
-          limit,
-          offset,
-          hasMore: offset + limit < total,
-          totalPages: Math.ceil(total / limit),
-          currentPage: Math.floor(offset / limit) + 1
-        }
-      },
-      stats: {
-        totalVillas: total,
-        dataSource: 'database-local-images',
-        message: 'Using local images from database'
-      }
-    }, {
+    return NextResponse.json(paginatedVillas, {
       headers: {
-        'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0',
-        'CDN-Cache-Control': 'no-store',
-        'Vercel-CDN-Cache-Control': 'no-store'
-      }
-    });
-
-  } catch (error) {
-    console.error('❌ Villa API Error:', error);
-    return NextResponse.json(
-      { 
-        success: false, 
-        error: 'Failed to fetch villas',
-        message: error instanceof Error ? error.message : 'Unknown error',
-        details: process.env.NODE_ENV === 'development' ? error : undefined
+        'Cache-Control': 'no-store, must-revalidate',
+        'X-Total-Count': total.toString(),
       },
+    });
+  } catch (error) {
+    console.error('Error in /api/villas:', error);
+    return NextResponse.json(
+      { error: 'Internal server error', details: (error as Error).message },
       { status: 500 }
     );
   }
