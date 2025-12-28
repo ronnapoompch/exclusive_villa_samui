@@ -1,9 +1,29 @@
 // Villa API - JSON File with Vercel Blob Images
 import { NextRequest, NextResponse } from 'next/server';
-import { mockVillas } from '@/lib/mock-data';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
+
+// Inline mock data to avoid import issues
+const MOCK_VILLAS = [
+  {
+    id: "1",
+    slug: "test-villa",
+    name: "Test Villa (Mock Data)",
+    description: "This is temporary mock data. Real villa data will be loaded soon.",
+    bedrooms: 3,
+    bathrooms: 2,
+    maxGuests: 6,
+    beachfront: true,
+    location: "Koh Samui",
+    images: ["https://via.placeholder.com/800x600?text=Villa+Loading"],
+    heroImage: "https://via.placeholder.com/800x600?text=Villa+Loading",
+    amenities: ["Pool", "WiFi", "Air Conditioning"],
+    featured: true,
+    pricePerNight: 5000,
+    imageCount: 1
+  }
+];
 
 export async function GET(request: NextRequest) {
   try {
@@ -13,7 +33,7 @@ export async function GET(request: NextRequest) {
                          process.env.VERCEL === '1' || 
                          process.env.NODE_ENV === 'production';
     
-    console.log('Environment check:', {
+    console.log('🔍 Environment check:', {
       NODE_ENV: process.env.NODE_ENV,
       VERCEL: process.env.VERCEL,
       VERCEL_ENV: process.env.VERCEL_ENV,
@@ -21,8 +41,8 @@ export async function GET(request: NextRequest) {
     });
     
     if (isProduction) {
-      console.log('✅ Production detected - returning mock data');
-      return NextResponse.json(mockVillas, {
+      console.log('✅ PRODUCTION - Returning mock data');
+      return NextResponse.json(MOCK_VILLAS, {
         headers: {
           'Cache-Control': 'no-store, must-revalidate',
         },
