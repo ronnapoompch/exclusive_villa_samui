@@ -55,6 +55,11 @@ export async function GET(request: NextRequest) {
     // Get total count
     const total = await prisma.villa.count({ where });
 
+    // Get current month/year for pricing
+    const now = new Date();
+    const currentMonth = now.getMonth() + 1; // 1-12
+    const currentYear = now.getFullYear();
+
     // Get villas with images
     const villas = await prisma.villa.findMany({
       where,
@@ -65,12 +70,7 @@ export async function GET(request: NextRequest) {
             { order: 'asc' }
           ]
         },
-        pricing: {
-          take: 1,
-          orderBy: {
-            createdAt: 'desc'
-          }
-        }
+        pricing: true // Get all pricing records
       },
       skip: offset,
       take: limit,
@@ -86,11 +86,46 @@ export async function GET(request: NextRequest) {
       const images = villa.villaImages.map(img => img.url);
       const heroImage = villa.villaImages.find(img => img.isHero)?.url || images[0];
 
-      // Calculate price from pricing table if available
-      const latestPricing = villa.pricing[0];
+      // Find current month pricing (December 2025)
+      const currentPricing = villa.pricing.find(
+        p => p.month === currentMonth && p.year === currentYear
+      );
+
+      // Fallback to latest pricing if current month not available
+      const latestPricing = currentPricing || villa.pricing[0];
+
       let pricePerNight = 0;
+      let weeklyRate = 0;
+      let monthlyRate = 0;
+      let isMonthlyRate = false;
+      let allMonthlyRates = undefined;
+
       if (latestPricing) {
         pricePerNight = Number(latestPricing.dailyRate || 0);
+        weeklyRate = Number(latestPricing.weeklyRate || 0);
+        monthlyRate = Number(latestPricing.monthlyRate || 0);
+        
+        // If monthly rate is available, get all 12 months for display
+        if (monthlyRate > 0) {
+          // Get all 12 months pricing for villas with monthly rates
+          const monthlyPricing = villa.pricing
+            .filter(p => p.year === currentYear && p.monthlyRate && Number(p.monthlyRate) > 0)
+            .sort((a, b) => a.month - b.month)
+            .map(p => ({
+              month: p.month,
+              rate: Number(p.monthlyRate)
+            }));
+          
+          if (monthlyPricing.length > 0) {
+            allMonthlyRates = monthlyPricing;
+          }
+          
+          // If only monthly rate available (no daily rate), mark as monthly-only
+          if (pricePerNight === 0) {
+            isMonthlyRate = true;
+            pricePerNight = monthlyRate; // Use monthly as primary price
+          }
+        }
       }
 
       return {
@@ -109,9 +144,17 @@ export async function GET(request: NextRequest) {
         featured: villa.featured,
         pricing: {
           dailyRate: latestPricing?.dailyRate?.toString() || '0',
-          currency: latestPricing?.currency || 'THB'
+          weeklyRate: latestPricing?.weeklyRate?.toString() || '0',
+          monthlyRate: latestPricing?.monthlyRate?.toString() || '0',
+          currency: latestPricing?.currency || 'THB',
+          month: latestPricing?.month || currentMonth,
+          year: latestPricing?.year || currentYear
         },
         pricePerNight: pricePerNight,
+        weeklyRate: weeklyRate > 0 ? weeklyRate : undefined,
+        monthlyRate: monthlyRate > 0 ? monthlyRate : undefined,
+        isMonthlyRate: isMonthlyRate,
+        allMonthlyRates: allMonthlyRates,
         imageCount: villa.villaImages.length
       };
     });

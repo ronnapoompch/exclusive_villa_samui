@@ -14,6 +14,7 @@ interface SearchFilters {
   minPrice?: number;
   maxPrice?: number;
   beachfront?: boolean;
+  searchQuery?: string;
 }
 
 export default function HomePage(): JSX.Element {
@@ -27,6 +28,7 @@ export default function HomePage(): JSX.Element {
     minPrice?: number;
     maxPrice?: number;
     beachfront?: boolean;
+    searchQuery?: string;
   }): void => {
     const filters: SearchFilters = {
       location: data.location,
@@ -36,6 +38,7 @@ export default function HomePage(): JSX.Element {
       minPrice: data.minPrice,
       maxPrice: data.maxPrice,
       beachfront: data.beachfront,
+      searchQuery: data.searchQuery,
     };
     setSearchFilters(filters);
   };
@@ -120,6 +123,7 @@ export default function HomePage(): JSX.Element {
               priceMin={searchFilters.minPrice}
               priceMax={searchFilters.maxPrice}
               beachfront={searchFilters.beachfront}
+              searchQuery={searchFilters.searchQuery}
             />
           </div>
         </section>

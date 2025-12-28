@@ -23,6 +23,7 @@ interface Villa {
   weeklyRate?: number; // Weekly rate from Excel
   monthlyRate?: number; // Monthly rate from Excel
   isMonthlyRate?: boolean; // Flag if price is per month instead of per night
+  allMonthlyRates?: Array<{ month: number; rate: number }>; // All 12 months rates for monthly villas
   pricing?: {
     dailyRate?: string;
     weeklyRate?: string;
@@ -38,18 +39,29 @@ interface VillaCardProps {
 
 export type { Villa };
 export default function VillaCard({ villa, className = '' }: VillaCardProps) {
-  // Handle Vercel Blob URLs and local paths
-  const getValidImageUrl = (imageUrl?: string): string => {
-    if (!imageUrl) {
-      // Fallback to first villa's hero image
-      return '/optimized-villas/5-stars-beachfront-villa/hero/909.webp';
+  // Get first available image from any category
+  const getValidImageUrl = (): string => {
+    // Try images array first (combined from all categories)
+    if (villa.images && villa.images.length > 0) {
+      return villa.images[0];
     }
     
-    // Support Vercel Blob URLs and local paths
-    return imageUrl;
+    // Fallback: try to construct from raw data if available
+    const fallbackImage = '/optimized-villas/5-stars-beachfront-villa/hero/909.webp';
+    
+    // Log missing images for debugging
+    if (typeof window !== 'undefined') {
+      console.warn(`No images found for villa: ${villa.name}`, {
+        slug: villa.slug,
+        hasImages: !!villa.images,
+        imageCount: villa.images?.length || 0
+      });
+    }
+    
+    return fallbackImage;
   };
   
-  const heroImage = getValidImageUrl(villa.images?.[0]);
+  const heroImage = getValidImageUrl();
   
   return (
     <Card className={`group overflow-hidden hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] bg-white border border-gray-200 hover:border-amber-300/60 rounded-2xl shadow-lg ${className}`}>
@@ -59,6 +71,14 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
             src={heroImage}
             alt={villa.name}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              if (target.src !== '/optimized-villas/5-stars-beachfront-villa/hero/909.webp') {
+                console.error(`Failed to load image for ${villa.name}: ${target.src}`);
+                target.src = '/optimized-villas/5-stars-beachfront-villa/hero/909.webp';
+              }
+            }}
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <div className="absolute top-3 left-3 flex flex-wrap gap-2">
@@ -103,46 +123,76 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
           
           {/* Modern Price Display */}
           <div className="mt-4 p-4 bg-gradient-to-br from-gray-50 via-amber-50/30 to-gray-50 rounded-xl border border-gray-200">
-            <div className="flex items-start justify-between gap-3">
-              <div className="flex-1">
-                <div className="text-2xl font-bold text-gray-900 leading-tight">
-                  {villa.priceRange ? (
-                    typeof villa.priceRange === 'string' 
-                      ? villa.priceRange 
-                      : villa.priceRange.display || `฿${villa.priceRange.min?.toLocaleString()}-${villa.priceRange.max?.toLocaleString()}`
-                  ) : villa.pricePerNight ? (
-                    `฿${villa.pricePerNight.toLocaleString()}`
-                  ) : (
-                    '-'
+            {villa.isMonthlyRate && villa.allMonthlyRates && villa.allMonthlyRates.length > 0 ? (
+              <div className="space-y-3">
+                <div className="text-sm font-semibold text-gray-700">Monthly Rates {new Date().getFullYear()}</div>
+                <div className="grid grid-cols-3 gap-2">
+                  {villa.allMonthlyRates.map(({ month, rate }) => {
+                    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                    const isCurrentMonth = month === new Date().getMonth() + 1;
+                    return (
+                      <div 
+                        key={month} 
+                        className={`p-2 rounded-lg border text-center ${
+                          isCurrentMonth 
+                            ? 'bg-amber-50 border-amber-300' 
+                            : 'bg-white border-gray-200'
+                        }`}
+                      >
+                        <div className="text-xs text-gray-600 font-medium">{monthNames[month - 1]}</div>
+                        <div className={`text-sm font-bold ${
+                          isCurrentMonth ? 'text-amber-700' : 'text-gray-900'
+                        }`}>
+                          ฿{rate.toLocaleString()}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="text-xs text-gray-500 text-center pt-1">All rates per month</div>
+              </div>
+            ) : (
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1">
+                  <div className="text-2xl font-bold text-gray-900 leading-tight">
+                    {villa.priceRange ? (
+                      typeof villa.priceRange === 'string' 
+                        ? villa.priceRange 
+                        : villa.priceRange.display || `฿${villa.priceRange.min?.toLocaleString()}-${villa.priceRange.max?.toLocaleString()}`
+                    ) : villa.pricePerNight && villa.pricePerNight > 0 ? (
+                      `฿${villa.pricePerNight.toLocaleString()}`
+                    ) : (
+                      <span className="text-xl text-gray-600">Contact for Price</span>
+                    )}
+                  </div>
+                  <div className="text-xs text-gray-600 font-medium mt-0.5">
+                    {villa.isMonthlyRate ? 'per month' : 
+                       (villa.pricePerNight && villa.pricePerNight > 0) || villa.priceRange ? 'per night' : ''}
+                  </div>
+                  {!villa.isMonthlyRate && (villa.pricePerNight || villa.priceRange) && villa.pricePerNight > 0 && (
+                    <div className="text-xs text-amber-600 mt-2 font-semibold">
+                      Min. 3 nights
+                    </div>
                   )}
                 </div>
-                <div className="text-xs text-gray-600 font-medium mt-0.5">
-                  {villa.isMonthlyRate ? 'per month' : 
-                     (villa.pricePerNight || villa.priceRange) ? 'per night' : ''}
-                </div>
-                {!villa.isMonthlyRate && (villa.pricePerNight || villa.priceRange) && (
-                  <div className="text-xs text-amber-600 mt-2 font-semibold">
-                    Min. 3 nights
+                {(villa.weeklyRate || villa.monthlyRate) && !villa.isMonthlyRate && (
+                  <div className="text-right text-xs space-y-1 flex-shrink-0">
+                    {villa.weeklyRate && (
+                      <div className="text-gray-700">
+                        <div className="font-semibold">฿{villa.weeklyRate.toLocaleString()}</div>
+                        <div className="text-gray-500">weekly</div>
+                      </div>
+                    )}
+                    {villa.monthlyRate && (
+                      <div className="text-gray-700">
+                        <div className="font-semibold">฿{villa.monthlyRate.toLocaleString()}</div>
+                        <div className="text-gray-500">monthly</div>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
-              {(villa.weeklyRate || villa.monthlyRate) && !villa.isMonthlyRate && (
-                <div className="text-right text-xs space-y-1 flex-shrink-0">
-                  {villa.weeklyRate && (
-                    <div className="text-gray-700">
-                      <div className="font-semibold">฿{villa.weeklyRate.toLocaleString()}</div>
-                      <div className="text-gray-500">weekly</div>
-                    </div>
-                  )}
-                  {villa.monthlyRate && (
-                    <div className="text-gray-700">
-                      <div className="font-semibold">฿{villa.monthlyRate.toLocaleString()}</div>
-                      <div className="text-gray-500">monthly</div>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
+            )}
           </div>
         </Link>
         

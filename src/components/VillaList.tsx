@@ -96,11 +96,18 @@ export default function VillaList({
       
       if (searchQuery) params.append('search', searchQuery);
 
-      // Direct API path without locale
+      // Use Database API with Vercel Blob images (12,593 images)
+      // No cache busting needed - database is always fresh
       const apiPath = `/api/villas?${params.toString()}`;
       
       console.log('[VillaList] Making API call to:', apiPath);
-      const response = await fetch(apiPath);
+      const response = await fetch(apiPath, {
+        cache: 'no-store', // Force no cache
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache'
+        }
+      });
       console.log('[VillaList] API response status:', response.status);
       
       if (!response.ok) {

@@ -28,6 +28,7 @@ interface SearchFormData {
   minPrice?: number
   maxPrice?: number
   beachfront?: boolean
+  searchQuery?: string
 }
 
 // Samui locations from actual villa data
@@ -75,6 +76,7 @@ const formatPrice = (value: number): string => {
 }
 
 export function AdvancedVillaSearch({ onSearch, isLoading }: AdvancedVillaSearchProps) {
+  const [searchQuery, setSearchQuery] = useState('')
   const [location, setLocation] = useState('')
   const [checkIn, setCheckIn] = useState('')
   const [checkOut, setCheckOut] = useState('')
@@ -86,6 +88,7 @@ export function AdvancedVillaSearch({ onSearch, isLoading }: AdvancedVillaSearch
     e.preventDefault()
     
     onSearch({
+      searchQuery: searchQuery || undefined,
       location: location === 'All Locations' ? undefined : location,
       checkIn: checkIn || undefined,
       checkOut: checkOut || undefined,
@@ -103,6 +106,22 @@ export function AdvancedVillaSearch({ onSearch, isLoading }: AdvancedVillaSearch
     <Card className="w-full bg-white/95 backdrop-blur-sm border-0 shadow-2xl rounded-xl">
       <CardContent className="p-6">
         <form onSubmit={handleSubmit} className="space-y-5">
+          {/* Search Query - Full Width */}
+          <div className="space-y-2">
+            <Label htmlFor="searchQuery" className="text-sm font-semibold text-gray-700 flex items-center gap-1.5">
+              <Search className="h-3.5 w-3.5 text-gray-500" />
+              Search by Villa Name or Description
+            </Label>
+            <Input
+              id="searchQuery"
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search for villa name, description, or keywords..."
+              className="h-12 rounded-lg border-gray-300 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
+            />
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             {/* Location */}
             <div className="space-y-2">
