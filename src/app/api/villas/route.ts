@@ -19,9 +19,13 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get('limit') || '1000');
     const offset = parseInt(searchParams.get('offset') || '0');
 
-    // Load villas data using dynamic import (works in serverless)
-    const villasModule = await import('../../../../../../data/villas-vercel-blob.json');
-    let villas = villasModule.default as any[];
+    // Fetch JSON from public folder (works reliably in serverless)
+    const baseUrl = process.env.VERCEL_URL 
+      ? `https://${process.env.VERCEL_URL}` 
+      : 'http://localhost:3000';
+    const response = await fetch(`${baseUrl}/villas-data.json`);
+    const villasData = await response.json();
+    let villas = villasData as any[];
 
     // Filter by slug (for single villa)
     if (slug) {
