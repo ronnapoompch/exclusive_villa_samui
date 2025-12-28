@@ -1,149 +1,22 @@
-// Villa API - JSON File with Vercel Blob Images
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
-export const revalidate = 0;
 
-// Inline mock data to avoid import issues
-const MOCK_VILLAS = [
+const villas = [
   {
     id: "1",
     slug: "test-villa",
-    name: "Test Villa (Mock Data)",
-    description: "This is temporary mock data. Real villa data will be loaded soon.",
+    name: "Test Villa",
+    description: "Mock villa data",
     bedrooms: 3,
     bathrooms: 2,
     maxGuests: 6,
-    beachfront: true,
     location: "Koh Samui",
-    images: ["https://via.placeholder.com/800x600?text=Villa+Loading"],
-    heroImage: "https://via.placeholder.com/800x600?text=Villa+Loading",
-    amenities: ["Pool", "WiFi", "Air Conditioning"],
-    featured: true,
-    pricePerNight: 5000,
-    imageCount: 1
+    images: ["https://via.placeholder.com/800x600"],
+    pricePerNight: 5000
   }
 ];
 
-export async function GET(request: NextRequest) {
-  try {
-    // Temporary: Return mock data in production until JSON loading is fixed
-    // Check multiple env vars to ensure we catch production environment
-    const isProduction = process.env.VERCEL_ENV === 'production' || 
-                         process.env.VERCEL === '1' || 
-                         process.env.NODE_ENV === 'production';
-    
-    console.log('🔍 Environment check:', {
-      NODE_ENV: process.env.NODE_ENV,
-      VERCEL: process.env.VERCEL,
-      VERCEL_ENV: process.env.VERCEL_ENV,
-      isProduction
-    });
-    
-    if (isProduction) {
-      console.log('✅ PRODUCTION - Returning mock data');
-      return NextResponse.json(MOCK_VILLAS, {
-        headers: {
-          'Cache-Control': 'no-store, must-revalidate',
-        },
-      });
-    }
-
-    const { searchParams } = new URL(request.url);
-    
-    // API parameters
-    const featuredOnly = searchParams.get('featured') === 'true';
-    const beachfront = searchParams.get('beachfront') === 'true';
-    const location = searchParams.get('location');
-    const bedrooms = searchParams.get('bedrooms');
-    const guests = searchParams.get('guests');
-    const search = searchParams.get('search');
-    const slug = searchParams.get('slug');
-    const limit = parseInt(searchParams.get('limit') || '1000');
-    const offset = parseInt(searchParams.get('offset') || '0');
-
-    // Fetch JSON from public folder (works reliably in serverless)
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 
-                    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
-    
-    const jsonUrl = `${baseUrl}/villas-data.json`;
-    console.log('Fetching villas from:', jsonUrl);
-    
-    const response = await fetch(jsonUrl, { cache: 'no-store' });
-    
-    if (!response.ok) {
-      throw new Error(`Failed to fetch villas: ${response.status} ${response.statusText}`);
-    }
-    
-    const villasData = await response.json();
-    let villas = villasData as any[];
-
-    // Filter by slug (for single villa)
-    if (slug) {
-      const villa = villas.find(v => v.slug === slug);
-      if (!villa) {
-        return NextResponse.json(
-          { error: 'Villa not found' },
-          { status: 404 }
-        );
-      }
-      return NextResponse.json(villa);
-    }
-
-    // Filter by featured
-    if (featuredOnly) {
-      villas = villas.filter(v => v.featured === true);
-    }
-
-    // Filter by beachfront
-    if (beachfront) {
-      villas = villas.filter(v => v.beachfront === true);
-    }
-
-    // Filter by location
-    if (location && location !== 'All Locations') {
-      villas = villas.filter(v => 
-        v.location?.toLowerCase().includes(location.toLowerCase())
-      );
-    }
-
-    // Filter by bedrooms
-    if (bedrooms) {
-      const bedroomsNum = parseInt(bedrooms);
-      villas = villas.filter(v => v.bedrooms >= bedroomsNum);
-    }
-
-    // Filter by guests
-    if (guests) {
-      const guestsNum = parseInt(guests);
-      villas = villas.filter(v => v.maxGuests >= guestsNum);
-    }
-
-    // Filter by search text
-    if (search) {
-      const searchLower = search.toLowerCase();
-      villas = villas.filter(villa => 
-        villa.name?.toLowerCase().includes(searchLower) ||
-        villa.description?.toLowerCase().includes(searchLower) ||
-        villa.location?.toLowerCase().includes(searchLower)
-      );
-    }
-
-    // Apply pagination
-    const total = villas.length;
-    const paginatedVillas = villas.slice(offset, offset + limit);
-
-    return NextResponse.json(paginatedVillas, {
-      headers: {
-        'Cache-Control': 'no-store, must-revalidate',
-        'X-Total-Count': total.toString(),
-      },
-    });
-  } catch (error) {
-    console.error('Error in /api/villas:', error);
-    return NextResponse.json(
-      { error: 'Internal server error', details: (error as Error).message },
-      { status: 500 }
-    );
-  }
+export async function GET() {
+  return NextResponse.json(villas);
 }
