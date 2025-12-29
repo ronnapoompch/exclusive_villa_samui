@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import SessionProvider from '@/components/SessionProvider'
 import { Toaster } from 'react-hot-toast'
 import './globals.css'
 
