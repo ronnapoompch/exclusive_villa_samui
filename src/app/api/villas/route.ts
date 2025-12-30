@@ -11,6 +11,29 @@ export const revalidate = 0;
 const villaRepository = new VillaRepository(prisma);
 const villaService = new VillaService(villaRepository);
 
+// Helper function to convert BigInt to string for JSON serialization
+function serializeBigInt(obj: any): any {
+  if (obj === null || obj === undefined) return obj;
+  
+  if (typeof obj === 'bigint') {
+    return obj.toString();
+  }
+  
+  if (Array.isArray(obj)) {
+    return obj.map(serializeBigInt);
+  }
+  
+  if (typeof obj === 'object') {
+    const newObj: any = {};
+    for (const key in obj) {
+      newObj[key] = serializeBigInt(obj[key]);
+    }
+    return newObj;
+  }
+  
+  return obj;
+}
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
@@ -42,9 +65,12 @@ export async function GET(request: NextRequest) {
         );
       }
 
+      // Serialize BigInt values before returning
+      const serializedVilla = serializeBigInt(villa);
+
       return NextResponse.json({
         success: true,
-        data: villa,
+        data: serializedVilla,
       });
     }
 
@@ -55,13 +81,13 @@ export async function GET(request: NextRequest) {
     const transformedVillas = result.villas.map((villa: any) => {
       // Check if this is a monthly-rate villa (text-based like "Monthly 120K-140K")
       if (villa.isMonthlyRate && villa.monthlyPriceText) {
-        return {
+        return serializeBigInt({
           ...villa,
           isMonthlyRate: true,
           monthlyPriceText: villa.monthlyPriceText, // "Monthly 120K-140K"
           pricePerNight: null,
           pricing: undefined,
-        };
+        });
       }
       
       // Daily rate villa
@@ -71,7 +97,7 @@ export async function GET(request: NextRequest) {
                (!p.year || p.year === now.getFullYear());
       }) || villa.pricing?.[0];
 
-      return {
+      return serializeBigInt({
         ...villa,
         isMonthlyRate: false,
         pricePerNight: currentPricing?.dailyRate ? Number(currentPricing.dailyRate) : null,
@@ -81,7 +107,7 @@ export async function GET(request: NextRequest) {
           monthlyRate: currentPricing.monthlyRate ? String(currentPricing.monthlyRate) : undefined,
           currency: currentPricing.currency || 'THB',
         } : undefined,
-      };
+      });
     });
 
     return NextResponse.json({
