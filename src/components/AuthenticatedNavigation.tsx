@@ -3,7 +3,8 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useSession, signOut } from 'next-auth/react';
+// TEMPORARILY DISABLED - NextAuth causing issues
+// import { useSession, signOut } from 'next-auth/react';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { Phone, User, LogOut, MessageCircle } from 'lucide-react';
 import {
@@ -18,10 +19,13 @@ import { cn } from '@/lib/utils';
 import { CONTACT_INFO } from '@/lib/constants';
 
 export default function AuthenticatedNavigation() {
-  const { data: session, status } = useSession();
+  // TEMPORARILY DISABLED - NextAuth causing redirect loop
+  const session = null;
+  const status = 'unauthenticated';
 
   const handleSignOut = () => {
-    signOut({ callbackUrl: '/' });
+    // signOut({ callbackUrl: '/' });
+    console.log('Sign out disabled temporarily');
   };
 
   return (
