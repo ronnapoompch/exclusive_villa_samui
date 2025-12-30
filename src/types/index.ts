@@ -136,6 +136,41 @@ export interface SessionUser {
 }
 
 // Villa types
+export interface Villa {
+  id: string
+  name: string
+  slug: string
+  codeId?: string | null
+  description?: string | null
+  bedrooms: number
+  bathrooms: number
+  maxGuests: number
+  beachfront: boolean
+  location: string
+  locationLink?: string | null
+  phone?: string | null
+  officialWebsite?: string | null
+  airbnbUrl?: string | null
+  agodaUrl?: string | null
+  images?: any
+  amenities?: any
+  minimumStay?: string | null
+  petFriendly: boolean
+  cleaning?: string | null
+  cook?: string | null
+  utilities?: string | null
+  active: boolean
+  featured: boolean
+  isMonthlyRate: boolean
+  monthlyPriceText?: string | null
+  createdAt: Date
+  updatedAt: Date
+  pricePerNight?: number | null
+  priceRange?: any
+  weeklyRate?: number
+  monthlyRate?: number
+}
+
 // Placeholder interface (original depended on models not yet in schema)
 export interface VillaWithDetails {
   id: string

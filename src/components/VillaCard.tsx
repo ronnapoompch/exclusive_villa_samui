@@ -23,6 +23,7 @@ interface Villa {
   weeklyRate?: number; // Weekly rate from Excel
   monthlyRate?: number; // Monthly rate from Excel
   isMonthlyRate?: boolean; // Flag if price is per month instead of per night
+  monthlyPriceText?: string; // Text like "Monthly 120K-140K" for monthly villas
   allMonthlyRates?: Array<{ month: number; rate: number }>; // All 12 months rates for monthly villas
   pricing?: {
     dailyRate?: string;
