@@ -34,7 +34,6 @@ interface Villa {
   isMonthlyRate?: boolean;
   monthlyPriceText?: string;
   pricePerNight?: number | null;
-  pricePerNight?: number;
   monthlyPrice?: string;
   priceRange?: {
     min: number;
@@ -55,7 +54,7 @@ async function getVilla(slug: string): Promise<Villa | null> {
     const villaRepository = new VillaRepository(prisma);
     const villaService = new VillaService(villaRepository);
     
-    const villa = await villaService.getVillaBySlug(slug);
+    const villa = await villaService.getVillaBySlug(slug) as any;
     
     if (villa) {
       // Transform villa data to match interface
