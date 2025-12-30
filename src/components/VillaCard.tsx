@@ -123,33 +123,15 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
           
           {/* Modern Price Display */}
           <div className="mt-4 p-4 bg-gradient-to-br from-gray-50 via-amber-50/30 to-gray-50 rounded-xl border border-gray-200">
-            {villa.isMonthlyRate && villa.allMonthlyRates && villa.allMonthlyRates.length > 0 ? (
-              <div className="space-y-3">
-                <div className="text-sm font-semibold text-gray-700">Monthly Rates {new Date().getFullYear()}</div>
-                <div className="grid grid-cols-3 gap-2">
-                  {villa.allMonthlyRates.map(({ month, rate }) => {
-                    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-                    const isCurrentMonth = month === new Date().getMonth() + 1;
-                    return (
-                      <div 
-                        key={month} 
-                        className={`p-2 rounded-lg border text-center ${
-                          isCurrentMonth 
-                            ? 'bg-amber-50 border-amber-300' 
-                            : 'bg-white border-gray-200'
-                        }`}
-                      >
-                        <div className="text-xs text-gray-600 font-medium">{monthNames[month - 1]}</div>
-                        <div className={`text-sm font-bold ${
-                          isCurrentMonth ? 'text-amber-700' : 'text-gray-900'
-                        }`}>
-                          ฿{rate.toLocaleString()}
-                        </div>
-                      </div>
-                    );
-                  })}
+            {villa.isMonthlyRate && villa.monthlyPriceText ? (
+              // Monthly rate villa - show text like "Monthly 120K-140K"
+              <div className="text-center">
+                <div className="text-2xl font-bold text-gray-900 leading-tight">
+                  {villa.monthlyPriceText.replace(/Monthly\s+/i, '฿').trim()}
                 </div>
-                <div className="text-xs text-gray-500 text-center pt-1">All rates per month</div>
+                <div className="text-xs text-gray-600 font-medium mt-2">
+                  ต่อเดือน / per month
+                </div>
               </div>
             ) : (
               <div className="flex items-start justify-between gap-3">
@@ -166,12 +148,12 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
                     )}
                   </div>
                   <div className="text-xs text-gray-600 font-medium mt-0.5">
-                    {villa.isMonthlyRate ? 'per month' : 
-                       (villa.pricePerNight && villa.pricePerNight > 0) || villa.priceRange ? 'per night' : ''}
+                    {villa.isMonthlyRate ? 'ต่อเดือน / per month' : 
+                       (villa.pricePerNight && villa.pricePerNight > 0) || villa.priceRange ? 'ต่อคืน / per night' : ''}
                   </div>
                   {!villa.isMonthlyRate && (villa.pricePerNight || villa.priceRange) && (villa.pricePerNight ?? 0) > 0 && (
                     <div className="text-xs text-amber-600 mt-2 font-semibold">
-                      Min. 3 nights
+                      ขั้นต่ำ 3 คืน / Min. 3 nights
                     </div>
                   )}
                 </div>
@@ -180,13 +162,13 @@ export default function VillaCard({ villa, className = '' }: VillaCardProps) {
                     {villa.weeklyRate && (
                       <div className="text-gray-700">
                         <div className="font-semibold">฿{villa.weeklyRate.toLocaleString()}</div>
-                        <div className="text-gray-500">weekly</div>
+                        <div className="text-gray-500">รายสัปดาห์ / weekly</div>
                       </div>
                     )}
                     {villa.monthlyRate && (
                       <div className="text-gray-700">
                         <div className="font-semibold">฿{villa.monthlyRate.toLocaleString()}</div>
-                        <div className="text-gray-500">monthly</div>
+                        <div className="text-gray-500">รายเดือน / monthly</div>
                       </div>
                     )}
                   </div>

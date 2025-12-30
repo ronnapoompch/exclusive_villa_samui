@@ -1,6 +1,8 @@
 // prisma/seed.ts - Basic Seed Data for Current Schema
 import { PrismaClient } from '@prisma/client'
 import bcrypt from 'bcryptjs'
+import * as fs from 'fs'
+import * as path from 'path'
 
 const prisma = new PrismaClient()
 
@@ -64,6 +66,147 @@ async function main() {
     staffUser: staffUser.id, 
     regularUser: regularUser.id 
   })
+
+  // ============================================================================
+  // 🏡 IMPORT VILLAS
+  // ============================================================================
+  
+  console.log('\n🏡 Importing villas from villas-with-monthly-pricing.json...')
+  
+  const villasPath = path.join(process.cwd(), 'data', 'villas-with-monthly-pricing.json')
+  const villasRaw = fs.readFileSync(villasPath, 'utf-8')
+  const villasData = JSON.parse(villasRaw)
+  
+  console.log(`📊 Found ${villasData.length} villas to import`)
+  
+  let successCount = 0
+  let errorCount = 0
+  
+  for (const villaData of villasData) {
+    try {
+      // Collect all images
+      const allImages: string[] = []
+      if (villaData.image) allImages.push(villaData.image)
+      if (villaData.hero) allImages.push(...villaData.hero)
+      if (villaData.ext) allImages.push(...villaData.ext)
+      if (villaData.liv) allImages.push(...villaData.liv)
+      if (villaData.bed) allImages.push(...villaData.bed)
+      if (villaData.bath) allImages.push(...villaData.bath)
+      
+      // Remove duplicates
+      const uniqueImages = [...new Set(allImages)]
+      
+      // Get price data
+      const priceMin = villaData.priceRange?.min || null
+      const priceMax = villaData.priceRange?.max || null
+      const pricePerNight = villaData.pricePerNight || priceMin || null
+      
+      const villa = await prisma.villa.upsert({
+        where: { slug: villaData.slug },
+        update: {
+          name: villaData.name,
+          codeId: villaData.codeId || null,
+          description: villaData.description || null,
+          bedrooms: villaData.bedrooms || 1,
+          bathrooms: villaData.bathrooms || 1,
+          maxGuests: villaData.guests || villaData.bedrooms * 2 || 2,
+          beachfront: villaData.features?.beachfront || false,
+          location: villaData.location || 'Koh Samui',
+          locationLink: villaData.locationLink || null,
+          phone: villaData.contact || null,
+          airbnbUrl: villaData.airbnbLink || null,
+          images: uniqueImages.length > 0 ? uniqueImages : null,
+          amenities: villaData.amenities || null,
+          isMonthlyRate: villaData.isMonthlyRate || false,
+          monthlyPriceText: villaData.monthlyPriceText || null,
+        },
+        create: {
+          name: villaData.name,
+          slug: villaData.slug,
+          codeId: villaData.codeId || null,
+          description: villaData.description || null,
+          bedrooms: villaData.bedrooms || 1,
+          bathrooms: villaData.bathrooms || 1,
+          maxGuests: villaData.guests || villaData.bedrooms * 2 || 2,
+          beachfront: villaData.features?.beachfront || false,
+          location: villaData.location || 'Koh Samui',
+          locationLink: villaData.locationLink || null,
+          phone: villaData.contact || null,
+          airbnbUrl: villaData.airbnbLink || null,
+          images: uniqueImages.length > 0 ? uniqueImages : null,
+          amenities: villaData.amenities || null,
+          active: true,
+          featured: villaData.features?.beachfront || false,
+          isMonthlyRate: villaData.isMonthlyRate || false,
+          monthlyPriceText: villaData.monthlyPriceText || null,
+        },
+      })
+      
+      // Add or update pricing
+      if (villaData.isMonthlyRate && villaData.monthlyPriceText) {
+        // Villa has monthly rate text (e.g., "Monthly 120K-140K")
+        // Store as single pricing record
+        await prisma.villaPricing.upsert({
+          where: {
+            villaId_month_year: {
+              villaId: villa.id,
+              month: 1, // Use January as reference month for yearly pricing
+              year: new Date().getFullYear(),
+            }
+          },
+          update: {
+            monthlyRate: null, // Text-based pricing
+            dailyRate: null,
+            weeklyRate: null,
+          },
+          create: {
+            villaId: villa.id,
+            month: 1,
+            year: new Date().getFullYear(),
+            monthlyRate: null,
+            dailyRate: null,
+            weeklyRate: null,
+            currency: 'THB',
+          },
+        })
+      } else if (pricePerNight) {
+        // Villa has daily rate - use calculated monthly rate
+        await prisma.villaPricing.upsert({
+          where: {
+            villaId_month_year: {
+              villaId: villa.id,
+              month: new Date().getMonth() + 1,
+              year: new Date().getFullYear(),
+            }
+          },
+          update: {
+            dailyRate: BigInt(Math.round(pricePerNight)),
+            weeklyRate: pricePerNight ? BigInt(Math.round(pricePerNight * 7 * 0.9)) : null,
+            monthlyRate: pricePerNight ? BigInt(Math.round(pricePerNight * 30 * 0.75)) : null,
+          },
+          create: {
+            villaId: villa.id,
+            month: new Date().getMonth() + 1,
+            year: new Date().getFullYear(),
+            dailyRate: BigInt(Math.round(pricePerNight)),
+            weeklyRate: pricePerNight ? BigInt(Math.round(pricePerNight * 7 * 0.9)) : null,
+            monthlyRate: pricePerNight ? BigInt(Math.round(pricePerNight * 30 * 0.75)) : null,
+            currency: 'THB',
+          },
+        })
+      }
+      
+      successCount++
+      if (successCount % 20 === 0) {
+        console.log(`   ✅ Imported ${successCount}/${villasData.length} villas`)
+      }
+    } catch (error) {
+      errorCount++
+      console.error(`   ❌ Error importing ${villaData.slug}:`, error)
+    }
+  }
+  
+  console.log(`✅ Villa import completed: ${successCount} success, ${errorCount} failed`)
 
   console.log('🎉 Database seeding completed successfully!')
   

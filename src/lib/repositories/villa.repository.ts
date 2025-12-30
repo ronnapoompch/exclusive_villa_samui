@@ -29,6 +29,7 @@ export class VillaRepository implements IVillaRepository {
       where,
       include: {
         villaImages: true,
+        pricing: true,
       },
       orderBy: [
         { featured: 'desc' },
@@ -42,6 +43,7 @@ export class VillaRepository implements IVillaRepository {
       where: { id },
       include: {
         villaImages: true,
+        pricing: true,
       },
     });
   }
@@ -51,6 +53,7 @@ export class VillaRepository implements IVillaRepository {
       where: { slug },
       include: {
         villaImages: true,
+        pricing: true,
       },
     });
   }

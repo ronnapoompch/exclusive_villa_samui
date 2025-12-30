@@ -51,10 +51,43 @@ export async function GET(request: NextRequest) {
     // Handle villa list with filters
     const result = await villaService.searchVillas(filters, limit, offset);
 
+    // Transform villas to include pricing info
+    const transformedVillas = result.villas.map((villa: any) => {
+      // Check if this is a monthly-rate villa (text-based like "Monthly 120K-140K")
+      if (villa.isMonthlyRate && villa.monthlyPriceText) {
+        return {
+          ...villa,
+          isMonthlyRate: true,
+          monthlyPriceText: villa.monthlyPriceText, // "Monthly 120K-140K"
+          pricePerNight: null,
+          pricing: undefined,
+        };
+      }
+      
+      // Daily rate villa
+      const currentPricing = villa.pricing?.find((p: any) => {
+        const now = new Date();
+        return p.month === now.getMonth() + 1 && 
+               (!p.year || p.year === now.getFullYear());
+      }) || villa.pricing?.[0];
+
+      return {
+        ...villa,
+        isMonthlyRate: false,
+        pricePerNight: currentPricing?.dailyRate ? Number(currentPricing.dailyRate) : null,
+        pricing: currentPricing ? {
+          dailyRate: String(currentPricing.dailyRate),
+          weeklyRate: currentPricing.weeklyRate ? String(currentPricing.weeklyRate) : undefined,
+          monthlyRate: currentPricing.monthlyRate ? String(currentPricing.monthlyRate) : undefined,
+          currency: currentPricing.currency || 'THB',
+        } : undefined,
+      };
+    });
+
     return NextResponse.json({
       success: true,
       data: {
-        villas: result.villas,
+        villas: transformedVillas,
         pagination: {
           total: result.total,
           limit: result.limit,

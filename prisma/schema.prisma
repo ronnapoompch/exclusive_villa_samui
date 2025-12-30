@@ -3,8 +3,9 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model User {
@@ -90,61 +91,66 @@ model VerificationToken {
 }
 
 model Villa {
-  id              String         @id @default(cuid())
-  name            String
-  slug            String         @unique
-  description     String?
-  bedrooms        Int
-  bathrooms       Int            @default(0)
-  maxGuests       Int            @default(0)
-  beachfront      Boolean        @default(false)
-  location        String
-  locationLink    String?
-  phone           String?
-  officialWebsite String?
-  airbnbUrl       String?
-  agodaUrl        String?
-  images          Json?
-  amenities       Json?
-  minimumStay     String?
-  petFriendly     Boolean        @default(false)
-  cleaning        String?
-  cook            String?
-  utilities       String?
-  active          Boolean        @default(true)
-  featured        Boolean        @default(false)
-  createdAt       DateTime       @default(now())
-  updatedAt       DateTime       @updatedAt
-  bookings        Booking[]
-  reviews         Review[]
-  pricing         VillaPricing[]
-  blockedDates    BlockedDate[]
-  priceRates      PriceRate[]
-  villaImages     VillaImage[]
+  id               String         @id @default(cuid())
+  name             String
+  slug             String         @unique
+  codeId           String?        @unique // Excel CODE ID (EXVLSM0001, etc.)
+  description      String?
+  bedrooms         Int
+  bathrooms        Int            @default(0)
+  maxGuests        Int            @default(0)
+  beachfront       Boolean        @default(false)
+  location         String
+  locationLink     String?
+  phone            String?
+  officialWebsite  String?
+  airbnbUrl        String?
+  agodaUrl         String?
+  images           Json?
+  amenities        Json?
+  minimumStay      String?
+  petFriendly      Boolean        @default(false)
+  cleaning         String?
+  cook             String?
+  utilities        String?
+  active           Boolean        @default(true)
+  featured         Boolean        @default(false)
+  isMonthlyRate    Boolean        @default(false) // True if villa has monthly pricing
+  monthlyPriceText String?        // Text like "Monthly 120K-140K"
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  blockedDates     BlockedDate[]
+  bookings         Booking[]
+  priceRates       PriceRate[]
+  reviews          Review[]
+  villaImages      VillaImage[]
+  pricing          VillaPricing[]
 
   @@index([location])
   @@index([bedrooms])
   @@index([beachfront])
   @@index([active])
   @@index([featured])
+  @@index([codeId])
+  @@index([isMonthlyRate])
   @@map("villas")
 }
 
 model VillaImage {
-  id          String   @id @default(cuid())
-  villaId     String
-  url         String   // Local path: /optimized-villas/{slug}/{category}/{filename}
-  category    String   // "hero", "exterior", "living", "bedroom", "bathroom", "kitchen", "dining", "pool", "amenities", "view"
-  order       Int      @default(0)
-  altText     String?
-  width       Int?
-  height      Int?
-  size        Int?     // File size in bytes
-  format      String?  @default("webp")
-  isHero      Boolean  @default(false)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  villa       Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
+  id        String   @id @default(cuid())
+  villaId   String
+  url       String
+  category  String
+  order     Int      @default(0)
+  altText   String?
+  width     Int?
+  height    Int?
+  size      Int?
+  format    String?  @default("webp")
+  isHero    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  villa     Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
 
   @@index([villaId])
   @@index([category])
@@ -156,13 +162,13 @@ model VillaImage {
 model BlockedDate {
   id         String   @id @default(cuid())
   villaId    String
-  startDate  DateTime // Changed from 'date' to support date ranges
-  endDate    DateTime // End date of blocked period
   reason     String?
-  source     String?  @default("Manual") // "Airbnb", "Booking.com", "Agoda", "Manual", etc.
-  externalId String? // UID from iCal feed for deduplication
+  source     String?  @default("Manual")
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
+  startDate  DateTime
+  endDate    DateTime
+  externalId String?
   villa      Villa    @relation(fields: [villaId], references: [id], onDelete: Cascade)
 
   @@unique([villaId, externalId, source])
@@ -176,15 +182,15 @@ model BlockedDate {
 model PriceRate {
   id            String   @id @default(cuid())
   villaId       String
-  startDate     DateTime // Start date of pricing period
-  endDate       DateTime // End date of pricing period
-  pricePerNight Int // Price per night in smallest currency unit (e.g., satang for THB)
+  startDate     DateTime
+  endDate       DateTime
+  pricePerNight Int
   currency      String   @default("THB")
-  minStay       Int? // Minimum nights required
-  maxStay       Int? // Maximum nights allowed
-  seasonName    String? // e.g., "High Season", "Peak Season", "Low Season"
-  source        String   @default("manual") // "manual", "airbnb", "booking.com", "channel-manager"
-  externalId    String? // For sync tracking with external sources
+  minStay       Int?
+  maxStay       Int?
+  seasonName    String?
+  source        String   @default("manual")
+  externalId    String?
   active        Boolean  @default(true)
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
@@ -252,11 +258,11 @@ model Payment {
   currency        String        @default("THB")
   status          PaymentStatus @default(PENDING)
   paymentMethod   String?
-  paymentIntentId String?       @unique
   transactionId   String?
   processedAt     DateTime?
   createdAt       DateTime      @default(now())
   updatedAt       DateTime      @updatedAt
+  paymentIntentId String?       @unique
   booking         Booking       @relation(fields: [bookingId], references: [id], onDelete: Cascade)
 
   @@index([bookingId])
@@ -285,6 +291,24 @@ model Review {
   @@index([rating])
   @@index([verified])
   @@map("reviews")
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  email     String
+  token     String   @unique
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([email])
+  @@index([userId])
+  @@index([token])
+  @@index([expiresAt])
+  @@map("password_reset_tokens")
 }
 
 enum UserRole {
@@ -331,22 +355,4 @@ enum PaymentStatus {
   REFUNDED
 
   @@map("enum_payment_status")
-}
-
-model PasswordResetToken {
-  id        String   @id @default(cuid())
-  email     String
-  userId    String?
-  token     String   @unique
-  expiresAt DateTime
-  used      Boolean  @default(false)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  @@index([email])
-  @@index([userId])
-  @@index([token])
-  @@index([expiresAt])
-  @@map("password_reset_tokens")
 }
