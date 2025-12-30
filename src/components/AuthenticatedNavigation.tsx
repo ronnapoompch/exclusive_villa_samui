@@ -20,8 +20,8 @@ import { CONTACT_INFO } from '@/lib/constants';
 
 export default function AuthenticatedNavigation() {
   // TEMPORARILY DISABLED - NextAuth causing redirect loop
-  const session = null;
-  const status: 'loading' | 'authenticated' | 'unauthenticated' = 'unauthenticated';
+  const session: any = null;
+  const status = 'unauthenticated' as 'loading' | 'authenticated' | 'unauthenticated';
 
   const handleSignOut = () => {
     // signOut({ callbackUrl: '/' });
