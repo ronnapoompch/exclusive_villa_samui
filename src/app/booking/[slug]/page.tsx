@@ -3,6 +3,9 @@ import { notFound } from 'next/navigation';
 import BookingForm from '@/components/booking/BookingForm';
 import VillaImageGallery from '@/components/VillaImageGallery';
 import BackToVillas from '@/components/BackToVillas';
+import prisma from '@/lib/db/prisma';
+import { VillaRepository } from '@/lib/repositories/villa.repository';
+import { VillaService } from '@/lib/services/villa.service';
 import { 
   Bed, 
   Bath, 
@@ -28,6 +31,9 @@ interface Villa {
   hero?: string[];
   amenities: string[];
   featured?: boolean;
+  isMonthlyRate?: boolean;
+  monthlyPriceText?: string;
+  pricePerNight?: number | null;
   pricePerNight?: number;
   monthlyPrice?: string;
   priceRange?: {
@@ -45,29 +51,22 @@ interface Villa {
 
 async function getVilla(slug: string): Promise<Villa | null> {
   try {
-    // Use absolute URL in production, relative in development
-    const baseUrl = process.env.VERCEL_URL 
-      ? `https://${process.env.VERCEL_URL}` 
-      : (process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000');
+    // Use service layer directly to avoid authentication issues
+    const villaRepository = new VillaRepository(prisma);
+    const villaService = new VillaService(villaRepository);
     
-    // Fetch single villa by slug using dedicated endpoint
-    const response = await fetch(`${baseUrl}/api/villas?slug=${slug}`, {
-      cache: 'no-store'
-    });
+    const villa = await villaService.getVillaBySlug(slug);
     
-    if (!response.ok) {
-      console.error(`API Error: ${response.status} - ${response.statusText}`);
-      return null;
-    }
-
-    const data = await response.json();
-    
-    if (data.success && data.data) {
-      console.log(`✅ Villa booking data loaded for slug: ${slug}`, data.data.name);
-      return data.data;
+    if (villa) {
+      // Transform villa data to match interface
+      return {
+        ...villa,
+        images: Array.isArray(villa.images) ? villa.images : 
+                villa.villaImages?.map((img: any) => img.url) || [],
+        amenities: Array.isArray(villa.amenities) ? villa.amenities : [],
+      } as Villa;
     }
     
-    console.log(`❌ Villa not found for slug: ${slug}`);
     return null;
   } catch (error) {
     console.error('Error fetching villa for booking:', error);
