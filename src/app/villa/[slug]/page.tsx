@@ -34,7 +34,10 @@ interface Villa {
   images: string[];
   amenities: string[];
   featured: boolean;
-  pricing: {
+  isMonthlyRate?: boolean;
+  monthlyPriceText?: string;
+  pricePerNight?: number | null;
+  pricing?: {
     dailyRate?: string;
     weeklyRate?: string;
     monthlyRate?: string;
@@ -52,8 +55,8 @@ interface Villa {
 async function getVilla(slug: string): Promise<Villa | null> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3001';
-    // Use JSON API with complete pricing data and Vercel Blob images
-    const response = await fetch(`${baseUrl}/api/villas?limit=1000`, {
+    // Fetch single villa by slug using dedicated endpoint
+    const response = await fetch(`${baseUrl}/api/villas?slug=${slug}`, {
       cache: 'no-store'
     });
     
@@ -63,12 +66,10 @@ async function getVilla(slug: string): Promise<Villa | null> {
     }
 
     const data = await response.json();
-    // ค้นหา villa จาก slug
-    const villa = data.data?.villas?.find((v: Villa) => v.slug === slug);
     
-    if (villa) {
-      console.log(`✅ Villa data loaded for slug: ${slug}`, villa.name);
-      return villa;
+    if (data.success && data.data) {
+      console.log(`✅ Villa data loaded for slug: ${slug}`, data.data.name);
+      return data.data;
     }
     
     console.log(`❌ Villa not found for slug: ${slug}`);
@@ -421,19 +422,30 @@ export default async function VillaDetailPage({ params }: { params: { slug: stri
               <CardContent className="p-6 sm:p-8">
                 {/* Pricing Header */}
                 <div className="text-center mb-6 sm:mb-8">
-                  <div className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-2xl p-6 mb-4">
-                    <div className="text-3xl sm:text-4xl font-black mb-2">
-                      {villa.pricing?.monthlyRate} {villa.pricing?.currency}
+                  {villa.isMonthlyRate && villa.monthlyPriceText ? (
+                    <div className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-2xl p-6">
+                      <div className="text-3xl sm:text-4xl font-black mb-2">
+                        {villa.monthlyPriceText.replace(/Monthly\s+/i, '฿').trim()}
+                      </div>
+                      <div className="text-cyan-100 text-lg font-medium">ต่อเดือน / per month</div>
                     </div>
-                    <div className="text-cyan-100 text-lg font-medium">per month</div>
-                  </div>
-                  {villa.pricing?.dailyRate && (
-                    <div className="text-sm sm:text-base text-gray-600 bg-white/50 rounded-lg p-3">
-                      <span className="font-semibold">Daily rate from:</span>{' '}
-                      <span className="text-cyan-600 font-bold">
-                        {villa.pricing.dailyRate} {villa.pricing.currency}
-                      </span>
-                    </div>
+                  ) : (
+                    <>
+                      <div className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-2xl p-6 mb-4">
+                        <div className="text-3xl sm:text-4xl font-black mb-2">
+                          ฿{villa.pricePerNight || villa.pricing?.dailyRate || 'Contact for Price'}
+                        </div>
+                        <div className="text-cyan-100 text-lg font-medium">ต่อคืน / per night</div>
+                      </div>
+                      {villa.pricing?.monthlyRate && (
+                        <div className="text-sm sm:text-base text-gray-600 bg-white/50 rounded-lg p-3">
+                          <span className="font-semibold">Monthly rate:</span>{' '}
+                          <span className="text-cyan-600 font-bold">
+                            ฿{villa.pricing.monthlyRate}
+                          </span>
+                        </div>
+                      )}
+                    </>
                   )}
                 </div>
 
@@ -479,7 +491,10 @@ export default async function VillaDetailPage({ params }: { params: { slug: stri
                       <div className="flex justify-between items-center font-bold text-base sm:text-lg">
                         <span className="text-gray-900">Total Price</span>
                         <span className="text-cyan-600">
-                          {villa.pricing?.monthlyRate} {villa.pricing?.currency}
+                          {villa.isMonthlyRate && villa.monthlyPriceText 
+                            ? villa.monthlyPriceText.replace(/Monthly\s+/i, '฿').trim()
+                            : `฿${villa.pricePerNight || villa.pricing?.dailyRate || 'Contact'}`
+                          }
                         </span>
                       </div>
                     </div>
