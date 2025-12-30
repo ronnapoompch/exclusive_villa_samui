@@ -54,7 +54,11 @@ interface Villa {
 
 async function getVilla(slug: string): Promise<Villa | null> {
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3001';
+    // Use absolute URL in production, relative in development
+    const baseUrl = process.env.VERCEL_URL 
+      ? `https://${process.env.VERCEL_URL}` 
+      : (process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3001');
+    
     // Fetch single villa by slug using dedicated endpoint
     const response = await fetch(`${baseUrl}/api/villas?slug=${slug}`, {
       cache: 'no-store'

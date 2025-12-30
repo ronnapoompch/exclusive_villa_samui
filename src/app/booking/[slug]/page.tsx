@@ -45,9 +45,13 @@ interface Villa {
 
 async function getVilla(slug: string): Promise<Villa | null> {
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-    // Use JSON API with complete pricing data and Vercel Blob images
-    const response = await fetch(`${baseUrl}/api/villas?limit=1000`, {
+    // Use absolute URL in production, relative in development
+    const baseUrl = process.env.VERCEL_URL 
+      ? `https://${process.env.VERCEL_URL}` 
+      : (process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000');
+    
+    // Fetch single villa by slug using dedicated endpoint
+    const response = await fetch(`${baseUrl}/api/villas?slug=${slug}`, {
       cache: 'no-store'
     });
     
@@ -57,12 +61,10 @@ async function getVilla(slug: string): Promise<Villa | null> {
     }
 
     const data = await response.json();
-    // ค้นหา villa จาก slug
-    const villa = data.data?.villas?.find((v: Villa) => v.slug === slug);
     
-    if (villa) {
-      console.log(`✅ Villa booking data loaded for slug: ${slug}`, villa.name);
-      return villa;
+    if (data.success && data.data) {
+      console.log(`✅ Villa booking data loaded for slug: ${slug}`, data.data.name);
+      return data.data;
     }
     
     console.log(`❌ Villa not found for slug: ${slug}`);
