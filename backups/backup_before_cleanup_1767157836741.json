@@ -1,0 +1,834 @@
+{
+  "timestamp": "2025-12-31T05:10:36.739Z",
+  "bookings": [
+    {
+      "id": "cmjstwjf20001liknz60lfj76",
+      "villaId": "cmjs8i6rb004f116vr53vejof",
+      "userId": null,
+      "guestName": "Test Guest",
+      "guestEmail": "testguest@example.com",
+      "guestPhone": "+66812345678",
+      "checkIn": "2026-01-15T00:00:00.000Z",
+      "checkOut": "2026-01-20T00:00:00.000Z",
+      "guests": 4,
+      "totalAmount": "50000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Test booking for development",
+      "createdAt": "2025-12-30T16:55:54.446Z",
+      "updatedAt": "2025-12-30T16:55:54.446Z",
+      "villa": {
+        "name": "Sunny Panorama Summit",
+        "slug": "sunny-panorama-summit"
+      },
+      "payments": []
+    },
+    {
+      "id": "cmjstx0ki0001n84shciyd440",
+      "villaId": "cmjs8i6rb004f116vr53vejof",
+      "userId": null,
+      "guestName": "Test Guest",
+      "guestEmail": "testguest@example.com",
+      "guestPhone": "+66812345678",
+      "checkIn": "2026-01-15T00:00:00.000Z",
+      "checkOut": "2026-01-20T00:00:00.000Z",
+      "guests": 4,
+      "totalAmount": "50000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Test booking for development",
+      "createdAt": "2025-12-30T16:56:16.675Z",
+      "updatedAt": "2025-12-30T16:56:16.675Z",
+      "villa": {
+        "name": "Sunny Panorama Summit",
+        "slug": "sunny-panorama-summit"
+      },
+      "payments": [
+        {
+          "id": "cmjstx0q50003n84sxr3yp8en",
+          "bookingId": "cmjstx0ki0001n84shciyd440",
+          "amount": "50000",
+          "currency": "THB",
+          "status": "PAID",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_test_1767113776871",
+          "processedAt": null,
+          "createdAt": "2025-12-30T16:56:16.877Z",
+          "updatedAt": "2025-12-30T16:56:16.877Z",
+          "paymentIntentId": "pi_test_1767113776871"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub2op00017soxq61nxlac",
+      "villaId": "cmjs8hehp0003116vz0w0ry9j",
+      "userId": null,
+      "guestName": "John Smith",
+      "guestEmail": "john.smith@example.com",
+      "guestPhone": "+66812345671",
+      "checkIn": "2026-01-09T17:07:12.598Z",
+      "checkOut": "2026-01-12T17:07:12.598Z",
+      "guests": 2,
+      "totalAmount": "45000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Early check-in requested",
+      "createdAt": "2025-12-30T17:07:12.602Z",
+      "updatedAt": "2025-12-30T17:07:12.602Z",
+      "villa": {
+        "name": "5 Stars beachfront Villa",
+        "slug": "5-stars-beachfront-villa"
+      },
+      "payments": [
+        {
+          "id": "cmjsub2uu00037sox8ex6ukkk",
+          "bookingId": "cmjsub2op00017soxq61nxlac",
+          "amount": "45000",
+          "currency": "THB",
+          "status": "PENDING",
+          "paymentMethod": "TEST",
+          "transactionId": null,
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:12.822Z",
+          "updatedAt": "2025-12-30T17:07:12.822Z",
+          "paymentIntentId": "pi_test_1767114432820_0"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub30r00057sox3cnq9knp",
+      "villaId": "cmjs8hevm0004116v4pocnoq1",
+      "userId": null,
+      "guestName": "Sarah Johnson",
+      "guestEmail": "sarah.j@example.com",
+      "guestPhone": "+66812345672",
+      "checkIn": "2026-01-14T17:07:13.033Z",
+      "checkOut": "2026-01-18T17:07:13.033Z",
+      "guests": 3,
+      "totalAmount": "58000",
+      "currency": "THB",
+      "status": "CONFIRMED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:13.036Z",
+      "updatedAt": "2025-12-30T17:07:13.036Z",
+      "villa": {
+        "name": "Anvara Villa",
+        "slug": "anvara-villa"
+      },
+      "payments": [
+        {
+          "id": "cmjsub36i00077soxd5a06vr5",
+          "bookingId": "cmjsub30r00057sox3cnq9knp",
+          "amount": "58000",
+          "currency": "THB",
+          "status": "PAID",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114433240_1",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:13.242Z",
+          "updatedAt": "2025-12-30T17:07:13.242Z",
+          "paymentIntentId": "pi_test_1767114433240_1"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub3c900097soxz3hycif0",
+      "villaId": "cmjs8hf8y0005116vx7liygg5",
+      "userId": null,
+      "guestName": "Michael Chen",
+      "guestEmail": "michael.chen@example.com",
+      "guestPhone": "+66812345673",
+      "checkIn": "2026-01-19T17:07:13.447Z",
+      "checkOut": "2026-01-24T17:07:13.447Z",
+      "guests": 4,
+      "totalAmount": "62000",
+      "currency": "THB",
+      "status": "CANCELLED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:13.449Z",
+      "updatedAt": "2025-12-30T17:07:13.449Z",
+      "villa": {
+        "name": "Anzhu Serenity",
+        "slug": "anzhu-serenity"
+      },
+      "payments": [
+        {
+          "id": "cmjsub3i5000b7soxreqsn826",
+          "bookingId": "cmjsub3c900097soxz3hycif0",
+          "amount": "62000",
+          "currency": "THB",
+          "status": "REFUNDED",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114433659_2",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:13.662Z",
+          "updatedAt": "2025-12-30T17:07:13.662Z",
+          "paymentIntentId": "pi_test_1767114433659_2"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub3nt000d7soxlaoqpi9b",
+      "villaId": "cmjs8hfl80006116ve9sdpf9w",
+      "userId": null,
+      "guestName": "Emma Williams",
+      "guestEmail": "emma.w@example.com",
+      "guestPhone": "+66812345674",
+      "checkIn": "2026-01-24T17:07:13.863Z",
+      "checkOut": "2026-01-30T17:07:13.863Z",
+      "guests": 5,
+      "totalAmount": "78000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Early check-in requested",
+      "createdAt": "2025-12-30T17:07:13.866Z",
+      "updatedAt": "2025-12-30T17:07:13.866Z",
+      "villa": {
+        "name": "Alicia Serenity A3",
+        "slug": "alicia-serenity-a3"
+      },
+      "payments": [
+        {
+          "id": "cmjsub3th000f7sox82i8ev81",
+          "bookingId": "cmjsub3nt000d7soxlaoqpi9b",
+          "amount": "78000",
+          "currency": "THB",
+          "status": "PENDING",
+          "paymentMethod": "TEST",
+          "transactionId": null,
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:14.070Z",
+          "updatedAt": "2025-12-30T17:07:14.070Z",
+          "paymentIntentId": "pi_test_1767114434067_3"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub3z7000h7soxqhbljv10",
+      "villaId": "cmjs8hfzf0007116vukegswtr",
+      "userId": null,
+      "guestName": "David Brown",
+      "guestEmail": "david.brown@example.com",
+      "guestPhone": "+66812345675",
+      "checkIn": "2026-01-29T17:07:14.272Z",
+      "checkOut": "2026-02-05T17:07:14.272Z",
+      "guests": 6,
+      "totalAmount": "95000",
+      "currency": "THB",
+      "status": "CONFIRMED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:14.275Z",
+      "updatedAt": "2025-12-30T17:07:14.275Z",
+      "villa": {
+        "name": "Alicia Serenity A5",
+        "slug": "alicia-serenity-a5"
+      },
+      "payments": [
+        {
+          "id": "cmjsub45a000j7sox57591sle",
+          "bookingId": "cmjsub3z7000h7soxqhbljv10",
+          "amount": "95000",
+          "currency": "THB",
+          "status": "PAID",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114434492_4",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:14.494Z",
+          "updatedAt": "2025-12-30T17:07:14.494Z",
+          "paymentIntentId": "pi_test_1767114434492_4"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub4az000l7soxudrnl27u",
+      "villaId": "cmjs8hehp0003116vz0w0ry9j",
+      "userId": null,
+      "guestName": "Lisa Anderson",
+      "guestEmail": "lisa.a@example.com",
+      "guestPhone": "+66812345676",
+      "checkIn": "2026-02-03T17:07:14.697Z",
+      "checkOut": "2026-02-06T17:07:14.697Z",
+      "guests": 7,
+      "totalAmount": "120000",
+      "currency": "THB",
+      "status": "CANCELLED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:14.699Z",
+      "updatedAt": "2025-12-30T17:07:14.699Z",
+      "villa": {
+        "name": "5 Stars beachfront Villa",
+        "slug": "5-stars-beachfront-villa"
+      },
+      "payments": [
+        {
+          "id": "cmjsub4gp000n7sox6idcn9we",
+          "bookingId": "cmjsub4az000l7soxudrnl27u",
+          "amount": "120000",
+          "currency": "THB",
+          "status": "REFUNDED",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114434903_5",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:14.905Z",
+          "updatedAt": "2025-12-30T17:07:14.905Z",
+          "paymentIntentId": "pi_test_1767114434903_5"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub4mi000p7soxfzyysdx7",
+      "villaId": "cmjs8hevm0004116v4pocnoq1",
+      "userId": null,
+      "guestName": "James Wilson",
+      "guestEmail": "james.w@example.com",
+      "guestPhone": "+66812345677",
+      "checkIn": "2026-02-08T17:07:15.112Z",
+      "checkOut": "2026-02-12T17:07:15.112Z",
+      "guests": 2,
+      "totalAmount": "150000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Early check-in requested",
+      "createdAt": "2025-12-30T17:07:15.115Z",
+      "updatedAt": "2025-12-30T17:07:15.115Z",
+      "villa": {
+        "name": "Anvara Villa",
+        "slug": "anvara-villa"
+      },
+      "payments": [
+        {
+          "id": "cmjsub4s9000r7soxrinxbctw",
+          "bookingId": "cmjsub4mi000p7soxfzyysdx7",
+          "amount": "150000",
+          "currency": "THB",
+          "status": "PENDING",
+          "paymentMethod": "TEST",
+          "transactionId": null,
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:15.322Z",
+          "updatedAt": "2025-12-30T17:07:15.322Z",
+          "paymentIntentId": "pi_test_1767114435319_6"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub4y1000t7soxranraeqr",
+      "villaId": "cmjs8hf8y0005116vx7liygg5",
+      "userId": null,
+      "guestName": "Maria Garcia",
+      "guestEmail": "maria.g@example.com",
+      "guestPhone": "+66812345678",
+      "checkIn": "2026-02-13T17:07:15.527Z",
+      "checkOut": "2026-02-18T17:07:15.527Z",
+      "guests": 3,
+      "totalAmount": "45000",
+      "currency": "THB",
+      "status": "CONFIRMED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:15.529Z",
+      "updatedAt": "2025-12-30T17:07:15.529Z",
+      "villa": {
+        "name": "Anzhu Serenity",
+        "slug": "anzhu-serenity"
+      },
+      "payments": [
+        {
+          "id": "cmjsub53s000v7sox43dkil7r",
+          "bookingId": "cmjsub4y1000t7soxranraeqr",
+          "amount": "45000",
+          "currency": "THB",
+          "status": "PAID",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114435734_7",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:15.736Z",
+          "updatedAt": "2025-12-30T17:07:15.736Z",
+          "paymentIntentId": "pi_test_1767114435734_7"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub59j000x7sox7p10ixvw",
+      "villaId": "cmjs8hfl80006116ve9sdpf9w",
+      "userId": null,
+      "guestName": "Robert Taylor",
+      "guestEmail": "robert.t@example.com",
+      "guestPhone": "+66812345679",
+      "checkIn": "2026-02-18T17:07:15.941Z",
+      "checkOut": "2026-02-24T17:07:15.941Z",
+      "guests": 4,
+      "totalAmount": "58000",
+      "currency": "THB",
+      "status": "CANCELLED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:15.943Z",
+      "updatedAt": "2025-12-30T17:07:15.943Z",
+      "villa": {
+        "name": "Alicia Serenity A3",
+        "slug": "alicia-serenity-a3"
+      },
+      "payments": [
+        {
+          "id": "cmjsub5fd000z7soxm9pfs8yh",
+          "bookingId": "cmjsub59j000x7sox7p10ixvw",
+          "amount": "58000",
+          "currency": "THB",
+          "status": "REFUNDED",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114436151_8",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:16.153Z",
+          "updatedAt": "2025-12-30T17:07:16.153Z",
+          "paymentIntentId": "pi_test_1767114436151_8"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub5l500117soxjy7imt09",
+      "villaId": "cmjs8hfzf0007116vukegswtr",
+      "userId": null,
+      "guestName": "Jennifer Lee",
+      "guestEmail": "jennifer.l@example.com",
+      "guestPhone": "+66812345680",
+      "checkIn": "2026-02-23T17:07:16.359Z",
+      "checkOut": "2026-03-02T17:07:16.359Z",
+      "guests": 5,
+      "totalAmount": "62000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Early check-in requested",
+      "createdAt": "2025-12-30T17:07:16.361Z",
+      "updatedAt": "2025-12-30T17:07:16.361Z",
+      "villa": {
+        "name": "Alicia Serenity A5",
+        "slug": "alicia-serenity-a5"
+      },
+      "payments": [
+        {
+          "id": "cmjsub5qu00137soxqcea7mtt",
+          "bookingId": "cmjsub5l500117soxjy7imt09",
+          "amount": "62000",
+          "currency": "THB",
+          "status": "PENDING",
+          "paymentMethod": "TEST",
+          "transactionId": null,
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:16.566Z",
+          "updatedAt": "2025-12-30T17:07:16.566Z",
+          "paymentIntentId": "pi_test_1767114436564_9"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub5wl00157soxqqm2s14d",
+      "villaId": "cmjs8hehp0003116vz0w0ry9j",
+      "userId": null,
+      "guestName": "Thomas Martin",
+      "guestEmail": "thomas.m@example.com",
+      "guestPhone": "+66812345681",
+      "checkIn": "2026-02-28T17:07:16.771Z",
+      "checkOut": "2026-03-03T17:07:16.771Z",
+      "guests": 6,
+      "totalAmount": "78000",
+      "currency": "THB",
+      "status": "CONFIRMED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:16.774Z",
+      "updatedAt": "2025-12-30T17:07:16.774Z",
+      "villa": {
+        "name": "5 Stars beachfront Villa",
+        "slug": "5-stars-beachfront-villa"
+      },
+      "payments": [
+        {
+          "id": "cmjsub62g00177soxsj9r4n03",
+          "bookingId": "cmjsub5wl00157soxqqm2s14d",
+          "amount": "78000",
+          "currency": "THB",
+          "status": "PAID",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114436982_10",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:16.984Z",
+          "updatedAt": "2025-12-30T17:07:16.984Z",
+          "paymentIntentId": "pi_test_1767114436982_10"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub68500197soxh8l4h69k",
+      "villaId": "cmjs8hevm0004116v4pocnoq1",
+      "userId": null,
+      "guestName": "Anna Rodriguez",
+      "guestEmail": "anna.r@example.com",
+      "guestPhone": "+66812345682",
+      "checkIn": "2026-03-05T17:07:17.187Z",
+      "checkOut": "2026-03-09T17:07:17.187Z",
+      "guests": 7,
+      "totalAmount": "95000",
+      "currency": "THB",
+      "status": "CANCELLED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:17.190Z",
+      "updatedAt": "2025-12-30T17:07:17.190Z",
+      "villa": {
+        "name": "Anvara Villa",
+        "slug": "anvara-villa"
+      },
+      "payments": [
+        {
+          "id": "cmjsub6dy001b7sox0dg1bjyy",
+          "bookingId": "cmjsub68500197soxh8l4h69k",
+          "amount": "95000",
+          "currency": "THB",
+          "status": "REFUNDED",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114437396_11",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:17.398Z",
+          "updatedAt": "2025-12-30T17:07:17.398Z",
+          "paymentIntentId": "pi_test_1767114437396_11"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub6jn001d7soxu2neil89",
+      "villaId": "cmjs8hf8y0005116vx7liygg5",
+      "userId": null,
+      "guestName": "Daniel White",
+      "guestEmail": "daniel.w@example.com",
+      "guestPhone": "+66812345683",
+      "checkIn": "2026-03-10T17:07:17.601Z",
+      "checkOut": "2026-03-15T17:07:17.601Z",
+      "guests": 2,
+      "totalAmount": "120000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentStatus": "PENDING",
+      "specialRequests": "Early check-in requested",
+      "createdAt": "2025-12-30T17:07:17.604Z",
+      "updatedAt": "2025-12-30T17:07:17.604Z",
+      "villa": {
+        "name": "Anzhu Serenity",
+        "slug": "anzhu-serenity"
+      },
+      "payments": [
+        {
+          "id": "cmjsub6tx001f7sox26ffsr36",
+          "bookingId": "cmjsub6jn001d7soxu2neil89",
+          "amount": "120000",
+          "currency": "THB",
+          "status": "PENDING",
+          "paymentMethod": "TEST",
+          "transactionId": null,
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:17.973Z",
+          "updatedAt": "2025-12-30T17:07:17.973Z",
+          "paymentIntentId": "pi_test_1767114437971_12"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub75b001h7sox3l8466vj",
+      "villaId": "cmjs8hfl80006116ve9sdpf9w",
+      "userId": null,
+      "guestName": "Sophie Clark",
+      "guestEmail": "sophie.c@example.com",
+      "guestPhone": "+66812345684",
+      "checkIn": "2026-03-15T17:07:18.381Z",
+      "checkOut": "2026-03-21T17:07:18.381Z",
+      "guests": 3,
+      "totalAmount": "150000",
+      "currency": "THB",
+      "status": "CONFIRMED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:18.383Z",
+      "updatedAt": "2025-12-30T17:07:18.383Z",
+      "villa": {
+        "name": "Alicia Serenity A3",
+        "slug": "alicia-serenity-a3"
+      },
+      "payments": [
+        {
+          "id": "cmjsub7gp001j7sox4v7c1dli",
+          "bookingId": "cmjsub75b001h7sox3l8466vj",
+          "amount": "150000",
+          "currency": "THB",
+          "status": "PAID",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114438791_13",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:18.793Z",
+          "updatedAt": "2025-12-30T17:07:18.793Z",
+          "paymentIntentId": "pi_test_1767114438791_13"
+        }
+      ]
+    },
+    {
+      "id": "cmjsub7qp001l7sox74pwudzr",
+      "villaId": "cmjs8hfzf0007116vukegswtr",
+      "userId": null,
+      "guestName": "Mark Thompson",
+      "guestEmail": "mark.t@example.com",
+      "guestPhone": "+66812345685",
+      "checkIn": "2026-03-20T17:07:19.151Z",
+      "checkOut": "2026-03-27T17:07:19.151Z",
+      "guests": 4,
+      "totalAmount": "45000",
+      "currency": "THB",
+      "status": "CANCELLED",
+      "paymentStatus": "PENDING",
+      "specialRequests": null,
+      "createdAt": "2025-12-30T17:07:19.154Z",
+      "updatedAt": "2025-12-30T17:07:19.154Z",
+      "villa": {
+        "name": "Alicia Serenity A5",
+        "slug": "alicia-serenity-a5"
+      },
+      "payments": [
+        {
+          "id": "cmjsub85q001n7soxunoh1975",
+          "bookingId": "cmjsub7qp001l7sox74pwudzr",
+          "amount": "45000",
+          "currency": "THB",
+          "status": "REFUNDED",
+          "paymentMethod": "TEST",
+          "transactionId": "txn_1767114439693_14",
+          "processedAt": null,
+          "createdAt": "2025-12-30T17:07:19.695Z",
+          "updatedAt": "2025-12-30T17:07:19.695Z",
+          "paymentIntentId": "pi_test_1767114439692_14"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "cmjstx0q50003n84sxr3yp8en",
+      "bookingId": "cmjstx0ki0001n84shciyd440",
+      "amount": "50000",
+      "currency": "THB",
+      "status": "PAID",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_test_1767113776871",
+      "processedAt": null,
+      "createdAt": "2025-12-30T16:56:16.877Z",
+      "updatedAt": "2025-12-30T16:56:16.877Z",
+      "paymentIntentId": "pi_test_1767113776871"
+    },
+    {
+      "id": "cmjsub2uu00037sox8ex6ukkk",
+      "bookingId": "cmjsub2op00017soxq61nxlac",
+      "amount": "45000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentMethod": "TEST",
+      "transactionId": null,
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:12.822Z",
+      "updatedAt": "2025-12-30T17:07:12.822Z",
+      "paymentIntentId": "pi_test_1767114432820_0"
+    },
+    {
+      "id": "cmjsub36i00077soxd5a06vr5",
+      "bookingId": "cmjsub30r00057sox3cnq9knp",
+      "amount": "58000",
+      "currency": "THB",
+      "status": "PAID",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114433240_1",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:13.242Z",
+      "updatedAt": "2025-12-30T17:07:13.242Z",
+      "paymentIntentId": "pi_test_1767114433240_1"
+    },
+    {
+      "id": "cmjsub3i5000b7soxreqsn826",
+      "bookingId": "cmjsub3c900097soxz3hycif0",
+      "amount": "62000",
+      "currency": "THB",
+      "status": "REFUNDED",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114433659_2",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:13.662Z",
+      "updatedAt": "2025-12-30T17:07:13.662Z",
+      "paymentIntentId": "pi_test_1767114433659_2"
+    },
+    {
+      "id": "cmjsub3th000f7sox82i8ev81",
+      "bookingId": "cmjsub3nt000d7soxlaoqpi9b",
+      "amount": "78000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentMethod": "TEST",
+      "transactionId": null,
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:14.070Z",
+      "updatedAt": "2025-12-30T17:07:14.070Z",
+      "paymentIntentId": "pi_test_1767114434067_3"
+    },
+    {
+      "id": "cmjsub45a000j7sox57591sle",
+      "bookingId": "cmjsub3z7000h7soxqhbljv10",
+      "amount": "95000",
+      "currency": "THB",
+      "status": "PAID",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114434492_4",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:14.494Z",
+      "updatedAt": "2025-12-30T17:07:14.494Z",
+      "paymentIntentId": "pi_test_1767114434492_4"
+    },
+    {
+      "id": "cmjsub4gp000n7sox6idcn9we",
+      "bookingId": "cmjsub4az000l7soxudrnl27u",
+      "amount": "120000",
+      "currency": "THB",
+      "status": "REFUNDED",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114434903_5",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:14.905Z",
+      "updatedAt": "2025-12-30T17:07:14.905Z",
+      "paymentIntentId": "pi_test_1767114434903_5"
+    },
+    {
+      "id": "cmjsub4s9000r7soxrinxbctw",
+      "bookingId": "cmjsub4mi000p7soxfzyysdx7",
+      "amount": "150000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentMethod": "TEST",
+      "transactionId": null,
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:15.322Z",
+      "updatedAt": "2025-12-30T17:07:15.322Z",
+      "paymentIntentId": "pi_test_1767114435319_6"
+    },
+    {
+      "id": "cmjsub53s000v7sox43dkil7r",
+      "bookingId": "cmjsub4y1000t7soxranraeqr",
+      "amount": "45000",
+      "currency": "THB",
+      "status": "PAID",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114435734_7",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:15.736Z",
+      "updatedAt": "2025-12-30T17:07:15.736Z",
+      "paymentIntentId": "pi_test_1767114435734_7"
+    },
+    {
+      "id": "cmjsub5fd000z7soxm9pfs8yh",
+      "bookingId": "cmjsub59j000x7sox7p10ixvw",
+      "amount": "58000",
+      "currency": "THB",
+      "status": "REFUNDED",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114436151_8",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:16.153Z",
+      "updatedAt": "2025-12-30T17:07:16.153Z",
+      "paymentIntentId": "pi_test_1767114436151_8"
+    },
+    {
+      "id": "cmjsub5qu00137soxqcea7mtt",
+      "bookingId": "cmjsub5l500117soxjy7imt09",
+      "amount": "62000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentMethod": "TEST",
+      "transactionId": null,
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:16.566Z",
+      "updatedAt": "2025-12-30T17:07:16.566Z",
+      "paymentIntentId": "pi_test_1767114436564_9"
+    },
+    {
+      "id": "cmjsub62g00177soxsj9r4n03",
+      "bookingId": "cmjsub5wl00157soxqqm2s14d",
+      "amount": "78000",
+      "currency": "THB",
+      "status": "PAID",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114436982_10",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:16.984Z",
+      "updatedAt": "2025-12-30T17:07:16.984Z",
+      "paymentIntentId": "pi_test_1767114436982_10"
+    },
+    {
+      "id": "cmjsub6dy001b7sox0dg1bjyy",
+      "bookingId": "cmjsub68500197soxh8l4h69k",
+      "amount": "95000",
+      "currency": "THB",
+      "status": "REFUNDED",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114437396_11",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:17.398Z",
+      "updatedAt": "2025-12-30T17:07:17.398Z",
+      "paymentIntentId": "pi_test_1767114437396_11"
+    },
+    {
+      "id": "cmjsub6tx001f7sox26ffsr36",
+      "bookingId": "cmjsub6jn001d7soxu2neil89",
+      "amount": "120000",
+      "currency": "THB",
+      "status": "PENDING",
+      "paymentMethod": "TEST",
+      "transactionId": null,
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:17.973Z",
+      "updatedAt": "2025-12-30T17:07:17.973Z",
+      "paymentIntentId": "pi_test_1767114437971_12"
+    },
+    {
+      "id": "cmjsub7gp001j7sox4v7c1dli",
+      "bookingId": "cmjsub75b001h7sox3l8466vj",
+      "amount": "150000",
+      "currency": "THB",
+      "status": "PAID",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114438791_13",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:18.793Z",
+      "updatedAt": "2025-12-30T17:07:18.793Z",
+      "paymentIntentId": "pi_test_1767114438791_13"
+    },
+    {
+      "id": "cmjsub85q001n7soxunoh1975",
+      "bookingId": "cmjsub7qp001l7sox74pwudzr",
+      "amount": "45000",
+      "currency": "THB",
+      "status": "REFUNDED",
+      "paymentMethod": "TEST",
+      "transactionId": "txn_1767114439693_14",
+      "processedAt": null,
+      "createdAt": "2025-12-30T17:07:19.695Z",
+      "updatedAt": "2025-12-30T17:07:19.695Z",
+      "paymentIntentId": "pi_test_1767114439692_14"
+    }
+  ],
+  "counts": {
+    "bookings": 17,
+    "payments": 16
+  }
+}

@@ -50,19 +50,67 @@ interface Villa {
 
 async function getVilla(slug: string): Promise<Villa | null> {
   try {
-    // Use service layer directly to avoid authentication issues
-    const villaRepository = new VillaRepository(prisma);
-    const villaService = new VillaService(villaRepository);
-    
-    const villa = await villaService.getVillaBySlug(slug) as any;
+    // Fetch villa with pricing data and images
+    const villa = await prisma.villa.findUnique({
+      where: { slug },
+      include: {
+        villaImages: {
+          orderBy: { order: 'asc' },
+        },
+        pricing: {
+          orderBy: { month: 'asc' },
+        },
+      },
+    });
     
     if (villa) {
+      // Get current or next month's pricing
+      const currentDate = new Date();
+      const currentMonth = currentDate.getMonth() + 1;
+      const currentYear = currentDate.getFullYear();
+      
+      // Find pricing for current month or use first available
+      const currentPricing = villa.pricing.find(
+        p => p.month === currentMonth && p.year === currentYear
+      ) || villa.pricing[0];
+      
+      // Convert BigInt to Number for calculations
+      const pricePerNight = currentPricing?.dailyRate 
+        ? (typeof currentPricing.dailyRate === 'bigint' 
+            ? Number(currentPricing.dailyRate) 
+            : currentPricing.dailyRate)
+        : 0;
+      
+      // Check if we have images in villaImages table or fallback to old images field
+      let heroImages: string[] = [];
+      let allImages: string[] = [];
+      
+      if (villa.villaImages && villa.villaImages.length > 0) {
+        // Use new villaImages table (with isHero support)
+        heroImages = villa.villaImages
+          .filter((img: any) => img.isHero)
+          .map((img: any) => img.url);
+        
+        allImages = villa.villaImages.map((img: any) => img.url);
+      } else if (villa.images && Array.isArray(villa.images) && villa.images.length > 0) {
+        // Fallback to old images JSON field
+        allImages = villa.images;
+        heroImages = villa.images.slice(0, 1); // Use first image as hero
+      }
+      
       // Transform villa data to match interface
       return {
         ...villa,
-        images: Array.isArray(villa.images) ? villa.images : 
-                villa.villaImages?.map((img: any) => img.url) || [],
+        images: allImages,
+        hero: heroImages.length > 0 ? heroImages : allImages.slice(0, 1), // Use first image as hero if no hero images
         amenities: Array.isArray(villa.amenities) ? villa.amenities : [],
+        pricePerNight,
+        priceRange: currentPricing ? {
+          min: typeof currentPricing.dailyRate === 'bigint' ? Number(currentPricing.dailyRate) : (currentPricing.dailyRate || 0),
+          max: currentPricing.weeklyRate 
+            ? (typeof currentPricing.weeklyRate === 'bigint' ? Number(currentPricing.weeklyRate) : currentPricing.weeklyRate)
+            : (typeof currentPricing.dailyRate === 'bigint' ? Number(currentPricing.dailyRate) : (currentPricing.dailyRate || 0)),
+        } : undefined,
       } as Villa;
     }
     
@@ -101,8 +149,8 @@ export default async function VillaBookingPage({ params }: { params: { slug: str
     ? villa.reviews.reduce((acc, review) => acc + review.rating, 0) / villa.reviews.length 
     : 0;
 
-  // Get villa images from hero or images array
-  const villaImages = villa.hero || villa.images || [];
+  // Get villa images - prioritize hero images for gallery
+  const villaImages = villa.hero && villa.hero.length > 0 ? villa.hero : villa.images || [];
   
   // Get price - prioritize priceRange.min, then pricePerNight
   const displayPrice = villa.priceRange?.min || villa.pricePerNight || 0;

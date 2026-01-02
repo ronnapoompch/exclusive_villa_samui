@@ -167,7 +167,6 @@ export async function GET(
   }
 }
 
-// POST - เช็คว่าช่วงวันที่ต้องการจองว่างไหม
 export async function POST(
   request: NextRequest,
   { params }: { params: { slug: string } }
@@ -178,7 +177,15 @@ export async function POST(
     const body = await request.json();
     const { checkInDate, checkOutDate } = body;
 
+    console.log('🔍 Availability POST Request:', {
+      slug,
+      checkInDate,
+      checkOutDate,
+      bodyKeys: Object.keys(body)
+    });
+
     if (!checkInDate || !checkOutDate) {
+      console.error('❌ Missing dates:', { checkInDate, checkOutDate });
       return NextResponse.json(
         { error: 'Check-in and check-out dates are required' },
         { status: 400 }
@@ -192,14 +199,22 @@ export async function POST(
     });
 
     if (!villa) {
+      console.error('❌ Villa not found:', slug);
       return NextResponse.json(
         { error: 'Villa not found' },
         { status: 404 }
       );
     }
 
+    console.log('✅ Villa found:', villa.name);
+
     const startDate = new Date(checkInDate);
     const endDate = new Date(checkOutDate);
+
+    console.log('📅 Date range:', {
+      startDate: startDate.toISOString(),
+      endDate: endDate.toISOString()
+    });
 
     // เช็คว่ามีการจองที่ทับซ้อนหรือไม่
     const conflictingBookings = await prisma.booking.findMany({
@@ -264,6 +279,12 @@ export async function POST(
     });
 
     const isAvailable = conflictingBookings.length === 0 && blockedInRange.length === 0;
+
+    console.log('📊 Availability result:', {
+      isAvailable,
+      conflicts: conflictingBookings.length,
+      blocked: blockedInRange.length
+    });
 
     return NextResponse.json({
       success: true,

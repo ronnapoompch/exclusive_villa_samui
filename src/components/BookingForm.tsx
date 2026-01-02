@@ -232,17 +232,46 @@ export default function BookingForm({ villa }: BookingFormProps) {
 
   // Payment Step
   if (bookingStatus === 'payment') {
+    // Calculate price breakdown
+    const baseTotal = pricingData?.pricing.totalNights || (nights * parseInt(villa.pricing.dailyRate || '0'));
+    const cleaningFee = pricingData?.pricing.cleaningFee || 0;
+    const serviceFee = pricingData?.pricing.serviceFee || (baseTotal * 0.05);
+    const taxes = (baseTotal + cleaningFee + serviceFee) * 0.05;
+    
+    // Apply discounts
+    let discount = 0;
+    let discountLabel = '';
+    if (nights >= 30) {
+      discount = baseTotal * 0.30;
+      discountLabel = 'Monthly discount (30%)';
+    } else if (nights >= 7) {
+      discount = baseTotal * 0.15;
+      discountLabel = 'Weekly discount (15%)';
+    }
+    
+    const finalTotal = baseTotal - discount + cleaningFee + serviceFee + taxes;
+
+    // Convert date strings to ISO datetime format (required by API)
+    const checkInISO = new Date(bookingData.checkIn + 'T00:00:00.000Z').toISOString();
+    const checkOutISO = new Date(bookingData.checkOut + 'T00:00:00.000Z').toISOString();
+
     const paymentBookingData = {
       villaId: villa.id,
       villaName: villa.name,
-      checkIn: bookingData.checkIn,
-      checkOut: bookingData.checkOut,
+      checkInDate: checkInISO,
+      checkOutDate: checkOutISO,
+      nights: nights,
       guests: bookingData.guests,
-      firstName: bookingData.firstName,
-      lastName: bookingData.lastName,
-      email: bookingData.email,
-      phone: bookingData.phone,
-      totalAmount: totalAmount
+      guestName: `${bookingData.firstName} ${bookingData.lastName}`,
+      guestEmail: bookingData.email,
+      guestPhone: bookingData.phone,
+      specialRequests: bookingData.specialRequests,
+      baseTotal: Math.round(baseTotal),
+      discountAmount: Math.round(discount),
+      discountLabel: discountLabel,
+      serviceFee: Math.round(serviceFee),
+      taxes: Math.round(taxes),
+      totalAmount: Math.round(finalTotal)
     };
 
     return (

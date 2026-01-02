@@ -1,18 +1,35 @@
 /** @type {import('next').NextConfig} */
 
-// TEMPORARILY DISABLED - Testing if headers cause 500 error
-const securityHeaders = []
-
-// Original security headers (OWASP baseline hardening) - DISABLED FOR TESTING
-/*
+// Phase 1.8: Security Headers (Production-hardened OWASP baseline)
 const securityHeaders = [
-  { key: 'X-DNS-Prefetch-Control', value: 'on' },
-  { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
-  { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
-  { key: 'X-Content-Type-Options', value: 'nosniff' },
-  { key: 'X-XSS-Protection', value: '1; mode=block' },
-  { key: 'Referrer-Policy', value: 'origin-when-cross-origin' },
-  { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+  {
+    key: 'X-DNS-Prefetch-Control',
+    value: 'on'
+  },
+  {
+    key: 'Strict-Transport-Security',
+    value: 'max-age=63072000; includeSubDomains; preload'
+  },
+  {
+    key: 'X-Frame-Options',
+    value: 'DENY' // Phase 1.8: Upgraded from SAMEORIGIN to DENY
+  },
+  {
+    key: 'X-Content-Type-Options',
+    value: 'nosniff'
+  },
+  {
+    key: 'X-XSS-Protection',
+    value: '1; mode=block'
+  },
+  {
+    key: 'Referrer-Policy',
+    value: 'strict-origin-when-cross-origin' // Phase 1.8: More strict
+  },
+  {
+    key: 'Permissions-Policy',
+    value: 'camera=(), microphone=(), geolocation=(), payment=(self)' // Phase 1.8: Allow payment for Stripe
+  },
   {
     key: 'Content-Security-Policy',
     value: `
@@ -25,11 +42,12 @@ const securityHeaders = [
       base-uri 'self';
       form-action 'self';
       frame-ancestors 'none';
+      frame-src https://js.stripe.com;
+      connect-src 'self' https://api.stripe.com https://*.upstash.io;
       upgrade-insecure-requests;
     `.replace(/\s{2,}/g, ' ').trim()
   }
 ]
-*/
 
 const nextConfig = {
   reactStrictMode: true,

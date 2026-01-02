@@ -12,6 +12,7 @@ import { CalendarIcon, Loader2 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { format, differenceInDays } from 'date-fns';
 import { BookingSubmissionData } from '@/types';
+import StripePayment from '@/components/StripePayment';
 
 // Booking form validation schema
 const bookingSchema = z.object({
@@ -65,6 +66,8 @@ export default function BookingForm({
   const [availabilityError, setAvailabilityError] = useState<string>('');
   const [bookedDates, setBookedDates] = useState<string[]>([]); // วันที่ถูกจองแล้ว
   const [locale, setLocale] = useState<string>('en');
+  const [showPayment, setShowPayment] = useState(false);
+  const [bookingDataForPayment, setBookingDataForPayment] = useState<any>(null);
 
   const {
     register,
@@ -205,7 +208,16 @@ export default function BookingForm({
 
       const result = await response.json();
 
+      console.log('✅ Availability API Response:', {
+        ok: response.ok,
+        status: response.status,
+        success: result.success,
+        available: result.available,
+        fullResult: result
+      });
+
       if (!response.ok || !result.success) {
+        console.error('❌ API Error:', result.error);
         setAvailabilityError(result.error || 'Failed to check availability');
         setAvailability(null);
         setIsCheckingAvailability(false);
@@ -213,6 +225,7 @@ export default function BookingForm({
       }
 
       if (!result.available) {
+        console.warn('⚠️ Not available:', result);
         setAvailabilityError(
           'Selected dates are not available. Please choose different dates.'
         );
@@ -221,8 +234,19 @@ export default function BookingForm({
         return;
       }
       
+      console.log('✅ Dates available! Calculating pricing...');
+      
+      // Convert pricePerNight to number if it's BigInt
+      const basePriceNumber = typeof pricePerNight === 'bigint' 
+        ? Number(pricePerNight) 
+        : pricePerNight;
+      
+      console.log('💵 Price per night:', { original: pricePerNight, converted: basePriceNumber });
+      
       // Calculate pricing with discounts
-      const pricing = calculatePricing(nights, pricePerNight);
+      const pricing = calculatePricing(nights, basePriceNumber);
+      
+      console.log('💰 Pricing calculated:', pricing);
       
       // Set availability with real data
       setAvailability({
@@ -231,6 +255,8 @@ export default function BookingForm({
         checkInDate: result.checkInDate,
         checkOutDate: result.checkOutDate
       });
+
+      console.log('✅ Availability state updated');
 
     } catch (error) {
       console.error('Error checking availability:', error);
@@ -259,16 +285,59 @@ export default function BookingForm({
       specialRequests: data.specialRequests,
     };
 
-    // Use parent component's onBookingSubmit if provided, otherwise handle internally
+    // Use parent component's onBookingSubmit if provided, otherwise show payment form
     if (onBookingSubmit) {
       await onBookingSubmit(bookingData);
     } else {
-      console.log('Booking submitted:', bookingData);
-      alert(`Booking submitted for ${villaTitle}! Total: ${availability.pricing.currency} ${availability.pricing.total}`);
+      console.log('Booking data ready for payment:', bookingData);
+      setBookingDataForPayment(bookingData);
+      setShowPayment(true);
     }
   };
 
   // const nights = checkInDate && checkOutDate ? differenceInDays(checkOutDate, checkInDate) : 0; // Removed unused variable
+
+  // If payment form is shown, render StripePayment instead
+  if (showPayment && bookingDataForPayment && availability) {
+    const paymentBookingData = {
+      villaId,
+      villaName: villaTitle,
+      checkInDate: bookingDataForPayment.checkInDate.toISOString(),
+      checkOutDate: bookingDataForPayment.checkOutDate.toISOString(),
+      nights: availability.pricing.nights,
+      guests: bookingDataForPayment.guests,
+      guestName: bookingDataForPayment.guestName,
+      guestEmail: bookingDataForPayment.guestEmail,
+      guestPhone: bookingDataForPayment.guestPhone,
+      specialRequests: bookingDataForPayment.specialRequests,
+      baseTotal: availability.pricing.baseTotal,
+      discountAmount: availability.pricing.discountAmount,
+      discountLabel: availability.pricing.discountLabel,
+      serviceFee: availability.pricing.serviceFee,
+      taxes: availability.pricing.taxes,
+      totalAmount: availability.pricing.totalPrice,
+    };
+
+    return (
+      <StripePayment
+        bookingData={paymentBookingData}
+        onPaymentSuccess={(bookingId) => {
+          console.log('Payment successful! Booking ID:', bookingId);
+          alert(`Booking confirmed! ID: ${bookingId}`);
+          // Reset form
+          setShowPayment(false);
+          setBookingDataForPayment(null);
+          setCheckInDate(undefined);
+          setCheckOutDate(undefined);
+          setAvailability(null);
+        }}
+        onPaymentError={(error) => {
+          console.error('Payment error:', error);
+          alert(`Payment failed: ${error}`);
+        }}
+      />
+    );
+  }
 
   return (
     <>
@@ -461,22 +530,22 @@ export default function BookingForm({
                       {availability.pricing.discountAmount > 0 ? (
                         <>
                           <div className="flex justify-between text-sm text-gray-500">
-                            <span>Base rate ({availability.pricing.nights} nights × ${availability.pricing.basePrice})</span>
-                            <span className="line-through">${availability.pricing.baseTotal.toLocaleString()}</span>
+                            <span>Base rate ({availability.pricing.nights} nights × ฿{availability.pricing.basePrice.toLocaleString()})</span>
+                            <span className="line-through">฿{availability.pricing.baseTotal.toLocaleString()}</span>
                           </div>
                           <div className="flex justify-between text-sm text-green-600 font-medium">
-                            <span>Discounted rate ({availability.pricing.nights} nights × ${availability.pricing.effectiveRate})</span>
-                            <span>${(availability.pricing.nights * availability.pricing.effectiveRate).toLocaleString()}</span>
+                            <span>Discounted rate ({availability.pricing.nights} nights × ฿{availability.pricing.effectiveRate.toLocaleString()})</span>
+                            <span>฿{(availability.pricing.nights * availability.pricing.effectiveRate).toLocaleString()}</span>
                           </div>
                           <div className="flex justify-between text-sm text-green-600">
                             <span>You save:</span>
-                            <span>-${availability.pricing.discountAmount.toLocaleString()}</span>
+                            <span>-฿{availability.pricing.discountAmount.toLocaleString()}</span>
                           </div>
                         </>
                       ) : (
                         <div className="flex justify-between text-sm">
-                          <span>Nightly rate ({availability.pricing.nights} nights × ${availability.pricing.basePrice})</span>
-                          <span>${availability.pricing.baseTotal.toLocaleString()}</span>
+                          <span>Nightly rate ({availability.pricing.nights} nights × ฿{availability.pricing.basePrice.toLocaleString()})</span>
+                          <span>฿{availability.pricing.baseTotal.toLocaleString()}</span>
                         </div>
                       )}
                     </div>
@@ -487,19 +556,19 @@ export default function BookingForm({
                     {availability.pricing.cleaningFee > 0 && (
                       <div className="flex justify-between text-sm">
                         <span>Cleaning fee</span>
-                        <span>${availability.pricing.cleaningFee.toLocaleString()}</span>
+                        <span>฿{availability.pricing.cleaningFee.toLocaleString()}</span>
                       </div>
                     )}
                     {availability.pricing.serviceFee > 0 && (
                       <div className="flex justify-between text-sm">
                         <span>Service fee (5%)</span>
-                        <span>${availability.pricing.serviceFee.toLocaleString()}</span>
+                        <span>฿{availability.pricing.serviceFee.toLocaleString()}</span>
                       </div>
                     )}
                     {availability.pricing.taxes > 0 && (
                       <div className="flex justify-between text-sm">
                         <span>Taxes (7%)</span>
-                        <span>${availability.pricing.taxes.toLocaleString()}</span>
+                        <span>฿{availability.pricing.taxes.toLocaleString()}</span>
                       </div>
                     )}
                   </div>
@@ -507,11 +576,11 @@ export default function BookingForm({
                   <div className="border-t pt-2">
                     <div className="flex justify-between font-bold text-lg">
                       <span>Total</span>
-                      <span className="text-blue-600 text-xl">${availability.pricing.totalPrice.toLocaleString()}</span>
+                      <span className="text-blue-600 text-xl">฿{availability.pricing.totalPrice.toLocaleString()}</span>
                     </div>
                     {availability.pricing.discountAmount > 0 && (
                       <p className="text-xs text-green-600 text-right mt-1">
-                        Total savings: ${availability.pricing.discountAmount.toLocaleString()}
+                        Total savings: ฿{availability.pricing.discountAmount.toLocaleString()}
                       </p>
                     )}
                   </div>
@@ -585,7 +654,7 @@ export default function BookingForm({
                 Processing Booking...
               </>
             ) : (
-              `Book Now - $${availability?.pricing?.totalPrice?.toLocaleString() || '0'}`
+              `Book Now - ฿${availability?.pricing?.totalPrice?.toLocaleString() || '0'}`
             )}
           </Button>
         </form>

@@ -249,3 +249,200 @@ export async function sendCustomEmail(options: SendEmailOptions): Promise<{ succ
     }
   }
 }
+
+/**
+ * Send booking confirmation email with React Email template
+ */
+export interface BookingConfirmationData {
+  guestName: string;
+  guestEmail: string;
+  villaName: string;
+  villaImage: string;
+  villaLocation: string;
+  villaSlug: string;
+  bookingId: string;
+  checkInDate: string;
+  checkOutDate: string;
+  nights: number;
+  guests: number;
+  baseTotal: number;
+  discount?: number;
+  discountLabel?: string;
+  serviceFee: number;
+  taxes: number;
+  totalPrice: number;
+  currency: string;
+  specialRequests?: string;
+}
+
+export async function sendBookingConfirmation(
+  data: BookingConfirmationData
+): Promise<{ success: boolean; messageId?: string; error?: string }> {
+  try {
+    // Import React Email template dynamically
+    const { default: BookingConfirmationEmail } = await import('@/lib/email/templates/booking-confirmation');
+    const { render } = await import('@react-email/components');
+    
+    const emailHtml = render(BookingConfirmationEmail(data));
+    const emailText = `
+Dear ${data.guestName},
+
+Thank you for booking ${data.villaName} with Exclusive Villa Samui!
+
+Booking Details:
+- Booking ID: ${data.bookingId}
+- Check-in: ${new Date(data.checkInDate).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })} after 2:00 PM
+- Check-out: ${new Date(data.checkOutDate).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })} before 11:00 AM
+- Duration: ${data.nights} night${data.nights > 1 ? 's' : ''}
+- Guests: ${data.guests}
+
+Price Summary:
+- Base Total: ${data.currency} ${data.baseTotal.toFixed(2)}
+${data.discount ? `- Discount: -${data.currency} ${data.discount.toFixed(2)}` : ''}
+- Service Fee: ${data.currency} ${data.serviceFee.toFixed(2)}
+- VAT: ${data.currency} ${data.taxes.toFixed(2)}
+- Total Paid: ${data.currency} ${data.totalPrice.toFixed(2)}
+
+We look forward to welcoming you!
+
+Contact us:
+Email: booking@exclusive-villa-samui.com
+Phone: +66 (0) 77 123 456
+
+Best regards,
+The Exclusive Villa Samui Team
+    `.trim();
+
+    // Development mode: log email
+    if (process.env.NODE_ENV === 'development' && (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 're_placeholder_for_build_only')) {
+      console.log('\n📧 [DEV MODE] Booking Confirmation Email:');
+      console.log(`To: ${data.guestEmail}`);
+      console.log(`Booking ID: ${data.bookingId}`);
+      console.log(`Villa: ${data.villaName}`);
+      console.log(`\n${emailText}\n`);
+      
+      return {
+        success: true,
+        messageId: 'dev-mode-booking-' + Date.now()
+      };
+    }
+
+    const result = await resend.emails.send({
+      from: process.env.RESEND_FROM_EMAIL || 'booking@exclusive-villa-samui.com',
+      to: data.guestEmail,
+      subject: `Booking Confirmed: ${data.villaName} - ${data.bookingId}`,
+      html: emailHtml,
+      text: emailText,
+    });
+
+    return {
+      success: true,
+      messageId: result.data?.id
+    };
+  } catch (error: any) {
+    console.error('Booking confirmation email error:', error);
+    return {
+      success: false,
+      error: error.message || 'Failed to send booking confirmation'
+    };
+  }
+}
+
+/**
+ * Send payment receipt email
+ */
+export interface PaymentReceiptData {
+  guestName: string;
+  guestEmail: string;
+  villaName: string;
+  bookingId: string;
+  transactionId: string;
+  paymentDate: string;
+  checkInDate: string;
+  checkOutDate: string;
+  nights: number;
+  baseTotal: number;
+  discount?: number;
+  discountLabel?: string;
+  serviceFee: number;
+  taxes: number;
+  totalPrice: number;
+  currency: string;
+  paymentMethod?: string;
+}
+
+export async function sendPaymentReceipt(
+  data: PaymentReceiptData
+): Promise<{ success: boolean; messageId?: string; error?: string }> {
+  try {
+    const { default: PaymentReceiptEmail } = await import('@/lib/email/templates/payment-receipt');
+    const { render } = await import('@react-email/components');
+    
+    const emailHtml = render(PaymentReceiptEmail({
+      ...data,
+      paymentMethod: data.paymentMethod || 'Credit Card'
+    }));
+    
+    const emailText = `
+Payment Receipt - Exclusive Villa Samui
+
+Receipt Number: ${data.transactionId}
+Booking ID: ${data.bookingId}
+Payment Date: ${new Date(data.paymentDate).toLocaleString()}
+
+Bill To:
+${data.guestName}
+${data.guestEmail}
+
+Booking Information:
+Property: ${data.villaName}
+Check-in: ${new Date(data.checkInDate).toLocaleDateString()}
+Check-out: ${new Date(data.checkOutDate).toLocaleDateString()}
+Duration: ${data.nights} night${data.nights > 1 ? 's' : ''}
+
+Payment Breakdown:
+Accommodation: ${data.currency} ${data.baseTotal.toFixed(2)}
+${data.discount ? `Discount: -${data.currency} ${data.discount.toFixed(2)}` : ''}
+Service Fee: ${data.currency} ${data.serviceFee.toFixed(2)}
+VAT: ${data.currency} ${data.taxes.toFixed(2)}
+Total Paid: ${data.currency} ${data.totalPrice.toFixed(2)}
+
+✓ PAID IN FULL
+
+Contact: billing@exclusive-villa-samui.com
+
+© 2025 Exclusive Villa Samui
+    `.trim();
+
+    if (process.env.NODE_ENV === 'development' && (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === 're_placeholder_for_build_only')) {
+      console.log('\n💳 [DEV MODE] Payment Receipt Email:');
+      console.log(`To: ${data.guestEmail}`);
+      console.log(`Receipt: ${data.transactionId}`);
+      console.log(`\n${emailText}\n`);
+      
+      return {
+        success: true,
+        messageId: 'dev-mode-receipt-' + Date.now()
+      };
+    }
+
+    const result = await resend.emails.send({
+      from: process.env.RESEND_FROM_EMAIL || 'billing@exclusive-villa-samui.com',
+      to: data.guestEmail,
+      subject: `Payment Receipt - ${data.villaName} (${data.transactionId})`,
+      html: emailHtml,
+      text: emailText,
+    });
+
+    return {
+      success: true,
+      messageId: result.data?.id
+    };
+  } catch (error: any) {
+    console.error('Payment receipt email error:', error);
+    return {
+      success: false,
+      error: error.message || 'Failed to send payment receipt'
+    };
+  }
+}
