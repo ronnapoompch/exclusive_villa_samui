@@ -16,6 +16,7 @@ interface Villa {
   beachfront: boolean;
   location: string;
   images?: string[];
+  heroImage?: string; // Hero image URL from villaImages relation
   amenities?: string[];
   featured: boolean;
   pricePerNight?: number | null; // Price in THB, null if no price
@@ -40,20 +41,26 @@ interface VillaCardProps {
 
 export type { Villa };
 export default function VillaCard({ villa, className = '' }: VillaCardProps) {
-  // Get first available image from any category
+  // Get hero image from API (villaImages relation) or fallback
   const getValidImageUrl = (): string => {
-    // Try images array first (combined from all categories)
+    // Priority 1: Use heroImage from API (from villaImages with isHero=true)
+    if (villa.heroImage) {
+      return villa.heroImage;
+    }
+    
+    // Priority 2: Use first image from images array
     if (villa.images && villa.images.length > 0) {
       return villa.images[0];
     }
     
-    // Fallback: try to construct from raw data if available
+    // Fallback placeholder
     const fallbackImage = '/optimized-villas/5-stars-beachfront-villa/hero/909.webp';
     
     // Log missing images for debugging
     if (typeof window !== 'undefined') {
       console.warn(`No images found for villa: ${villa.name}`, {
         slug: villa.slug,
+        hasHeroImage: !!villa.heroImage,
         hasImages: !!villa.images,
         imageCount: villa.images?.length || 0
       });

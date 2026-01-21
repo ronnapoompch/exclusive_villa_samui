@@ -65,8 +65,18 @@ export async function GET(request: NextRequest) {
         );
       }
 
+      // Transform villa images for frontend
+      const heroImage = (villa as any).villaImages?.find((img: any) => img.isHero)?.url || (villa as any).villaImages?.[0]?.url;
+      const images = (villa as any).villaImages
+        ?.sort((a: any, b: any) => a.order - b.order)
+        ?.map((img: any) => img.url) || [];
+
       // Serialize BigInt values before returning
-      const serializedVilla = serializeBigInt(villa);
+      const serializedVilla = serializeBigInt({
+        ...villa,
+        images,
+        heroImage,
+      });
 
       return NextResponse.json({
         success: true,
@@ -77,12 +87,22 @@ export async function GET(request: NextRequest) {
     // Handle villa list with filters
     const result = await villaService.searchVillas(filters, limit, offset);
 
-    // Transform villas to include pricing info
+    // Transform villas to include pricing info and images array
     const transformedVillas = result.villas.map((villa: any) => {
+      // Extract hero image URL from villaImages relation
+      const heroImage = villa.villaImages?.find((img: any) => img.isHero)?.url || villa.villaImages?.[0]?.url;
+      
+      // Create images array from villaImages relation, sorted by order
+      const images = villa.villaImages
+        ?.sort((a: any, b: any) => a.order - b.order)
+        ?.map((img: any) => img.url) || [];
+
       // Check if this is a monthly-rate villa (text-based like "Monthly 120K-140K")
       if (villa.isMonthlyRate && villa.monthlyPriceText) {
         return serializeBigInt({
           ...villa,
+          images, // Add images array for frontend
+          heroImage, // Add hero image for card display
           isMonthlyRate: true,
           monthlyPriceText: villa.monthlyPriceText, // "Monthly 120K-140K"
           pricePerNight: null,
@@ -99,6 +119,8 @@ export async function GET(request: NextRequest) {
 
       return serializeBigInt({
         ...villa,
+        images, // Add images array for frontend
+        heroImage, // Add hero image for card display
         isMonthlyRate: false,
         pricePerNight: currentPricing?.dailyRate ? Number(currentPricing.dailyRate) : null,
         pricing: currentPricing ? {
